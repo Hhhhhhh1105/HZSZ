@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_large"
+        android:paddingLeft="@dimen/page_padding"
+        android:paddingRight="@dimen/page_padding"
+        android:paddingTop="@dimen/padding_large" >
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/head_h"
+            layout="@layout/inc_quality_line"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_qualityexplain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/im_quality_text_left"
+            android:gravity="right"
+            android:text="@string/qualityexplain"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/btn_green_white"
+            android:textSize="@dimen/font_normal" />
+    </LinearLayout>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mv_section"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true" />
+
+</LinearLayout>

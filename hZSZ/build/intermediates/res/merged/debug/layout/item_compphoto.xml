@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_small" >
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="@dimen/me_item_icon_w"
+        android:layout_height="@dimen/me_item_icon_w"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/eg_sectionpic" />
+
+</RelativeLayout>

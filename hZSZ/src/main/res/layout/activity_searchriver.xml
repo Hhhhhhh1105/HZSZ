@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_medium"
+        android:layout_marginLeft="@dimen/page_padding"
+        android:layout_marginRight="@dimen/page_padding"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:background="@drawable/shape_searchbox"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_medium"
+        android:visibility="visible" >
+
+        <EditText
+            android:id="@+id/et_keyword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/hint_searchriver"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="@dimen/padding_large"
+            android:singleLine="true"
+            android:textSize="@dimen/font_normal" />
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_medium"
+            android:layout_marginRight="@dimen/padding_medium"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_head_search_s" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <GridView
+        android:id="@+id/gv_areas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_medium"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="false"
+        android:horizontalSpacing="@dimen/padding_large"
+        android:numColumns="4"
+        android:padding="@dimen/padding_large"
+        android:stretchMode="columnWidth" >
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/ll_contain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+    </LinearLayout>
+
+    <!--
+    <ListView
+        android:id="@+id/ll_rivers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:choiceMode="none" ></ListView> -->
+
+</LinearLayout>

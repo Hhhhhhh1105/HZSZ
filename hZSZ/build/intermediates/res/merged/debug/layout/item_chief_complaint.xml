@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/padding_medium"
+    android:paddingTop="@dimen/padding_medium" >
+
+    <TextView
+        android:id="@+id/tv_sernum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/eg_number"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/font_normal" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/eg_river_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/font_normal" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/eg_datetime2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/font_normal" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:paddingLeft="@dimen/padding_medium"
+            android:paddingRight="@dimen/padding_medium"
+            android:text="@string/chief_unhandle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray_green"
+            android:textSize="@dimen/font_small" />
+
+        <Button
+            android:id="@+id/btn_handle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="@dimen/padding_small"
+            android:background="@drawable/btn_green_white"
+            android:gravity="center"
+            android:text="@string/chief_handle_comp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small" />
+    </LinearLayout>
+
+</LinearLayout>

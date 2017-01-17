@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/page_padding" >
+
+        <LinearLayout
+            android:id="@+id/ll_curpwd"
+            style="@style/form_singleline"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/form_singleline_h"
+            android:layout_marginBottom="@dimen/form_singleline_margin_v"
+            android:layout_marginTop="@dimen/form_singleline_margin_v"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/form_singleline_img_w"
+                android:layout_height="@dimen/form_singleline_img_h"
+                android:contentDescription="@null"
+                android:scaleType="center"
+                android:src="@drawable/im_lock" />
+
+            <EditText
+                android:id="@+id/et_curpassword"
+                style="@style/form_singleline_te"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/form_singleline_padding"
+                android:layout_weight="1"
+                android:hint="@string/hint_curpassword"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/form_singleline"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/form_singleline_h"
+            android:layout_marginBottom="@dimen/form_singleline_margin_v"
+            android:layout_marginTop="@dimen/form_singleline_margin_v"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/form_singleline_img_w"
+                android:layout_height="@dimen/form_singleline_img_h"
+                android:contentDescription="@null"
+                android:scaleType="center"
+                android:src="@drawable/im_lock" />
+
+            <EditText
+                android:id="@+id/et_password"
+                style="@style/form_singleline_te"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/form_singleline_padding"
+                android:layout_weight="1"
+                android:hint="@string/hint_newpassword"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/form_singleline"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/form_singleline_h"
+            android:layout_marginBottom="@dimen/form_singleline_margin_v"
+            android:layout_marginTop="@dimen/form_singleline_margin_v"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/form_singleline_img_w"
+                android:layout_height="@dimen/form_singleline_img_h"
+                android:contentDescription="@null"
+                android:scaleType="center"
+                android:src="@drawable/im_lock" />
+
+            <EditText
+                android:id="@+id/et_repassword"
+                style="@style/form_singleline_te"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/form_singleline_padding"
+                android:layout_weight="1"
+                android:hint="@string/hint_newrepassword"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/form_button_h"
+            android:layout_marginTop="@dimen/form_button_margintop"
+            android:background="@drawable/form_btn1_bg"
+            android:text="@string/submit"
+            android:textColor="@color/btn_white_green" />
+    </LinearLayout>
+
+</LinearLayout>

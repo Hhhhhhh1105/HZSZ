@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="head_title_color">#FFFFFF</color>
+    <color name="bg_gray">#F4F4F4</color>
+    <color name="text_gray">#444</color>
+    <color name="text_high">#FFF</color>
+    <color name="white">#FFF</color>
+    <color name="green">#37c674</color>
+    <color name="item_line">#F00</color>
+    <color name="gray">#EEE</color>
+    <color name="lightgray">#A1A1A1</color>
+    <color name="littlelightgray">#818181</color>
+    <color name="lightgreen">#e9fff3</color>
+    <color name="black">#000</color>
+    <color name="ligthred">#FF0000</color>
+    <color name="mask">#40000000</color>
+    <color name="empty">#00000000</color>
+    <color name="red">#F00</color>
+
+    <!-- btn -->
+    <color name="btn_gray">#737373</color>
+    <color name="btn_gray_pressed">#F0F0F0</color>
+    <color name="btn_gray_disabled">#A0A0A0</color>
+
+    <!-- form -->
+    <color name="form_text_black">#444</color>
+
+    <!-- quality -->
+    <color name="quality_1">#59d6ff</color>
+    <color name="quality_2">#19acf2</color>
+    <color name="quality_3">#5ed522</color>
+    <color name="quality_4">#24b462</color>
+    <color name="quality_5">#ffc20d</color>
+    <color name="quality_6">#ff5605</color>
+
+    <!-- holo -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+
+    <!-- utils -->
+    <color name="utils_color_err">#ff808080</color>
+
+</resources>

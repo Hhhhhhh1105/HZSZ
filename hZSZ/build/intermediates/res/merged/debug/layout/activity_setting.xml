@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+    <LinearLayout
+        android:id="@+id/ll_changepwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/me_item_h"
+        android:background="@drawable/btn_white_gray"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/page_padding"
+        android:paddingRight="@dimen/page_padding" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_medium"
+            android:layout_weight="1"
+            android:text="修改密码"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_large" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gps"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/me_item_h"
+        android:layout_marginTop="@dimen/linew"
+        android:background="@drawable/btn_white_gray"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/page_padding"
+        android:paddingRight="@dimen/page_padding" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_medium"
+            android:layout_weight="1"
+            android:text="允许定位"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_large" />
+
+        <Switch
+            android:id="@+id/sw_gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_notify"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/me_item_h"
+        android:layout_marginTop="@dimen/linew"
+        android:background="@drawable/btn_white_gray"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/page_padding"
+        android:paddingRight="@dimen/page_padding" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_medium"
+            android:layout_weight="1"
+            android:text="接收通知"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_large" />
+
+        <Switch
+            android:id="@+id/sw_notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="" />
+    </LinearLayout>
+
+</LinearLayout>

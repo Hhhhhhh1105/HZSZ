@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_river_pubinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/rg_river_pubinfo_showwith"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_medium"
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingRight="@dimen/padding_large"
+        android:paddingTop="@dimen/padding_medium" >
+
+        <RadioButton
+            android:id="@+id/rb_river_infopub_tsxx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_tabbtn_l_bg"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingLeft="@dimen/page_padding"
+            android:paddingRight="@dimen/page_padding"
+            android:paddingTop="@dimen/padding_small"
+            android:text="投诉信息"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/btn_black_white"
+            android:textSize="@dimen/font_normal" />
+
+        <RadioButton
+            android:id="@+id/rb_river_infopub_xhjl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dp"
+            android:background="@drawable/shape_tabbtn_r_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingLeft="@dimen/page_padding"
+            android:paddingRight="@dimen/page_padding"
+            android:paddingTop="@dimen/padding_small"
+            android:text="巡河记录"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/btn_black_white"
+            android:textSize="@dimen/font_normal" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/ll_recodrhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightgreen"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/padding_medium"
+            android:paddingLeft="@dimen/page_padding"
+            android:paddingRight="@dimen/page_padding"
+            android:paddingTop="@dimen/padding_medium" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择巡查月份"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:id="@+id/tv_seldate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_medium"
+                android:layout_weight="1"
+                android:text="2015年6月"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/green"
+                android:textSize="@dimen/font_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/lineheight"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/padding_medium"
+            android:paddingLeft="@dimen/page_padding"
+            android:paddingRight="@dimen/page_padding"
+            android:paddingTop="@dimen/padding_medium" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="巡查日期"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/green"
+                android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="巡查河段"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/green"
+                android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="巡查人"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/green"
+                android:textSize="@dimen/font_normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

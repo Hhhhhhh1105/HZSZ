@@ -1,0 +1,233 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_rankingtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/padding_large"
+                android:text="@string/eg_arearanking"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_gray" />
+
+            <RadioGroup
+                android:id="@+id/rg_ranking_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_medium"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:paddingTop="@dimen/padding_medium"
+                android:visibility="visible" >
+
+                <RadioButton
+                    android:id="@+id/rb_thismonth"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_tabbtn_l_bg"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_small"
+                    android:text="@string/thismonth"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/btn_black_white"
+                    android:textSize="@dimen/font_normal" />
+
+                <RadioButton
+                    android:id="@+id/rb_lastmonth"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_tabbtn_m_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_small"
+                    android:text="@string/lastmonth"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/btn_black_white"
+                    android:textSize="@dimen/font_normal" />
+
+                <RadioButton
+                    android:id="@+id/rb_thisyear"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_tabbtn_m_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_small"
+                    android:text="@string/thisyear"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/btn_black_white"
+                    android:textSize="@dimen/font_normal" />
+
+                <RadioButton
+                    android:id="@+id/rb_lastyear"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_tabbtn_r_bg"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_small"
+                    android:text="@string/lastyear"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/btn_black_white"
+                    android:textSize="@dimen/font_normal" />
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_horizontal"
+                android:paddingBottom="@dimen/padding_large"
+                android:paddingTop="@dimen/padding_large" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/rankindex"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray_green"
+                    android:textSize="@dimen/font_normal" />
+
+                <View
+                    android:layout_width="@dimen/linew"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_gray" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_weight="1.2"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="@string/rivername"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray_green"
+                    android:textSize="@dimen/font_normal" />
+
+                <View
+                    android:layout_width="@dimen/linew"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_gray" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_complaint_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:drawableRight="@drawable/im_icon_order"
+                        android:gravity="center"
+                        android:text="@string/complaint_count"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_gray_green"
+                        android:textSize="@dimen/font_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/linew"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_gray" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_satisfaction_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:drawableRight="@drawable/im_icon_order"
+                        android:gravity="center"
+                        android:text="@string/satisfaction_count"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_gray_green"
+                        android:textSize="@dimen/font_normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/linew"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_gray" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_unhandle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:drawableRight="@drawable/im_icon_order"
+                        android:gravity="center"
+                        android:text="@string/unhandle"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_gray_green"
+                        android:textSize="@dimen/font_normal" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lv_ranking"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/white" >
+            </ListView>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/v_mask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/mask"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

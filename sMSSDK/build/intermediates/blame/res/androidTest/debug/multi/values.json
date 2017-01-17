@@ -1,0 +1,2267 @@
+[
+    {
+        "outputFile": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 22,
+                    "endColumn": 19,
+                    "endOffset": 1197
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 22,
+                        "endColumn": 19,
+                        "endOffset": 1197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1202,
+                    "endLine": 49,
+                    "endColumn": 19,
+                    "endOffset": 2606
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1202,
+                        "endLine": 49,
+                        "endColumn": 19,
+                        "endOffset": 2606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2611,
+                    "endLine": 53,
+                    "endColumn": 19,
+                    "endOffset": 2747
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2611,
+                        "endLine": 53,
+                        "endColumn": 19,
+                        "endOffset": 2747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 2752,
+                    "endLine": 61,
+                    "endColumn": 19,
+                    "endOffset": 3224
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2752,
+                        "endLine": 61,
+                        "endColumn": 19,
+                        "endOffset": 3224
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 3229,
+                    "endLine": 65,
+                    "endColumn": 19,
+                    "endOffset": 3422
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3229,
+                        "endLine": 65,
+                        "endColumn": 19,
+                        "endOffset": 3422
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 3427,
+                    "endLine": 73,
+                    "endColumn": 19,
+                    "endOffset": 3910
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3427,
+                        "endLine": 73,
+                        "endColumn": 19,
+                        "endOffset": 3910
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 3915,
+                    "endLine": 88,
+                    "endColumn": 19,
+                    "endOffset": 4598
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3915,
+                        "endLine": 88,
+                        "endColumn": 19,
+                        "endOffset": 4598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 4603,
+                    "endLine": 97,
+                    "endColumn": 19,
+                    "endOffset": 5148
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 4603,
+                        "endLine": 97,
+                        "endColumn": 19,
+                        "endOffset": 5148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 5153,
+                    "endLine": 100,
+                    "endColumn": 16,
+                    "endOffset": 5220
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 5153,
+                        "endLine": 100,
+                        "endColumn": 16,
+                        "endOffset": 5220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 5225,
+                    "endLine": 113,
+                    "endColumn": 19,
+                    "endOffset": 5995
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 5225,
+                        "endLine": 113,
+                        "endColumn": 19,
+                        "endOffset": 5995
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 6000,
+                    "endLine": 124,
+                    "endColumn": 19,
+                    "endOffset": 6448
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 6000,
+                        "endLine": 124,
+                        "endColumn": 19,
+                        "endOffset": 6448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 6453,
+                    "endLine": 138,
+                    "endColumn": 19,
+                    "endOffset": 7107
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 6453,
+                        "endLine": 138,
+                        "endColumn": 19,
+                        "endOffset": 7107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 7112,
+                    "endLine": 162,
+                    "endColumn": 19,
+                    "endOffset": 8790
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 7112,
+                        "endLine": 162,
+                        "endColumn": 19,
+                        "endOffset": 8790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 8795,
+                    "endLine": 172,
+                    "endColumn": 19,
+                    "endOffset": 9292
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 8795,
+                        "endLine": 172,
+                        "endColumn": 19,
+                        "endOffset": 9292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 9297,
+                    "endLine": 175,
+                    "endColumn": 16,
+                    "endOffset": 9364
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 9297,
+                        "endLine": 175,
+                        "endColumn": 16,
+                        "endOffset": 9364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 9369,
+                    "endLine": 179,
+                    "endColumn": 19,
+                    "endOffset": 9522
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 9369,
+                        "endLine": 179,
+                        "endColumn": 19,
+                        "endOffset": 9522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 9527,
+                    "endLine": 181,
+                    "endColumn": 16,
+                    "endOffset": 9588
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 180,
+                        "startColumn": 4,
+                        "startOffset": 9527,
+                        "endLine": 181,
+                        "endColumn": 16,
+                        "endOffset": 9588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 9593,
+                    "endLine": 186,
+                    "endColumn": 19,
+                    "endOffset": 10659
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 9593,
+                        "endLine": 186,
+                        "endColumn": 19,
+                        "endOffset": 10659
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 10664,
+                    "endLine": 210,
+                    "endColumn": 19,
+                    "endOffset": 11748
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 187,
+                        "startColumn": 4,
+                        "startOffset": 10664,
+                        "endLine": 210,
+                        "endColumn": 19,
+                        "endOffset": 11748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 211,
+                    "startColumn": 4,
+                    "startOffset": 11753,
+                    "endLine": 222,
+                    "endColumn": 19,
+                    "endOffset": 12429
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 211,
+                        "startColumn": 4,
+                        "startOffset": 11753,
+                        "endLine": 222,
+                        "endColumn": 19,
+                        "endOffset": 12429
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 223,
+                    "startColumn": 4,
+                    "startOffset": 12434,
+                    "endLine": 225,
+                    "endColumn": 16,
+                    "endOffset": 12501
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 223,
+                        "startColumn": 4,
+                        "startOffset": 12434,
+                        "endLine": 225,
+                        "endColumn": 16,
+                        "endOffset": 12501
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 12506,
+                    "endLine": 228,
+                    "endColumn": 16,
+                    "endOffset": 12573
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 226,
+                        "startColumn": 4,
+                        "startOffset": 12506,
+                        "endLine": 228,
+                        "endColumn": 16,
+                        "endOffset": 12573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 12578,
+                    "endLine": 240,
+                    "endColumn": 19,
+                    "endOffset": 13177
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 229,
+                        "startColumn": 4,
+                        "startOffset": 12578,
+                        "endLine": 240,
+                        "endColumn": 19,
+                        "endOffset": 13177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 13182,
+                    "endLine": 250,
+                    "endColumn": 19,
+                    "endOffset": 13830
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 13182,
+                        "endLine": 250,
+                        "endColumn": 19,
+                        "endOffset": 13830
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 13835,
+                    "endLine": 264,
+                    "endColumn": 19,
+                    "endOffset": 16588
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 4,
+                        "startOffset": 13835,
+                        "endLine": 264,
+                        "endColumn": 19,
+                        "endOffset": 16588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 16593,
+                    "endLine": 273,
+                    "endColumn": 19,
+                    "endOffset": 17011
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 4,
+                        "startOffset": 16593,
+                        "endLine": 273,
+                        "endColumn": 19,
+                        "endOffset": 17011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 17016,
+                    "endColumn": 48,
+                    "endOffset": 17060
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 274,
+                        "startColumn": 4,
+                        "startOffset": 17016,
+                        "endColumn": 48,
+                        "endOffset": 17060
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 17065,
+                    "endColumn": 47,
+                    "endOffset": 17108
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 275,
+                        "startColumn": 4,
+                        "startOffset": 17065,
+                        "endColumn": 47,
+                        "endOffset": 17108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 17113,
+                    "endColumn": 53,
+                    "endOffset": 17162
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 276,
+                        "startColumn": 4,
+                        "startOffset": 17113,
+                        "endColumn": 53,
+                        "endOffset": 17162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 17167,
+                    "endColumn": 58,
+                    "endOffset": 17221
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 277,
+                        "startColumn": 4,
+                        "startOffset": 17167,
+                        "endColumn": 58,
+                        "endOffset": 17221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 17226,
+                    "endColumn": 57,
+                    "endOffset": 17279
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 278,
+                        "startColumn": 4,
+                        "startOffset": 17226,
+                        "endColumn": 57,
+                        "endOffset": 17279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 17284,
+                    "endColumn": 57,
+                    "endOffset": 17337
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 279,
+                        "startColumn": 4,
+                        "startOffset": 17284,
+                        "endColumn": 57,
+                        "endOffset": 17337
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 17342,
+                    "endColumn": 54,
+                    "endOffset": 17392
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 280,
+                        "startColumn": 4,
+                        "startOffset": 17342,
+                        "endColumn": 54,
+                        "endOffset": 17392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 17397,
+                    "endColumn": 54,
+                    "endOffset": 17447
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 281,
+                        "startColumn": 4,
+                        "startOffset": 17397,
+                        "endColumn": 54,
+                        "endOffset": 17447
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 17452,
+                    "endColumn": 48,
+                    "endOffset": 17496
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 282,
+                        "startColumn": 4,
+                        "startOffset": 17452,
+                        "endColumn": 48,
+                        "endOffset": 17496
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 17501,
+                    "endColumn": 63,
+                    "endOffset": 17560
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 283,
+                        "startColumn": 4,
+                        "startOffset": 17501,
+                        "endColumn": 63,
+                        "endOffset": 17560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 17565,
+                    "endColumn": 63,
+                    "endOffset": 17624
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 284,
+                        "startColumn": 4,
+                        "startOffset": 17565,
+                        "endColumn": 63,
+                        "endOffset": 17624
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 17629,
+                    "endColumn": 49,
+                    "endOffset": 17674
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 285,
+                        "startColumn": 4,
+                        "startOffset": 17629,
+                        "endColumn": 49,
+                        "endOffset": 17674
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 17679,
+                    "endColumn": 43,
+                    "endOffset": 17718
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 286,
+                        "startColumn": 4,
+                        "startOffset": 17679,
+                        "endColumn": 43,
+                        "endOffset": 17718
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 17723,
+                    "endColumn": 44,
+                    "endOffset": 17763
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 287,
+                        "startColumn": 4,
+                        "startOffset": 17723,
+                        "endColumn": 44,
+                        "endOffset": 17763
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 17768,
+                    "endColumn": 66,
+                    "endOffset": 17830
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 288,
+                        "startColumn": 4,
+                        "startOffset": 17768,
+                        "endColumn": 66,
+                        "endOffset": 17830
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 17835,
+                    "endColumn": 59,
+                    "endOffset": 17890
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 4,
+                        "startOffset": 17835,
+                        "endColumn": 59,
+                        "endOffset": 17890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 290,
+                    "startColumn": 4,
+                    "startOffset": 17895,
+                    "endColumn": 84,
+                    "endOffset": 17975
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 290,
+                        "startColumn": 4,
+                        "startOffset": 17895,
+                        "endColumn": 84,
+                        "endOffset": 17975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 17980,
+                    "endColumn": 55,
+                    "endOffset": 18031
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 291,
+                        "startColumn": 4,
+                        "startOffset": 17980,
+                        "endColumn": 55,
+                        "endOffset": 18031
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 292,
+                    "startColumn": 4,
+                    "startOffset": 18036,
+                    "endColumn": 57,
+                    "endOffset": 18089
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 292,
+                        "startColumn": 4,
+                        "startOffset": 18036,
+                        "endColumn": 57,
+                        "endOffset": 18089
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 18094,
+                    "endColumn": 58,
+                    "endOffset": 18148
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 293,
+                        "startColumn": 4,
+                        "startOffset": 18094,
+                        "endColumn": 58,
+                        "endOffset": 18148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 294,
+                    "startColumn": 4,
+                    "startOffset": 18153,
+                    "endColumn": 57,
+                    "endOffset": 18206
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 294,
+                        "startColumn": 4,
+                        "startOffset": 18153,
+                        "endColumn": 57,
+                        "endOffset": 18206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 295,
+                    "startColumn": 4,
+                    "startOffset": 18211,
+                    "endColumn": 48,
+                    "endOffset": 18255
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 295,
+                        "startColumn": 4,
+                        "startOffset": 18211,
+                        "endColumn": 48,
+                        "endOffset": 18255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 18260,
+                    "endColumn": 84,
+                    "endOffset": 18340
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 296,
+                        "startColumn": 4,
+                        "startOffset": 18260,
+                        "endColumn": 84,
+                        "endOffset": 18340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 18345,
+                    "endColumn": 54,
+                    "endOffset": 18395
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 297,
+                        "startColumn": 4,
+                        "startOffset": 18345,
+                        "endColumn": 54,
+                        "endOffset": 18395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 18400,
+                    "endColumn": 54,
+                    "endOffset": 18450
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 298,
+                        "startColumn": 4,
+                        "startOffset": 18400,
+                        "endColumn": 54,
+                        "endOffset": 18450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 18455,
+                    "endColumn": 58,
+                    "endOffset": 18509
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 299,
+                        "startColumn": 4,
+                        "startOffset": 18455,
+                        "endColumn": 58,
+                        "endOffset": 18509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 300,
+                    "startColumn": 4,
+                    "startOffset": 18514,
+                    "endColumn": 54,
+                    "endOffset": 18564
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 300,
+                        "startColumn": 4,
+                        "startOffset": 18514,
+                        "endColumn": 54,
+                        "endOffset": 18564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 301,
+                    "startColumn": 4,
+                    "startOffset": 18569,
+                    "endColumn": 57,
+                    "endOffset": 18622
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 301,
+                        "startColumn": 4,
+                        "startOffset": 18569,
+                        "endColumn": 57,
+                        "endOffset": 18622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 18627,
+                    "endColumn": 54,
+                    "endOffset": 18677
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 302,
+                        "startColumn": 4,
+                        "startOffset": 18627,
+                        "endColumn": 54,
+                        "endOffset": 18677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 18682,
+                    "endColumn": 54,
+                    "endOffset": 18732
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 303,
+                        "startColumn": 4,
+                        "startOffset": 18682,
+                        "endColumn": 54,
+                        "endOffset": 18732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 304,
+                    "startColumn": 4,
+                    "startOffset": 18737,
+                    "endColumn": 55,
+                    "endOffset": 18788
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 304,
+                        "startColumn": 4,
+                        "startOffset": 18737,
+                        "endColumn": 55,
+                        "endOffset": 18788
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 18793,
+                    "endColumn": 57,
+                    "endOffset": 18846
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 305,
+                        "startColumn": 4,
+                        "startOffset": 18793,
+                        "endColumn": 57,
+                        "endOffset": 18846
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 306,
+                    "startColumn": 4,
+                    "startOffset": 18851,
+                    "endColumn": 55,
+                    "endOffset": 18902
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 306,
+                        "startColumn": 4,
+                        "startOffset": 18851,
+                        "endColumn": 55,
+                        "endOffset": 18902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 18907,
+                    "endColumn": 57,
+                    "endOffset": 18960
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 307,
+                        "startColumn": 4,
+                        "startOffset": 18907,
+                        "endColumn": 57,
+                        "endOffset": 18960
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 18965,
+                    "endColumn": 56,
+                    "endOffset": 19017
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 308,
+                        "startColumn": 4,
+                        "startOffset": 18965,
+                        "endColumn": 56,
+                        "endOffset": 19017
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 19022,
+                    "endColumn": 53,
+                    "endOffset": 19071
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 309,
+                        "startColumn": 4,
+                        "startOffset": 19022,
+                        "endColumn": 53,
+                        "endOffset": 19071
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 19076,
+                    "endColumn": 56,
+                    "endOffset": 19128
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 310,
+                        "startColumn": 4,
+                        "startOffset": 19076,
+                        "endColumn": 56,
+                        "endOffset": 19128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 19133,
+                    "endColumn": 54,
+                    "endOffset": 19183
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 311,
+                        "startColumn": 4,
+                        "startOffset": 19133,
+                        "endColumn": 54,
+                        "endOffset": 19183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 312,
+                    "startColumn": 4,
+                    "startOffset": 19188,
+                    "endColumn": 54,
+                    "endOffset": 19238
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 312,
+                        "startColumn": 4,
+                        "startOffset": 19188,
+                        "endColumn": 54,
+                        "endOffset": 19238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 313,
+                    "startColumn": 4,
+                    "startOffset": 19243,
+                    "endColumn": 63,
+                    "endOffset": 19302
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 313,
+                        "startColumn": 4,
+                        "startOffset": 19243,
+                        "endColumn": 63,
+                        "endOffset": 19302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 19307,
+                    "endColumn": 62,
+                    "endOffset": 19365
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 314,
+                        "startColumn": 4,
+                        "startOffset": 19307,
+                        "endColumn": 62,
+                        "endOffset": 19365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 19370,
+                    "endColumn": 66,
+                    "endOffset": 19432
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 315,
+                        "startColumn": 4,
+                        "startOffset": 19370,
+                        "endColumn": 66,
+                        "endOffset": 19432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 19437,
+                    "endColumn": 67,
+                    "endOffset": 19500
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 316,
+                        "startColumn": 4,
+                        "startOffset": 19437,
+                        "endColumn": 67,
+                        "endOffset": 19500
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 19505,
+                    "endColumn": 59,
+                    "endOffset": 19560
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 317,
+                        "startColumn": 4,
+                        "startOffset": 19505,
+                        "endColumn": 59,
+                        "endOffset": 19560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 318,
+                    "startColumn": 4,
+                    "startOffset": 19565,
+                    "endColumn": 59,
+                    "endOffset": 19620
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 318,
+                        "startColumn": 4,
+                        "startOffset": 19565,
+                        "endColumn": 59,
+                        "endOffset": 19620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 319,
+                    "startColumn": 4,
+                    "startOffset": 19625,
+                    "endColumn": 64,
+                    "endOffset": 19685
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 319,
+                        "startColumn": 4,
+                        "startOffset": 19625,
+                        "endColumn": 64,
+                        "endOffset": 19685
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 19690,
+                    "endColumn": 61,
+                    "endOffset": 19747
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 320,
+                        "startColumn": 4,
+                        "startOffset": 19690,
+                        "endColumn": 61,
+                        "endOffset": 19747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 19752,
+                    "endColumn": 75,
+                    "endOffset": 19823
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 321,
+                        "startColumn": 4,
+                        "startOffset": 19752,
+                        "endColumn": 75,
+                        "endOffset": 19823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 322,
+                    "startColumn": 4,
+                    "startOffset": 19828,
+                    "endColumn": 98,
+                    "endOffset": 19922
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 322,
+                        "startColumn": 4,
+                        "startOffset": 19828,
+                        "endColumn": 98,
+                        "endOffset": 19922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 19927,
+                    "endColumn": 57,
+                    "endOffset": 19980
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 323,
+                        "startColumn": 4,
+                        "startOffset": 19927,
+                        "endColumn": 57,
+                        "endOffset": 19980
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 19985,
+                    "endColumn": 63,
+                    "endOffset": 20044
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 324,
+                        "startColumn": 4,
+                        "startOffset": 19985,
+                        "endColumn": 63,
+                        "endOffset": 20044
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 325,
+                    "startColumn": 4,
+                    "startOffset": 20049,
+                    "endColumn": 65,
+                    "endOffset": 20110
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 325,
+                        "startColumn": 4,
+                        "startOffset": 20049,
+                        "endColumn": 65,
+                        "endOffset": 20110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 20115,
+                    "endColumn": 66,
+                    "endOffset": 20177
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 326,
+                        "startColumn": 4,
+                        "startOffset": 20115,
+                        "endColumn": 66,
+                        "endOffset": 20177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 20182,
+                    "endColumn": 67,
+                    "endOffset": 20245
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 327,
+                        "startColumn": 4,
+                        "startOffset": 20182,
+                        "endColumn": 67,
+                        "endOffset": 20245
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 20250,
+                    "endColumn": 58,
+                    "endOffset": 20304
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 328,
+                        "startColumn": 4,
+                        "startOffset": 20250,
+                        "endColumn": 58,
+                        "endOffset": 20304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 329,
+                    "startColumn": 4,
+                    "startOffset": 20309,
+                    "endColumn": 56,
+                    "endOffset": 20361
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 329,
+                        "startColumn": 4,
+                        "startOffset": 20309,
+                        "endColumn": 56,
+                        "endOffset": 20361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 20366,
+                    "endColumn": 98,
+                    "endOffset": 20460
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 330,
+                        "startColumn": 4,
+                        "startOffset": 20366,
+                        "endColumn": 98,
+                        "endOffset": 20460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 331,
+                    "startColumn": 4,
+                    "startOffset": 20465,
+                    "endColumn": 77,
+                    "endOffset": 20538
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 331,
+                        "startColumn": 4,
+                        "startOffset": 20465,
+                        "endColumn": 77,
+                        "endOffset": 20538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 20543,
+                    "endColumn": 52,
+                    "endOffset": 20591
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 332,
+                        "startColumn": 4,
+                        "startOffset": 20543,
+                        "endColumn": 52,
+                        "endOffset": 20591
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 333,
+                    "startColumn": 4,
+                    "startOffset": 20596,
+                    "endColumn": 44,
+                    "endOffset": 20636
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 333,
+                        "startColumn": 4,
+                        "startOffset": 20596,
+                        "endColumn": 44,
+                        "endOffset": 20636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 334,
+                    "startColumn": 4,
+                    "startOffset": 20641,
+                    "endColumn": 102,
+                    "endOffset": 20739
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 334,
+                        "startColumn": 4,
+                        "startOffset": 20641,
+                        "endColumn": 102,
+                        "endOffset": 20739
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 335,
+                    "startColumn": 4,
+                    "startOffset": 20744,
+                    "endColumn": 77,
+                    "endOffset": 20817
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 335,
+                        "startColumn": 4,
+                        "startOffset": 20744,
+                        "endColumn": 77,
+                        "endOffset": 20817
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 336,
+                    "startColumn": 4,
+                    "startOffset": 20822,
+                    "endColumn": 121,
+                    "endOffset": 20939
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 336,
+                        "startColumn": 4,
+                        "startOffset": 20822,
+                        "endColumn": 121,
+                        "endOffset": 20939
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 337,
+                    "startColumn": 4,
+                    "startOffset": 20944,
+                    "endColumn": 62,
+                    "endOffset": 21002
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 337,
+                        "startColumn": 4,
+                        "startOffset": 20944,
+                        "endColumn": 62,
+                        "endOffset": 21002
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 338,
+                    "startColumn": 4,
+                    "startOffset": 21007,
+                    "endColumn": 62,
+                    "endOffset": 21065
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 338,
+                        "startColumn": 4,
+                        "startOffset": 21007,
+                        "endColumn": 62,
+                        "endOffset": 21065
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 339,
+                    "startColumn": 4,
+                    "startOffset": 21070,
+                    "endColumn": 59,
+                    "endOffset": 21125
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 339,
+                        "startColumn": 4,
+                        "startOffset": 21070,
+                        "endColumn": 59,
+                        "endOffset": 21125
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 340,
+                    "startColumn": 4,
+                    "startOffset": 21130,
+                    "endColumn": 43,
+                    "endOffset": 21169
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 340,
+                        "startColumn": 4,
+                        "startOffset": 21130,
+                        "endColumn": 43,
+                        "endOffset": 21169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 341,
+                    "startColumn": 4,
+                    "startOffset": 21174,
+                    "endColumn": 100,
+                    "endOffset": 21270
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 341,
+                        "startColumn": 4,
+                        "startOffset": 21174,
+                        "endColumn": 100,
+                        "endOffset": 21270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 342,
+                    "startColumn": 4,
+                    "startOffset": 21275,
+                    "endColumn": 39,
+                    "endOffset": 21310
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 342,
+                        "startColumn": 4,
+                        "startOffset": 21275,
+                        "endColumn": 39,
+                        "endOffset": 21310
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 21315,
+                    "endColumn": 104,
+                    "endOffset": 21415
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 343,
+                        "startColumn": 4,
+                        "startOffset": 21315,
+                        "endColumn": 104,
+                        "endOffset": 21415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 344,
+                    "startColumn": 4,
+                    "startOffset": 21420,
+                    "endColumn": 50,
+                    "endOffset": 21466
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 344,
+                        "startColumn": 4,
+                        "startOffset": 21420,
+                        "endColumn": 50,
+                        "endOffset": 21466
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 345,
+                    "startColumn": 4,
+                    "startOffset": 21471,
+                    "endColumn": 63,
+                    "endOffset": 21530
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 345,
+                        "startColumn": 4,
+                        "startOffset": 21471,
+                        "endColumn": 63,
+                        "endOffset": 21530
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 346,
+                    "startColumn": 4,
+                    "startOffset": 21535,
+                    "endColumn": 44,
+                    "endOffset": 21575
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 346,
+                        "startColumn": 4,
+                        "startOffset": 21535,
+                        "endColumn": 44,
+                        "endOffset": 21575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 347,
+                    "startColumn": 4,
+                    "startOffset": 21580,
+                    "endColumn": 54,
+                    "endOffset": 21630
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 347,
+                        "startColumn": 4,
+                        "startOffset": 21580,
+                        "endColumn": 54,
+                        "endOffset": 21630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 348,
+                    "startColumn": 4,
+                    "startOffset": 21635,
+                    "endColumn": 55,
+                    "endOffset": 21686
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 348,
+                        "startColumn": 4,
+                        "startOffset": 21635,
+                        "endColumn": 55,
+                        "endOffset": 21686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 21691,
+                    "endColumn": 116,
+                    "endOffset": 21803
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 349,
+                        "startColumn": 4,
+                        "startOffset": 21691,
+                        "endColumn": 116,
+                        "endOffset": 21803
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 350,
+                    "startColumn": 4,
+                    "startOffset": 21808,
+                    "endColumn": 99,
+                    "endOffset": 21903
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 350,
+                        "startColumn": 4,
+                        "startOffset": 21808,
+                        "endColumn": 99,
+                        "endOffset": 21903
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 351,
+                    "startColumn": 4,
+                    "startOffset": 21908,
+                    "endColumn": 64,
+                    "endOffset": 21968
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 351,
+                        "startColumn": 4,
+                        "startOffset": 21908,
+                        "endColumn": 64,
+                        "endOffset": 21968
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 352,
+                    "startColumn": 4,
+                    "startOffset": 21973,
+                    "endColumn": 44,
+                    "endOffset": 22013
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 352,
+                        "startColumn": 4,
+                        "startOffset": 21973,
+                        "endColumn": 44,
+                        "endOffset": 22013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 353,
+                    "startColumn": 4,
+                    "startOffset": 22018,
+                    "endColumn": 113,
+                    "endOffset": 22127
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 353,
+                        "startColumn": 4,
+                        "startOffset": 22018,
+                        "endColumn": 113,
+                        "endOffset": 22127
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 22132,
+                    "endColumn": 61,
+                    "endOffset": 22189
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 354,
+                        "startColumn": 4,
+                        "startOffset": 22132,
+                        "endColumn": 61,
+                        "endOffset": 22189
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 355,
+                    "startColumn": 4,
+                    "startOffset": 22194,
+                    "endColumn": 65,
+                    "endOffset": 22255
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 355,
+                        "startColumn": 4,
+                        "startOffset": 22194,
+                        "endColumn": 65,
+                        "endOffset": 22255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 22260,
+                    "endColumn": 72,
+                    "endOffset": 22328
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 356,
+                        "startColumn": 4,
+                        "startOffset": 22260,
+                        "endColumn": 72,
+                        "endOffset": 22328
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 357,
+                    "startColumn": 4,
+                    "startOffset": 22333,
+                    "endColumn": 43,
+                    "endOffset": 22372
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 357,
+                        "startColumn": 4,
+                        "startOffset": 22333,
+                        "endColumn": 43,
+                        "endOffset": 22372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 358,
+                    "startColumn": 4,
+                    "startOffset": 22377,
+                    "endColumn": 60,
+                    "endOffset": 22433
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 358,
+                        "startColumn": 4,
+                        "startOffset": 22377,
+                        "endColumn": 60,
+                        "endOffset": 22433
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 359,
+                    "startColumn": 4,
+                    "startOffset": 22438,
+                    "endColumn": 61,
+                    "endOffset": 22495
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 359,
+                        "startColumn": 4,
+                        "startOffset": 22438,
+                        "endColumn": 61,
+                        "endOffset": 22495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 360,
+                    "startColumn": 4,
+                    "startOffset": 22500,
+                    "endColumn": 70,
+                    "endOffset": 22566
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 360,
+                        "startColumn": 4,
+                        "startOffset": 22500,
+                        "endColumn": 70,
+                        "endOffset": 22566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 361,
+                    "startColumn": 4,
+                    "startOffset": 22571,
+                    "endColumn": 63,
+                    "endOffset": 22630
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 361,
+                        "startColumn": 4,
+                        "startOffset": 22571,
+                        "endColumn": 63,
+                        "endOffset": 22630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 362,
+                    "startColumn": 4,
+                    "startOffset": 22635,
+                    "endLine": 364,
+                    "endColumn": 12,
+                    "endOffset": 22755
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 362,
+                        "startColumn": 4,
+                        "startOffset": 22635,
+                        "endLine": 364,
+                        "endColumn": 12,
+                        "endOffset": 22755
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 365,
+                    "startColumn": 4,
+                    "startOffset": 22760,
+                    "endLine": 368,
+                    "endColumn": 12,
+                    "endOffset": 22972
+                },
+                "from": {
+                    "file": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 365,
+                        "startColumn": 4,
+                        "startOffset": 22760,
+                        "endLine": 368,
+                        "endColumn": 12,
+                        "endOffset": 22972
+                    }
+                }
+            }
+        ]
+    }
+]

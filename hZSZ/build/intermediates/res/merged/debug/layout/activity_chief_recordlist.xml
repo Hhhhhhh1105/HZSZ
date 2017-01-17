@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightgreen"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_medium"
+        android:paddingLeft="@dimen/page_padding"
+        android:paddingRight="@dimen/page_padding"
+        android:paddingTop="@dimen/padding_medium" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按时间段筛选"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+           android:id="@+id/tv_seldate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_medium"
+            android:layout_weight="1"
+            android:text="2015年6月"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/green"
+            android:textSize="@dimen/font_normal" />
+
+        <Button
+            android:id="@+id/btn_new"
+            android:layout_width="@dimen/two_text_btn_w"
+            android:layout_height="30dp"
+            android:background="@drawable/shape_board_btn_bg"
+            android:gravity="center"
+            android:paddingLeft="@dimen/padding_small"
+            android:paddingRight="@dimen/padding_small"
+            android:text="新建"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/btn_green_white"
+            android:textSize="@dimen/font_small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lineheight"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/padding_medium"
+        android:paddingLeft="@dimen/page_padding"
+        android:paddingRight="@dimen/page_padding"
+        android:paddingTop="@dimen/padding_medium" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="巡查日期"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/green"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="巡查河段"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/green"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:layout_width="@dimen/two_text_btn_w"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="操作"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/green"
+            android:visibility="gone"
+            android:textSize="@dimen/font_normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/linew"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

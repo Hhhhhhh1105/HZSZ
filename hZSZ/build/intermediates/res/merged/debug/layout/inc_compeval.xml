@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:background="@drawable/wave_up"
+        android:orientation="vertical"
+        android:padding="@dimen/page_padding" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_medium"
+            android:text="@string/sug_evaluate"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray" />
+
+        <LinearLayout
+            android:id="@+id/ll_evallevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/rg_eval"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_medium"
+                android:layout_marginTop="@dimen/padding_medium"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/rb_eval1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="3"
+                    android:text="@string/evaluate_val1"
+                    android:textColor="@color/text_gray_green" />
+
+                <RadioButton
+                    android:id="@+id/rb_eval2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="2"
+                    android:text="@string/evaluate_val2"
+                    android:textColor="@color/text_gray_green" />
+
+                <RadioButton
+                    android:id="@+id/rb_eval3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="1"
+                    android:text="@string/evaluate_val3"
+                    android:textColor="@color/text_gray_green" />
+
+                <RadioButton
+                    android:id="@+id/rb_eval4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="0"
+                    android:text="@string/evaluate_val4"
+                    android:textColor="@color/text_gray_green" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/padding_medium"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginTop="@dimen/padding_medium"
+                android:layout_weight="1"
+                android:background="@drawable/shape_black_board_btn_bg"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/evaluate_tips"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_normal" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_evaltips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_large"
+            android:text="@string/sug_addremark"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray" />
+
+        <EditText
+            android:id="@+id/et_contentt"
+            style="@style/form_singleline_te"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/form_5line_h"
+            android:background="@drawable/shape_gray_board_btn_bg"
+            android:gravity="top|left"
+            android:hint="@string/hint_evaluate_remark"
+            android:padding="@dimen/padding_large"
+            android:singleLine="false" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/form_button_h"
+            android:layout_marginTop="@dimen/form_singleline_margin_v"
+            android:background="@drawable/form_btn1_bg"
+            android:text="@string/submit"
+            android:textColor="@color/btn_white_green" />
+    </LinearLayout>
+
+</LinearLayout>

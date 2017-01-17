@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+    <ScrollView
+        android:id="@+id/sv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgreen"
+                android:gravity="center_vertical"
+                android:paddingBottom="@dimen/padding_medium"
+                android:paddingLeft="@dimen/page_padding"
+                android:paddingRight="@dimen/page_padding"
+                android:paddingTop="@dimen/padding_medium" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="日期"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_medium"
+                    android:layout_weight="1"
+                    android:tag="tt:{.m:getDBYMDHM}"
+                    android:text="2015-06-09 9:00"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/font_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/lineheight"
+                android:background="@color/lightgreen"
+                android:gravity="center_vertical"
+                android:paddingBottom="@dimen/padding_medium"
+                android:paddingLeft="@dimen/page_padding"
+                android:paddingRight="@dimen/page_padding"
+                android:paddingTop="@dimen/padding_medium" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="编号"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_medium"
+                    android:layout_weight="1"
+                    android:tag="tt:{.dubanSerNum}"
+                    android:text="DB112222"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/font_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/linew"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_medium"
+                android:paddingLeft="@dimen/page_padding"
+                android:paddingRight="@dimen/page_padding"
+                android:paddingTop="@dimen/padding_medium"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="主送"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="任平"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="抄送"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="小天后"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/linew"
+                    android:background="@color/white"
+                    android:paddingBottom="@dimen/padding_medium"
+                    android:paddingLeft="@dimen/page_padding"
+                    android:paddingRight="@dimen/page_padding"
+                    android:paddingTop="@dimen/padding_medium" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="@dimen/table_left_maxw"
+                        android:text="督办事项"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/padding_medium"
+                        android:tag="tt:{.content}"
+                        android:text="有一个投诉超期未处理"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/font_normal" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_response"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/linew"
+                    android:background="@color/white"
+                    android:paddingBottom="@dimen/padding_medium"
+                    android:paddingLeft="@dimen/page_padding"
+                    android:paddingRight="@dimen/page_padding"
+                    android:paddingTop="@dimen/padding_medium" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="@dimen/table_left_maxw"
+                        android:text="反馈意见"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/padding_medium"
+                        android:tag="tt:{.chiefResponse}"
+                        android:text="有一个投诉超期未处理"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/font_normal" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/linew"
+                    android:background="@color/white"
+                    android:paddingBottom="@dimen/padding_medium"
+                    android:paddingLeft="@dimen/page_padding"
+                    android:paddingRight="@dimen/page_padding"
+                    android:paddingTop="@dimen/padding_medium" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="@dimen/table_left_maxw"
+                        android:text="县(市、区)“河长制”办公室意见"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/padding_medium"
+                        android:tag="tt:{.riverOfficeResult}"
+                        android:text="请尽快处理"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/font_normal" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/linew"
+                    android:background="@color/white"
+                    android:paddingBottom="@dimen/padding_medium"
+                    android:paddingLeft="@dimen/page_padding"
+                    android:paddingRight="@dimen/page_padding"
+                    android:paddingTop="@dimen/padding_medium"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="@dimen/table_left_maxw"
+                        android:text="绕城内(或绕城外)“河长制”办公室意见"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingLeft="@dimen/padding_medium"
+                        android:text="请尽快处理"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/font_normal" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_medium"
+                android:paddingLeft="@dimen/page_padding"
+                android:paddingRight="@dimen/page_padding"
+                android:paddingTop="@dimen/padding_medium"
+                android:tag="tt:联系人: {.creatorName}"
+                android:text="联系人: 谷子地"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_medium"
+                android:paddingLeft="@dimen/page_padding"
+                android:paddingRight="@dimen/page_padding"
+                android:paddingTop="@dimen/padding_medium"
+                android:tag="tt:电话: {.creatorPhone}"
+                android:text="电话: 18755421547"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_medium"
+                android:paddingLeft="@dimen/page_padding"
+                android:paddingRight="@dimen/page_padding"
+                android:paddingTop="@dimen/padding_medium"
+                android:tag="tt:{.creatorDepart}"
+                android:text="杭州市“河长制”办公室"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_normal" />
+
+            <LinearLayout
+                android:id="@+id/ll_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/linew"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_medium"
+                android:paddingLeft="@dimen/page_padding"
+                android:paddingRight="@dimen/page_padding"
+                android:paddingTop="@dimen/padding_medium" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:text="反馈内容"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/font_normal" />
+
+                <EditText
+                    android:id="@+id/et_feedback"
+                    style="@style/form_singleline_te"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/form_5line_h"
+                    android:background="@drawable/shape_gray_board_btn_bg"
+                    android:gravity="top|left"
+                    android:padding="@dimen/padding_large"
+                    android:singleLine="false"
+                    android:tag="tt:{.deal}" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/linew"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_submit"
+                        style="android:attr/buttonBarButtonStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/form_button_h"
+                        android:layout_marginRight="@dimen/padding_large"
+                        android:layout_marginTop="@dimen/form_singleline_margin_v"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_gray_board_btn_bg"
+                        android:text="提交反馈"
+                        android:textColor="@color/text_gray_green" />
+
+                    <Button
+                        android:id="@+id/btn_cancel"
+                        style="android:attr/buttonBarButtonStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/form_button_h"
+                        android:layout_marginLeft="-1dp"
+                        android:layout_marginTop="@dimen/form_singleline_margin_v"
+                        android:layout_weight="1"
+                        android:background="@drawable/form_btn1_bg"
+                        android:text="@string/cancel"
+                        android:textColor="@color/btn_white_green" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

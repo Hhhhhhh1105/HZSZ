@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/sv_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_gray" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="@dimen/page_padding" >
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eg_easeriver"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/font_large" />
+
+                <ImageView
+                    android:id="@+id/iv_quality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tv_name"
+                    android:layout_alignTop="@+id/tv_name"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:layout_toRightOf="@+id/tv_name"
+                    android:contentDescription="@null"
+                    android:src="@drawable/im_quality_small_1" />
+
+                <TextView
+                    android:id="@+id/tv_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_name"
+                    android:layout_below="@+id/tv_name"
+                    android:text="@string/eg_level_name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/lightgray"
+                    android:textSize="@dimen/font_small" />
+
+                <RadioGroup
+                    android:id="@+id/rg_segments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tv_level"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_tabbtn_l_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_small"
+                        android:text="@string/eg_segment1"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/btn_black_white" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-1dp"
+                        android:background="@drawable/shape_tabbtn_m_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_small"
+                        android:text="@string/eg_segment2"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/btn_black_white" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-1dp"
+                        android:background="@drawable/shape_tabbtn_r_bg"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_small"
+                        android:text="@string/eg_segment3"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/btn_black_white" />
+                </RadioGroup>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/quality_smallline_h"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/quality_line_h"
+                    android:layout_weight="1"
+                    android:background="@color/quality_1" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/quality_line_h"
+                    android:layout_weight="1"
+                    android:background="@color/quality_2" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/quality_line_h"
+                    android:layout_weight="1"
+                    android:background="@color/quality_3" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/quality_line_h"
+                    android:layout_weight="1"
+                    android:background="@color/quality_4" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/quality_line_h"
+                    android:layout_weight="1"
+                    android:background="@color/quality_5" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/quality_line_h"
+                    android:layout_weight="1"
+                    android:background="@color/quality_6" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_segment_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/eg_segment3"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_large" />
+
+            <LinearLayout
+                android:id="@+id/ll_indexs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <include
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        layout="@layout/item_section_indexone" />
+
+                    <include
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        layout="@layout/item_section_indexone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/page_padding"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/page_padding" >
+
+                <RadioGroup
+                    android:id="@+id/rg_indexs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_tabbtn_l_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_small"
+                        android:text="@string/eg_segment1"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/btn_black_white" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-1dp"
+                        android:background="@drawable/shape_tabbtn_m_bg"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_small"
+                        android:text="@string/eg_segment2"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/btn_black_white" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-1dp"
+                        android:background="@drawable/shape_tabbtn_r_bg"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_small"
+                        android:text="@string/eg_segment3"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/btn_black_white" />
+                </RadioGroup>
+
+                <include
+                    android:id="@+id/inc_quality_line_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/page_padding"
+                    layout="@layout/inc_quality_line_v" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>

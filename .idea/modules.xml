@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HZSZ.iml" filepath="$PROJECT_DIR$/HZSZ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hZSZ/hZSZ.iml" filepath="$PROJECT_DIR$/hZSZ/hZSZ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sMSSDK/sMSSDK.iml" filepath="$PROJECT_DIR$/sMSSDK/sMSSDK.iml" />
+    </modules>
+  </component>
+</project>

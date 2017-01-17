@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 标题 文字 -->
+    <string name="app_name">杭州河道水质</string>
+    <string name="empty"></string>
+    <string name="holdtext">占位</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="changepwd">修改密码</string>
+    <string name="setnewpwd">设置新密码</string>
+    <string name="forgotpwd">忘记密码</string>
+    <string name="about">关于系统</string>
+    <string name="logout">注销登录</string>
+    <string name="mycollect">我的收藏</string>
+    <string name="submit">提交</string>
+    <string name="save">保存</string>
+    <string name="store">暂存</string>
+    <string name="qualityexplain">水质类别说明</string>
+    <string name="photocomplaint">拍照投诉</string>
+    <string name="list">列表</string>
+    <string name="map">地图</string>
+    <string name="searchriver">搜索河道</string>
+    <string name="complaint">投诉</string>
+    <string name="suggest">建议</string>
+    <string name="isuggest">我要建议</string>
+    <string name="icomplaint">我要投诉</string>
+    <string name="cancel">取消</string>
+    <string name="back">返回</string>
+    <string name="call">拨打</string>
+    <string name="tips">提示</string>
+    <string name="unlimeited">不限</string>
+    <string name="select_area">请选择区域</string>
+
+    <!-- bottom -->
+    <string name="bottom_xinwen">新闻动态</string>
+    <string name="bottom_duanmian">断面水质</string>
+    <string name="bottom_gongshi">投诉公示</string>
+    <string name="bottom_shoye">首页</string>
+    <string name="bottom_hedao">河道信息</string>
+    <string name="bottom_paihang">排行榜</string>
+
+    <!-- hint -->
+    <string name="hint_phonenum">输入手机号码</string>
+    <string name="hint_password">输入登录密码</string>
+    <string name="hint_curpassword">输入当前密码</string>
+    <string name="hint_newpassword">输入新密码</string>
+    <string name="hint_newrepassword">再次输入新密码</string>
+    <string name="hint_authcode">输入验证码</string>
+    <string name="hint_username">输入账号(手机号)</string>
+    <string name="hint_suggest_name">建议人姓名</string>
+    <string name="hint_com_name">投诉人姓名</string>
+    <string name="hint_suggest_tel">联系电话</string>
+    <string name="hint_suggest_subject">建议主题</string>
+    <string name="hint_com_subject">投诉主题</string>
+    <string name="hint_suggest_content">内容描述(不超过140字)</string>
+    <string name="hint_evaluate_remark">请输入留言</string>
+    <string name="hint_replayinfo">请输入处理结果</string>
+    <string name="hint_searchriver">输入河道名称进行查询</string>
+
+    <!-- form -->
+    <string name="form_reg_ireaded">我已经阅读并同意</string>
+    <string name="form_reg_agreement">《用户注册协议》</string>
+    <string name="form_login_forgot">忘记密码?</string>
+    <string name="form_suggest_river">建议河道</string>
+    <string name="form_complaint_river">投诉河道</string>
+    <string name="form_suggest_anonymity">匿名建议</string>
+    <string name="form_complaint_anonymity">匿名投诉</string>
+    <string name="suggestioninfo">建议情况</string>
+    <string name="sug_name">建议人姓名</string>
+    <string name="sug_phone">手机号码</string>
+    <string name="sug_river">建议河道</string>
+    <string name="sug_content">建议内容</string>
+    <string name="complaininfo">投诉情况</string>
+    <string name="com_name">投诉人姓名</string>
+    <string name="com_phone">手机号码</string>
+    <string name="com_river">投诉河道</string>
+    <string name="com_content">投诉内容</string>
+    <string name="com_theme">投诉标题</string>
+    <string name="handleinfo">处理情况</string>
+    <string name="replayinfo">回复详情</string>
+    <string name="handler">处理人</string>
+    <string name="evallevel">投诉人评分</string>
+    <string name="evalremark">投诉人留言</string>
+    <string name="handletime">答复时间</string>
+    <string name="handleresult">处理结果</string>
+    <string name="handlestatus">处理状态:</string>
+    <string name="evaluateinfo">评价情况</string>
+    <string name="sug_evaluate">请对河长处理结果进行评价:</string>
+    <string name="sug_addremark">补充说明:</string>
+    <string name="evaluate_val1">非常满意</string>
+    <string name="evaluate_val2">比较满意</string>
+    <string name="evaluate_val3">一般</string>
+    <string name="evaluate_val4">不满意</string>
+    <string name="evaluate_tips">您的评价意见很重要，将纳入河道日常工作考核，请根据实际情况进行客观评价。</string>
+
+    <!-- mainpage -->
+    <string name="section_info">断面水质信息</string>
+    <string name="section_name">断面名称</string>
+    <string name="outlet">阳光排放口信息</string>
+    <string name="rive_name">河道名称</string>
+    <string name="section_level">等级</string>
+    <string name="section_quality">水质类别</string>
+    <string name="river_info">河道水质信息</string>
+    <string name="river_selriver">请选择区域</string>
+
+    <!-- river -->
+    <string name="river_start">河道起点</string>
+    <string name="river_end">河道终点</string>
+    <string name="river_level">河道等级</string>
+    <string name="river_owner">所属区县</string>
+    <string name="river_length">河道长度</string>
+    <string name="river_responsibility">河长职责</string>
+    <string name="river_target">整治目标</string>
+    <string name="river_contactinfo">河长联系方式</string>
+    <string name="period_7days">7天</string>
+    <string name="period_1month">30天</string>
+
+    <!-- i'm tired for English variable name -->
+    <string name="river_quhezhang">区县河长</string>
+    <string name="river_fdhezhang">分段河长</string>
+    <string name="river_quhezhang_cont">联系人</string>
+    <string name="river_zhenhezhang">镇街河长</string>
+    <string name="river_contdep">联系部门</string>
+    <string name="river_contpe">联系人</string>
+    <string name="river_jingzhang">河道警长</string>
+
+    <!-- end tired -->
+
+
+    <!-- my center -->
+    <string name="mycenter">个人中心</string>
+    <string name="mychiefcomplaint">处理投诉</string>
+    <string name="mychiefmail">我的信箱</string>
+    <string name="mychiefsign">河长签到</string>
+    <string name="mychiefsuggestion">处理建议</string>
+    <string name="mychiefinspect">开始巡河</string>
+    <string name="mychiefrecord">巡查记录</string>
+    <string name="mychiefduban">查看督办单</string>
+    <string name="mycomplaint">我的投诉</string>
+    <string name="mysuggestion">我的建议</string>
+    <string name="mycollection">我的收藏</string>
+    <string name="mysetting">我的设置</string>
+    <string name="mychangepwd">修改密码</string>
+    <string name="complaintorder">投诉处理单</string>
+
+    <!-- news -->
+    <string name="news_news">新闻动态</string>
+    <string name="news_notice">通知公告</string>
+    <string name="news_detail">详情</string>
+
+    <!-- quality -->
+    <string name="quality_info1">主要适用于源头水、国家自然保护区；</string>
+    <string name="quality_info2">主要适用于集中式生活饮用水地表水源地一级保护区、珍稀水生生物栖息地、鱼虾类产场、仔稚幼鱼的索饵场等；</string>
+    <string name="quality_info3">主要适用于集中式生活饮用水地表水源地二级保护区、鱼虾类越冬场、洄游通道、水产养殖区等渔业水域及游泳区；</string>
+    <string name="quality_info4">主要适用于一般工业用水区及人体非直接接触的娱乐用水区；</string>
+    <string name="quality_info5">主要适用于农业用水区及一般景观要求水域；</string>
+    <string name="quality_info6">污染程度已超过V类的水。</string>
+    <string name="quality_infotip">对应地表水上述六类水域功能，将地表水环境质量标准基本项目标准值分为六类，不同功能类别分别执行相应类别的标准值。水域功能类别高的标准值严于水域功能类别低的标准值。同一水域兼有多类使用功能的，执行最高功能类别对应的标准值。实现水域功能与达功能类别标准为同一含义。\n注：水质分类方案依据国家地表水环境质量标准(GB 3838&#8211;2002）</string>
+    <string name="quality_1">I</string>
+    <string name="quality_2">II</string>
+    <string name="quality_3">III</string>
+    <string name="quality_4">IV</string>
+    <string name="quality_5">V</string>
+    <string name="quality_6">劣V</string>
+
+    <!-- 值 -->
+    <string name="param_ph">pH</string>
+    <string name="param_ph_ch">氢离子</string>
+    <string name="param_kmno4">KMnO4</string>
+    <string name="param_do">DO</string>
+    <string name="param_ntu">NTU</string>
+    <string name="param_cod">COD</string>
+    <string name="param_util_explain">指数单位: mg/L</string>
+
+    <!-- 断面 -->
+    <string name="section_main">主要断面</string>
+    <string name="section_important">重要支流</string>
+    <string name="section_drinking">饮用水源地</string>
+    <string name="section_admin">行政断面</string>
+    <string name="section_sectioninf">断面信息</string>
+
+    <!-- river -->
+    <string name="river_code">河道编号:</string>
+    <string name="no_searched_river">没有找到相关河道!</string>
+    <string name="river_select_segment">请选择河段</string>
+    <!-- chinese, god -->
+    <string name="river_dzgsp">基本信息</string>
+    <string name="river_yhyc">一河一策</string>
+    <string name="river_tsxx">投诉信息</string>
+    <string name="river_xxgk">信息公开</string>
+    <string name="river_hdsz">河道水质</string>
+    <string name="river_hdfw">河道方位</string>
+
+    <!--  -->
+    <string name="follow">+收藏</string>
+    <string name="unfollow">已收藏</string>
+
+    <!-- 排行榜 -->
+    <string name="ranking">排行榜</string>
+    <string name="river_area">河道区域</string>
+    <string name="complaint_count">投诉量</string>
+    <string name="satisfaction_count">满意度</string>
+    <string name="unhandle">未处理</string>
+    <string name="thismonth">本月</string>
+    <string name="lastmonth">上月</string>
+    <string name="thisyear">本年</string>
+    <string name="lastyear">上年</string>
+    <string name="rankindex">排名</string>
+    <string name="rivername">河道名称</string>
+
+    <!-- tips -->
+    <string name="tip_username_empty">用户名不能为空</string>
+    <string name="tip_password_empty">密码不能为空</string>
+    <string name="tip_submmit_success">提交成功！</string>
+    <string name="tip_anonymity_uncheck">(温馨提示:您取消了匿名提交)</string>
+    <string name="tip_anonymity_checked">(温馨提示:您的投诉/建议将被匿名提交,个人信息不会向责任河长公布)</string>
+    <!-- <string name="tip_username_empty">用户名不能为空</string> -->
+
+
+    <!-- other -->
+    <string name="getauthcode">点击获取</string>
+    <string name="number">编号</string>
+    <string name="welcome_riverinfo">河道信息</string>
+    <string name="welcome_org">杭州市环境保护局</string>
+    <string name="welcome_sectioninfo">断面水质</string>
+    <string name="welcome_newsinfo">新闻资讯</string>
+    <string name="welcome_ranking">排行榜</string>
+
+    <!-- doing -->
+    <string name="doing_loading">正在加载数据&#8230;</string>
+    <string name="doing_submitting">正在提交数据&#8230;</string>
+    <string name="doing_gettingauthcode">正在获取验证码&#8230;</string>
+
+    <!-- 例子 -->
+    <string name="eg_newtitle">互联网进入扭曲的医疗业有多难</string>
+    <string name="eg_newarticle">当互联网杀入传统行业的领地时，业务逻辑其实并不复杂，大部分时候是相同质量比价格，或相同价格比质量。在互联网低边际成本的技术优势下，这样的战术非常有效。例如，电商和线下商场比，很容易就做到了相同质量价格更低；叫车和专车的APP和招手即停的出租车相比，也很容易做到了相同价格质量更优。</string>
+    <string name="eg_easeriver">东河</string>
+    <string name="eg_number">TS023423434</string>
+    <string name="eg_phone">1545545847</string>
+    <string name="eg_name">张小敏</string>
+    <string name="eg_sug_river">上城区 东河</string>
+    <string name="eg_sug_theme">这里是标题</string>
+    <string name="eg_sug_content">杭州市上城区东河上游有臭水排放</string>
+    <string name="eg_datetime">2015&#8211;05&#8211;01 09:20</string>
+    <string name="eg_datetime2">2015.5.1 9:20</string>
+    <string name="eg_handlestatus">待处理</string>
+    <string name="eg_handleresult">找到臭水排放企业，并已督促其停止排放，有臭水排放问题，现已解决。</string>
+    <string name="eg_site_name">九溪监测站</string>
+    <string name="eg_site_name2">省级断面自动站</string>
+    <string name="eg_level_name">省级河道</string>
+    <string name="eg_river_name">西溪湿地</string>
+    <string name="eg_lever_name2">省级</string>
+    <string name="eg_distname">西湖区</string>
+    <string name="eg_river_numver">河道编号: 212312</string>
+    <string name="eg_int_val">55</string>
+    <string name="eg_int_1">1</string>
+    <string name="eg_int_5">5</string>
+    <string name="eg_int_pe20">20%</string>
+    <string name="eg_lastupdate">最后更新 2015.05.07</string>
+    <string name="eg_lastupdate2">最后更新  11日 19:00</string>
+    <string name="eg_dateweek">4月12日 星期天</string>
+    <string name="eg_river_code">01E005</string>
+    <string name="eg_segment1">江南红楼</string>
+    <string name="eg_segment2">庆春站口</string>
+    <string name="eg_segment3">万安浆泵站</string>
+    <string name="eg_arearanking">西湖区河道投诉处理排行榜</string>
+    <string name="eg_version">版本: 1.0.0</string>
+    <string name="eg_chief_unhandle_comp">5个投诉未处理</string>
+    <string name="eg_chief_unhandle_sugs">2个建议未处理</string>
+    <string name="fmt_submit_result" formatted="false">建议单号：T1213121</string>
+
+    <!-- format -->
+    <string name="fmt_dateweek" formatted="false">%s月%s日 %s</string>
+    <string name="fmt_lastupdate" formatted="false">最后更新于 %s日 %s:%s</string>
+    <string name="fmt_update_ymdhm" formatted="false">更新时间 %s年%02d月%02d日 %02d:%02d</string>
+    <string name="fmt_ymdhm" formatted="false">%s-%02d-%02d %02d:%02d</string>
+    <string name="fmt_lastupdate_md" formatted="false">最后更新于 %s月%s日</string>
+    <string name="fmt_riverinfo" formatted="false">电子公示牌-%s</string>
+    <string name="fmt_lastupdate_ymd" formatted="false">最后更新于 %s.%02d.%02d</string>
+    <string name="fmt_ymd" formatted="false">%s.%02d.%02d</string>
+    <string name="fmt_ymd2" formatted="false">%s-%02d-%02d</string>
+    <string name="fmt_date_ym" formatted="false">%s.%02d</string>
+    <string name="fmt_title_sectioninfo" formatted="false">%s详情</string>
+    <string name="fmt_section_level" formatted="false">%s断面监测站</string>
+    <string name="fmt_make_call_query" formatted="false">确定拨打电话%s?</string>
+    <string name="fmt_arearanking" formatted="false">%s河道投诉处理排行榜</string>
+    <string name="fmt_legnth_km" formatted="false">%s公里</string>
+    <string name="fmt_river_segment_tip" formatted="false">该河道分为%d段</string>
+    <string name="fmt_sug_submit_result" formatted="false">建议单号：%s</string>
+    <string name="fmt_com_submit_result" formatted="false">投诉单号：%s</string>
+    <string name="fmt_version" formatted="false">版本: %s</string>
+    <string name="fmt_newversion" formatted="false">已经有新版本%s</string>
+    <string name="fmt_river_numver" formatted="false">河道编号: %s</string>
+    <string name="fmt_seconds_to_authcode" formatted="false">%d秒后重新获取</string>
+    <string name="fmt_chief_unhandle_comp" formatted="false">%d个投诉未处理</string>
+    <string name="fmt_chief_unhandle_sugs" formatted="false">%d个建议未处理</string>
+
+    <!-- level -->
+    <string name="level_1">省级</string>
+    <string name="level_2">市级</string>
+    <string name="level_3">区级</string>
+    <string name="level_4">镇街级</string>
+    <string name="level_river_1">省级河道</string>
+    <string name="level_river_2">市级河道</string>
+    <string name="level_river_3">区级河道</string>
+    <string name="level_river_4">镇街级河道</string>
+    <string name="level_3s">重要区级</string>
+    <string name="level_river_3s">重要区级河道</string>
+
+    <!-- week -->
+    <string name="week_1">星期一</string>
+    <string name="week_2">星期二</string>
+    <string name="week_3">星期三</string>
+    <string name="week_4">星期四</string>
+    <string name="week_5">星期五</string>
+    <string name="week_6">星期六</string>
+    <string name="week_0">星期日</string>
+
+    <!-- about -->
+
+
+    <!-- title -->
+
+
+    <!-- error -->
+    <string name="error_network">网络错误!</string>
+
+    <!-- comp -->
+    <string name="comp_nomore">没有更多了!</string>
+    <string name="comp_loadmore">上拉加载更多</string>
+    <string name="comp_loadingmore">加载中&#8230;</string>
+    <string name="comp_loaderror">加载失败!</string>
+    <string name="sernum">编号</string>
+    <string name="vieworder">查看处理单</string>
+    <string name="evaluatenow">马上评价</string>
+    <string name="evaluated">查看评价</string>
+    <string name="handle_status1">待受理</string>
+    <string name="handle_status2">已受理</string>
+    <string name="handle_status3">已处理</string>
+    <string name="handle_status4">已评价</string>
+    <string name="handle_status5">追加处理中</string>
+    <string name="handle_status6">已追加处理</string>
+    <string name="handle_status7">已评价(未追加处理)</string>
+    <string name="handle_status8">已评价(追加处理)</string>
+    <string name="handle_status9">已超期</string>
+
+    <!-- chief comp -->
+    <string name="chief_vieworder">查看处理单</string>
+    <string name="chief_handle_comp">处理投诉</string>
+    <string name="chief_handle_sugs">处理建议</string>
+    <string name="chief_handled">已处理</string>
+    <string name="chief_unhandle">未处理</string>
+
+    <!-- utils -->
+    <string name="utils_str_err">ERROR</string>
+
+</resources>

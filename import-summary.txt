@@ -1,0 +1,91 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From HZSZ:
+* ic_launcher-web.png
+* proguard-project.txt
+From SMSSDK:
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In SMSSDK:
+* AndroidManifest.xml => sMSSDK\src\main\AndroidManifest.xml
+* assets\ => sMSSDK\src\main\assets
+* libs\armeabi\libsmssdk.so => sMSSDK\src\main\jniLibs\armeabi\libsmssdk.so
+* libs\MobTools.jar => sMSSDK\libs\MobTools.jar
+* libs\SMSSDK-1.2.1.jar => sMSSDK\libs\SMSSDK-1.2.1.jar
+* res\ => sMSSDK\src\main\res\
+* src\ => sMSSDK\src\main\java\
+In HZSZ:
+* AndroidManifest.xml => hZSZ\src\main\AndroidManifest.xml
+* assets\ => hZSZ\src\main\assets\
+* libs\armeabi\libBaiduMapSDK_v3_4_0_15.so => hZSZ\src\main\jniLibs\armeabi\libBaiduMapSDK_v3_4_0_15.so
+* libs\armeabi\libgetuiext.so => hZSZ\src\main\jniLibs\armeabi\libgetuiext.so
+* libs\armeabi\liblocSDK6a.so => hZSZ\src\main\jniLibs\armeabi\liblocSDK6a.so
+* libs\BaiduLBS_Android.jar => hZSZ\libs\BaiduLBS_Android.jar
+* libs\com.android.volley.jar => hZSZ\libs\com.android.volley.jar
+* libs\com.google.gson.jar => hZSZ\libs\com.google.gson.jar
+* libs\GetuiExt-2.0.3.jar => hZSZ\libs\GetuiExt-2.0.3.jar
+* libs\GetuiSDK2.6.1.0.jar => hZSZ\libs\GetuiSDK2.6.1.0.jar
+* libs\httpmime-4.1.3.jar => hZSZ\libs\httpmime-4.1.3.jar
+* libs\json_simple-1.1.jar => hZSZ\libs\json_simple-1.1.jar
+* libs\locSDK_6.13.jar => hZSZ\libs\locSDK_6.13.jar
+* libs\mpandroidchartlibrary-2-1-0.jar => hZSZ\libs\mpandroidchartlibrary-2-1-0.jar
+* libs\picasso-2.5.2.jar => hZSZ\libs\picasso-2.5.2.jar
+* libs\sinlibs.2016.311.jar => hZSZ\libs\sinlibs.2016.311.jar
+* libs\SocialSDK_QQZone_1.jar => hZSZ\libs\SocialSDK_QQZone_1.jar
+* libs\SocialSDK_QQZone_2.jar => hZSZ\libs\SocialSDK_QQZone_2.jar
+* libs\SocialSDK_QQZone_3.jar => hZSZ\libs\SocialSDK_QQZone_3.jar
+* libs\SocialSDK_WeiXin_1.jar => hZSZ\libs\SocialSDK_WeiXin_1.jar
+* libs\SocialSDK_WeiXin_2.jar => hZSZ\libs\SocialSDK_WeiXin_2.jar
+* libs\uk.co.senab.photoview.1.2.2.jar => hZSZ\libs\uk.co.senab.photoview.1.2.2.jar
+* libs\umeng-analytics-v5.5.3.jar => hZSZ\libs\umeng-analytics-v5.5.3.jar
+* libs\umeng_social_sdk.jar => hZSZ\libs\umeng_social_sdk.jar
+* res\ => hZSZ\src\main\res\
+* src\ => hZSZ\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

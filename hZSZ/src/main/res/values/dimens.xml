@@ -1,0 +1,128 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- line -->
+    <dimen name="linew">1dp</dimen>
+    <dimen name="line2w">2dp</dimen>
+
+    <!-- 标题 -->
+    <dimen name="head_h">42dp</dimen>
+    <dimen name="head_title_size">22dp</dimen>
+    <!-- 标题padding -->
+    <dimen name="head_padding_l">10dp</dimen>
+    <dimen name="head_padding_r">10dp</dimen>
+    <dimen name="head_padding_t">5dp</dimen>
+    <dimen name="head_padding_b">5dp</dimen>
+    <dimen name="head_tab_radius">4dp</dimen>
+
+    <!-- 标题按钮 -->
+    <dimen name="head_icon_h">26dp</dimen>
+    <dimen name="head_icon_w">26dp</dimen>
+    <dimen name="bottom_h">48dp</dimen>
+    <dimen name="bottom_btn_h">48dp</dimen>
+    <dimen name="bottom_btn_padding">2dp</dimen>
+    <dimen name="bottom_btn_textsize">12dp</dimen>
+
+    <!-- 页面 -->
+    <dimen name="page_padding">15dp</dimen>
+    <dimen name="page_item_margin_v">5dp</dimen>
+    <dimen name="page_single_margin_v">10dp</dimen>
+    <dimen name="padding_small">2dp</dimen>
+    <dimen name="padding_tiny">1dp</dimen>
+    <dimen name="padding_medium">5dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="padding_2large">16dp</dimen>
+    <dimen name="page_item_padding_h">10dp</dimen>
+    <dimen name="page_item_padding_v">10dp</dimen>
+    <dimen name="page_text_padding">10dp</dimen>
+
+    <!-- 新闻 -->
+    <dimen name="news_item_h">120dp</dimen>
+    <dimen name="news_item_padding">10dp</dimen>
+    <dimen name="news_item_padding_x">10dp</dimen>
+    <dimen name="news_item_padding_y">5dp</dimen>
+    <dimen name="news_item_img_h">60dp</dimen>
+    <dimen name="news_item_img_w">84dp</dimen>
+    <dimen name="news_item_text_margin_h">5dp</dimen>
+    <dimen name="news_item_title_textsize">18dp</dimen>
+    <dimen name="news_item_article_textsize">14dp</dimen>
+
+    <!-- 河道 -->
+    <dimen name="river_item_img_h">50dp</dimen>
+    <dimen name="river_item_img_w">50dp</dimen>
+
+    <!-- 表单 -->
+    <dimen name="form_singleline_h">44dp</dimen>
+    <dimen name="form_3line_h">60dp</dimen>
+    <dimen name="form_5line_h">80dp</dimen>
+    <dimen name="form_8line_h">120dp</dimen>
+    <dimen name="form_singleline_padding">5dp</dimen>
+    <dimen name="form_singleline_margin_v">5dp</dimen>
+    <dimen name="form_singleline_img_h">20dp</dimen>
+    <dimen name="form_singleline_img_w">20dp</dimen>
+    <dimen name="form_singleline_img_2w">40dp</dimen>
+    <dimen name="form_singleline_btn_h">34dp</dimen>
+    <dimen name="form_button_h">40dp</dimen>
+    <dimen name="form_button_margintop">20dp</dimen>
+    <dimen name="form_contain_padding">10dp</dimen>
+
+    <!-- me -->
+    <dimen name="me_bg_h">160dp</dimen>
+    <dimen name="me_logo_h">72dp</dimen>
+    <dimen name="me_logo_w">72dp</dimen>
+    <dimen name="me_logo_margin_v">16dp</dimen>
+    <dimen name="me_item_h">48dp</dimen>
+    <dimen name="me_item_tv_margin_left">-24dp</dimen>
+    <dimen name="me_item_tv_padding_left">30dp</dimen>
+    <dimen name="me_item_icon_w">48dp</dimen>
+    <dimen name="me_item_icon_h">48dp</dimen>
+
+    <!-- 杂项 -->
+    <dimen name="quality_icon_h">32dp</dimen>
+    <dimen name="quality_icon_w">32dp</dimen>
+    <dimen name="quality_small_icon_h">18dp</dimen>
+    <dimen name="quality_small_icon_w">24dp</dimen>
+    <dimen name="quality_line_margin_left">42dp</dimen>
+    <dimen name="quality_line_margin_right">-10dp</dimen>
+    <dimen name="photo_start_h">60dp</dimen>
+    <dimen name="text_margin">10dp</dimen>
+    <dimen name="lineheight">2dp</dimen>
+    <dimen name="img_small_w">16dp</dimen>
+    <dimen name="img_small_h">16dp</dimen>
+    <dimen name="img_comp_icon_w">54dp</dimen>
+    <dimen name="img_comp_icon_h">54dp</dimen>
+    <dimen name="img_medium_w">80dp</dimen>
+    <dimen name="img_medium_h">80dp</dimen>
+    <dimen name="img_large_h">200dp</dimen>
+    <dimen name="tabbtn_radius">4dp</dimen>
+    <dimen name="boardbtn_radius">4dp</dimen>
+    <dimen name="quality_line_h">8dp</dimen>
+    <dimen name="quality_smallline_h">4dp</dimen>
+    <dimen name="quality_chart_h">280dp</dimen>
+    <dimen name="tab_min_w">50dp</dimen>
+    <dimen name="tab_max_w">84dp</dimen>
+    <dimen name="btn_follow_h">30dp</dimen>
+    <dimen name="btn_item_in">24dp</dimen>
+    <dimen name="three_ascii_w">50dp</dimen>
+    <dimen name="two_text_btn_w">50dp</dimen>
+    <dimen name="two_checkbox_line_tv_w">150dp</dimen>
+    <dimen name="table_left_maxw">120dp</dimen>
+    <dimen name="item_signrecord_w">36dp</dimen>
+    <dimen name="item_signrecord_h">36dp</dimen>
+
+    <!-- 字体 -->
+    <dimen name="font_large">20sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_tiny">12sp</dimen>
+
+    <!--  -->
+    <dimen name="onekey_comp_w">80dp</dimen>
+    <dimen name="onekey_comp_h">80dp</dimen>
+    <dimen name="onekey_comp_bottom">-15dp</dimen>
+    
+    <dimen name="wbanner_h">80dp</dimen>
+
+</resources>

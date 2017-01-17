@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_white_gray"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/page_item_padding_v"
+        android:paddingLeft="@dimen/page_item_padding_h"
+        android:paddingRight="@dimen/page_item_padding_h"
+        android:paddingTop="@dimen/page_item_padding_v" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_site_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eg_site_name"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/iv_quality"
+                android:layout_width="@dimen/quality_small_icon_w"
+                android:layout_height="@dimen/quality_small_icon_h"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:contentDescription="@null"
+                android:src="@drawable/im_quality_small_5" />
+
+            <TextView
+                android:id="@+id/tv_site_name2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/eg_site_name"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/littlelightgray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_indexs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_medium"
+            android:layout_marginTop="@dimen/padding_medium"
+            android:baselineAligned="false" >
+
+            <include
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                layout="@layout/item_section_index" />
+
+            <include
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                layout="@layout/item_section_index" />
+
+            <include
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                layout="@layout/item_section_index" />
+
+            <include
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                layout="@layout/item_section_index" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/param_util_explain"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/littlelightgray" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_spliter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_large" />
+
+</LinearLayout>

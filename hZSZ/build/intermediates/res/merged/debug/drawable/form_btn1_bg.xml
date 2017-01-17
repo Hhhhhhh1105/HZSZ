@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- auto gen -->
+  <item android:drawable="@drawable/form_btn1_bg_s" android:state_checked="true"/>
+  <!--
+  <item android:drawable="@drawable/form_btn1_bg_s" android:state_pressed="true"/>
+  <item android:drawable="@drawable/form_btn1_bg_s" android:state_activated="true"/>
+  <item android:drawable="@drawable/form_btn1_bg_s" android:state_selected="true"/>
+  -->
+  <item android:drawable="@drawable/form_btn1_bg_n"></item>
+</selector>

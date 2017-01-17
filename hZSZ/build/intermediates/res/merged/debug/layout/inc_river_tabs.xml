@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rg_river_showwith"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/padding_medium"
+    android:paddingLeft="@dimen/padding_large"
+    android:paddingRight="@dimen/padding_large"
+    android:paddingTop="@dimen/padding_medium" >
+
+    <RadioButton
+        android:id="@+id/rb_river_dzgsp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/shape_tabbtn_l_bg"
+        android:button="@null"
+        android:checked="true"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_small"
+        android:paddingTop="@dimen/padding_small"
+        android:text="@string/river_dzgsp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/btn_black_white"
+        android:textSize="@dimen/font_normal" />
+
+    <RadioButton
+        android:id="@+id/rb_river_hdsz"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-1dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_tabbtn_m_bg"
+        android:button="@null"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_small"
+        android:paddingTop="@dimen/padding_small"
+        android:text="@string/river_hdsz"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/btn_black_white"
+        android:textSize="@dimen/font_normal" />
+
+    <RadioButton
+        android:id="@+id/rb_river_yhyc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/shape_tabbtn_m_bg"
+        android:button="@null"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_small"
+        android:paddingTop="@dimen/padding_small"
+        android:text="@string/river_yhyc"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/btn_black_white"
+        android:textSize="@dimen/font_normal" />
+
+    <RadioButton
+        android:id="@+id/rb_river_hdfw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-1dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_tabbtn_m_bg"
+        android:button="@null"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_small"
+        android:paddingTop="@dimen/padding_small"
+        android:text="@string/river_hdfw"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/btn_black_white"
+        android:textSize="@dimen/font_normal"
+        android:visibility="gone" />
+
+    <RadioButton
+        android:id="@+id/rb_river_tsxx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-1dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_tabbtn_r_bg"
+        android:button="@null"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_small"
+        android:paddingTop="@dimen/padding_small"
+        android:text="@string/river_xxgk"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/btn_black_white"
+        android:textSize="@dimen/font_normal" />
+
+</RadioGroup>

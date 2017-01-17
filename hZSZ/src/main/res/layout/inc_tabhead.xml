@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/head_h"
+    android:background="@drawable/head_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/head_padding_b"
+    android:paddingLeft="@dimen/head_padding_l"
+    android:paddingRight="@dimen/head_padding_r"
+    android:paddingTop="@dimen/head_padding_t" >
+
+    <ImageView
+        android:id="@+id/iv_head_left"
+        style="@style/head_icon"
+        android:layout_width="@dimen/head_icon_w"
+        android:layout_height="@dimen/head_icon_h"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/ic_head_plus" />
+
+    <RadioGroup
+        android:id="@+id/rg_headtab"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        android:layout_marginLeft="@dimen/padding_large"
+        android:layout_marginRight="@dimen/padding_large"
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingRight="@dimen/padding_large" >
+
+        <RadioButton
+            android:id="@+id/rb_head_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_head_tab_l_bg"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/list"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/btn_white_green"
+            android:textSize="@dimen/head_title_size" />
+
+        <RadioButton
+            android:id="@+id/rb_head_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_head_tab_r_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/map"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/btn_white_green"
+            android:textSize="@dimen/head_title_size" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/iv_head_right"
+        style="@style/head_icon"
+        android:layout_width="@dimen/head_icon_w"
+        android:layout_height="@dimen/head_icon_h"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/ic_head_share" />
+
+</LinearLayout>
