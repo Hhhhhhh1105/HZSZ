@@ -26,6 +26,7 @@ import com.zju.hzsz.Tags;
 import com.zju.hzsz.Values;
 import com.zju.hzsz.fragment.BaseFragment;
 import com.zju.hzsz.fragment.MainFragment;
+import com.zju.hzsz.fragment.MeFragment;
 import com.zju.hzsz.fragment.NewsFragment;
 import com.zju.hzsz.fragment.PublicityFragment;
 import com.zju.hzsz.fragment.RiverFragment;
@@ -41,6 +42,7 @@ public class MainActivity extends BaseActivity implements OnCheckedChangeListene
 	private BaseFragment riverFragment = null; //河道信息
 	private BaseFragment rankingFragment = null;
 	private BaseFragment publicityFragment = null; //投诉公示
+	private BaseFragment meFragment = null; //个人中心
 
 
 	@Override
@@ -68,6 +70,7 @@ public class MainActivity extends BaseActivity implements OnCheckedChangeListene
 		// rankingFragment = new RankingFragment();
 		rankingFragment = new TabRankingFragment();
 		publicityFragment = new PublicityFragment();
+		meFragment = new MeFragment();
 
 		replaceFragment(mainFragment);
 
@@ -91,7 +94,7 @@ public class MainActivity extends BaseActivity implements OnCheckedChangeListene
 			replaceFragment(riverFragment);
 			break;
 		case R.id.rd_panhang:
-			replaceFragment(rankingFragment);
+			replaceFragment(meFragment);
 			break;
 		case R.id.rd_publicity:
 			replaceFragment(publicityFragment);

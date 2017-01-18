@@ -89,8 +89,8 @@
             android:layout_height="@dimen/bottom_btn_h"
             android:layout_weight="1"
             android:button="@null"
-            android:drawableTop="@drawable/ic_bottom_paihang"
-            android:text="@string/bottom_paihang" />
+            android:drawableTop="@drawable/ic_bottom_mycenter"
+            android:text="@string/bottom_mycenter" />
     </RadioGroup>
 
 </LinearLayout>

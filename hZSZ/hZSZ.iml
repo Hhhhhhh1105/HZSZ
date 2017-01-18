@@ -135,5 +135,7 @@
     <orderEntry type="library" exported="" name="com.google.gson" level="project" />
     <orderEntry type="library" exported="" name="GetuiSDK2.6.1.0" level="project" />
     <orderEntry type="module" module-name="sMSSDK" exported="" />
+    <orderEntry type="library" exported="" name="MobTools" level="project" />
+    <orderEntry type="library" exported="" name="SMSSDK-1.2.1" level="project" />
   </component>
 </module>

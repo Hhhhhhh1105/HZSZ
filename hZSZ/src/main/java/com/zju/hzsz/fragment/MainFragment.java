@@ -125,7 +125,8 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			// rootView.findViewById(R.id.iv_banner)), true);
 
 			RootViewWarp warp = getRootViewWarp();
-			warp.setHeadImage(R.drawable.ic_head_user, R.drawable.ic_head_share);
+			//warp.setHeadImage(R.drawable.ic_head_user, R.drawable.ic_head_share);
+			warp.setHeadImage(0, R.drawable.ic_head_share);
 
 			//点击查看水质说明
 			rootView.findViewById(R.id.tv_qualityexplain).setOnClickListener(new View.OnClickListener() {
