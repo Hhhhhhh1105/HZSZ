@@ -29,7 +29,6 @@ import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.Values;
 import com.zju.hzsz.activity.MainActivity;
-import com.zju.hzsz.activity.MeActivity;
 import com.zju.hzsz.activity.PhotoViewActivity;
 import com.zju.hzsz.activity.RiverActivity;
 import com.zju.hzsz.activity.RiverListActivity;
@@ -126,7 +125,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 
 			RootViewWarp warp = getRootViewWarp();
 			//warp.setHeadImage(R.drawable.ic_head_user, R.drawable.ic_head_share);
-			warp.setHeadImage(0, R.drawable.ic_head_share);
+			warp.setHeadImage(R.drawable.ic_head_sug, R.drawable.ic_head_share);
 
 			//点击查看水质说明
 			rootView.findViewById(R.id.tv_qualityexplain).setOnClickListener(new View.OnClickListener() {
@@ -172,7 +171,8 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 
 				@Override
 				public void onClick(View arg0) {
-					getBaseActivity().startActivity(new Intent(getBaseActivity(), MeActivity.class), false);
+					//跳转至个人中心
+					//getBaseActivity().startActivity(new Intent(getBaseActivity(), MeActivity.class), false);
 					// if (getBaseActivity().getUser().isLogined()) {
 					// getBaseActivity().startActivity(new
 					// Intent(getBaseActivity(), MeActivity.class), false);
@@ -182,6 +182,10 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 					// getBaseActivity().startActivityForResult(intent,
 					// Tags.CODE_LOGIN, false);
 					// }
+					//跳转至一键投诉
+					Intent intent = new Intent(getBaseActivity(), SugOrComtActivity.class);
+					intent.putExtra(Tags.TAG_ABOOLEAN, true);
+					startActivity(intent);
 				}
 			});
 			rootView.findViewById(R.id.ib_photocomp).setOnClickListener(new View.OnClickListener() {
