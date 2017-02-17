@@ -23,10 +23,10 @@ public class River {
 
 	public DateTime uploadTime;
 
-	public String endingPoint;
+	public String endingPoint; //终点
 	public String districtName;
 	public String riverSerialNum;
-	public String startingPoint;
+	public String startingPoint; //起点
 	public String target;
 	public String riverLength;
 	public String responsibility;

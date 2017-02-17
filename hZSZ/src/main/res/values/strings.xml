@@ -16,7 +16,7 @@
     <string name="submit">提交</string>
     <string name="save">保存</string>
     <string name="store">暂存</string>
-    <string name="qualityexplain">水质类别说明</string>
+    <string name="qualityexplain">地表水质类别说明</string>
     <string name="photocomplaint">拍照投诉</string>
     <string name="list">列表</string>
     <string name="map">地图</string>
@@ -99,6 +99,8 @@
     <string name="section_info">断面水质信息</string>
     <string name="section_name">断面名称</string>
     <string name="outlet">阳光排放口信息</string>
+    <string name="lake_info">湖泊水质信息</string>
+    <string name="microwater_info">小微水体信息</string>
     <string name="rive_name">河道名称</string>
     <string name="section_level">等级</string>
     <string name="section_quality">水质类别</string>

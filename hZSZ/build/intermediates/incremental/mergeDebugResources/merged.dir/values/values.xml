@@ -634,6 +634,7 @@
     <string name="holdtext">占位</string>
     <string name="icomplaint">我要投诉</string>
     <string name="isuggest">我要建议</string>
+    <string name="lake_info">湖泊水质信息</string>
     <string name="lastmonth">上月</string>
     <string name="lastyear">上年</string>
     <string name="level_1">省级</string>
@@ -650,6 +651,7 @@
     <string name="login">登录</string>
     <string name="logout">注销登录</string>
     <string name="map">地图</string>
+    <string name="microwater_info">小微水体信息</string>
     <string name="mycenter">个人中心</string>
     <string name="mychangepwd">修改密码</string>
     <string name="mychiefcomplaint">处理投诉</string>
@@ -697,7 +699,7 @@
     <string name="quality_info5">主要适用于农业用水区及一般景观要求水域；</string>
     <string name="quality_info6">污染程度已超过V类的水。</string>
     <string name="quality_infotip">对应地表水上述六类水域功能，将地表水环境质量标准基本项目标准值分为六类，不同功能类别分别执行相应类别的标准值。水域功能类别高的标准值严于水域功能类别低的标准值。同一水域兼有多类使用功能的，执行最高功能类别对应的标准值。实现水域功能与达功能类别标准为同一含义。\n注：水质分类方案依据国家地表水环境质量标准(GB 3838–2002）</string>
-    <string name="qualityexplain">水质类别说明</string>
+    <string name="qualityexplain">地表水质类别说明</string>
     <string name="rankindex">排名</string>
     <string name="ranking">排行榜</string>
     <string name="register">注册</string>

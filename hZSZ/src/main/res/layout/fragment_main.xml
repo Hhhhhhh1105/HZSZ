@@ -352,7 +352,109 @@
                         layout="@layout/item_mainpage_section" />
                 </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/page_padding" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/lake_info"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:id="@+id/tv_sellakes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_board_btn_bg"
+                        android:clickable="true"
+                        android:paddingBottom="@dimen/padding_small"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:paddingRight="@dimen/padding_large"
+                        android:paddingTop="@dimen/padding_small"
+                        android:text="查看所有湖泊"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/btn_green_white"
+                        android:textSize="@dimen/font_normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_lakes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/gray"
+                    android:orientation="vertical"
+                    android:padding="0dp" >
+
+                    <include
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_section" />
+
+                    <include
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_section" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/page_padding" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/microwater_info"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:id="@+id/tv_selmicrowater"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_board_btn_bg"
+                        android:clickable="true"
+                        android:paddingBottom="@dimen/padding_small"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:paddingRight="@dimen/padding_large"
+                        android:paddingTop="@dimen/padding_small"
+                        android:text="查看所有小微水体"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/btn_green_white"
+                        android:textSize="@dimen/font_normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_microwater"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/gray"
+                    android:orientation="vertical"
+                    android:padding="0dp" >
+
+                    <include
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_section" />
+
+                    <include
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_section" />
+                </LinearLayout>
+
             </LinearLayout>
+
+
         </ScrollView>
     </android.support.v4.widget.SwipeRefreshLayout>
 

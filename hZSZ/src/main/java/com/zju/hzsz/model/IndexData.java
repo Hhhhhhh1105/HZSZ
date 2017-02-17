@@ -5,4 +5,5 @@ public class IndexData {
 	public River[] riverJsons;
 	public District[] districtLists;
 	public String sloganPicPath;
+	public Industrialport[] industrialportlists;
 }

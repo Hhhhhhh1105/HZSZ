@@ -16,12 +16,12 @@
         "source": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\smssdk_listview_title_layout.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\smssdk_contacts_listview_item.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\smssdk_contacts_listview_item.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\smssdk_title_layout.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\smssdk_title_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\smssdk_contacts_listview_item.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\smssdk_contacts_listview_item.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\sMSSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\smssdk_contact_detail_page.xml",

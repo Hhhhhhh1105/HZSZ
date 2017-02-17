@@ -29,6 +29,7 @@ import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.Values;
 import com.zju.hzsz.activity.MainActivity;
+import com.zju.hzsz.activity.OutletActivity;
 import com.zju.hzsz.activity.PhotoViewActivity;
 import com.zju.hzsz.activity.RiverActivity;
 import com.zju.hzsz.activity.RiverListActivity;
@@ -40,6 +41,7 @@ import com.zju.hzsz.model.CheckNotify;
 import com.zju.hzsz.model.District;
 import com.zju.hzsz.model.IndexData;
 import com.zju.hzsz.model.IndexDataRes;
+import com.zju.hzsz.model.Industrialport;
 import com.zju.hzsz.model.River;
 import com.zju.hzsz.model.RiverListRes;
 import com.zju.hzsz.model.Section;
@@ -50,6 +52,8 @@ import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.ResUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.utils.ViewUtils;
+
+import static com.zju.hzsz.R.id.ll_rivers;
 
 public class MainFragment extends BaseFragment implements OnRefreshListener {
 
@@ -293,7 +297,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			ViewUtils.setSwipeRefreshLayoutColorScheme(swipeRefreshLayout);
 			swipeRefreshLayout.setOnRefreshListener(this);
 			((LinearLayout) rootView.findViewById(R.id.ll_sections)).removeAllViews();
-			((LinearLayout) rootView.findViewById(R.id.ll_rivers)).removeAllViews();
+			((LinearLayout) rootView.findViewById(ll_rivers)).removeAllViews();
 
 			refreshData();
 
@@ -345,7 +349,8 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 
 						refreshSectionUI();
 						refreshRiverUI();
-						// refreshRiverUI2();
+						refreashOutletUI();
+//						 refreshRiverUI2();
 					}
 
 					if (o == null){
@@ -420,6 +425,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 		}
 	}
 
+	//这个方法并没有用到
 	protected void refreshRiverUI2() {
 		LinearLayout ll_rivers = (LinearLayout) rootView.findViewById(R.id.ll_rivers);
 		ll_rivers.removeAllViews();
@@ -444,6 +450,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			((TextView) view.findViewById(R.id.tv_level)).setText(ResUtils.getRiverSLittleLevel(river.riverType));
 			((ImageView) view.findViewById(R.id.iv_quality)).setImageResource(ResUtils.getQuiltyImg(river.waterType));
 
+			//这里是由于i是从0开始计数的
 			if (i % 2 == 0) {
 				view.setBackgroundResource(R.drawable.btn_white_bg_gray);
 			} else {
@@ -496,6 +503,52 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 				view.findViewById(R.id.rl_section_right).setVisibility(View.INVISIBLE);
 			}
 			ll_rivers.addView(view);
+		}
+	}
+
+	//更新阳光排放口的信息
+	private void refreashOutletUI(){
+		LinearLayout ll_outlets = (LinearLayout) rootView.findViewById(R.id.ll_outlets);
+		ll_outlets.removeAllViews();
+
+		//点击单个item，跳转页面
+		View.OnClickListener outletClick = new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				if (v.getTag() != null) {
+					Intent intent = new Intent(getBaseActivity(), OutletActivity.class);
+					intent.putExtra(Tags.TAG_OUTLET, StrUtils.Obj2Str(v.getTag()));
+					startActivity(intent);
+				}
+			}
+		};
+
+		for (int i = 0; i < indexData.industrialportlists.length; i += 2) {
+			Industrialport industrialport_l = indexData.industrialportlists[i];
+			Industrialport industrialport_r = (i + 1) < indexData.industrialportlists.length ? indexData.industrialportlists[i + 1] : null;
+			//用的其实是断面的布局
+			View view = LinearLayout.inflate(getBaseActivity(), R.layout.item_mainpage_section, null);
+
+			//设置所需要显示的内容，排放口+流域名称，去掉水质等级
+			((TextView) view.findViewById(R.id.tv_name_l)).setText(industrialport_l.sourceName);
+			((TextView) view.findViewById(R.id.tv_level_l)).setText(industrialport_l.basin);
+			view.findViewById(R.id.iv_quality_l).setVisibility(View.GONE);
+
+			view.findViewById(R.id.rl_section_left).setOnClickListener(outletClick);
+			view.findViewById(R.id.rl_section_left).setTag(industrialport_l);
+
+			if (industrialport_r != null) {
+				((TextView) view.findViewById(R.id.tv_name_r)).setText(industrialport_r.sourceName);
+				((TextView) view.findViewById(R.id.tv_level_r)).setText(industrialport_r.basin);
+				view.findViewById(R.id.iv_quality_r).setVisibility(View.GONE);
+
+				view.findViewById(R.id.rl_section_right).setOnClickListener(outletClick);
+				view.findViewById(R.id.rl_section_right).setTag(industrialport_r);
+			} else {
+				view.findViewById(R.id.rl_section_right).setVisibility(View.INVISIBLE);
+			}
+			ll_outlets.addView(view);
 		}
 	}
 
