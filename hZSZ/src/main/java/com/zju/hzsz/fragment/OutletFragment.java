@@ -42,7 +42,7 @@ public class OutletFragment extends BaseFragment implements RadioGroup.OnChecked
                 }
             });
 
-            getRootViewWarp().setHeadTitle("阳光排放口");
+            getRootViewWarp().setHeadTitle("所有阳光排放口");
 
             rootView.findViewById(R.id.iv_head_left).setOnClickListener(new View.OnClickListener() {
 
