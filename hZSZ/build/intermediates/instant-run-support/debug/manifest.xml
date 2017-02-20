@@ -209,6 +209,10 @@
             android:label="@string/river_info"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.zju.hzsz.activity.OutletActivity"
+            android:label="@string/outlet"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.zju.hzsz.activity.SearchRiverActivity"
             android:label="@string/searchriver"
             android:screenOrientation="portrait" />
@@ -220,6 +224,9 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.zju.hzsz.activity.RiverListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zju.hzsz.activity.OutletListActivity"
             android:screenOrientation="portrait" />
         <!-- Chief -->
         <activity

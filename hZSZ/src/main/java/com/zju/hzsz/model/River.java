@@ -25,6 +25,7 @@ public class River {
 
 	public String endingPoint; //终点
 	public String districtName;
+	public int districtId;
 	public String riverSerialNum;
 	public String startingPoint; //起点
 	public String target;
@@ -55,7 +56,7 @@ public class River {
 	public SectionIndex[] indexs;
 
 	//
-	// public boolean ifCare; /* 是否关注 */
+	 public boolean ifCare; /* 是否关注 */
 
 	public boolean isCared(User u) {
 		boolean s = u.getCollections().contains(this);

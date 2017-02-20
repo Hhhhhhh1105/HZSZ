@@ -19,6 +19,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.baidu.location.BDLocation;
+import com.baidu.location.BDLocationListener;
+import com.baidu.location.LocationClient;
+import com.baidu.location.LocationClientOption;
 import com.umeng.socialize.bean.SHARE_MEDIA;
 import com.umeng.socialize.controller.UMServiceFactory;
 import com.umeng.socialize.controller.UMSocialService;
@@ -30,6 +34,7 @@ import com.zju.hzsz.Tags;
 import com.zju.hzsz.Values;
 import com.zju.hzsz.activity.MainActivity;
 import com.zju.hzsz.activity.OutletActivity;
+import com.zju.hzsz.activity.OutletListActivity;
 import com.zju.hzsz.activity.PhotoViewActivity;
 import com.zju.hzsz.activity.RiverActivity;
 import com.zju.hzsz.activity.RiverListActivity;
@@ -120,6 +125,12 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 	private SwipeRefreshLayout swipeRefreshLayout = null;
 	StartInfo startInfo = null;
 
+	private LocationClient mLocationClient;
+	private BDLocationListener mBDLocationListener;
+	private double latitude;
+	private double longitude;
+
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		if (rootView == null) {
@@ -128,7 +139,6 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			// rootView.findViewById(R.id.iv_banner)), true);
 
 			RootViewWarp warp = getRootViewWarp();
-			//warp.setHeadImage(R.drawable.ic_head_user, R.drawable.ic_head_share);
 			warp.setHeadImage(R.drawable.ic_head_sug, R.drawable.ic_head_share);
 
 			//点击查看水质说明
@@ -272,6 +282,14 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 					}
 				}
 			});
+			//“查看所有排放口”跳转
+			rootView.findViewById(R.id.tv_seloutlet).setOnClickListener(new View.OnClickListener(){
+				@Override
+				public void onClick(View v) {
+					Intent intent = new Intent(getBaseActivity(), OutletListActivity.class);
+					startActivity(intent);
+				}
+			});
 
 			/*
 			 * adapter = new SectionBoxAdapter(); ViewPager vp_sections =
@@ -328,9 +346,14 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			}
 		}, StartInfoRes.class, null);*/
 
+		//获取当前位置信息相关
+		mLocationClient = new LocationClient(getBaseActivity().getApplicationContext());
+		mBDLocationListener = new MyBDLocationListner();
+		mLocationClient.registerLocationListener(mBDLocationListener);
+		getLocation();
 
 		if (curDistrict == null) {
-			getRequestContext().add("index_data_get", new Callback<IndexDataRes>() {
+			/*getRequestContext().add("index_data_get", new Callback<IndexDataRes>() {
 				@Override
 				public void callback(IndexDataRes o) {
 					Log.i(getTag(), "" + o);
@@ -342,10 +365,6 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 						}
 
 						Values.districtLists = indexData.districtLists;
-
-						// adapter.notifyDataSetChanged();
-						// ((ViewPager)
-						// rootView.findViewById(R.id.vp_sections)).setCurrentItem(0);
 
 						refreshSectionUI();
 						refreshRiverUI();
@@ -360,7 +379,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 					((SwipeRefreshLayout) rootView.findViewById(R.id.srl_main)).setRefreshing(false);
 					hideOperating();
 				}
-			}, IndexDataRes.class, ParamUtils.freeParam(null));
+			}, IndexDataRes.class, ParamUtils.freeParam(null, "latitude", latitude, "longitude", longitude));*/
 		} else {
 			((SwipeRefreshLayout) rootView.findViewById(R.id.srl_main)).setRefreshing(true);
 			getRequestContext().add("currentareariver_list_get", new Callback<RiverListRes>() {
@@ -591,5 +610,74 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			getActivity().unregisterReceiver(receiver);
 		} catch (Exception e) {
 		}
+
+
+	}
+
+
+	public void getLocation(){
+		LocationClientOption option = new LocationClientOption();
+		option.setLocationMode(LocationClientOption.LocationMode.Hight_Accuracy);
+		option.setCoorType("bd09ll");
+		option.setScanSpan(5000);
+
+		mLocationClient.setLocOption(option);
+		mLocationClient.start();
+	}
+
+	/**
+	 * 获取当前的位置信息&获取位置信息后发送请求
+	 */
+	private class MyBDLocationListner implements BDLocationListener {
+
+		@Override
+		public void onReceiveLocation(BDLocation bdLocation) {
+			if (bdLocation != null){
+				latitude = bdLocation.getLatitude();
+				longitude = bdLocation.getLongitude();
+				System.out.println("latitude:" + latitude + "," + "longitude:" + longitude);
+				initData();
+				if (mLocationClient.isStarted()){
+					mLocationClient.stop();
+					//取消监听函数
+					if (mLocationClient != null) {
+						mLocationClient.unRegisterLocationListener(mBDLocationListener);
+					}
+				}
+
+			}
+		}
+	}
+
+	/**
+	 * 获取首页数据所发送的请求
+	 */
+	public void initData(){
+		getRequestContext().add("index_data_get", new Callback<IndexDataRes>() {
+			@Override
+			public void callback(IndexDataRes o) {
+				Log.i(getTag(), "" + o);
+				if (o != null && o.isSuccess()) {
+					indexData = o.data;
+					String bannerimg = StrUtils.getImgUrl(indexData.sloganPicPath);
+					if (bannerimg != null) {
+						ImgUtils.loadImage(getBaseActivity(), ((ImageView) rootView.findViewById(R.id.iv_banner)), bannerimg);
+					}
+
+					Values.districtLists = indexData.districtLists;
+
+					refreshSectionUI();
+					refreshRiverUI();
+					refreashOutletUI();
+				}
+
+				if (o == null){
+					System.out.println("返回值为空");
+				}
+
+				((SwipeRefreshLayout) rootView.findViewById(R.id.srl_main)).setRefreshing(false);
+				hideOperating();
+			}
+		}, IndexDataRes.class, ParamUtils.freeParam(null, "latitude", latitude, "longitude", longitude));
 	}
 }

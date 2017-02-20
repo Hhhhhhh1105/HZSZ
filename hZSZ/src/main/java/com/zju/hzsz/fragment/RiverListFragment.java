@@ -1,10 +1,5 @@
 package com.zju.hzsz.fragment;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.json.JSONObject;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -31,6 +26,11 @@ import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.ResUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
+
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RiverListFragment extends BaseFragment {
 	SimpleListAdapter adapter = null;
@@ -114,6 +114,7 @@ public class RiverListFragment extends BaseFragment {
 			rootView = listViewWarp.getRootView();
 
 			onHeadRefresh();
+
 		}
 
 		return rootView;
@@ -140,7 +141,9 @@ public class RiverListFragment extends BaseFragment {
 			public void callback(RiverSearchDataRes o) {
 				listViewWarp.setRefreshing(false);
 				listViewWarp.setLoadingMore(false);
+
 				if (o != null && o.isSuccess() && o.data != null && o.data.riverSums != null) {
+					System.out.println("NET: o的值" + o);
 					if (refresh)
 						rivers.clear();
 					for (River r : o.data.riverSums) {

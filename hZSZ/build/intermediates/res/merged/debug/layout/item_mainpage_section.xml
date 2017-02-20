@@ -32,6 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
+            android:maxLines="1"
+            android:ellipsize="end"
             android:text="@string/eg_river_name"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textSize="@dimen/font_small" />
@@ -72,6 +74,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
+            android:maxLines="1"
+            android:ellipsize="end"
             android:text="@string/eg_river_name"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textSize="@dimen/font_small" />

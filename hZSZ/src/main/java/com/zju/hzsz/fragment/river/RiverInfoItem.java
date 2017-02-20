@@ -73,7 +73,7 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 		@Override
 		public void onClick(View v) {
 			context.setLoginCallback(cbkTosug);
-			if (context.checkUserAndLogin("请到个人中心（点击首页左上角）进行注册或登录，使用个人账号登录后再进行建议。")) {
+			if (context.checkUserAndLogin("请到个人中心进行注册或登录，使用个人账号登录后再进行建议。")) {
 				readyToSugOrCom(false);
 			}
 		}
@@ -93,7 +93,7 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 		@Override
 		public void onClick(View v) {
 			context.setLoginCallback(cbkTocom);
-			if (context.checkUserAndLogin("请到个人中心（点击首页左上角）进行注册或登录，使用个人账号登录后再进行投诉。")) {
+			if (context.checkUserAndLogin("请到个人中心进行注册或登录，使用个人账号登录后再进行投诉。")) {
 				readyToSugOrCom(true);
 			}
 		}

@@ -222,6 +222,8 @@
         <activity
             android:name=".activity.RiverListActivity"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.OutletListActivity"
+            android:screenOrientation="portrait"></activity>
         <!-- Chief -->
         <activity
             android:name=".chief.activity.ChiefCompListActivity"

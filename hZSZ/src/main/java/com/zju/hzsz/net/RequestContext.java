@@ -115,7 +115,6 @@ public class RequestContext {
 					}
 
 					Log.i(TAG, Constants.ApiUrl + "?" + sb.toString().replace("\r", "").replace("\n", ""));
-					System.out.println("url:"+Constants.ApiUrl + "?" + sb.toString().replace("\r", "").replace("\n", ""));
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -125,6 +124,7 @@ public class RequestContext {
 		};
 		req.setTag(context.getClass().getName());
 		req.setCacheEntry(null);
+//		req.setRetryPolicy(new DefaultRetryPolicy(5000, 0, 1f));
 		requestQueue.add(req);
 
 	}
