@@ -55,6 +55,7 @@
         android:layout_centerVertical="true"
         android:background="@drawable/btn_green_white"
         android:text="@string/follow"
+        android:visibility="gone"
         android:textColor="@color/white" />
 
     <TextView
@@ -79,7 +80,7 @@
         android:layout_height="@dimen/quality_icon_h"
         android:layout_centerVertical="true"
         android:layout_marginRight="20dp"
-        android:layout_toLeftOf="@+id/btn_follow"
+        android:layout_alignParentRight="true"
         android:contentDescription="@null"
         android:src="@drawable/im_quality_5"
         android:visibility="visible" />

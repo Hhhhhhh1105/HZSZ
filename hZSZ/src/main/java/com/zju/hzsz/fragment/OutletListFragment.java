@@ -94,7 +94,7 @@ public class OutletListFragment extends BaseFragment{
     }
 
 
-    private final int DefaultPageSize = 6;
+    private final int DefaultPageSize = 10;
 
     protected JSONObject getPageParam(boolean refresh) {
         return refresh ? ParamUtils.pageParam(DefaultPageSize, 1) : ParamUtils.pageParam(DefaultPageSize, (outlets.size() + DefaultPageSize - 1) / DefaultPageSize + 1);

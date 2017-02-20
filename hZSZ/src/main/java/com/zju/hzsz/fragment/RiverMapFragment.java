@@ -127,8 +127,8 @@ public class RiverMapFragment extends BaseFragment {
 	}
 
 	Location location = RiverListActivity.location;
-	double longScope = 100;
-	double latiScope = 100;
+	double longScope = 0.05;
+	double latiScope = 0.05;
 
 	public void onHeadRefresh() {
 		this.onHeadRefresh(true);

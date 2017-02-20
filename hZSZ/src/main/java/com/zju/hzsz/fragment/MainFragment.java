@@ -610,7 +610,10 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			getActivity().unregisterReceiver(receiver);
 		} catch (Exception e) {
 		}
-
+		//取消监听函数
+		if (mLocationClient != null) {
+			mLocationClient.unRegisterLocationListener(mBDLocationListener);
+		 }
 
 	}
 
@@ -639,10 +642,6 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 				initData();
 				if (mLocationClient.isStarted()){
 					mLocationClient.stop();
-					//取消监听函数
-					if (mLocationClient != null) {
-						mLocationClient.unRegisterLocationListener(mBDLocationListener);
-					}
 				}
 
 			}

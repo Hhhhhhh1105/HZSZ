@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -20,8 +19,6 @@ import com.zju.hzsz.activity.RiverActivity;
 import com.zju.hzsz.model.River;
 import com.zju.hzsz.model.RiverSearchDataRes;
 import com.zju.hzsz.net.Callback;
-import com.zju.hzsz.net.Constants;
-import com.zju.hzsz.utils.ImgUtils;
 import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.ResUtils;
 import com.zju.hzsz.utils.StrUtils;
@@ -77,18 +74,18 @@ public class RiverListFragment extends BaseFragment {
 					River river = (River) data;
 					((TextView) convertView.findViewById(R.id.tv_name)).setText(river.riverName);
 					((TextView) convertView.findViewById(R.id.tv_level)).setText(ResUtils.getRiverSLittleLevel(river.riverLevel));
-					String img = StrUtils.getImgUrl(river.getImgUrl());
-					ImgUtils.loadImage(getBaseActivity(), ((ImageView) convertView.findViewById(R.id.iv_picture)), img);
+					/*String img = StrUtils.getImgUrl(river.getImgUrl());
+					ImgUtils.loadImage(getBaseActivity(), ((ImageView) convertView.findViewById(R.id.iv_picture)), img);*/
 
-					convertView.findViewById(R.id.btn_follow).setVisibility(View.VISIBLE);
+//					convertView.findViewById(R.id.btn_follow).setVisibility(View.VISIBLE);
 					convertView.findViewById(R.id.iv_quality).setVisibility(View.VISIBLE);
 					((ImageView) convertView.findViewById(R.id.iv_quality)).setImageResource(ResUtils.getQuiltyImg(river.waterType));
 
-					Button btn = (Button) convertView.findViewById(R.id.btn_follow);
+					/*Button btn = (Button) convertView.findViewById(R.id.btn_follow);
 					btn.setText(river.isCared(getBaseActivity().getUser()) ? R.string.unfollow : R.string.follow);
 					btn.setBackgroundResource(river.isCared(getBaseActivity().getUser()) ? R.drawable.btn_gray_white : R.drawable.btn_green_white);
 					btn.setTag(river);
-					btn.setOnClickListener(togFollow);
+					btn.setOnClickListener(togFollow);*/
 
 					((TextView) (convertView.findViewById(R.id.tv_distname))).setText(river.districtName);
 					(convertView.findViewById(R.id.tv_distname)).setVisibility(View.VISIBLE);
@@ -124,9 +121,24 @@ public class RiverListFragment extends BaseFragment {
 		startLoad(true);
 	}
 
-	private final int DefaultPageSize = Constants.DefaultPageSize;
+//	private final int DefaultPageSize = 7;
+	private int size = 9;
+	private int DefaultPageSize = 12;
 
 	protected JSONObject getPageParam(boolean refresh) {
+		if(refresh){
+			size ++;
+			if (size >= 10){
+				size = 6;
+			}
+		}
+		else {
+			size --;
+			if(size <= 6){
+				size = 10;
+			}
+		}
+//		DefaultPageSize = size;
 		return refresh ? ParamUtils.pageParam(DefaultPageSize, 1) : ParamUtils.pageParam(DefaultPageSize, (rivers.size() + DefaultPageSize - 1) / DefaultPageSize + 1);
 	}
 
