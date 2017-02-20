@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:layout_height="42dp"
+        android:layout_width="match_parent"
+        layout="@layout/inc_head"></include>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mv_outlet"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:clickable="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/outlet_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="杭州三鹰化工有限公司"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/green"
+            android:textSize="@dimen/font_large"
+            />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_large" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="排放口编号"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/littlelightgray"
+                android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:id="@+id/tv_outlet_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_weight="1"
+                android:text="330108000038"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_normal" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_large"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="污染物去向"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/littlelightgray"
+                android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:id="@+id/tv_outlet_owner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_weight="1"
+                android:text="京杭运河"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_normal" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_large">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所属流域"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/littlelightgray"
+                android:textSize="@dimen/font_normal"
+                />
+
+            <TextView
+                android:id="@+id/tv_outlet_basin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="钱塘江流域"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/text_gray"
+                android:textSize="16sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_large">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="生产工艺"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/littlelightgray"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_outlet_method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="下料-清洗-上胶-感影-显影-蚀刻-上漆-脱漆-分条-刨床-切头-打光-检验-包装-成品"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/text_gray"
+                android:textSize="16sp"
+                />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
