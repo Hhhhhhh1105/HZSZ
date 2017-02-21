@@ -71,7 +71,7 @@ public class OutletActivity extends BaseActivity{
         latitude = industrialport.latitude;
         longitude = industrialport.longitude;
 
-        BitmapDescriptor bmp_location = BitmapDescriptorFactory.fromResource(R.drawable.mk_position_done1);
+        BitmapDescriptor bmp_location = BitmapDescriptorFactory.fromResource(R.drawable.umeng_socialize_location_ic);
 
         if (latitude != 0.0 && longitude != 0.0){
             LatLng location = new LatLng(latitude, longitude);

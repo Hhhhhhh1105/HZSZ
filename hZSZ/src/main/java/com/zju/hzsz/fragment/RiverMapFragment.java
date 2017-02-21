@@ -74,7 +74,7 @@ public class RiverMapFragment extends BaseFragment {
 			// onHeadRefresh();
 
 			// baiduMap.getMapStatus().target
-			baiduMap.setMaxAndMinZoomLevel(Values.MAP_ZOOM_MAX_LEVEL, Values.MAP_ZOOM_MIN_LEVEL);
+			baiduMap.setMaxAndMinZoomLevel(Values.MAP_ZOOM_MAX_LEVEL, Values.MAP_ZOOM_LEVEL);
 			baiduMap.setOnMapStatusChangeListener(new OnMapStatusChangeListener() {
 
 				@Override

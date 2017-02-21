@@ -552,7 +552,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			//设置所需要显示的内容，排放口+流域名称，去掉水质等级
 			((TextView) view.findViewById(R.id.tv_name_l)).setText(industrialport_l.sourceName);
 			((TextView) view.findViewById(R.id.tv_level_l)).setText(industrialport_l.basin);
-			view.findViewById(R.id.iv_quality_l).setVisibility(View.GONE);
+			((ImageView) view.findViewById(R.id.iv_quality_l)).setImageResource(R.drawable.umeng_socialize_location_ic);
 
 			view.findViewById(R.id.rl_section_left).setOnClickListener(outletClick);
 			view.findViewById(R.id.rl_section_left).setTag(industrialport_l);
@@ -560,7 +560,8 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			if (industrialport_r != null) {
 				((TextView) view.findViewById(R.id.tv_name_r)).setText(industrialport_r.sourceName);
 				((TextView) view.findViewById(R.id.tv_level_r)).setText(industrialport_r.basin);
-				view.findViewById(R.id.iv_quality_r).setVisibility(View.GONE);
+//				view.findViewById(R.id.iv_quality_r).setVisibility(View.GONE);
+				((ImageView) view.findViewById(R.id.iv_quality_r)).setImageResource(R.drawable.umeng_socialize_location_ic);
 
 				view.findViewById(R.id.rl_section_right).setOnClickListener(outletClick);
 				view.findViewById(R.id.rl_section_right).setTag(industrialport_r);

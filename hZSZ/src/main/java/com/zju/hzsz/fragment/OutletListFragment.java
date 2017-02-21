@@ -54,7 +54,7 @@ public class OutletListFragment extends BaseFragment{
 
                     ((TextView)convertView.findViewById(R.id.tv_source_name)).setText(outlet.sourceName);
                     ((TextView)convertView.findViewById(R.id.tv_basin)).setText(outlet.basin);
-                    ((TextView)convertView.findViewById(R.id.tv_distance)).setText(Double.toString(outlet.distance));
+                    ((TextView)convertView.findViewById(R.id.tv_distance)).setText(Double.toString(outlet.distance) + 'm');
 
                     convertView.setOnClickListener(new View.OnClickListener() {
                         @Override

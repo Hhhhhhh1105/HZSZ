@@ -355,7 +355,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/page_padding" >
+                    android:padding="@dimen/page_padding"
+                    android:visibility="gone">
 
                     <TextView
                         android:layout_width="0dp"
@@ -389,7 +390,8 @@
                     android:layout_marginRight="0dp"
                     android:background="@color/gray"
                     android:orientation="vertical"
-                    android:padding="0dp" >
+                    android:padding="0dp"
+                    android:visibility="gone">
 
                     <include
                         android:layout_width="wrap_content"
@@ -405,7 +407,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/page_padding" >
+                    android:padding="@dimen/page_padding"
+                    android:visibility="gone">
 
                     <TextView
                         android:layout_width="0dp"
@@ -439,7 +442,8 @@
                     android:layout_marginRight="0dp"
                     android:background="@color/gray"
                     android:orientation="vertical"
-                    android:padding="0dp" >
+                    android:padding="0dp"
+                    android:visibility="gone">
 
                     <include
                         android:layout_width="wrap_content"

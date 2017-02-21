@@ -26,7 +26,7 @@ public class Values {
 	public static int UPLOAD_IMG_W = 400;
 	public static int UPLOAD_IMG_H = 400;
 
-	public static int MAP_ZOOM_LEVEL = 14;
+	public static int MAP_ZOOM_LEVEL = 16;
 	public static int MAP_ZOOM_MAX_LEVEL = 20;
 	public static int MAP_ZOOM_MIN_LEVEL = 14;
 

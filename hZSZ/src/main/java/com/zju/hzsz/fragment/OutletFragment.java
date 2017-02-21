@@ -18,7 +18,7 @@ public class OutletFragment extends BaseFragment implements RadioGroup.OnChecked
 
 
     OutletListFragment listFragment = new OutletListFragment();
-    SectionMapFragment mapFragment = new SectionMapFragment();
+    OutletMapFragment mapFragment = new OutletMapFragment();
     boolean isMainPage = false;
 
     @Override
@@ -37,7 +37,7 @@ public class OutletFragment extends BaseFragment implements RadioGroup.OnChecked
                     if (islist) {
                         listFragment.onHeadRefresh();
                     } else {
-                        mapFragment.onHeadRefresh();
+                        mapFragment.onHeadRefresh(true);
                     }
                 }
             });
