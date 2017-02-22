@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Feb 21 22:32:55 CST 2017
+#Tue Feb 21 22:48:18 CST 2017
 20.base=D\:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\resources-debug.ap_
 143.base=D\:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\resources-debug.ap_
 439.set=ANDROID_RESOURCE

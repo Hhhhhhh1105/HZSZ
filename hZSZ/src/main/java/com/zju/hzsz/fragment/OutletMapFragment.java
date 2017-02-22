@@ -63,7 +63,7 @@ public class OutletMapFragment extends BaseFragment {
             baiduMap.getUiSettings().setOverlookingGesturesEnabled(true);
             onHeadRefresh(true);
 
-            baiduMap.setMaxAndMinZoomLevel(Values.MAP_ZOOM_MAX_LEVEL, 5);
+            baiduMap.setMaxAndMinZoomLevel(Values.MAP_ZOOM_MAX_LEVEL, 10);
             baiduMap.setOnMapStatusChangeListener(new BaiduMap.OnMapStatusChangeListener() {
 
                 @Override
