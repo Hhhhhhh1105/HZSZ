@@ -1,10 +1,5 @@
 package com.zju.hzsz.activity;
 
-import java.io.ByteArrayOutputStream;
-import java.io.FileNotFoundException;
-
-import org.json.JSONObject;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.ContentValues;
@@ -36,6 +31,11 @@ import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.service.LocalService;
 import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.StrUtils;
+
+import org.json.JSONObject;
+
+import java.io.ByteArrayOutputStream;
+import java.io.FileNotFoundException;
 //import cn.smssdk.SMSSDK;
 //import com.zju.hzsz.Values;
 
@@ -116,7 +116,7 @@ public class SugOrComtActivity extends BaseActivity {
 
 			@Override
 			public void onCheckedChanged(CompoundButton arg0, boolean cked) {
-				((TextView) findViewById(R.id.tv_gps_tip)).setText(cked ? "(温馨提示:您的GPS定位信息将提交到服务器)" : "(温馨提示:您取消了定位)");
+				((TextView) findViewById(R.id.tv_gps_tip)).setText(cked ? "(温馨提示:您的GPS定位信息将提交到服务器，用于投诉地图显示)" : "(温馨提示:您取消了定位)");
 				if (cked)
 					getLocation();
 			}

@@ -1,10 +1,5 @@
 package com.zju.hzsz.activity;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.json.JSONObject;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -35,13 +30,17 @@ import com.zju.hzsz.model.RiverListRes;
 import com.zju.hzsz.model.RiverQuickSearchRes;
 import com.zju.hzsz.model.RiverSearchDataRes;
 import com.zju.hzsz.net.Callback;
-import com.zju.hzsz.net.Constants;
 import com.zju.hzsz.utils.ImgUtils;
 import com.zju.hzsz.utils.ObjUtils;
 import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.ResUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
+
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SearchRiverActivity extends BaseActivity implements OnCheckedChangeListener, OnEditorActionListener {
 	class DistrictWarper {
@@ -274,7 +273,7 @@ public class SearchRiverActivity extends BaseActivity implements OnCheckedChange
 		return ((EditText) findViewById(R.id.et_keyword)).getText().toString();
 	}
 
-	private final int DefaultPageSize = Constants.DefaultPageSize;
+	private final int DefaultPageSize = 10;
 
 	protected JSONObject getPageParam(boolean refresh) {
 		return refresh ? ParamUtils.pageParam(DefaultPageSize, 1) : ParamUtils.pageParam(DefaultPageSize, (rivers.size() + DefaultPageSize - 1) / DefaultPageSize + 1);

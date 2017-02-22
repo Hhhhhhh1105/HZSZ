@@ -1,11 +1,5 @@
 package com.zju.hzsz.chief.activity;
 
-import java.io.ByteArrayOutputStream;
-import java.io.FileNotFoundException;
-import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.ContentValues;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -30,7 +24,6 @@ import com.sin.android.sinlibs.tagtemplate.ViewRender;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.Values;
-import com.zju.hzsz.activity.CompDetailActivity;
 import com.zju.hzsz.activity.PhotoViewActivity;
 import com.zju.hzsz.model.BaseRes;
 import com.zju.hzsz.model.ChiefComp;
@@ -42,11 +35,18 @@ import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.utils.ViewUtils;
 
+import java.io.ByteArrayOutputStream;
+import java.io.FileNotFoundException;
+import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
+import java.util.List;
+
 public class ChiefCompDetailActivity extends BaseActivity {
 	private ChiefComp comp = null;
 	private ChiefCompFul compFul = null;
 	private boolean isComp = true;
 	private boolean isHandled = true;
+	private boolean hasImg = false;
 
 	private TemplateEngine templateEngine = new TemplateEngine() {
 
@@ -217,8 +217,13 @@ public class ChiefCompDetailActivity extends BaseActivity {
 				opetype = ope;
 				dealContent = s;
 				LinearLayout ll_photos = (LinearLayout) findViewById(R.id.ll_chief_photos);
+				if (ll_photos.getChildCount() <= 1){
+					showToast("请您拍摄相关图片，在回复详情栏上传之后再提交");
+					return;
+				}
 				if (ll_photos.getChildCount() > 1) {
 					// 有图片
+					hasImg = true;
 					final Uri[] bmps = new Uri[ll_photos.getChildCount() - 1];
 					for (int i = 0; i < bmps.length; ++i) {
 						bmps[i] = (Uri) ll_photos.getChildAt(i).getTag();

@@ -55,11 +55,13 @@ import java.util.List;
 public class ChiefEditRecordActivity extends BaseActivity {
 	//巡检情况处的布局
 	private LinearLayout ll_cboxes = null;
+	//处理情况
 	private EditText et_deal = null;
+	//其他问题
 	private EditText et_otherquestion = null;
 	private Button btn_track = null;
 	private Button btn_trackView = null;
-
+	//RiverRecord:巡河相关类
 	private RiverRecord riverRecord = null;
 	private ViewRender viewRender = new ViewRender();
 	private Location location = null;
@@ -68,6 +70,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 	private String latList;
 	private String lngList;
+
+	private boolean hasImg = false;
 
 
 	@Override
@@ -307,6 +311,12 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			break;
 		}*/
 		case R.id.btn_submit: {
+
+			if (!hasImg){
+				showToast("您还没拍摄照片，请上传后提交");
+				return;
+			}
+
 			if (riverRecord.riverId == 0) {
 				showToast("您还没有选择河道，请先选择河道");
 				return;
@@ -436,14 +446,16 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		ContentValues values = new ContentValues();
 		values.put(MediaStore.Images.Media.DISPLAY_NAME, "拍照");
 		values.put(MediaStore.Images.Media.MIME_TYPE, "image/jpeg");
-		imageFilePath = getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
+		imageFilePath = getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values); //内容提供者，设置地址+存放照片
 
-		Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-		intent.putExtra(MediaStore.EXTRA_OUTPUT, imageFilePath);
+		Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE); //指定开启系统相机的Action
+		intent.putExtra(MediaStore.EXTRA_OUTPUT, imageFilePath); //设置系统相机拍摄完成后照片的存放地址
 		startActivityForResult(intent, Tags.CODE_ADDPHOTO);
 	}
 
+	//拍摄完成后在寻巡河表处添加照片
 	private void addPhoto(Uri uri) {
+		//view的layout属性：48*48+fitXY
 		View view = RelativeLayout.inflate(this, R.layout.item_compphoto, null);
 		BitmapFactory.Options op = new BitmapFactory.Options();
 		try {
@@ -503,6 +515,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			startActivityForResult(intent, Tags.CODE_CUTPHOTO);
 		} else if (requestCode == Tags.CODE_CUTPHOTO && resultCode == RESULT_OK) {
 			addPhoto(imageFilePath);
+			hasImg = true;
 		}else if (requestCode == Tags.CODE_LATLNG && resultCode == RESULT_OK){
 			String result = data.getExtras().getString("result");
 			latList = data.getExtras().getString("latList");

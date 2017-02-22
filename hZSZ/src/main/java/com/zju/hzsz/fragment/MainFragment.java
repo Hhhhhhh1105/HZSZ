@@ -115,7 +115,8 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			if (cn != null) {
 				boolean nt = cn.sumUndealAdv > 0 || cn.sumUndealComp > 0 || cn.sumUnReadMail > 0;
 				if (rootView != null) {
-					((ImageView) rootView.findViewById(R.id.iv_head_left)).setImageResource(nt ? R.drawable.ic_head_user_notify : R.drawable.ic_head_user);
+					//若有通知则进行提醒
+					//((ImageView) rootView.findViewById(R.id.iv_head_left)).setImageResource(nt ? R.drawable.ic_head_user_notify : R.drawable.ic_head_user);
 				}
 			}
 		}

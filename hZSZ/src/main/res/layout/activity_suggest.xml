@@ -239,7 +239,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/padding_medium"
-                    android:text="(温馨提示:您的位置信息将提交到服务器)"
+                    android:text="(温馨提示:您的位置信息将提交到服务器，用于投诉地图显示)"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@color/text_gray"
                     android:textSize="@dimen/font_small" />
