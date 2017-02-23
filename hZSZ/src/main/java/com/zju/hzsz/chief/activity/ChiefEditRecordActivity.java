@@ -92,6 +92,10 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 		InjectUtils.injectViews(this, R.id.class);
 
+		if (location != null) {
+			latlist_temp = "" + location.getLatitude();
+			latlist_temp = "" + location.getLongitude();
+		}
 		handler.postDelayed(new MyRunable(), 3000); //每3s记录一次当前轨迹
 		initLocation();
 
@@ -162,6 +166,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 						//获得经纬度信息
 						latList = o.data.latlist;
 						lngList = o.data.lnglist;
+						//如果无轨迹则不显示“查看轨迹”按钮
 						if (latList == "" && lngList == ""){
 							btn_track.setVisibility(View.GONE);
 							btn_trackView.setVisibility(View.GONE);
@@ -685,8 +690,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 				point = points.get(points.size() - 1);
 				Log.i("temp:" , "first" + latlist_temp);
 			}else if (points.size() > 1){
-				if (point.latitude == points.get(points.size() - 1).latitude ||
-						point.longitude == points.get(points.size() - 1).longitude) { //如果一直处于一个位置则不重复记录
+				if (point.latitude != points.get(points.size() - 1).latitude ||
+						point.longitude != points.get(points.size() - 1).longitude) { //如果一直处于一个位置则不重复记录
 					lnglist_temp = lnglist_temp + "," + points.get(points.size() - 1).longitude;
 					latlist_temp = latlist_temp + "," + points.get(points.size() - 1).latitude;
 					point = points.get(points.size() - 1);
@@ -694,15 +699,15 @@ public class ChiefEditRecordActivity extends BaseActivity {
 				}
 			}
 
-			handler.postDelayed(this, 10000);
+			handler.postDelayed(this, 5000);
 		}
 	}
 
 
 	//防止退出当前activity之后还在继续定位
 	@Override
-	protected void onStop() {
-		super.onStop();
+	protected void onDestroy() {
+		super.onDestroy();
 		points.clear();
 		mLocClient.unRegisterLocationListener(myListener);
 	}
