@@ -55,11 +55,15 @@ public class OutletActivity extends BaseActivity{
         TextView tv_outlet_owner = (TextView) findViewById(R.id.tv_outlet_owner);
         TextView tv_outlet_basin = (TextView) findViewById(R.id.tv_outlet_basin);
         TextView tv_outlet_method = (TextView) findViewById(R.id.tv_outlet_method);
+        TextView tv_outlet_latitude = (TextView) findViewById(R.id.tv_outlet_latitude);
+        TextView tv_outlet_longitude = (TextView) findViewById(R.id.tv_outlet_longitude);
 
         tv_outlet_name.setText(industrialport.sourceName);
         tv_outlet_code.setText(industrialport.sourceId);
         tv_outlet_owner.setText(industrialport.destination);
         tv_outlet_basin.setText(industrialport.basin);
+        tv_outlet_latitude.setText(("" + industrialport.latitude));
+        tv_outlet_longitude.setText(("" + industrialport.longitude));
         tv_outlet_method.setText(industrialport.workmanship);
 
 

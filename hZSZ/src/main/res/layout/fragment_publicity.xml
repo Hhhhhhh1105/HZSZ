@@ -32,7 +32,7 @@
             android:checked="true"
             android:gravity="center"
             android:padding="@dimen/padding_small"
-            android:text="最近投诉"
+            android:text="最新投诉"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="@color/btn_black_white"
             android:textSize="@dimen/font_normal" />

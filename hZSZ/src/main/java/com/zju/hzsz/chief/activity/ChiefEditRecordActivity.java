@@ -25,6 +25,11 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.baidu.location.BDLocation;
+import com.baidu.location.BDLocationListener;
+import com.baidu.location.LocationClient;
+import com.baidu.location.LocationClientOption;
+import com.baidu.mapapi.model.LatLng;
 import com.sin.android.sinlibs.base.Callable;
 import com.sin.android.sinlibs.tagtemplate.ViewRender;
 import com.sin.android.sinlibs.utils.InjectUtils;
@@ -71,6 +76,10 @@ public class ChiefEditRecordActivity extends BaseActivity {
 	private String latList;
 	private String lngList;
 
+	private String latlist_temp;//当前巡河数据
+	private String lnglist_temp;
+
+
 	private boolean hasImg = false;
 
 
@@ -83,19 +92,24 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 		InjectUtils.injectViews(this, R.id.class);
 
+		handler.postDelayed(new MyRunable(), 3000); //每3s记录一次当前轨迹
+		initLocation();
+
 		findViewById(R.id.btn_selriver).setOnClickListener(this);//选择河道按钮
 		findViewById(R.id.btn_submit).setOnClickListener(this);//保存按钮
 		findViewById(R.id.btn_cancel).setOnClickListener(this);//取消按钮
 
-		btn_track = (Button) findViewById(R.id.btn_track);//巡河开始按钮
+		btn_track = (Button) findViewById(R.id.btn_track);//查看轨迹按钮-巡河界面
 		btn_track.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(ChiefEditRecordActivity.this,com.zju.hzsz.chief.activity.ChiefInspectActivity.class);
+				intent.putExtra("latlist_temp", latlist_temp);//将当前的巡河数据传至巡河地图界面
+				intent.putExtra("lnglist_temp", lnglist_temp);
 				startActivityForResult(intent, Tags.CODE_LATLNG);
 			}
 		});
-		btn_trackView = (Button) findViewById(R.id.btn_trackView);
+		btn_trackView = (Button) findViewById(R.id.btn_trackView);//查看轨迹按钮-查看巡河单界面
 		btn_trackView.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -144,11 +158,17 @@ public class ChiefEditRecordActivity extends BaseActivity {
 						}
 						initPhotoView(o.data.picPath);
 						//切换按钮
-						btn_track.setVisibility(View.GONE);
-						btn_trackView.setVisibility(View.VISIBLE);
+
 						//获得经纬度信息
 						latList = o.data.latlist;
 						lngList = o.data.lnglist;
+						if (latList == "" && lngList == ""){
+							btn_track.setVisibility(View.GONE);
+							btn_trackView.setVisibility(View.GONE);
+						}else{
+							btn_track.setVisibility(View.GONE);
+							btn_trackView.setVisibility(View.VISIBLE);
+						}
 
 						viewRender.renderView(findViewById(R.id.sv_main), riverRecord);
 						refreshToView();
@@ -572,5 +592,118 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		} else {
 			findViewById(R.id.hsv_result_photos).setVisibility(View.GONE);
 		}
+	}
+
+	/**
+	 * 接下来是定位相关的代码
+	 * String:locate_temp:当前的定位数据
+	 */
+
+	/**
+	 * 判断GPS是否开启，GPS或者AGPS开启一个就认为是开启的
+	 * @param context
+	 * @return true 表示开启
+	 */
+/*	public static final boolean isOPen(final Context context) {
+		LocationManager locationManager
+				= (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
+		// 通过GPS卫星定位，定位级别可以精确到街（通过24颗卫星定位，在室外和空旷的地方定位准确、速度快）
+		boolean gps = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+		// 通过WLAN或移动网络(3G/2G)确定的位置（也称作AGPS，辅助GPS定位。主要用于在室内或遮盖物（建筑群或茂密的深林等）密集的地方定位）
+		boolean network = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+		if (gps || network) {
+			return true;
+		}
+
+		return false;
+	}*/
+
+
+
+	android.os.Handler handler = new android.os.Handler();
+	private boolean isFirstLoc = true;
+	LocationClient mLocClient;
+	public MyLocationListener myListener = new MyLocationListener();
+	List<LatLng> points = new ArrayList<LatLng>();//全部点
+	LatLng point;
+
+
+	/**
+	 * 地图初始化
+	 */
+	public void initLocation(){
+
+		mLocClient = new LocationClient(this);
+		mLocClient.registerLocationListener(myListener);
+
+		LocationClientOption option = new LocationClientOption();
+		option.setLocationMode(LocationClientOption.LocationMode.Hight_Accuracy);
+		option.setCoorType("bd09ll");
+		option.setScanSpan(5000);
+
+		mLocClient.setLocOption(option);
+		mLocClient.start();
+	}
+
+	/**
+	 * 地图sdk监听器
+	 */
+	class MyLocationListener implements BDLocationListener{
+
+		@Override
+		public void onReceiveLocation(BDLocation bdLocation) {
+
+			if (location == null)
+				return;
+
+			LatLng point = new LatLng(location.getLatitude(),location.getLongitude());
+			points.add(point);
+		}
+	}
+
+	/**
+	 * 每10s记录一次当前坐标值
+	 */
+	private class MyRunable implements Runnable{
+
+		@Override
+		public void run() {
+
+			if(!mLocClient.isStarted()){
+				mLocClient.start();
+			}
+
+			if (points == null){
+				handler.postDelayed(this, 10000);
+				return;
+			}
+
+			if (isFirstLoc && points.size() >= 1){
+				isFirstLoc = false;
+				lnglist_temp = "" + points.get(points.size() - 1).longitude;
+				latlist_temp = "" + points.get(points.size() - 1).latitude;
+				point = points.get(points.size() - 1);
+				Log.i("temp:" , "first" + latlist_temp);
+			}else if (points.size() > 1){
+				if (point.latitude == points.get(points.size() - 1).latitude ||
+						point.longitude == points.get(points.size() - 1).longitude) { //如果一直处于一个位置则不重复记录
+					lnglist_temp = lnglist_temp + "," + points.get(points.size() - 1).longitude;
+					latlist_temp = latlist_temp + "," + points.get(points.size() - 1).latitude;
+					point = points.get(points.size() - 1);
+					Log.i("temp:" , latlist_temp);
+				}
+			}
+
+			handler.postDelayed(this, 10000);
+		}
+	}
+
+
+	//防止退出当前activity之后还在继续定位
+	@Override
+	protected void onStop() {
+		super.onStop();
+		points.clear();
+		mLocClient.unRegisterLocationListener(myListener);
 	}
 }

@@ -122,22 +122,10 @@ public class RiverListFragment extends BaseFragment {
 	}
 
 //	private final int DefaultPageSize = 7;
-	private int size = 9;
+//	private int size = 9;
 	private int DefaultPageSize = 12;
 
 	protected JSONObject getPageParam(boolean refresh) {
-		if(refresh){
-			size ++;
-			if (size >= 10){
-				size = 6;
-			}
-		}
-		else {
-			size --;
-			if(size <= 6){
-				size = 10;
-			}
-		}
 //		DefaultPageSize = size;
 		return refresh ? ParamUtils.pageParam(DefaultPageSize, 1) : ParamUtils.pageParam(DefaultPageSize, (rivers.size() + DefaultPageSize - 1) / DefaultPageSize + 1);
 	}

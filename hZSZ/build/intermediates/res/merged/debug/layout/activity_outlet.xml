@@ -66,6 +66,58 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_large" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="纬度坐标"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/littlelightgray"
+                android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:id="@+id/tv_outlet_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_weight="1"
+                android:text="30.1713"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_normal" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_large" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="纬度坐标"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/littlelightgray"
+                android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:id="@+id/tv_outlet_longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_weight="1"
+                android:text="120.1713"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_normal" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/padding_large"
             >
 

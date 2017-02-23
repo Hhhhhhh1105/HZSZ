@@ -14,17 +14,6 @@
         android:src="@drawable/im_riverbox" />
 
     <ImageView
-        android:id="@+id/iv_suggestion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/iv_complaint"
-        android:layout_marginRight="8dp"
-        android:layout_toLeftOf="@+id/iv_complaint"
-        android:contentDescription="@null"
-        android:visibility="invisible"
-        android:src="@drawable/ic_ope_suggestion" />
-
-    <ImageView
         android:id="@+id/iv_complaint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,6 +23,17 @@
         android:layout_marginTop="18dp"
         android:contentDescription="@null"
         android:src="@drawable/ic_ope_complaint" />
+
+    <ImageView
+        android:id="@+id/iv_suggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_complaint"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/iv_complaint"
+        android:contentDescription="@null"
+        android:visibility="visible"
+        android:src="@drawable/ic_ope_suggestion" />
 
     <LinearLayout
         android:layout_width="wrap_content"
