@@ -41,13 +41,13 @@
 
         <Button
             android:id="@+id/btn_new"
-            android:layout_width="@dimen/two_text_btn_w"
+            android:layout_width="100dp"
             android:layout_height="30dp"
             android:background="@drawable/shape_board_btn_bg"
             android:gravity="center"
             android:paddingLeft="@dimen/padding_small"
             android:paddingRight="@dimen/padding_small"
-            android:text="新建"
+            android:text="开始巡河"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/btn_green_white"
             android:textSize="@dimen/font_small" />

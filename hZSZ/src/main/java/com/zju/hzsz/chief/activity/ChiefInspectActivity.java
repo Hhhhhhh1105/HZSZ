@@ -194,6 +194,7 @@ public class ChiefInspectActivity extends BaseActivity{
                     .latitude(location.getLatitude())
                     .longitude(location.getLongitude()).build();
 
+            //这个是出现蓝色小点的原因
             mBaiduMap.setMyLocationData(locData);
             LatLng point = new LatLng(location.getLatitude(),location.getLongitude());
             points.add(point);
@@ -212,6 +213,7 @@ public class ChiefInspectActivity extends BaseActivity{
                 drawStart(points);
             }
             else if(points.size() > 7){
+                //划轨迹
                 points_tem = points.subList(points.size() - 4,points.size());
                 options = new PolylineOptions().color(Color.BLUE).width(10).points(points_tem);
                 mBaiduMap.addOverlay(options);

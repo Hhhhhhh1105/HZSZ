@@ -265,6 +265,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		refreshSelectRiverBtn();
 	}
 
+	//更新选择河道按钮
 	private void refreshSelectRiverBtn() {
 		if (riverRecord.locRiver != null)
 			((Button) findViewById(R.id.btn_selriver)).setText(riverRecord.locRiver.riverName);
