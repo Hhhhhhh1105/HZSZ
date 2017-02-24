@@ -544,14 +544,18 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			hasImg = true;
 		}else if (requestCode == Tags.CODE_LATLNG && resultCode == RESULT_OK){
 			String result = data.getExtras().getString("result");
+			//由inspect返回并需要上传至服务器的地理位置信息
 			latList = data.getExtras().getString("latList");
 			lngList = data.getExtras().getString("lngList");
-			Log.i("来自record的latList",latList);
-			Log.i("来自record的lngList",lngList);
-			Log.i("latlng:", result);
+			//由inspect返回的当前位置信息
+			latlist_temp = "" + latList;
+			lnglist_temp = "" + lngList;
+			Log.i("来自record的latList", latList);
+			Log.i("来自record的lngList", lngList);
+			Log.i("recordinspect", latlist_temp);
 			//改变按钮内容与颜色
-			btn_track.setText("完成巡河");
-			btn_track.setClickable(false);
+			/*btn_track.setText("完成巡河");
+			btn_track.setClickable(false);*/
 		}
 	}
 
@@ -683,13 +687,21 @@ public class ChiefEditRecordActivity extends BaseActivity {
 				return;
 			}
 
-			if (isFirstLoc && points.size() >= 1){
+			if (isFirstLoc && points.size() >= 1 && latlist_temp == null){
+				//若从inspect返回（latlist_temp != null)就不执行这里的代码
 				isFirstLoc = false;
 				lnglist_temp = "" + points.get(points.size() - 1).longitude;
 				latlist_temp = "" + points.get(points.size() - 1).latitude;
 				point = points.get(points.size() - 1);
 				Log.i("temp:" , "first" + latlist_temp);
 			}else if (points.size() > 1){
+				//要解决从inspect返回时point的经纬度
+				if (isFirstLoc){
+					//如果是从inspect返回，则isFirstLoc始终为真
+					System.out.println("recordInspect" + "：来自inspect跳到edit的记录位置");
+					point = points.get(points.size() - 1);
+					isFirstLoc = false;
+				}
 				if (point.latitude != points.get(points.size() - 1).latitude ||
 						point.longitude != points.get(points.size() - 1).longitude) { //如果一直处于一个位置则不重复记录
 					lnglist_temp = lnglist_temp + "," + points.get(points.size() - 1).longitude;

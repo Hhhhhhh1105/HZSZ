@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\AndroidStudio\HZSZ\sMSSDK\src\main\jniLibs"><file name="armeabi/libsmssdk.so" path="D:\AndroidStudio\HZSZ\sMSSDK\src\main\jniLibs\armeabi\libsmssdk.so"/></source></dataSet><dataSet config="debug"><source path="D:\AndroidStudio\HZSZ\sMSSDK\src\debug\jniLibs"/></dataSet></merger>

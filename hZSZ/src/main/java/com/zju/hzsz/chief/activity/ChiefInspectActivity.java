@@ -47,10 +47,18 @@ public class ChiefInspectActivity extends BaseActivity{
     boolean isFirstLoc = true;
     List<LatLng> points = new ArrayList<LatLng>();//全部点
     List<LatLng> points_tem = new ArrayList<LatLng>();//临时点
-    List<LatLng> points_to_server = new ArrayList<LatLng>();//提交至服务器后台的点
+//    List<LatLng> points_to_server = new ArrayList<LatLng>();//提交至服务器后台的点
     String lngList;//上传至服务器的经度列表，为上传方便转化为字符串
     String latList;//上传至服务器的纬度列表，为上传方便转化为字符串
     int countForPoint = 0;
+
+    //暂时的经纬度数据
+    private String latlist_temp = null;
+    private String lnglist_temp = null;
+    private String[] lat_temp_array;
+    private String[] lng_temp_array;
+    ArrayList<LatLng> pointsToDrawFirst;
+    private boolean hasHistroyData = false;
 
     OverlayOptions options;
 
@@ -77,21 +85,56 @@ public class ChiefInspectActivity extends BaseActivity{
 
         initLocation();
 
+        latlist_temp = getIntent().getExtras().getString("latlist_temp");
+        lnglist_temp = getIntent().getExtras().getString("lnglist_temp");
+
+
         track_start = BitmapDescriptorFactory.fromResource(R.drawable.track_start);
         track_end = BitmapDescriptorFactory.fromResource(R.drawable.track_end);
 
+        if (getIntent().getExtras().getString("latlist_temp") != null){
+            hasHistroyData = true;
+            Log.i("recordinspect", latlist_temp);
 
-        /*btn_start.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                isStopLocClient = false;
-                if (!mLocationClient.isStarted()) {
-                    mLocationClient.start();
-                }
+            if (latList != null){
+                latList = latList + latlist_temp;
+                lngList = lngList + lnglist_temp;
+            }else {
+                latList = "" + latlist_temp;
+                lngList = "" + lnglist_temp;
             }
-        });*/
 
-        btn_stop.setOnClickListener(new View.OnClickListener() {
+            if (latlist_temp.contains(",")){
+                //如果不止一个数据，变成一个数组
+                lat_temp_array = latlist_temp.split(",");
+                lng_temp_array = lnglist_temp.split(",");
+            }else{
+                //如果只有一个数据
+                lat_temp_array = new String[1];
+                lng_temp_array = new String[1];
+                lat_temp_array[0] = latlist_temp;
+                lng_temp_array[0] = lnglist_temp;
+            }
+
+            pointsToDrawFirst = new ArrayList<LatLng>();
+            pointsToDrawFirst.add(new
+                    LatLng(Double.parseDouble(lat_temp_array[0]), Double.parseDouble(lng_temp_array[0])));
+
+            for (int i = 0; i < lat_temp_array.length; i++){
+                pointsToDrawFirst.add(new LatLng(Double.parseDouble(lat_temp_array[i]), Double.parseDouble(lng_temp_array[i])));
+            }
+
+            //将editRecord界面的最后一个点与inspect界面的第一个点连起来
+            points.add(pointsToDrawFirst.get(pointsToDrawFirst.size() - 1));
+        }
+
+        mLocationClient.start();
+
+        findViewById(R.id.iv_head_left).setOnClickListener(backToEditListener);
+
+        btn_stop.setOnClickListener(backToEditListener);
+
+    /*    btn_stop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 isStopLocClient = true;
@@ -108,7 +151,42 @@ public class ChiefInspectActivity extends BaseActivity{
                     ChiefInspectActivity.this.finish();
                 }
             }
-        });
+        });*/
+    }
+
+    View.OnClickListener backToEditListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            isStopLocClient = true;
+            if(mLocationClient.isStarted()){
+                drawEnd(points);
+                mLocationClient.stop();
+
+                Intent intent = new Intent();
+                intent.putExtra("result",points.toString());
+                intent.putExtra("latList",  latList);
+                intent.putExtra("lngList", lngList);
+
+                ChiefInspectActivity.this.setResult(RESULT_OK, intent);
+                ChiefInspectActivity.this.finish();
+            }
+        }
+    };
+
+    private void drawBeforeTrack() {
+
+        mBaiduMap.clear();
+        BitmapDescriptor bmp_from = BitmapDescriptorFactory.fromResource(R.drawable.track_start);
+        LatLng from = pointsToDrawFirst.get(0);
+        Log.i("recordinspect", "起点坐标" + from.toString());
+        MarkerOptions optionFrom = new MarkerOptions().position(from).icon(bmp_from);
+        mBaiduMap.addOverlay(optionFrom);
+
+        OverlayOptions ooPolyline = new PolylineOptions().width(10).color(Color.BLUE).points(pointsToDrawFirst);
+        mBaiduMap.addOverlay(ooPolyline);
+        Log.i("recordinspect", "画过起点");
+
+
     }
 
 
@@ -129,11 +207,6 @@ public class ChiefInspectActivity extends BaseActivity{
 
         option.setPriority(LocationClientOption.GpsFirst);
         mLocationClient.setLocOption(option);
-
-        //开启地图定位，显示定位地点非北京天安门
-        mLocationClient.start();
-
-
     }
 
     private class MyRunable implements Runnable {
@@ -144,23 +217,12 @@ public class ChiefInspectActivity extends BaseActivity{
                 mLocationClient.start();
             }
             if(!isStopLocClient){
-                //每分钟加个点至points_to_server 20*3s = 1min 10*30 = 30s
-                if (countForPoint < 10) {
+                //每分钟加个点至points_to_server 20*3s = 1min 3*3 = 9s
+                if (countForPoint < 3) {
                     countForPoint++;
 
-                    //lngList和latList的处理 for test
-                   /* if(lngList == null || latList == null){
-                        lngList = "" + points.get(points.size() - 1).longitude;
-                        latList = "" + points.get(points.size() - 1).latitude;
-                    }else {
-                        lngList = lngList + "," + points.get(points.size() - 1).longitude;
-                        latList = latList + "," + points.get(points.size() - 1).latitude;
-                        Log.d("lngList:", lngList);
-                        Log.d("latList:", latList);
-                    }*/
-
                 }else{
-                    points_to_server.add(points.get(points.size() - 1));
+//                    points_to_server.add(points.get(points.size() - 1));
 
                     //lngList和latList的处理
                     if(lngList == null || latList == null){
@@ -173,7 +235,7 @@ public class ChiefInspectActivity extends BaseActivity{
                         Log.d("latList:", latList);
                     }
 
-                    Log.d("points_to_server:", points_to_server.toString());
+//                    Log.d("points_to_server:", points_to_server.toString());
                     countForPoint = 0;
                 }
                 handler.postDelayed(this,3000);
@@ -193,8 +255,8 @@ public class ChiefInspectActivity extends BaseActivity{
             MyLocationData locData = new MyLocationData.Builder().accuracy(0)
                     .latitude(location.getLatitude())
                     .longitude(location.getLongitude()).build();
-
             mBaiduMap.setMyLocationData(locData);
+
             LatLng point = new LatLng(location.getLatitude(),location.getLongitude());
             points.add(point);
 
@@ -206,10 +268,15 @@ public class ChiefInspectActivity extends BaseActivity{
                 MapStatusUpdate msu = MapStatusUpdateFactory.newLatLng(ll);
                 //animateMapStatus()方法把定位到的点移动到地图中心
                 mBaiduMap.animateMapStatus(msu);
+
             }
 
-            if(points.size() == 5){
+            if(points.size() == 5 && !hasHistroyData ){
                 drawStart(points);
+            }else if (points.size() == 5 && hasHistroyData){
+                drawBeforeTrack();
+                options = new PolylineOptions().color(Color.BLUE).width(10).points(points);
+                mBaiduMap.addOverlay(options);
             }
             else if(points.size() > 7){
                 points_tem = points.subList(points.size() - 4,points.size());
@@ -232,17 +299,20 @@ public class ChiefInspectActivity extends BaseActivity{
         }
 
         //将起点处的经纬度添加至经纬度数组之中
-        lngList = "" + myLng / 5;
-        latList = "" + myLat / 5;
-        Log.d("lngList:", lngList);
-        Log.d("latList:", latList);
+        if (lngList == null || latList == null){
+            lngList = "" + myLng / 5;
+            latList = "" + myLat / 5;
+        }
+
+//        Log.d("lngList:", lngList);
+//        Log.d("latList:", latList);
 
         LatLng avePoint = new LatLng(myLat / points.size(),myLng / points.size());
         points.add(avePoint);
 
-//        options = new DotOptions().center(avePoint).color(0xAA00ff00).radius(15);
         options = new MarkerOptions().position(avePoint).icon(track_start);
         mBaiduMap.addOverlay(options);
+
     }
 
     private void drawEnd(List<LatLng> points) {
@@ -269,6 +339,8 @@ public class ChiefInspectActivity extends BaseActivity{
         }
     }
 
+
+
     @Override
     protected void onPause() {
         mMapView.onPause();
@@ -288,6 +360,7 @@ public class ChiefInspectActivity extends BaseActivity{
         isStopLocClient = true;
 
         mBaiduMap.setMyLocationEnabled(false);
+//        mMapView.onDestroy();
         mMapView = null;
         mBaiduMap = null;
         super.onDestroy();
