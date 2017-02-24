@@ -288,7 +288,6 @@ public class ChiefInspectActivity extends BaseActivity{
         isStopLocClient = true;
 
         mBaiduMap.setMyLocationEnabled(false);
-        mMapView.onDestroy();
         mMapView = null;
         mBaiduMap = null;
         super.onDestroy();
