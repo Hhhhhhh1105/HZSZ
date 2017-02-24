@@ -79,7 +79,7 @@
                     android:paddingLeft="@dimen/padding_small"
                     android:paddingRight="@dimen/padding_small"
                     android:layout_marginLeft="4dp"
-                    android:text="查看轨迹"
+                    android:text="开始巡河"
                     android:textAppearance="?android:textAppearanceMedium"
                     android:textColor="@color/btn_green_white"
                     android:textSize="@dimen/font_small"/>
@@ -301,7 +301,7 @@
             android:layout_marginTop="@dimen/form_singleline_margin_v"
             android:layout_weight="1"
             android:background="@drawable/shape_gray_board_btn_bg"
-            android:text="结束巡河"
+            android:text="保存"
             android:textColor="@color/text_gray_green" />
 
         <Button

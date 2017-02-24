@@ -13,6 +13,7 @@ import com.zju.hzsz.fragment.OutletFragment;
 
 public class OutletListActivity extends BaseActivity{
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

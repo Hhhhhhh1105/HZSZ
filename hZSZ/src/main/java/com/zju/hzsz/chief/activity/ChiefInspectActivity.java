@@ -17,7 +17,6 @@ import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptor;
 import com.baidu.mapapi.map.BitmapDescriptorFactory;
-import com.baidu.mapapi.map.MapStatus;
 import com.baidu.mapapi.map.MapStatusUpdate;
 import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.baidu.mapapi.map.MapView;
@@ -27,7 +26,6 @@ import com.baidu.mapapi.map.OverlayOptions;
 import com.baidu.mapapi.map.PolylineOptions;
 import com.baidu.mapapi.model.LatLng;
 import com.zju.hzsz.R;
-import com.zju.hzsz.Values;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,16 +50,6 @@ public class ChiefInspectActivity extends BaseActivity{
     List<LatLng> points_to_server = new ArrayList<LatLng>();//提交至服务器后台的点
     String lngList;//上传至服务器的经度列表，为上传方便转化为字符串
     String latList;//上传至服务器的纬度列表，为上传方便转化为字符串
-
-    //暂时的经纬度数据
-    private String latlist_temp = null;
-    private String lnglist_temp = null;
-    private String[] lat_temp_Array;
-    private String[] lng_temp_Array;
-
-    ArrayList<LatLng> pointsToDrawFirst;
-    private boolean hasHistroyData = false;
-
     int countForPoint = 0;
 
     OverlayOptions options;
@@ -89,45 +77,19 @@ public class ChiefInspectActivity extends BaseActivity{
 
         initLocation();
 
-        latlist_temp = getIntent().getExtras().getString("latlist_temp");
-        System.out.println("testFor" + getIntent().getExtras().getString("latlist_temp"));
-        lnglist_temp = getIntent().getExtras().getString("lnglist_temp");
-
         track_start = BitmapDescriptorFactory.fromResource(R.drawable.track_start);
         track_end = BitmapDescriptorFactory.fromResource(R.drawable.track_end);
 
-        //如果有数据，则先画轨迹
-        if (getIntent().getExtras().getString("latlist_temp") != null){
 
-            hasHistroyData = true;
-
-            if (latlist_temp.contains(",")){
-                //将字符串变成数组形式
-                lat_temp_Array = latlist_temp.split(",");
-                lng_temp_Array = lnglist_temp.split(",");
-            }else {
-                //如果仅有一个数据
-                lat_temp_Array = new String[1];
-                lng_temp_Array = new String[1];
-                lat_temp_Array[0] = latlist_temp;
-                lng_temp_Array[0] = lnglist_temp;
+        /*btn_start.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                isStopLocClient = false;
+                if (!mLocationClient.isStarted()) {
+                    mLocationClient.start();
+                }
             }
-
-            pointsToDrawFirst = new ArrayList<LatLng>();
-            pointsToDrawFirst.add(new LatLng(Double.parseDouble(lat_temp_Array[0]),Double.parseDouble(lng_temp_Array[0])));
-
-            //开始循环填充数据
-            for (int i = 0; i < lat_temp_Array.length; i ++){
-                pointsToDrawFirst.add(new LatLng(Double.parseDouble(lat_temp_Array[i]),Double.parseDouble(lng_temp_Array[i])));
-            }
-
-            //开始画轨迹
-            drawBeforeTrack();
-        }
-
-        //开启地图定位，显示定位地点非北京天安门
-        mLocationClient.start();
-
+        });*/
 
         btn_stop.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -149,24 +111,6 @@ public class ChiefInspectActivity extends BaseActivity{
         });
     }
 
-    private void drawBeforeTrack() {
-
-        BitmapDescriptor bmp_from = BitmapDescriptorFactory.fromResource(R.drawable.track_start);
-        LatLng from = pointsToDrawFirst.get(0);
-        MarkerOptions optionFrom = new MarkerOptions().position(from).icon(bmp_from);
-        mBaiduMap.addOverlay(optionFrom);
-
-        OverlayOptions ooPolyline = new PolylineOptions().width(10)
-                .color(Color.BLUE).points(pointsToDrawFirst);
-        mBaiduMap.addOverlay(ooPolyline);
-
-        //设置地图中心点与设置缩放级别
-        MapStatus status = new MapStatus.Builder().target(new LatLng(from.latitude, from.longitude)).zoom(Values.MAP_ZOOM_LEVEL).build();
-        //改变地图的状态
-        mBaiduMap.setMapStatus(MapStatusUpdateFactory.newMapStatus(status));
-
-    }
-
 
     private void initLocation() {
 
@@ -186,6 +130,10 @@ public class ChiefInspectActivity extends BaseActivity{
         option.setPriority(LocationClientOption.GpsFirst);
         mLocationClient.setLocOption(option);
 
+        //开启地图定位，显示定位地点非北京天安门
+        mLocationClient.start();
+
+
     }
 
     private class MyRunable implements Runnable {
@@ -196,9 +144,20 @@ public class ChiefInspectActivity extends BaseActivity{
                 mLocationClient.start();
             }
             if(!isStopLocClient){
-                //每分钟加个点至points_to_server 20*3s = 1min 10*3 = 30s
-                if (countForPoint < 5) {
+                //每分钟加个点至points_to_server 20*3s = 1min 10*30 = 30s
+                if (countForPoint < 10) {
                     countForPoint++;
+
+                    //lngList和latList的处理 for test
+                   /* if(lngList == null || latList == null){
+                        lngList = "" + points.get(points.size() - 1).longitude;
+                        latList = "" + points.get(points.size() - 1).latitude;
+                    }else {
+                        lngList = lngList + "," + points.get(points.size() - 1).longitude;
+                        latList = latList + "," + points.get(points.size() - 1).latitude;
+                        Log.d("lngList:", lngList);
+                        Log.d("latList:", latList);
+                    }*/
 
                 }else{
                     points_to_server.add(points.get(points.size() - 1));
@@ -225,7 +184,7 @@ public class ChiefInspectActivity extends BaseActivity{
     /**
      * 定位SDK监听函数
      */
-   class MyLocationListener implements BDLocationListener {
+    class MyLocationListener implements BDLocationListener {
         @Override
         public void onReceiveLocation(BDLocation location) {
             if(location == null || mMapView == null)
@@ -235,7 +194,6 @@ public class ChiefInspectActivity extends BaseActivity{
                     .latitude(location.getLatitude())
                     .longitude(location.getLongitude()).build();
 
-            //这个是出现蓝色小点的原因
             mBaiduMap.setMyLocationData(locData);
             LatLng point = new LatLng(location.getLatitude(),location.getLongitude());
             points.add(point);
@@ -250,11 +208,10 @@ public class ChiefInspectActivity extends BaseActivity{
                 mBaiduMap.animateMapStatus(msu);
             }
 
-            if(points.size() == 5 && !hasHistroyData){
+            if(points.size() == 5){
                 drawStart(points);
             }
             else if(points.size() > 7){
-                //划轨迹
                 points_tem = points.subList(points.size() - 4,points.size());
                 options = new PolylineOptions().color(Color.BLUE).width(10).points(points_tem);
                 mBaiduMap.addOverlay(options);
