@@ -14,6 +14,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
+import com.zju.hzsz.net.Constants;
 
 public class ToolBox {
 	public interface CheckCallback {
@@ -23,6 +24,8 @@ public class ToolBox {
 	private Context context;
 	private static String BaseUrl = "http://tool.inruan.com/";
 	private static String CheckUrl = BaseUrl + "update/";
+	private static String NewCheckUrl = Constants.ApiUrl +
+			"?app_sign=7efe0448e727f39874cd57685029c729&timestamp=1423637973&method=Get_Update_Info&app_key=10000";
 
 	public ToolBox(Context context) {
 		this.context = context;
@@ -55,12 +58,13 @@ public class ToolBox {
 	public void checkUpdate(String app, final String curver, final boolean autoTip, final CheckCallback callback) {
 		RequestQueue rq = Volley.newRequestQueue(context);
 		//http://tool.inruan.com/update/hzsz.json?ver=1.3.11&_=1487939212656
-		StringRequest stringRequest = new StringRequest(Request.Method.GET, CheckUrl + app + ".json?ver=" + curver + "&_=" + System.currentTimeMillis(), new Response.Listener<String>() {
+		//CheckUrl + app + ".json?ver=" + curver + "&_=" + System.currentTimeMillis()
+		StringRequest stringRequest = new StringRequest(Request.Method.GET, NewCheckUrl, new Response.Listener<String>() {
 			@Override
 			public void onResponse(String response) {
 				Gson gson = new Gson();
 				Log.e("checkUpdate", response);
-				final Update update = gson.fromJson(response, Update.class);
+				final Update update = gson.fromJson(response, UpdateRes.class).data;
 				// if (update == null || update.getLast() == null ||
 				// update.getLast().length() == 0 ||
 				// update.getLast().equals(curver)) {

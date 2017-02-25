@@ -1,6 +1,6 @@
 package com.sin.android.update;
 
-public class Update {
+public class Update  {
 	private String last;
 	private String url;
 	private String explain;
