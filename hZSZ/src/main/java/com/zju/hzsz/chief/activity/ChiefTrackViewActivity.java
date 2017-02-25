@@ -54,23 +54,26 @@ public class ChiefTrackViewActivity extends BaseActivity {
         //得到轨迹经纬度数组
         latList = getIntent().getExtras().getString("latList");
         lngList = getIntent().getExtras().getString("lngList");
-        //将字符串变成数组形式
+        //将字符串变成数组形式,如果只含有一个坐标点，强行变成两个
+        if (getIntent().getExtras().getString("latList") != null){
+
+            //如果仅有一个坐标，则其不包含逗号
+            if (!latList.contains(",")){
+                latList = latList + "," + latList;
+                lngList = lngList + "," + lngList;
+            }
+        }
         latArray = latList.split(",");
         lngArray = lngList.split(",");
 
         pointsToDraw = new ArrayList<LatLng>();
-
         //开始循环填充数据
         for (int i = 0; i < latArray.length; i ++){
             pointsToDraw.add(new LatLng(Double.parseDouble(latArray[i]),Double.parseDouble(lngArray[i])));
         }
-
-
         Log.i("来自trackView的latArray", latArray[0].toString());
         Log.i("来自trackView的lngArray", lngArray[0].toString());
         Log.i("pointsToDraw", pointsToDraw.toString());
-
-
         //开始画轨迹
         drawTrack();
     }

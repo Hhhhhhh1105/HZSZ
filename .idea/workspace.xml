@@ -11,46 +11,19 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="activityIs" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="NET:" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f20fd589-bcc1-45a9-935c-fd3cc5edf866" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/BaiduLBS_Android_0d473495c6ae4f5c99408957cc5092bc2a071f46.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/GetuiExt-2.0.3_df75c800de92a62dffd57c35c5966a6e2dd8f066.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/GetuiSDK2.6.1.0_e8c8d71e49d2501c9f7f1342a184ab422d947212.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/HZSZ-sMSSDK-unspecified_7b90c1883e3699719a2ea4b55eb9a6693799e82c.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/MobTools_2f17405f7ba7a4fbd2a95adaca0f017a2f0ffad1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/SMSSDK-1.2.1_180209bf273c375468eb040b05c02bf370dff88d.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/SocialSDK_QQZone_1_5f538cb0e806dc6f925af98faac18dbc285952ec.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/SocialSDK_QQZone_2_5d45ae57d72b2460efbedbd9a076770a1197e619.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/SocialSDK_QQZone_3_4135d4c23cea3b8a03d4b539baa8d1cb17182046.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/SocialSDK_WeiXin_1_f5ccafc8036f3c2ccee9b56e5be6c02e5755e330.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/SocialSDK_WeiXin_2_fc4c6a018dd23fc9f46b80c970bfa6c1b9f453a1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_d4609316ba6e221b497d79aca93a5ab3417a3698.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.android.volley_96ed3917d472a5a31eab22904e45e9903e9adf59.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.1.0_2c6b8b370bbace78cb9de94b009ff450ce75ade4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.1.0_837b4c7ed06bc16b2dbc6cb7d099d9b8d00c3207.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.google.gson_eb1245750e10f54f8abdf017ffe9b4416b729fb2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/debug_3de1092eefb453851295805c8951033c6a0587d8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/httpmime-4.1.3_08c1779a8d38ecfe32b3004a9633fb1b17ea674b.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_07b61c942b3ee6ec61f3df79e0e9e60e5f9bf104.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/json_simple-1.1_3ae59a25daa04318ac6e798f49ab4256f7d3cae3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/locSDK_6.13_085f8190fa20764a31206cc71bfb1ca3f7ff28a9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/mpandroidchartlibrary-2-1-0_e7a1f7213de3f5e7328bb01837470f5872b86155.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/picasso-2.5.2_cca2f96b33ade480b6962440938d06611f66cc67.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/sinlibs.2016.311_a49069f7c6e9470511b362810ff3837d716d279a.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/support-annotations-22.2.0_fcbac64e8dbacc906e808d92672d1d4209d46810.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/uk.co.senab.photoview.1.2.2_b7ec572550f78fbf6350232b3f8d411932f21945.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/umeng-analytics-v5.5.3_05372cb2ffb44eb438e5d88351e1a7d1994aea29.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/umeng_social_sdk_0c1843a439672aa3578143a8180c16ccc87ac1e7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$8$1.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/sin/android/update/ToolBox$1$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/sin/android/update/ToolBox$1$1.class" />
@@ -59,23 +32,28 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/sin/android/update/ToolBox$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/sin/android/update/ToolBox$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/sin/android/update/ToolBox$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/sin/android/update/ToolBox$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/sin/android/update/ToolBox.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/sin/android/update/ToolBox.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/zip-cache/GWJv71HyNvETyccmkvr0WZ1lAz0=" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/zip-cache/GWJv71HyNvETyccmkvr0WZ1lAz0=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_head_plus_s.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_head_plus_s.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_head_refresh_s.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_head_refresh_s.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_love_s.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_love_s.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable/umeng_socialize_nav_bar_bg.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable/umeng_socialize_nav_bar_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$10.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$11.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$6.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$7.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$8.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$9.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$MyLocationListener.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$MyLocationListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$MyRunable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity$MyRunable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/RiverFragment$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/RiverFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/outputs/apk/hZSZ-debug.apk" afterPath="$PROJECT_DIR$/hZSZ/build/outputs/apk/hZSZ-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/hZSZ.iml" afterPath="$PROJECT_DIR$/hZSZ/hZSZ.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/sin/android/update/ToolBox.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/sin/android/update/ToolBox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.java" />
     </list>
     <ignored path="HZSZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,8 +91,33 @@
       <file leaf-file-name="ChiefEditRecordActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10802">
-              <caret line="552" column="0" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
+            <state relative-caret-position="174">
+              <caret line="405" column="58" selection-start-line="405" selection-start-column="58" selection-end-line="405" selection-end-column="58" />
+              <folding>
+                <element signature="e#4894#5098#0" expanded="true" />
+                <element signature="e#5097#5098#0" expanded="true" />
+                <element signature="e#5132#5280#0" expanded="true" />
+                <element signature="e#5279#5280#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChiefTrackViewActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChiefInspectActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1265">
+              <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -123,10 +126,12 @@
       <file leaf-file-name="ToolBox.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/sin/android/update/ToolBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+            <state relative-caret-position="240">
+              <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1323#1324#0" expanded="true" />
+                <element signature="e#1366#1367#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,38 +143,6 @@
             <state relative-caret-position="44">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/AboutActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="31" column="139" selection-start-line="31" selection-start-column="129" selection-end-line="31" selection-end-column="142" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WelcomeActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/WelcomeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1562">
-              <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -190,18 +163,9 @@
             <state relative-caret-position="1210">
               <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#22414#22415#0" expanded="false" />
+                <element signature="e#22434#22435#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PushReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/receiver/PushReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -2571,7 +2535,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/IndexData.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/OutletAcitivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/confs_river_info_text.xml" />
@@ -2618,10 +2581,11 @@
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_chief_recordlist.xml" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_chief_editrecord.xml" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java" />
-        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/Values.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/sin/android/update/ToolBox.java" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.java" />
       </list>
     </option>
   </component>
@@ -2668,7 +2632,7 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/EasyPR_Android-master" />
-    <property name="SearchEverywhereHistoryKey" value="wel&#9;PSI&#9;JAVA://com.zju.hzsz.activity.WelcomeActivity&#10;Main&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;main&#9;PSI&#9;JAVA://com.zju.hzsz.activity.MainActivity&#10;con&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;out&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java&#10;chief&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRecordListActivity.java&#10;ins&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java&#10;Ma&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;outl&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/OutletListActivity.java&#10;outletlis&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java&#10;tra&#9;PSI&#9;JAVA://com.zju.hzsz.chief.activity.ChiefTrackViewActivity&#10;river&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java&#10;riverIn&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.river.RiverInfoItem&#10;map&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverMapFragment.java&#10;android&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/AndroidManifest.xml&#10;Ins&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java&#10;riverL&#9;PSI&#9;JAVA://com.zju.hzsz.model.RiverLocationsRes&#10;riv&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java&#10;fragment_out&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_outlet_map.xml&#10;sec&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_mainpage_section.xml&#10;pre&#9;ACTION&#9;ActivatePreviewToolWindow&#10;ma&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;RiverM&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverMapFragment.java&#10;outlet&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletFragment.java&#10;ri&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverListFragment.java&#10;item&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_river_detail.xml&#10;outle&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletFragment.java&#10;fragment_&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_outlet_list.xml&#10;requ&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java&#10;Riverli&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java&#10;RiverMa&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.RiverMapFragment&#10;DataR&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/SectionListDataRes.java&#10;SectionLis&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/SectionListDataRes.java&#10;tool&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/sin/android/update/ToolBox.java&#10;ind&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/Industrialport.java&#10;fr&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_section_list.xml&#10;section&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_section.xml&#10;outletL&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java&#10;item_se&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_section_list.xml&#10;Ta&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/TabPagerListFragment.java&#10;sectionli&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/SectionListActivity.java&#10;all&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/activity_alloutlet.xml&#10;Section&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/SectionListActivity.java&#10;Ind&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/Industrialport.java&#10;chie&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java&#10;frag&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;const&#9;PSI&#9;JAVA://com.zju.hzsz.net.Constants&#10;chieedit&#9;PSI&#9;JAVA://com.zju.hzsz.chief.activity.ChiefEditRecordActivity&#10;UUID&#9;PSI&#9;JAVA://java.util.UUID&#10;cons&#9;PSI&#9;JAVA://com.zju.hzsz.net.Constants" />
+    <property name="SearchEverywhereHistoryKey" value="ins&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java&#10;tra&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.java&#10;wel&#9;PSI&#9;JAVA://com.zju.hzsz.activity.WelcomeActivity&#10;Main&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;main&#9;PSI&#9;JAVA://com.zju.hzsz.activity.MainActivity&#10;con&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;out&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java&#10;chief&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRecordListActivity.java&#10;Ma&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;outl&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/OutletListActivity.java&#10;outletlis&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java&#10;river&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java&#10;riverIn&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.river.RiverInfoItem&#10;map&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverMapFragment.java&#10;android&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/AndroidManifest.xml&#10;Ins&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java&#10;riverL&#9;PSI&#9;JAVA://com.zju.hzsz.model.RiverLocationsRes&#10;riv&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java&#10;fragment_out&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_outlet_map.xml&#10;sec&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_mainpage_section.xml&#10;pre&#9;ACTION&#9;ActivatePreviewToolWindow&#10;ma&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;RiverM&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverMapFragment.java&#10;outlet&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletFragment.java&#10;ri&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverListFragment.java&#10;item&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_river_detail.xml&#10;outle&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletFragment.java&#10;fragment_&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_outlet_list.xml&#10;requ&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java&#10;Riverli&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java&#10;RiverMa&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.RiverMapFragment&#10;DataR&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/SectionListDataRes.java&#10;SectionLis&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/SectionListDataRes.java&#10;tool&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/sin/android/update/ToolBox.java&#10;ind&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/Industrialport.java&#10;fr&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_section_list.xml&#10;section&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_section.xml&#10;outletL&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java&#10;item_se&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_section_list.xml&#10;Ta&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/TabPagerListFragment.java&#10;sectionli&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/SectionListActivity.java&#10;all&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/activity_alloutlet.xml&#10;Section&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/SectionListActivity.java&#10;Ind&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/Industrialport.java&#10;chie&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java&#10;frag&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;const&#9;PSI&#9;JAVA://com.zju.hzsz.net.Constants&#10;chieedit&#9;PSI&#9;JAVA://com.zju.hzsz.chief.activity.ChiefEditRecordActivity&#10;UUID&#9;PSI&#9;JAVA://java.util.UUID&#10;cons&#9;PSI&#9;JAVA://com.zju.hzsz.net.Constants" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="device.picker.selection" value="MDG4C16415003317" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/hZSZ/src/main/res/drawable" />
@@ -3107,7 +3071,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487909332056</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="02-25-backup">
+      <created>1488006341160</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1488006341160</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3131,7 +3102,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5817223" sideWeight="0.2396631" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23901582" sideWeight="0.770229" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23725834" sideWeight="0.770229" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.100175746" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3236,6 +3207,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3246,6 +3218,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3285,6 +3258,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3302,6 +3276,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="220" column="45" selection-start-line="220" selection-start-column="45" selection-end-line="220" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3309,6 +3284,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1420">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3319,6 +3295,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-726">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3333,6 +3310,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-208">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3415,6 +3393,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="e#2721#2860#0" expanded="false" />
+            <element signature="e#2859#2860#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3439,6 +3421,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-110">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3446,6 +3429,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3504,6 +3488,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="4202" column="16" selection-start-line="4202" selection-start-column="16" selection-end-line="4202" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3511,6 +3496,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3521,13 +3507,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
           <caret line="303" column="30" selection-start-line="303" selection-start-column="30" selection-end-line="303" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2418">
-          <caret line="278" column="46" selection-start-line="278" selection-start-column="46" selection-end-line="278" selection-end-column="46" />
+          <folding>
+            <element signature="e#13434#13456#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3538,33 +3520,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10802">
-          <caret line="552" column="0" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/receiver/PushReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/sin/android/update/Update.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -3581,7 +3540,8 @@
         <state relative-caret-position="1210">
           <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#22414#22415#0" expanded="false" />
+            <element signature="e#22434#22435#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3612,7 +3572,7 @@
         <state relative-caret-position="1562">
           <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3625,28 +3585,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/AboutActivity.java">
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="31" column="139" selection-start-line="31" selection-start-column="129" selection-end-line="31" selection-end-column="142" />
+        <state relative-caret-position="308">
+          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/AboutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="110">
+          <caret line="31" column="139" selection-start-line="31" selection-start-column="129" selection-end-line="31" selection-end-column="142" />
+          <folding>
+            <element signature="e#1387#1388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/sin/android/update/Update.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="405" column="58" selection-start-line="405" selection-start-column="58" selection-end-line="405" selection-end-column="58" />
+          <folding>
+            <element signature="e#4894#5098#0" expanded="true" />
+            <element signature="e#5097#5098#0" expanded="true" />
+            <element signature="e#5132#5280#0" expanded="true" />
+            <element signature="e#5279#5280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/sin/android/update/ToolBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+        <state relative-caret-position="240">
+          <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
           </folding>
         </state>
       </provider>
