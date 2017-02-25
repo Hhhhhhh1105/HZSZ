@@ -54,6 +54,7 @@ public class ToolBox {
 
 	public void checkUpdate(String app, final String curver, final boolean autoTip, final CheckCallback callback) {
 		RequestQueue rq = Volley.newRequestQueue(context);
+		//http://tool.inruan.com/update/hzsz.json?ver=1.3.11&_=1487939212656
 		StringRequest stringRequest = new StringRequest(Request.Method.GET, CheckUrl + app + ".json?ver=" + curver + "&_=" + System.currentTimeMillis(), new Response.Listener<String>() {
 			@Override
 			public void onResponse(String response) {
