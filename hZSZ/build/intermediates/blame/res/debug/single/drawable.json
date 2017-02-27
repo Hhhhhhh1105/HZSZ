@@ -260,12 +260,12 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_gray_dashline.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_dialog_btn_back.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\HZSZ\\sMSSDK\\unspecified\\res\\drawable\\smssdk_dialog_btn_back.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_off.png",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_qq_off.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_dialog_btn_back.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\HZSZ\\sMSSDK\\unspecified\\res\\drawable\\smssdk_dialog_btn_back.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_left.xml",

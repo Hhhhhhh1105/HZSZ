@@ -39,6 +39,7 @@ public abstract class TabPagerListFragment extends BaseFragment implements OnChe
 		private SimpleViewInitor initor; //该类中的initView()方法实现适配器中的getView()方法
 
 		private final int DefaultPageSize = Constants.DefaultPageSize; //20
+//		private final int DefaultPageSize = 10; //20
 
 		public ListPagerItem(SimpleViewInitor initor) {
 			this.initor = initor;

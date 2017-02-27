@@ -166,12 +166,14 @@ public class SearchRiverActivity extends BaseActivity implements OnCheckedChange
 					((ImageView) convertView.findViewById(R.id.iv_quality)).setImageResource(ResUtils.getQuiltyImg(river.waterType));
 				}
 
+				//收藏按钮的操作
 				Button btn = (Button) convertView.findViewById(R.id.btn_follow);
-				btn.setText(river.isCared(getUser()) ? R.string.unfollow : R.string.follow);
+				btn.setText(river.isCared(getUser()) ? R.string.unfollow : R.string.follow); //isCared都是false
 				btn.setBackgroundResource(river.isCared(getUser()) ? R.drawable.btn_gray_white : R.drawable.btn_green_white);
 				btn.setTag(river);
 				btn.setOnClickListener(togFollow);
 
+				//当不指定区划时，显示河道所在区
 				if (curDw == null || curDw.district == null || curDw.district.districtId == 0) {
 					((TextView) (convertView.findViewById(R.id.tv_distname))).setText(river.districtName);
 					(convertView.findViewById(R.id.tv_distname)).setVisibility(View.VISIBLE);
@@ -179,6 +181,7 @@ public class SearchRiverActivity extends BaseActivity implements OnCheckedChange
 					(convertView.findViewById(R.id.tv_distname)).setVisibility(View.GONE);
 				}
 
+				//一般都是goRiver
 				convertView.setOnClickListener(isSelectRiver ? backRiver : goRiver);
 				convertView.setTag(river);
 				return convertView;

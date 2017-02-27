@@ -3,6 +3,7 @@ package com.zju.hzsz.net;
 import android.util.Log;
 
 import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request.Method;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -124,7 +125,8 @@ public class RequestContext {
 		};
 		req.setTag(context.getClass().getName());
 		req.setCacheEntry(null);
-//		req.setRetryPolicy(new DefaultRetryPolicy(5000, 0, 1f));
+		//控制响应时间与retry条数
+		req.setRetryPolicy(new DefaultRetryPolicy(8000, 0, 1f));
 		requestQueue.add(req);
 
 	}

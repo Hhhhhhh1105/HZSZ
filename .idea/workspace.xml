@@ -25,55 +25,36 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/Values.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/Values.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AboutActivity$1$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AboutActivity$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AboutActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AboutActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AboutActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AboutActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/BaseActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/BaseActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/MainActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$10.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$11.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$12.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$13.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$14.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$15.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$16.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$17.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$18.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$6.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$7.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$8.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$9.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$MyBDLocationListner.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$MyBDLocationListner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$NewsPagerItem$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$NewsPagerItem$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$NewsPagerItem$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$NewsPagerItem$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$NewsPagerItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$NewsPagerItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/sin/android/update/ToolBox.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/sin/android/update/ToolBox.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/RiverFragment$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/RiverFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment$RankingPager.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment$RankingPager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabPagerListFragment$ListPagerItem$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabPagerListFragment$ListPagerItem$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabPagerListFragment$ListPagerItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabPagerListFragment$ListPagerItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabPagerListFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabPagerListFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/net/Constants.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/net/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/net/RequestContext$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/net/RequestContext$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/net/RequestContext$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/net/RequestContext$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/net/RequestContext$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/net/RequestContext$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/net/RequestContext.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/net/RequestContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/zip-cache/GWJv71HyNvETyccmkvr0WZ1lAz0=" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/zip-cache/GWJv71HyNvETyccmkvr0WZ1lAz0=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_head_share_s.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_head_share_s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_loved_s.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_loved_s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_photo_camera_s.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_photo_camera_s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_right_pressed.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_right_pressed.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/outputs/apk/hZSZ-debug.apk" afterPath="$PROJECT_DIR$/hZSZ/build/outputs/apk/hZSZ-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/Values.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/Values.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/BaseActivity.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/BaseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/NewsFragment.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/NewsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/TabRankingFragment.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/TabRankingFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sMSSDK/sMSSDK.iml" afterPath="$PROJECT_DIR$/sMSSDK/sMSSDK.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/hZSZ.iml" afterPath="$PROJECT_DIR$/hZSZ/hZSZ.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SearchRiverActivity.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SearchRiverActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/TabPagerListFragment.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/TabPagerListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_searchriver.xml" afterPath="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_searchriver.xml" />
     </list>
     <ignored path="HZSZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,21 +92,20 @@
       <file leaf-file-name="BaseFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/BaseFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TabRankingFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/TabRankingFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-264">
-              <caret line="146" column="113" selection-start-line="146" selection-start-column="113" selection-end-line="146" selection-end-column="113" />
+            <state relative-caret-position="176">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
-                <element signature="e#2630#3353#0" expanded="true" />
-                <element signature="e#3352#3353#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#746#747#0" expanded="false" />
+                <element signature="e#793#794#0" expanded="false" />
+                <element signature="e#844#845#0" expanded="false" />
+                <element signature="e#896#897#0" expanded="false" />
+                <element signature="e#928#929#0" expanded="false" />
+                <element signature="e#968#969#0" expanded="false" />
+                <element signature="e#1014#1015#0" expanded="false" />
+                <element signature="e#1065#1066#0" expanded="false" />
+                <element signature="e#1122#1123#0" expanded="false" />
+                <element signature="e#1168#1169#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -136,46 +116,96 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3256">
               <caret line="184" column="70" selection-start-line="184" selection-start-column="20" selection-end-line="184" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/BaseActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7678">
-              <caret line="398" column="41" selection-start-line="398" selection-start-column="41" selection-end-line="398" selection-end-column="41" />
               <folding>
-                <element signature="e#10572#10573#0" expanded="true" />
-                <element signature="e#10594#10595#0" expanded="true" />
-                <element signature="e#10639#10640#0" expanded="true" />
-                <element signature="e#10670#10671#0" expanded="true" />
-                <element signature="e#10703#10704#0" expanded="true" />
-                <element signature="e#10726#10727#0" expanded="true" />
-                <element signature="e#10773#10774#0" expanded="true" />
-                <element signature="e#10806#10807#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3570#3571#0" expanded="false" />
+                <element signature="e#3632#3633#0" expanded="false" />
+                <element signature="e#3705#3706#0" expanded="false" />
+                <element signature="e#3768#3769#0" expanded="false" />
+                <element signature="e#3943#3944#0" expanded="false" />
+                <element signature="e#3974#3975#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Values.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/Values.java">
+      <file leaf-file-name="SearchRiverActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SearchRiverActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="183" column="29" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
+              <folding>
+                <element signature="e#1796#1812#0" expanded="true" />
+                <element signature="e#1905#1912#0" expanded="true" />
+                <element signature="e#2578#3235#0" expanded="true" />
+                <element signature="e#2779#3150#0" expanded="true" />
+                <element signature="e#3149#3150#0" expanded="true" />
+                <element signature="e#3234#3235#0" expanded="true" />
+                <element signature="e#3288#3398#0" expanded="true" />
+                <element signature="e#3397#3398#0" expanded="true" />
+                <element signature="e#3443#4386#0" expanded="true" />
+                <element signature="e#3652#3804#0" expanded="true" />
+                <element signature="e#3803#3804#0" expanded="true" />
+                <element signature="e#4385#4386#0" expanded="true" />
+                <element signature="e#4443#6388#0" expanded="true" />
+                <element signature="e#6387#6388#0" expanded="true" />
+                <element signature="e#6962#7545#0" expanded="true" />
+                <element signature="e#7544#7545#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/utils/ObjUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_searchriver.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_searchriver.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shape_searchbox.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/drawable/shape_searchbox.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RiverFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3102">
+              <caret line="176" column="73" selection-start-line="176" selection-start-column="73" selection-end-line="176" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2059#2343#0" expanded="false" />
+                <element signature="e#2342#2343#0" expanded="false" />
+                <element signature="e#3658#3659#0" expanded="false" />
+                <element signature="e#3687#3688#0" expanded="false" />
+                <element signature="e#3781#3792#0" expanded="false" />
+                <element signature="e#4683#4684#0" expanded="false" />
+                <element signature="e#4716#4717#0" expanded="false" />
+                <element signature="e#5622#6179#0" expanded="false" />
+                <element signature="e#6178#6179#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2545,13 +2575,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_outlet_map.xml" />
-        <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_section_list.xml" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_outlet_list.xml" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/OutletListData.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/OutletListDataRes.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/River.java" />
-        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/Industrialport.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/RiverSearchDataRes.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/RiverNew.java" />
@@ -2566,7 +2593,6 @@
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/OutletLocationsRes.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletFragment.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletMapFragment.java" />
-        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SearchRiverActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefCompDetailActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SugOrComtActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_suggest.xml" />
@@ -2583,7 +2609,6 @@
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_chief_recordlist.xml" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_chief_editrecord.xml" />
-        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.java" />
@@ -2596,6 +2621,11 @@
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/NewsFragment.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/BaseActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/TabRankingFragment.java" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/TabPagerListFragment.java" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_searchriver.xml" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SearchRiverActivity.java" />
       </list>
     </option>
   </component>
@@ -2631,10 +2661,10 @@
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2642,7 +2672,7 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/EasyPR_Android-master" />
-    <property name="SearchEverywhereHistoryKey" value="ranki&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.TabRankingFragment&#10;ran&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.RankingFragment&#10;Con&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java&#10;Ba&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/BaseActivity.java&#10;outl&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.OutletFragment&#10;outletA&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/OutletActivity.java&#10;out&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/OutletListActivity.java&#10;Main&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/MainActivity.java&#10;MAin&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;Val&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/Values.java&#10;cons&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;ins&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java&#10;tra&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.java&#10;wel&#9;PSI&#9;JAVA://com.zju.hzsz.activity.WelcomeActivity&#10;main&#9;PSI&#9;JAVA://com.zju.hzsz.activity.MainActivity&#10;con&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;chief&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRecordListActivity.java&#10;Ma&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;outletlis&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java&#10;river&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java&#10;riverIn&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.river.RiverInfoItem&#10;map&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverMapFragment.java&#10;android&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/AndroidManifest.xml&#10;Ins&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java&#10;riverL&#9;PSI&#9;JAVA://com.zju.hzsz.model.RiverLocationsRes&#10;riv&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java&#10;fragment_out&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_outlet_map.xml&#10;sec&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_mainpage_section.xml&#10;pre&#9;ACTION&#9;ActivatePreviewToolWindow&#10;ma&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;RiverM&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverMapFragment.java&#10;outlet&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletFragment.java&#10;ri&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverListFragment.java&#10;item&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_river_detail.xml&#10;outle&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletFragment.java&#10;fragment_&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_outlet_list.xml&#10;requ&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java&#10;Riverli&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java&#10;RiverMa&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.RiverMapFragment&#10;DataR&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/SectionListDataRes.java&#10;SectionLis&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/SectionListDataRes.java&#10;tool&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/sin/android/update/ToolBox.java&#10;ind&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/Industrialport.java&#10;fr&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_section_list.xml&#10;section&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_section.xml&#10;outletL&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java&#10;item_se&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_section_list.xml&#10;Ta&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/TabPagerListFragment.java&#10;sectionli&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/SectionListActivity.java&#10;all&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/activity_alloutlet.xml" />
+    <property name="SearchEverywhereHistoryKey" value="Riv&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;con&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;search&#9;PSI&#9;JAVA://com.zju.hzsz.activity.SearchRiverActivity&#10;edi&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java&#10;re&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java&#10;News&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/NewsFragment.java&#10;inf&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;cons&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;ranki&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.TabRankingFragment&#10;ran&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.RankingFragment&#10;Con&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java&#10;Ba&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/BaseActivity.java&#10;outl&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.OutletFragment&#10;outletA&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/OutletActivity.java&#10;out&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/OutletListActivity.java&#10;Main&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/MainActivity.java&#10;MAin&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;Val&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/Values.java&#10;ins&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java&#10;tra&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.java&#10;wel&#9;PSI&#9;JAVA://com.zju.hzsz.activity.WelcomeActivity&#10;main&#9;PSI&#9;JAVA://com.zju.hzsz.activity.MainActivity&#10;chief&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRecordListActivity.java&#10;Ma&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;outletlis&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java&#10;river&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java&#10;riverIn&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.river.RiverInfoItem&#10;map&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverMapFragment.java&#10;android&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/AndroidManifest.xml&#10;Ins&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java&#10;riverL&#9;PSI&#9;JAVA://com.zju.hzsz.model.RiverLocationsRes&#10;riv&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java&#10;fragment_out&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_outlet_map.xml&#10;sec&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_mainpage_section.xml&#10;pre&#9;ACTION&#9;ActivatePreviewToolWindow&#10;ma&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;RiverM&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverMapFragment.java&#10;outlet&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletFragment.java&#10;ri&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverListFragment.java&#10;item&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_river_detail.xml&#10;outle&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletFragment.java&#10;fragment_&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_outlet_list.xml&#10;requ&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java&#10;Riverli&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java&#10;RiverMa&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.RiverMapFragment&#10;DataR&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/SectionListDataRes.java&#10;SectionLis&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/SectionListDataRes.java&#10;tool&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/sin/android/update/ToolBox.java&#10;ind&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/Industrialport.java&#10;fr&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_section_list.xml" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="device.picker.selection" value="MDG4C16415003317" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/hZSZ/src/main/res/drawable" />
@@ -3102,7 +3132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488015733741</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="02-27-backup">
+      <created>1488160426953</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1488160426953</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3118,29 +3155,30 @@
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25299147" sideWeight="0.48966026" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19156414" sideWeight="0.76033694" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5817223" sideWeight="0.2396631" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28822497" sideWeight="0.770229" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23200613" sideWeight="0.50615114" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39015818" sideWeight="0.49389312" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25299147" sideWeight="0.48966026" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19156414" sideWeight="0.76033694" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5817223" sideWeight="0.2396631" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3075571" sideWeight="0.770229" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38284838" sideWeight="0.49384886" order="10" side_tool="false" content_ui="tabs" x="0" y="20" width="1366" height="705" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.100175746" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649574" sideWeight="0.4970458" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5940246" sideWeight="0.14327918" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20137826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29785606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23200613" sideWeight="0.50615114" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39015818" sideWeight="0.49389312" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3149,7 +3187,6 @@
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23200613" sideWeight="0.49384886" order="10" side_tool="false" content_ui="tabs" x="0" y="20" width="1366" height="705" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23022847" sideWeight="0.4844904" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -3159,7 +3196,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5817223" sideWeight="0.2396631" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2794376" sideWeight="0.770229" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28822497" sideWeight="0.770229" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3181,7 +3218,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649574" sideWeight="0.4970458" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5940246" sideWeight="0.14327918" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20137826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29785606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23022847" sideWeight="0.4844904" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -3217,7 +3254,8 @@
     <MESSAGE value="02-25-backup" />
     <MESSAGE value="02-25-abdialog and default location is completed" />
     <MESSAGE value="02-25-update is complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="02-25-update is complete" />
+    <MESSAGE value="02-27-backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="02-27-backup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3226,96 +3264,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/RiverRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverMapFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-477">
-          <caret line="76" column="80" selection-start-line="76" selection-start-column="80" selection-end-line="76" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/confs_river_info_img.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="134" column="64" selection-start-line="134" selection-start-column="64" selection-end-line="134" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/confs_river_info.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_publicity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/PublicityFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_allriver.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/RiverListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/PublicityListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_outlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -3442,9 +3390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="31" column="139" selection-start-line="31" selection-start-column="129" selection-end-line="31" selection-end-column="142" />
-          <folding>
-            <element signature="e#1387#1388#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3452,7 +3397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3474,6 +3418,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#135#136#0" expanded="false" />
+            <element signature="e#182#183#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3481,13 +3429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="14" column="89" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
         </state>
       </provider>
     </entry>
@@ -3512,19 +3453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1362">
-          <caret line="405" column="58" selection-start-line="405" selection-start-column="58" selection-end-line="405" selection-end-column="58" />
-          <folding>
-            <element signature="e#4894#5098#0" expanded="false" />
-            <element signature="e#5097#5098#0" expanded="false" />
-            <element signature="e#5132#5280#0" expanded="false" />
-            <element signature="e#5279#5280#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/OutletActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="745">
@@ -3546,61 +3474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3256">
-          <caret line="184" column="70" selection-start-line="184" selection-start-column="20" selection-end-line="184" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-937">
-          <caret line="39" column="91" selection-start-line="39" selection-start-column="91" selection-end-line="39" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/TabPagerListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/NewsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1318">
-          <caret line="116" column="10" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1942#2204#0" expanded="true" />
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#3056#3057#0" expanded="true" />
-            <element signature="e#3124#3125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="650" column="84" selection-start-line="650" selection-start-column="84" selection-end-line="650" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#14871#15348#0" expanded="true" />
-            <element signature="e#15347#15348#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3608,32 +3485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/BaseFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7678">
-          <caret line="398" column="41" selection-start-line="398" selection-start-column="41" selection-end-line="398" selection-end-column="41" />
-          <folding>
-            <element signature="e#10572#10573#0" expanded="true" />
-            <element signature="e#10594#10595#0" expanded="true" />
-            <element signature="e#10639#10640#0" expanded="true" />
-            <element signature="e#10670#10671#0" expanded="true" />
-            <element signature="e#10703#10704#0" expanded="true" />
-            <element signature="e#10726#10727#0" expanded="true" />
-            <element signature="e#10773#10774#0" expanded="true" />
-            <element signature="e#10806#10807#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3641,7 +3492,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3650,20 +3500,262 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/TabRankingFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
+        <state relative-caret-position="2354">
           <caret line="146" column="113" selection-start-line="146" selection-start-column="113" selection-end-line="146" selection-end-column="113" />
           <folding>
-            <element signature="e#2630#3353#0" expanded="true" />
-            <element signature="e#3352#3353#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5964#5965#0" expanded="false" />
+            <element signature="e#5990#5991#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="398" column="41" selection-start-line="398" selection-start-column="41" selection-end-line="398" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/TabPagerListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/Values.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="330">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="407" column="43" selection-start-line="407" selection-start-column="43" selection-end-line="407" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/NewsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2023">
+          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="89" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3256">
+          <caret line="184" column="70" selection-start-line="184" selection-start-column="20" selection-end-line="184" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3570#3571#0" expanded="false" />
+            <element signature="e#3632#3633#0" expanded="false" />
+            <element signature="e#3705#3706#0" expanded="false" />
+            <element signature="e#3768#3769#0" expanded="false" />
+            <element signature="e#3943#3944#0" expanded="false" />
+            <element signature="e#3974#3975#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/confs_river_info.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/river/BaseRiverPagerItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1054#1055#0" expanded="false" />
+            <element signature="e#1079#1080#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_river_contact_user.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5940">
+          <caret line="335" column="69" selection-start-line="335" selection-start-column="69" selection-end-line="335" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1225#1922#0" expanded="false" />
+            <element signature="e#1624#1873#0" expanded="false" />
+            <element signature="e#1872#1873#0" expanded="false" />
+            <element signature="e#1921#1922#0" expanded="false" />
+            <element signature="e#1972#2123#0" expanded="false" />
+            <element signature="e#2122#2123#0" expanded="false" />
+            <element signature="e#2165#2386#0" expanded="false" />
+            <element signature="e#2385#2386#0" expanded="false" />
+            <element signature="e#2436#2586#0" expanded="false" />
+            <element signature="e#2585#2586#0" expanded="false" />
+            <element signature="e#2629#2849#0" expanded="false" />
+            <element signature="e#2848#2849#0" expanded="false" />
+            <element signature="e#3213#3384#0" expanded="false" />
+            <element signature="e#3383#3384#0" expanded="false" />
+            <element signature="e#4292#4589#0" expanded="false" />
+            <element signature="e#4588#4589#0" expanded="false" />
+            <element signature="e#4900#5199#0" expanded="false" />
+            <element signature="e#5198#5199#0" expanded="false" />
+            <element signature="e#6092#7259#0" expanded="false" />
+            <element signature="e#6204#6548#0" expanded="false" />
+            <element signature="e#6547#6548#0" expanded="false" />
+            <element signature="e#7258#7259#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/clz/RootViewWarp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#793#794#0" expanded="false" />
+            <element signature="e#844#845#0" expanded="false" />
+            <element signature="e#896#897#0" expanded="false" />
+            <element signature="e#928#929#0" expanded="false" />
+            <element signature="e#968#969#0" expanded="false" />
+            <element signature="e#1014#1015#0" expanded="false" />
+            <element signature="e#1065#1066#0" expanded="false" />
+            <element signature="e#1122#1123#0" expanded="false" />
+            <element signature="e#1168#1169#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3102">
+          <caret line="176" column="73" selection-start-line="176" selection-start-column="73" selection-end-line="176" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2059#2343#0" expanded="false" />
+            <element signature="e#2342#2343#0" expanded="false" />
+            <element signature="e#3658#3659#0" expanded="false" />
+            <element signature="e#3687#3688#0" expanded="false" />
+            <element signature="e#3781#3792#0" expanded="false" />
+            <element signature="e#4683#4684#0" expanded="false" />
+            <element signature="e#4716#4717#0" expanded="false" />
+            <element signature="e#5622#6179#0" expanded="false" />
+            <element signature="e#6178#6179#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/drawable/shape_searchbox.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_searchriver.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/utils/ObjUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_river.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SearchRiverActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="183" column="29" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
+          <folding>
+            <element signature="e#1796#1812#0" expanded="true" />
+            <element signature="e#1905#1912#0" expanded="true" />
+            <element signature="e#2578#3235#0" expanded="true" />
+            <element signature="e#2779#3150#0" expanded="true" />
+            <element signature="e#3149#3150#0" expanded="true" />
+            <element signature="e#3234#3235#0" expanded="true" />
+            <element signature="e#3288#3398#0" expanded="true" />
+            <element signature="e#3397#3398#0" expanded="true" />
+            <element signature="e#3443#4386#0" expanded="true" />
+            <element signature="e#3652#3804#0" expanded="true" />
+            <element signature="e#3803#3804#0" expanded="true" />
+            <element signature="e#4385#4386#0" expanded="true" />
+            <element signature="e#4443#6388#0" expanded="true" />
+            <element signature="e#6387#6388#0" expanded="true" />
+            <element signature="e#6962#7545#0" expanded="true" />
+            <element signature="e#7544#7545#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
