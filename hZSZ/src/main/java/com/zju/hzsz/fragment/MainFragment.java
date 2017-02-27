@@ -142,6 +142,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			RootViewWarp warp = getRootViewWarp();
 			warp.setHeadImage(R.drawable.ic_head_sug, R.drawable.ic_head_share);
 
+
 			//点击查看水质说明
 			rootView.findViewById(R.id.tv_qualityexplain).setOnClickListener(new View.OnClickListener() {
 
@@ -640,10 +641,14 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			if (bdLocation != null){
 				latitude = bdLocation.getLatitude();
 				longitude = bdLocation.getLongitude();
-				System.out.println("latitude:" + latitude + "," + "longitude:" + longitude);
+				//将经纬度传给BaseAcitivity
+				getBaseActivity().setLatitude(latitude);
+				getBaseActivity().setLongitude(longitude);
+				System.out.println("latitude:" + getBaseActivity().getLatitude() + "," + "longitude:" + getBaseActivity().getLongitude());
 				initData();
 				if (mLocationClient.isStarted()){
 					mLocationClient.stop();
+					mLocationClient.unRegisterLocationListener(mBDLocationListener);
 				}
 
 			}

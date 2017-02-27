@@ -58,6 +58,8 @@ public class NewsFragment extends TabPagerListFragment {
 			try {
 				p.put("newsType", newsType);
 				p.put("districtId", curDistrict == null ? 0 : curDistrict.districtId);
+				p.put("longtitude", getBaseActivity().getLongitude());
+				p.put("latitude", getBaseActivity().getLatitude());
 			} catch (JSONException e) {
 				e.printStackTrace();
 			}
@@ -112,6 +114,7 @@ public class NewsFragment extends TabPagerListFragment {
 		super.onCreateView(inflater, container, savedInstanceState);
 		// getRootViewWarp().setHeadTabText(R.string.news_news,
 		// R.string.news_notice);
+		//Log.i("latiFromBA", Double.toString(getBaseActivity().getLongitude()));
 		getRootViewWarp().setHeadImage(0, R.drawable.ic_head_order);
 		getRootViewWarp().setHeadTitle("新闻公告");
 		getRootViewWarp().getViewById(R.id.iv_head_right).setOnClickListener(new View.OnClickListener() {

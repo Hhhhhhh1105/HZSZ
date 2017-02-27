@@ -142,7 +142,9 @@ public class TabRankingFragment extends BaseFragment implements OnPageChangeList
 					setRefreshing(false);
 				}
 
-			}, RankingRes.class, ParamUtils.freeParam(null, "timePeriod", typeid, "districtId", curDistrict.districtId, "sortParamsId", sortParamsId, "sortType", sortType ? 0 : 1));
+			}, RankingRes.class, ParamUtils.freeParam(null, "timePeriod", typeid, "districtId",
+					curDistrict.districtId, "sortParamsId", sortParamsId, "sortType", sortType ? 0 : 1,
+					"latitude", getBaseActivity().getLatitude(), "longitude", getBaseActivity().getLongitude()));
 		}
 
 		private void setRefreshing(boolean b) {
