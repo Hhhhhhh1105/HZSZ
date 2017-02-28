@@ -1,5 +1,6 @@
 package com.zju.hzsz.activity;
 
+import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ImageView;
@@ -33,6 +35,7 @@ import com.zju.hzsz.view.ListViewWarp;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -64,14 +67,93 @@ public class SearchNewsActivity extends BaseActivity implements CheckBox.OnCheck
     private ListViewWarp listViewWarp = null;
     private DistrictWarper curDw = null;
 
+    private TextView startTime;
+    private String startTimeStr;
+    private TextView endTime;
+    private String endTimeStr;
+    private int newsType = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_searchnews);
 
-        setTitle("搜索新闻");
+        newsType = getIntent().getExtras().getInt("newsType");
+        switch (newsType){
+            case 1:
+                setTitle("搜索新闻");
+                break;
+            case 2:
+                setTitle("搜索公告");
+                break;
+            case 6:
+                setTitle("搜索每日一问");
+                break;
+            default:
+                setTitle("搜索新闻");
+                break;
+        }
+
         initHead(R.drawable.ic_head_back, 0);
+
+        Calendar c = Calendar.getInstance();
+
+        startTime = (TextView) findViewById(R.id.tv_selstartdate);
+        startTimeStr = "2016-01-01";
+        startTime.setText(startTimeStr);
+        endTime = (TextView) findViewById(R.id.tv_selenddate);
+        //month本来就小1，原本是大于9不要加个0，现在是大于8不要加个0 -> （9开始，9+1=10）
+        endTimeStr = "" + c.get(Calendar.YEAR) + ((c.get(Calendar.MONTH ) > 8 ) ? '-' : "-0")
+                + (c.get(Calendar.MONTH) + 1) +
+                ((c.get(Calendar.DAY_OF_MONTH) > 9 ) ? '-' : "-0")
+                + c.get(Calendar.DAY_OF_MONTH);
+        endTime.setText(endTimeStr);
+
+        startTime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar c = Calendar.getInstance();
+                // 直接创建一个DatePickerDialog对话框实例，并将它显示出来
+                new DatePickerDialog(SearchNewsActivity.this,
+                        // 绑定监听器
+                        new DatePickerDialog.OnDateSetListener() {
+
+                            @Override
+                            public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                                startTimeStr = year + (monthOfYear > 8 ? "-" : "-0") + (monthOfYear + 1) + (dayOfMonth > 9 ? "-" : "-0") + dayOfMonth;
+                                startTime.setText(startTimeStr);
+                            }
+                        }
+                        // 设置初始日期
+                        , c.get(Calendar.YEAR), c.get(Calendar.MONTH),
+                        c.get(Calendar.DAY_OF_MONTH)).show();
+            }
+        });
+
+
+
+        endTime.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar c = Calendar.getInstance();
+                // 直接创建一个DatePickerDialog对话框实例，并将它显示出来
+                new DatePickerDialog(SearchNewsActivity.this,
+                        // 绑定监听器
+                        new DatePickerDialog.OnDateSetListener() {
+
+                            @Override
+                            public void onDateSet(DatePicker view, int year,
+                                                  int monthOfYear, int dayOfMonth) {
+                                endTimeStr = year + (monthOfYear > 8 ? "-" : "-0") + (monthOfYear + 1) + (dayOfMonth > 9 ? "-" : "-0") + dayOfMonth;
+                                endTime.setText(endTimeStr);
+                            }
+                        }
+                        // 设置初始日期
+                        , c.get(Calendar.YEAR), c.get(Calendar.MONTH), c
+                        .get(Calendar.DAY_OF_MONTH)).show();
+            }
+        });
 
         final View.OnClickListener goNewsDetail = new View.OnClickListener() {
             @Override
@@ -93,6 +175,7 @@ public class SearchNewsActivity extends BaseActivity implements CheckBox.OnCheck
             @Override
             public void onClick(View v) {
                 startSearch(true);
+                hideInput();
             }
         });
 
@@ -197,27 +280,30 @@ public class SearchNewsActivity extends BaseActivity implements CheckBox.OnCheck
             dwAdpter.notifyDataSetChanged();
 
             //可在此添加开始搜索的代码：startSearch(true);
+            startSearch(true);
         }
 
-        InputMethodManager imm = (InputMethodManager) this.getSystemService(Context.INPUT_METHOD_SERVICE);
-        if (imm.isActive()) {
-            imm.hideSoftInputFromWindow(((EditText) findViewById(R.id.et_keyword)).getApplicationWindowToken(), 0);
-        }
+        hideInput();
 
     }
 
     @Override
     public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
         if (actionId == EditorInfo.IME_ACTION_SEARCH){
-
-            InputMethodManager imm = (InputMethodManager) this.getSystemService(Context.INPUT_METHOD_SERVICE);
-            if (imm.isActive()) {
-                imm.hideSoftInputFromWindow(((EditText) findViewById(R.id.et_keyword)).getApplicationWindowToken(), 0);
-            }
-
+            hideInput();
             startSearch(true);
         }
         return false;
+    }
+
+    /**
+     * 隐藏输入键盘
+     */
+    private void hideInput(){
+        InputMethodManager imm = (InputMethodManager) this.getSystemService(Context.INPUT_METHOD_SERVICE);
+        if (imm.isActive()) {
+            imm.hideSoftInputFromWindow(((EditText) findViewById(R.id.et_keyword)).getApplicationWindowToken(), 0);
+        }
     }
 
     private String getKeyword(){
@@ -239,10 +325,12 @@ public class SearchNewsActivity extends BaseActivity implements CheckBox.OnCheck
     private boolean startSearch(final boolean refresh){
         JSONObject p = null;
         if (curDw == null || curDw.district == null || curDw.district.districtId == 0){
-            p = ParamUtils.freeParam(getPageParam(refresh), "searchContent", getKeyword());
+            p = ParamUtils.freeParam(getPageParam(refresh), "searchContent", getKeyword(),
+                    "startTime", startTimeStr, "endTime", endTimeStr, "newsType", newsType);
         }else {
             p = ParamUtils.freeParam(getPageParam(refresh), "searchContent", getKeyword(),
-                    "districtId", curDw.district.districtId);
+                    "districtId", curDw.district.districtId, "startTime", startTimeStr,
+                    "endTime", endTimeStr, "newsType", newsType);
         }
 
         showOperating();

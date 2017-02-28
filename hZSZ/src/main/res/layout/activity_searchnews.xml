@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@null"
-            android:hint="@string/hint_searchriver"
+            android:hint="输入新闻关键词进行查询"
             android:imeOptions="actionSearch"
             android:paddingLeft="@dimen/padding_large"
             android:singleLine="true"
@@ -46,6 +46,62 @@
             android:contentDescription="@null"
             android:src="@drawable/ic_head_search_s" />
     </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightgreen"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_medium"
+        android:paddingLeft="@dimen/page_padding"
+        android:paddingRight="@dimen/page_padding"
+        android:paddingTop="@dimen/padding_medium" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择日期范围"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_selstartdate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/padding_medium"
+            android:text="2016-09-15"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/green"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="至"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_selenddate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2016-09-16"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/green"
+            android:textSize="@dimen/font_normal" />
+
+    </LinearLayout>
+
 
     <View
         android:layout_width="match_parent"

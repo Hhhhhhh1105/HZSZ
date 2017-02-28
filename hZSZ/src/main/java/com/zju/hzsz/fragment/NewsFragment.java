@@ -111,7 +111,7 @@ public class NewsFragment extends TabPagerListFragment {
 	private List<PagerItem> pagerItems = null;
 
 	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+	public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
 		super.onCreateView(inflater, container, savedInstanceState);
 		// getRootViewWarp().setHeadTabText(R.string.news_news,
 		// R.string.news_notice);
@@ -133,7 +133,27 @@ public class NewsFragment extends TabPagerListFragment {
 		getRootViewWarp().getViewById(R.id.iv_head_left).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent(getBaseActivity(), SearchNewsActivity.class));
+				//根据当前的页面选择需要进行搜索的新闻类型
+				int newsType = 1;
+				int currentItem = vpPagers.getCurrentItem();
+				switch (currentItem){
+					case 0:
+						newsType = 1;
+						break;
+					case 1:
+						newsType = 2;
+						break;
+					case 2:
+						newsType = 6;
+						break;
+					default:
+						newsType = 1;
+						break;
+				}
+
+				Intent intent = new Intent(getBaseActivity(), SearchNewsActivity.class);
+				intent.putExtra("newsType", newsType);
+				startActivity(intent);
 			}
 		});
 
