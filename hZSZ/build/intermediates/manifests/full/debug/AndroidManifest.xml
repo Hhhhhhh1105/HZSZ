@@ -216,6 +216,10 @@
             android:label="@string/searchriver"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.zju.hzsz.activity.SearchNewsActivity"
+            android:label="搜索新闻"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.zju.hzsz.activity.ViewItActivity"
             android:screenOrientation="portrait" />
         <activity

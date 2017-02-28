@@ -21,6 +21,7 @@ import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.Values;
 import com.zju.hzsz.activity.NewsDetailActivity;
+import com.zju.hzsz.activity.SearchNewsActivity;
 import com.zju.hzsz.adapter.PagerItem;
 import com.zju.hzsz.model.District;
 import com.zju.hzsz.model.News;
@@ -115,7 +116,7 @@ public class NewsFragment extends TabPagerListFragment {
 		// getRootViewWarp().setHeadTabText(R.string.news_news,
 		// R.string.news_notice);
 		//Log.i("latiFromBA", Double.toString(getBaseActivity().getLongitude()));
-		getRootViewWarp().setHeadImage(0, R.drawable.ic_head_order);
+		getRootViewWarp().setHeadImage(R.drawable.ic_head_search, R.drawable.ic_head_order);
 		getRootViewWarp().setHeadTitle("新闻公告");
 		getRootViewWarp().getViewById(R.id.iv_head_right).setOnClickListener(new View.OnClickListener() {
 
@@ -126,6 +127,13 @@ public class NewsFragment extends TabPagerListFragment {
 					// pagerItems.get(vpPagers.getCurrentItem())).startRefresh();
 					showAreaPop();
 				}
+			}
+		});
+
+		getRootViewWarp().getViewById(R.id.iv_head_left).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(getBaseActivity(), SearchNewsActivity.class));
 			}
 		});
 

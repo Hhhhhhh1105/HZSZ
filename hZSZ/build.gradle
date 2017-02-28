@@ -40,5 +40,5 @@ dependencies {
     compile files('libs/uk.co.senab.photoview.1.2.2.jar')
     compile files('libs/umeng-analytics-v5.5.3.jar')
     compile files('libs/umeng_social_sdk.jar')
-    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
 }

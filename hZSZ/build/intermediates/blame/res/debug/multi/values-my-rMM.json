@@ -7,17 +7,17 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
-                    "endColumn": 205,
-                    "endOffset": 306
+                    "endColumn": 277,
+                    "endOffset": 378
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 502,
-                        "endColumn": 209,
-                        "endOffset": 707
+                        "startOffset": 3638,
+                        "endColumn": 281,
+                        "endOffset": 3915
                     }
                 }
             },
@@ -25,18 +25,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 311,
-                    "endColumn": 205,
-                    "endOffset": 512
+                    "startOffset": 383,
+                    "endColumn": 135,
+                    "endOffset": 514
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 2751,
-                        "endColumn": 209,
-                        "endOffset": 2956
+                        "startOffset": 1354,
+                        "endColumn": 135,
+                        "endOffset": 1485
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 517,
-                    "endColumn": 124,
-                    "endOffset": 637
+                    "startOffset": 519,
+                    "endColumn": 195,
+                    "endOffset": 710
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 2417,
-                        "endColumn": 124,
-                        "endOffset": 2537
+                        "startOffset": 1154,
+                        "endColumn": 199,
+                        "endOffset": 1349
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 642,
-                    "endColumn": 272,
-                    "endOffset": 910
+                    "startOffset": 715,
+                    "endColumn": 135,
+                    "endOffset": 846
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 30,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 4696,
-                        "endColumn": 276,
-                        "endOffset": 4968
+                        "startOffset": 1018,
+                        "endColumn": 135,
+                        "endOffset": 1149
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 915,
-                    "endColumn": 136,
-                    "endOffset": 1047
+                    "startOffset": 851,
+                    "endColumn": 137,
+                    "endOffset": 984
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 2139,
-                        "endColumn": 136,
-                        "endOffset": 2271
+                        "startOffset": 880,
+                        "endColumn": 137,
+                        "endOffset": 1013
                     }
                 }
             },
@@ -101,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 1052,
-                    "endColumn": 194,
-                    "endOffset": 1242
+                    "startOffset": 989,
+                    "endColumn": 209,
+                    "endOffset": 1194
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 1940,
-                        "endColumn": 198,
-                        "endOffset": 2134
+                        "startOffset": 449,
+                        "endColumn": 213,
+                        "endOffset": 658
                     }
                 }
             },
@@ -120,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 1247,
-                    "endColumn": 134,
-                    "endOffset": 1377
+                    "startOffset": 1199,
+                    "endColumn": 212,
+                    "endOffset": 1407
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 1805,
-                        "endColumn": 134,
-                        "endOffset": 1935
+                        "startOffset": 663,
+                        "endColumn": 216,
+                        "endOffset": 875
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 1382,
-                    "endColumn": 173,
-                    "endOffset": 1551
+                    "startOffset": 1412,
+                    "endColumn": 133,
+                    "endOffset": 1541
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 894,
-                        "endColumn": 177,
-                        "endOffset": 1067
+                        "startOffset": 315,
+                        "endColumn": 133,
+                        "endOffset": 444
                     }
                 }
             },
@@ -158,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 1556,
-                    "endColumn": 138,
-                    "endOffset": 1690
+                    "startOffset": 1546,
+                    "endColumn": 178,
+                    "endOffset": 1720
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1666,
-                        "endColumn": 138,
-                        "endOffset": 1800
+                        "startOffset": 2859,
+                        "endColumn": 178,
+                        "endOffset": 3033
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1695,
-                    "endColumn": 223,
-                    "endOffset": 1914
+                    "startOffset": 1725,
+                    "endColumn": 124,
+                    "endOffset": 1845
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1208,
-                        "endColumn": 227,
-                        "endOffset": 1431
+                        "startOffset": 2734,
+                        "endColumn": 124,
+                        "endOffset": 2854
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1919,
-                    "endColumn": 225,
-                    "endOffset": 2140
+                    "startOffset": 1850,
+                    "endColumn": 174,
+                    "endOffset": 2020
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1436,
-                        "endColumn": 229,
-                        "endOffset": 1661
+                        "startOffset": 2559,
+                        "endColumn": 174,
+                        "endOffset": 2729
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 2145,
-                    "endColumn": 135,
-                    "endOffset": 2276
+                    "startOffset": 2025,
+                    "endColumn": 129,
+                    "endOffset": 2150
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1072,
-                        "endColumn": 135,
-                        "endOffset": 1203
+                        "startOffset": 2429,
+                        "endColumn": 129,
+                        "endOffset": 2554
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 2281,
-                    "endColumn": 178,
-                    "endOffset": 2455
+                    "startOffset": 2155,
+                    "endColumn": 144,
+                    "endOffset": 2295
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 24,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 3752,
-                        "endColumn": 178,
-                        "endOffset": 3926
+                        "startOffset": 170,
+                        "endColumn": 144,
+                        "endOffset": 310
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 2460,
-                    "endColumn": 125,
-                    "endOffset": 2581
+                    "startOffset": 2300,
+                    "endColumn": 178,
+                    "endOffset": 2474
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 3626,
-                        "endColumn": 125,
-                        "endOffset": 3747
+                        "startOffset": 4388,
+                        "endColumn": 178,
+                        "endOffset": 4562
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 2586,
-                    "endColumn": 181,
-                    "endOffset": 2763
+                    "startOffset": 2479,
+                    "endColumn": 147,
+                    "endOffset": 2622
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 712,
-                        "endColumn": 181,
-                        "endOffset": 889
+                        "startOffset": 4240,
+                        "endColumn": 147,
+                        "endOffset": 4383
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 2768,
-                    "endColumn": 175,
-                    "endOffset": 2939
+                    "startOffset": 2627,
+                    "endColumn": 185,
+                    "endOffset": 2808
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 3450,
-                        "endColumn": 175,
-                        "endOffset": 3621
+                        "startOffset": 4054,
+                        "endColumn": 185,
+                        "endOffset": 4235
                     }
                 }
             },
@@ -310,18 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 2944,
-                    "endColumn": 119,
-                    "endOffset": 3059
+                    "startOffset": 2813,
+                    "endColumn": 133,
+                    "endOffset": 2942
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 3330,
-                        "endColumn": 119,
-                        "endOffset": 3445
+                        "startOffset": 3920,
+                        "endColumn": 133,
+                        "endOffset": 4049
                     }
                 }
             },
@@ -329,18 +329,18 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 3064,
-                    "endColumn": 191,
-                    "endOffset": 3251
+                    "startOffset": 2947,
+                    "endColumn": 251,
+                    "endOffset": 3194
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.4.0\\res\\values-my-rMM\\common_strings.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 310,
-                        "endColumn": 191,
-                        "endOffset": 497
+                        "startOffset": 170,
+                        "endColumn": 255,
+                        "endOffset": 421
                     }
                 }
             },
@@ -348,18 +348,18 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 3256,
-                    "endColumn": 139,
-                    "endOffset": 3391
+                    "startOffset": 3199,
+                    "endColumn": 257,
+                    "endOffset": 3452
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 139,
-                        "endOffset": 305
+                        "startOffset": 3169,
+                        "endColumn": 261,
+                        "endOffset": 3426
                     }
                 }
             },
@@ -367,18 +367,18 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 3396,
-                    "endColumn": 219,
-                    "endOffset": 3611
+                    "startOffset": 3457,
+                    "endColumn": 130,
+                    "endOffset": 3583
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 32,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 5118,
-                        "endColumn": 219,
-                        "endOffset": 5333
+                        "startOffset": 3038,
+                        "endColumn": 130,
+                        "endOffset": 3164
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 3616,
-                    "endColumn": 144,
-                    "endOffset": 3756
+                    "startOffset": 3588,
+                    "endColumn": 107,
+                    "endOffset": 3691
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 31,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 4973,
-                        "endColumn": 144,
-                        "endOffset": 5113
+                        "startOffset": 3431,
+                        "endColumn": 107,
+                        "endOffset": 3534
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 3761,
-                    "endColumn": 148,
-                    "endOffset": 3905
+                    "startOffset": 3696,
+                    "endColumn": 202,
+                    "endOffset": 3894
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 25,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 3931,
-                        "endColumn": 148,
-                        "endOffset": 4075
+                        "startOffset": 1635,
+                        "endColumn": 206,
+                        "endOffset": 1837
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 3910,
-                    "endColumn": 273,
-                    "endOffset": 4179
+                    "startOffset": 3899,
+                    "endColumn": 144,
+                    "endOffset": 4039
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 27,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 4212,
-                        "endColumn": 277,
-                        "endOffset": 4485
+                        "startOffset": 1490,
+                        "endColumn": 144,
+                        "endOffset": 1630
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 4184,
-                    "endColumn": 131,
-                    "endOffset": 4311
+                    "startOffset": 4044,
+                    "endColumn": 216,
+                    "endOffset": 4256
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 26,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 4080,
-                        "endColumn": 131,
-                        "endOffset": 4207
+                        "startOffset": 2208,
+                        "endColumn": 220,
+                        "endOffset": 2424
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 4316,
-                    "endColumn": 110,
-                    "endOffset": 4422
+                    "startOffset": 4261,
+                    "endColumn": 148,
+                    "endOffset": 4405
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 28,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 4490,
-                        "endColumn": 110,
-                        "endOffset": 4596
+                        "startOffset": 2059,
+                        "endColumn": 148,
+                        "endOffset": 2203
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 4427,
-                    "endColumn": 204,
-                    "endOffset": 4627
+                    "startOffset": 4410,
+                    "endColumn": 216,
+                    "endOffset": 4622
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 2542,
-                        "endColumn": 208,
-                        "endOffset": 2746
+                        "startOffset": 1842,
+                        "endColumn": 216,
+                        "endOffset": 2054
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 4632,
-                    "endColumn": 140,
-                    "endOffset": 4768
+                    "startOffset": 4627,
+                    "endColumn": 98,
+                    "endOffset": 4721
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 2276,
-                        "endColumn": 140,
-                        "endOffset": 2412
+                        "startOffset": 3539,
+                        "endColumn": 98,
+                        "endOffset": 3633
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 4773,
-                    "endColumn": 223,
-                    "endOffset": 4992
+                    "startOffset": 4726,
+                    "endColumn": 102,
+                    "endOffset": 4824
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 3102,
-                        "endColumn": 227,
-                        "endOffset": 3325
+                        "startOffset": 4567,
+                        "endColumn": 102,
+                        "endOffset": 4665
                     }
                 }
             },
@@ -538,37 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 4997,
-                    "endColumn": 140,
-                    "endOffset": 5133
+                    "startOffset": 4829,
+                    "endColumn": 118,
+                    "endOffset": 4943
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
+                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\values-my-rMM\\base_strings.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 2961,
-                        "endColumn": 140,
-                        "endOffset": 3097
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 5138,
-                    "endColumn": 94,
-                    "endOffset": 5228
-                },
-                "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-my-rMM\\common_strings.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 4601,
-                        "endColumn": 94,
-                        "endOffset": 4691
+                        "startOffset": 4670,
+                        "endColumn": 118,
+                        "endOffset": 4784
                     }
                 }
             }
