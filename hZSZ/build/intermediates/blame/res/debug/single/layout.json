@@ -488,6 +488,10 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\HZSZ\\sMSSDK\\unspecified\\res\\layout\\smssdk_contact_list_page.xml"
     },
     {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_searchcomp.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_searchcomp.xml"
+    },
+    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_quality_line_v.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_quality_line_v.xml"
     },

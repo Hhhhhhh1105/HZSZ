@@ -2,6 +2,7 @@ package com.zju.hzsz.fragment;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 
 import com.zju.hzsz.R;
 import com.zju.hzsz.activity.MainActivity;
+import com.zju.hzsz.activity.SearchCompActivity;
 
 /**
  * 投诉公示
@@ -34,7 +36,7 @@ public class PublicityFragment extends BaseFragment implements OnCheckedChangeLi
 
 			((RadioGroup) rootView.findViewById(R.id.rg_headtab)).setOnCheckedChangeListener(this);
 			//设置右上方的图标
-			getRootViewWarp().setHeadImage(0, R.drawable.ic_head_refresh);
+			getRootViewWarp().setHeadImage(R.drawable.ic_head_search, R.drawable.ic_head_refresh);
 			replaceFragment(listFragment);
 			rootView.findViewById(R.id.iv_head_right).setOnClickListener(new View.OnClickListener() {
 
@@ -65,6 +67,9 @@ public class PublicityFragment extends BaseFragment implements OnCheckedChangeLi
 				public void onClick(View arg0) {
 					if (!isMainPage) {
 						getBaseActivity().finish();
+					}else {
+						//跳转至搜索界面
+						startActivity(new Intent(getBaseActivity(), SearchCompActivity.class));
 					}
 				}
 			});
@@ -81,7 +86,7 @@ public class PublicityFragment extends BaseFragment implements OnCheckedChangeLi
 		switch (rdid) {
 		case R.id.rb_head_left:
 			replaceFragment(listFragment);
-			getRootViewWarp().setHeadImage(0, R.drawable.ic_head_refresh);
+			getRootViewWarp().setHeadImage(R.drawable.ic_head_search, R.drawable.ic_head_refresh);//若为最新投诉，左上角设置为搜索图标
 			break;
 		case R.id.rb_head_right:
 			replaceFragment(mapFragment);

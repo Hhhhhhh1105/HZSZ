@@ -45,8 +45,6 @@ import java.util.List;
 public class SearchNewsActivity extends BaseActivity implements CheckBox.OnCheckedChangeListener, TextView.OnEditorActionListener {
 
 
-
-
     class DistrictWarper {
         public District district;
         public boolean checked;

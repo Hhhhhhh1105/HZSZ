@@ -110,18 +110,18 @@ public final class R {
 		public static final int tv_unreceive_identify = 0x7f0c0197;
 	}
 	public static final class layout {
-		public static final int smssdk_back_verify_dialog = 0x7f03006e;
-		public static final int smssdk_contact_detail_page = 0x7f03006f;
-		public static final int smssdk_contact_list_page = 0x7f030070;
-		public static final int smssdk_contacts_listview_item = 0x7f030071;
-		public static final int smssdk_country_list_page = 0x7f030072;
-		public static final int smssdk_input_identify_num_page = 0x7f030073;
-		public static final int smssdk_listview_title_layout = 0x7f030074;
-		public static final int smssdk_progress_dialog = 0x7f030075;
-		public static final int smssdk_regist_page = 0x7f030076;
-		public static final int smssdk_search_title_layout = 0x7f030077;
-		public static final int smssdk_send_msg_dialog = 0x7f030078;
-		public static final int smssdk_title_layout = 0x7f030079;
+		public static final int smssdk_back_verify_dialog = 0x7f03006f;
+		public static final int smssdk_contact_detail_page = 0x7f030070;
+		public static final int smssdk_contact_list_page = 0x7f030071;
+		public static final int smssdk_contacts_listview_item = 0x7f030072;
+		public static final int smssdk_country_list_page = 0x7f030073;
+		public static final int smssdk_input_identify_num_page = 0x7f030074;
+		public static final int smssdk_listview_title_layout = 0x7f030075;
+		public static final int smssdk_progress_dialog = 0x7f030076;
+		public static final int smssdk_regist_page = 0x7f030077;
+		public static final int smssdk_search_title_layout = 0x7f030078;
+		public static final int smssdk_send_msg_dialog = 0x7f030079;
+		public static final int smssdk_title_layout = 0x7f03007a;
 	}
 	public static final class raw {
 		public static final int smssdk_pydb = 0x7f050000;
