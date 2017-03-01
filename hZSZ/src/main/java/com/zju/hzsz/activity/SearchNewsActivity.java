@@ -242,6 +242,11 @@ public class SearchNewsActivity extends BaseActivity implements CheckBox.OnCheck
         GridView gv = (GridView) findViewById(R.id.gv_areas);
         gv.setAdapter(dwAdpter);
 
+        //每日一问，去掉区划信息
+        if (newsType == 6){
+            gv.setVisibility(View.GONE);
+        }
+
         getRequestContext().add("riverquicksearch_data_get", new Callback<RiverQuickSearchRes>() {
             @Override
             public void callback(RiverQuickSearchRes o) {

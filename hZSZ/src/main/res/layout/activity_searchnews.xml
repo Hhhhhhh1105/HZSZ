@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@null"
-            android:hint="输入新闻关键词进行查询"
+            android:hint="输入关键词进行搜索"
             android:imeOptions="actionSearch"
             android:paddingLeft="@dimen/padding_large"
             android:singleLine="true"
