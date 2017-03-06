@@ -104,7 +104,7 @@
 		<item>吉布提,253,86,63801</item>
 		<item>吉尔吉斯斯坦,996,195,43705|43701</item>
 		<item>几内亚,224,59,61105|61104|61103|61102|61101</item>
-		<item>几内亚-比绍,245,80,63202|63203</item>
+		<item>几内亚比绍,245,80,63202|63203</item>
 		<item>加拿大,1,1,302657|302656|302710|302655|302500|302610|302720|302702|302270|302490|302880|302220|302680|302360|302690|302510|302653|302861|302222|302640|302651|302530|302221|302320</item>
 		<item>加纳,233,68,62001|62002|62003|62004|62006|62007</item>
 		<item>加蓬,241,76,62804|62801|62802|62803</item>
@@ -132,7 +132,7 @@
 		<item>利比里亚,231,66,61804|61807|61801|61802</item>
 		<item>利比亚,218,54,60603|60601|60600</item>
 		<item>列支敦士登,423,133,29501|29577|29505|29502</item>
-		<item>留尼汪岛（法属）,262,94,64710|64702</item>
+		<item>法属留尼汪岛,262,94,64710|64702</item>
 		<item>卢森堡,352,107,27099|27077|27001</item>
 		<item>卢旺达,250,83,63510|63512|63513|63514</item>
 		<item>罗马尼亚,40,14,22603|22604|22605|22610|22601</item>
@@ -322,15 +322,6 @@
     <color name="quality_5">#ffc20d</color>
     <color name="quality_6">#ff5605</color>
     <color name="red">#F00</color>
-    <color name="smssdk_black">#ff000000</color>
-    <color name="smssdk_gray">#ff898989</color>
-    <color name="smssdk_gray_press">#fff2f2f2</color>
-    <color name="smssdk_lv_item_divider">#ffd9d9da</color>
-    <color name="smssdk_lv_item_selector">#f7fcff</color>
-    <color name="smssdk_lv_title_color">#ff999999</color>
-    <color name="smssdk_lv_tv_color">#ff353535</color>
-    <color name="smssdk_transparent">#00000000</color>
-    <color name="smssdk_white">#ffffffff</color>
     <color name="text_gray">#444</color>
     <color name="text_high">#FFF</color>
     <color name="umeng_socialize_color_group">#2c3035</color>
@@ -465,8 +456,6 @@
     <dimen name="umeng_socialize_pad_window_height">350dip</dimen>
     <dimen name="umeng_socialize_pad_window_width">580dip</dimen>
     <dimen name="wbanner_h">80dp</dimen>
-    <drawable name="smssdk_dialog_btn_nor">#00000000</drawable>
-    <drawable name="smssdk_dialog_btn_pre">#ff282a2b</drawable>
     <integer name="google_play_services_version">8487000</integer>
     <string name="about">关于系统</string>
     <string name="app_name">杭州河道水质</string>
@@ -762,83 +751,121 @@
     <string name="select_area">请选择区域</string>
     <string name="sernum">编号</string>
     <string name="setnewpwd">设置新密码</string>
-    <string name="smssdk_add_contact">添加</string>
-    <string name="smssdk_back">返回 </string>
-    <string name="smssdk_cancel">取消</string>
-    <string name="smssdk_choice_invite_phones">选择一个号码发送邀请</string>
-    <string name="smssdk_choose_country">选择国家和地区代码</string>
-    <string name="smssdk_close_identify_page_dialog">验证码短信可能略有延迟，确定返回并重新开始？</string>
-    <string name="smssdk_contacts_detail">详细资料</string>
-    <string name="smssdk_contacts_in_app">已加入的用戶</string>
-    <string name="smssdk_contacts_out_app">待邀请的好友</string>
-    <string name="smssdk_contacts_phones">手机号码: </string>
-    <string name="smssdk_country">国家和地区</string>
-    <string name="smssdk_country_not_support_currently">当前服务暂不支持此国家，请选择其它国家</string>
-    <string name="smssdk_error_desc_511">无效请求</string>
-    <string name="smssdk_error_desc_512">禁止访问</string>
-    <string name="smssdk_error_desc_513">Appkey无效</string>
-    <string name="smssdk_error_desc_514">权限不足</string>
-    <string name="smssdk_error_desc_515">服务器内部错误</string>
-    <string name="smssdk_error_desc_516">非法请求</string>
-    <string name="smssdk_error_desc_517">参数缺损</string>
-    <string name="smssdk_error_desc_518">非法手机号</string>
-    <string name="smssdk_error_desc_519">请求验证超上限</string>
-    <string name="smssdk_error_desc_520">验证码错误</string>
-    <string name="smssdk_error_desc_521">token无效</string>
-    <string name="smssdk_error_desc_522">duid无效</string>
-    <string name="smssdk_error_desc_523">已验证</string>
-    <string name="smssdk_error_desc_524">请求过于频繁</string>
-    <string name="smssdk_error_desc_525">签名无效</string>
-    <string name="smssdk_error_desc_526">余额不足</string>
+    <string name="smssdk_error_desc_400">无效请求</string>
+    <string name="smssdk_error_desc_401">token为空</string>
+    <string name="smssdk_error_desc_402">token不存在</string>
+    <string name="smssdk_error_desc_403">CRC32为空</string>
+    <string name="smssdk_error_desc_404">CRC32非法</string>
+    <string name="smssdk_error_desc_405">AppKey为空</string>
+    <string name="smssdk_error_desc_406">AppKey错误</string>
+    <string name="smssdk_error_desc_407">缺少数据</string>
+    <string name="smssdk_error_desc_408">无效的参数</string>
+    <string name="smssdk_error_desc_418">内部接口调用失败</string>
+    <string name="smssdk_error_desc_419">duid对应的token不存在</string>
+    <string name="smssdk_error_desc_450">权限不足</string>
+    <string name="smssdk_error_desc_451">User-Agent为空</string>
+    <string name="smssdk_error_desc_452">User-Agent格式错误</string>
+    <string name="smssdk_error_desc_453">解密错误</string>
+    <string name="smssdk_error_desc_454">数据格式错误</string>
+    <string name="smssdk_error_desc_455">签名无效</string>
+    <string name="smssdk_error_desc_456">手机号码错误</string>
+    <string name="smssdk_error_desc_457">非法手机号</string>
+    <string name="smssdk_error_desc_458">AppKey在黑名单中</string>
+    <string name="smssdk_error_desc_459">无appKey的控制数据</string>
+    <string name="smssdk_error_desc_460">无权限发送短信</string>
+    <string name="smssdk_error_desc_461">不支持该地区发送短信</string>
+    <string name="smssdk_error_desc_462">每分钟发送次数超限</string>
+    <string name="smssdk_error_desc_463">手机号码每天发送次数超限</string>
+    <string name="smssdk_error_desc_464">每台手机每天发送次数超限</string>
+    <string name="smssdk_error_desc_465">号码在App中每天发送短信的次数超限</string>
+    <string name="smssdk_error_desc_466">校验的验证码为空</string>
+    <string name="smssdk_error_desc_467">校验验证码请求频繁</string>
+    <string name="smssdk_error_desc_468">需要校验的验证码错误</string>
+    <string name="smssdk_error_desc_469">未开启web发送短信</string>
+    <string name="smssdk_error_desc_470">账户余额不足</string>
+    <string name="smssdk_error_desc_471">请求IP错误</string>
+    <string name="smssdk_error_desc_472">获取客户端平台错误</string>
+    <string name="smssdk_error_desc_473">服务端根据duid获取平台错误 </string>
+    <string name="smssdk_error_desc_474">没有打开服务端验证开关</string>
+    <string name="smssdk_error_desc_475">appKey的应用信息不存在</string>
+    <string name="smssdk_error_desc_476">当前appkey发送短信的数量超过限额</string>
+    <string name="smssdk_error_desc_477">当前手机号发送短信的数量超过限额</string>
+    <string name="smssdk_error_desc_478">当前手机号在当前应用内发送超过限额</string>
+    <string name="smssdk_error_desc_500">服务器内部错误</string>
+    <string name="smssdk_error_desc_501">501 Not Implemented</string>
+    <string name="smssdk_error_desc_502">502 Bad Gateway</string>
+    <string name="smssdk_error_desc_503">503 Service Unavailable</string>
+    <string name="smssdk_error_desc_504">504 Gateway Timeout</string>
+    <string name="smssdk_error_desc_505">505 HTTP Version Not Supported</string>
+    <string name="smssdk_error_desc_506">506 Variant Also Negotiates (RFC 2295)</string>
+    <string name="smssdk_error_desc_507">507 Insufficient Storage (WebDAV; RFC 4918)</string>
+    <string name="smssdk_error_desc_508">508 Loop Detected (WebDAV; RFC 5842)</string>
+    <string name="smssdk_error_desc_510">510 Not Extended (RFC 2774)</string>
+    <string name="smssdk_error_desc_511">511 Network Authentication Required (RFC 6585)</string>
+    <string name="smssdk_error_desc_600">请求太频繁，API使用受限制</string>
+    <string name="smssdk_error_desc_601">开关未打开，短信发送受限</string>
+    <string name="smssdk_error_desc_602">无法发送此地区短信</string>
+    <string name="smssdk_error_desc_603">请填写正确的手机号码</string>
+    <string name="smssdk_error_desc_604">当前服务暂不支持此国家，请选择其它国家</string>
+    <string name="smssdk_error_desc_605">没有权限连接服务端</string>
     <string name="smssdk_error_desc_server_busy">服务器繁忙</string>
-    <string name="smssdk_error_detail_511">客户端请求不能被识别</string>
-    <string name="smssdk_error_detail_512">服务器拒绝访问，或者拒绝操作</string>
-    <string name="smssdk_error_detail_513">请求Appkey不存在或被禁用</string>
-    <string name="smssdk_error_detail_514">无权执行该请求</string>
-    <string name="smssdk_error_detail_515">服务器内部错误</string>
-    <string name="smssdk_error_detail_516">服务器不支持客户端的请求</string>
-    <string name="smssdk_error_detail_517">缺少必要的请求参数</string>
-    <string name="smssdk_error_detail_518">请求中用户的手机号格式不正确（包括手机的区号）</string>
-    <string name="smssdk_error_detail_519">请求发送验证码次数超出限制（如每日、每APP、单台设备以及运营商等都有各种发送验证码的上限）</string>
-    <string name="smssdk_error_detail_520">无效验证码</string>
-    <string name="smssdk_error_detail_521">请求的令牌无效或者非法</string>
-    <string name="smssdk_error_detail_522">请求的duid非法或者无效</string>
-    <string name="smssdk_error_detail_523">请求验证的手机号码已经被验证</string>
-    <string name="smssdk_error_detail_524">客户端请求发送短信验证过于频繁</string>
-    <string name="smssdk_error_detail_525">需要签名检验</string>
-    <string name="smssdk_error_detail_526">余额不足</string>
-    <string name="smssdk_get_phone_verifycode_today_frequentlly">很抱歉，该手机号申请验证码次数过多，请明天重试！</string>
-    <string name="smssdk_get_verifycode_frequentlly">发送验证码太频繁，请稍后再发！</string>
-    <string name="smssdk_identify_code">验证码</string>
-    <string name="smssdk_invite">邀请</string>
-    <string name="smssdk_invite_content">Mob最新短信SDK,欢迎大家使用，你的好友邀请你加入；下载地址： http://www.mob.com</string>
-    <string name="smssdk_make_sure_country_mobile">请确认你的国家或地区并输入手机号码</string>
-    <string name="smssdk_make_sure_mobile_detail"><Data>我们将发送&lt;font color=#3cac17>验证码&lt;/font>短信到这个号码:</Data></string>
-    <string name="smssdk_make_sure_mobile_num">确认手机号码</string>
-    <string name="smssdk_make_sure_send_sounds">确认发送？</string>
-    <string name="smssdk_network_error">网络异常，请稍后重试</string>
-    <string name="smssdk_next">下一步</string>
-    <string name="smssdk_not_invite"><Data>&lt;font color=#209526> %s &lt;/font></Data>还未加入</string>
-    <string name="smssdk_ok">好</string>
-    <string name="smssdk_receive_msg"><Data>接收短信大约需要&lt;font color=#209526>%s&lt;/font>秒</Data></string>
-    <string name="smssdk_regist">使用手机号码注册</string>
-    <string name="smssdk_resend_identify_code">重新获取验证码</string>
-    <string name="smssdk_search">搜索</string>
-    <string name="smssdk_search_contact">好友搜索</string>
-    <string name="smssdk_send_invitation">发送邀请</string>
-    <string name="smssdk_send_mobile_detail"><Data>我们已发送&lt;font color=#209526>验证码&lt;/font>短信到这个号码:</Data></string>
-    <string name="smssdk_send_sounds_identify_code">确定后将致电您的手机号，语音播报验证码.如不希望被来电打扰请使用短信验证码。</string>
-    <string name="smssdk_send_sounds_success">语音验证码发送成功</string>
-    <string name="smssdk_submit">提交</string>
-    <string name="smssdk_unreceive_identify_code"><Data>&lt;font color=#a8b8cb> 收不到验证码？&lt;/font></Data></string>
-    <string name="smssdk_user_info_submited">用户资料已提交</string>
-    <string name="smssdk_virificaition_code_sent">验证码已发送</string>
-    <string name="smssdk_virificaition_code_wrong">验证码不正确，请重新输入</string>
-    <string name="smssdk_wait">等待 </string>
-    <string name="smssdk_write_identify_code">填写验证码</string>
-    <string name="smssdk_write_mobile_phone">请填写手机号码</string>
-    <string name="smssdk_write_right_mobile_phone">请填写正确的手机号码</string>
-    <string name="smssdk_your_ccount_is_verified">验证成功</string>
+    <string name="smssdk_error_detail_400">客户端请求不能被识别。</string>
+    <string name="smssdk_error_detail_401">请求的token为空。</string>
+    <string name="smssdk_error_detail_402">请求的token不存在。</string>
+    <string name="smssdk_error_detail_403">请求Header中的hash为空。</string>
+    <string name="smssdk_error_detail_404">请求Header中的hash非法。</string>
+    <string name="smssdk_error_detail_405">请求的AppKey为空。</string>
+    <string name="smssdk_error_detail_406">请求的AppKey不存在。</string>
+    <string name="smssdk_error_detail_407">请求提交的数据缺少必要的数据。</string>
+    <string name="smssdk_error_detail_408">无效的请求参数。</string>
+    <string name="smssdk_error_detail_418">内部接口调用失败。</string>
+    <string name="smssdk_error_detail_419">appKey_token对应的duid不存在</string>
+    <string name="smssdk_error_detail_450">无权执行该操作。</string>
+    <string name="smssdk_error_detail_451">所有访问服务器的接口，在请求的头部必须加入指定格式的User-Agent。</string>
+    <string name="smssdk_error_detail_452">请求头中的User-Agent格式错误。</string>
+    <string name="smssdk_error_detail_453">解密请求数据错误。</string>
+    <string name="smssdk_error_detail_454">请求传递的数据格式错误，服务器无法转换为JSON格式的数据。</string>
+    <string name="smssdk_error_detail_455">签名检验。</string>
+    <string name="smssdk_error_detail_456">提交的手机号码或者区号为空。</string>
+    <string name="smssdk_error_detail_457">提交的手机号格式不正确（包括手机的区号）。</string>
+    <string name="smssdk_error_detail_458">AppKey在发送黑名单中</string>
+    <string name="smssdk_error_detail_459">获取appKey控制发送短信的数据失败。</string>
+    <string name="smssdk_error_detail_460">没有打开客户端发送短信的开关。</string>
+    <string name="smssdk_error_detail_461">没有开通给当前地区发送短信的功能。</string>
+    <string name="smssdk_error_detail_462">每分钟发送短信的数量超过限制。</string>
+    <string name="smssdk_error_detail_463">手机号码每天发送短信的次数超出限制。</string>
+    <string name="smssdk_error_detail_464">每台手机每天发送短信的次数超限。</string>
+    <string name="smssdk_error_detail_465">手机号码在APP中每天发送短信的数量超限。</string>
+    <string name="smssdk_error_detail_466">提交的校验验证码为空。</string>
+    <string name="smssdk_error_detail_467">验证失败3次，验证码失效，请重新请求</string>
+    <string name="smssdk_error_detail_468">用户提交校验的验证码错误。</string>
+    <string name="smssdk_error_detail_469">没有打开通过网页端发送短信的开关。</string>
+    <string name="smssdk_error_detail_470">账户的短信余额不足。</string>
+    <string name="smssdk_error_detail_471">通过服务端发送或验证短信的IP错误</string>
+    <string name="smssdk_error_detail_472">服务端根据duid获取平台错误。</string>
+    <string name="smssdk_error_detail_473">服务端根据duid获取平台错误 </string>
+    <string name="smssdk_error_detail_474">没有打开服务端验证开关</string>
+    <string name="smssdk_error_detail_475">appKey的应用信息不存在</string>
+    <string name="smssdk_error_detail_476">如果当前appkey对应的包名没有通过审核，每天次appkey+包名最多可以发送20条短信</string>
+    <string name="smssdk_error_detail_477">当前手机号码每天最多可发送短信10条，包括客户端发送和WebApi发送</string>
+    <string name="smssdk_error_detail_478">当前手机号码在当前应用下12小时内最多可发送文本验证码5条</string>
+    <string name="smssdk_error_detail_500">服务端程序报错。</string>
+    <string name="smssdk_error_detail_501">501 Not Implemented</string>
+    <string name="smssdk_error_detail_502">502 Bad Gateway</string>
+    <string name="smssdk_error_detail_503">503 Service Unavailable</string>
+    <string name="smssdk_error_detail_504">504 Gateway Timeout</string>
+    <string name="smssdk_error_detail_505">505 HTTP Version Not Supported</string>
+    <string name="smssdk_error_detail_506">506 Variant Also Negotiates (RFC 2295)</string>
+    <string name="smssdk_error_detail_507">507 Insufficient Storage (WebDAV; RFC 4918)</string>
+    <string name="smssdk_error_detail_508">508 Loop Detected (WebDAV; RFC 5842)</string>
+    <string name="smssdk_error_detail_510">510 Not Extended (RFC 2774)</string>
+    <string name="smssdk_error_detail_511">511 Network Authentication Required (RFC 6585)</string>
+    <string name="smssdk_error_detail_600">请求太频繁，API使用受限制</string>
+    <string name="smssdk_error_detail_601">开关未打开，短信发送受限</string>
+    <string name="smssdk_error_detail_602">无法发送此地区短信</string>
+    <string name="smssdk_error_detail_603">请填写正确的手机号码</string>
+    <string name="smssdk_error_detail_604">当前服务暂不支持此国家，请选择其它国家</string>
+    <string name="smssdk_error_detail_605">没有权限连接服务端</string>
     <string name="store">暂存</string>
     <string name="submit">提交</string>
     <string name="sug_addremark">补充说明:</string>
@@ -941,10 +968,6 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
 
-    </style>
-    <style name="CommonDialog" parent="@android:style/Theme.Dialog">
-        <item name="android:windowBackground">@drawable/smssdk_dialog_bg</item>
-        <item name="android:windowNoTitle">true</item>
     </style>
     <style name="Theme.AppStartLoad" parent="android:Theme">
         <item name="android:windowBackground">@drawable/bg_welcome</item>

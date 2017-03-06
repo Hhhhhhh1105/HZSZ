@@ -1,25 +1,30 @@
 package com.zju.hzsz.activity;
 
-import java.util.HashMap;
-
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import cn.smssdk.EventHandler;
-import cn.smssdk.SMSSDK;
 
 import com.sin.android.sinlibs.base.Callable;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Values;
 import com.zju.hzsz.utils.StrUtils;
 
+import java.util.HashMap;
+
+import cn.smssdk.EventHandler;
+import cn.smssdk.SMSSDK;
+
 public class AuthCodeActivity extends BaseActivity {
 	private boolean running = false;
 	protected String telno = null;
 	protected String code = null;
 	protected String country = "86";
+
+	//声明EventHandler(获取验证码成功、提交验证码成功等回调都在EventHandler中实现）
 	EventHandler smseh = new EventHandler() {
+
+		//afterEvent并不在主线程中，因此回调完成的时候不能再afterEvent()执行更新UI，若需要执行UI操作请使用Handler
 		@Override
 		public void afterEvent(int event, int result, Object data) {
 			safeCall(new Callable() {
@@ -59,15 +64,41 @@ public class AuthCodeActivity extends BaseActivity {
 					}
 				}
 			}, event, result, data);
+
+			/*if (result == SMSSDK.RESULT_COMPLETE) {
+				//回调完成
+				if (event == SMSSDK.EVENT_SUBMIT_VERIFICATION_CODE) {
+					//提交验证码成功
+					HashMap<String, Object> phoneMap = (HashMap<String, Object>) data;
+					String ct = (String) phoneMap.get("country");
+					String ph = (String) phoneMap.get("phone");
+					if (country.equals(ct) == telno.equals(ph)) {
+						whenAuthSuccess();
+					} else {
+						showToast("验证码不对！");
+					}
+				}else if (event == SMSSDK.EVENT_GET_VERIFICATION_CODE){
+					//获取验证码成功
+					showToast("短信已经发生到您的手机，请注意查收!");
+				}else if (event ==SMSSDK.EVENT_GET_SUPPORTED_COUNTRIES){
+					//返回支持发送验证码的国家列表
+				}
+			}else{
+				((Throwable)data).printStackTrace();
+				showToast("验证码不对！");
+			}*/
+
 		}
 	};
 
 	protected void onCreate(android.os.Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
+		//初始化
 		SMSSDK.initSDK(this, Values.SMS_APPKEY, Values.SMS_SECKEY);
+		//注册短信回调
 		SMSSDK.registerEventHandler(smseh);
-	};
+	}
 
 	protected void whenGetAuthCode() {
 
@@ -119,6 +150,7 @@ public class AuthCodeActivity extends BaseActivity {
 		// {"riverId":"5","advTheme":"河道脏","advContent":"河道实在太脏","encryptUserInfo":"34"}
 
 		Log.i(getTag(), "验证验证码 " + country + " " + telno + " " + code);
+		//用于向服务器提交接收到的短信验证码，验证成功后会通过EventHandler返回国家代码和电话号码
 		SMSSDK.submitVerificationCode(country, telno, code);
 	}
 

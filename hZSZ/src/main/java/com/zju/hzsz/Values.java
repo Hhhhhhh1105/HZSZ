@@ -15,8 +15,10 @@ public class Values {
 
 	public static District[] districtLists;
 
-	final public static String SMS_APPKEY = "7d9145a2169c";
-	final public static String SMS_SECKEY = "dc1872330efab0b854bd7d7cc95a76f2";
+//	final public static String SMS_APPKEY = "7d9145a2169c";
+	final public static String SMS_APPKEY = "1bc57d832a264";
+//	final public static String SMS_SECKEY = "dc1872330efab0b854bd7d7cc95a76f2";
+	final public static String SMS_SECKEY = "06911a3dc24885ea0b340a37a5a7795f";
 
 	private static String[] WXAppIDs = new String[] { "wx7c34b978e3add950", "wx2997236d4d70a3aa" };
 	private static String[] WXAppSecrets = new String[] { "bb00b86efe44f194380d40eb001cd0b4", "08e8bc26bc021917d9caf2082931fa58" };
