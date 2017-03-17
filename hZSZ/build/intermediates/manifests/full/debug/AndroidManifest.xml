@@ -282,6 +282,12 @@
             android:name="com.zju.hzsz.chief.activity.ChiefMailListActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.zju.hzsz.chief.activity.ChiefNotepadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zju.hzsz.chief.activity.ChiefEditNoteActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.zju.hzsz.chief.activity.ChiefMailDetailActivity"
             android:screenOrientation="portrait" />
         <activity

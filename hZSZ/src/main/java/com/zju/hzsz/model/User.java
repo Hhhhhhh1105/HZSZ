@@ -49,6 +49,12 @@ public class User {
 		return authority == 2 && ifOnJob == 0;
 	}
 
+	//是否是村级河长
+	public boolean isVillageChief(){
+		//村级河长的权限
+		return authority == 8 && ifOnJob == 0;
+	}
+
 	// end 河长
 
 	public String getDisplayRiver() {

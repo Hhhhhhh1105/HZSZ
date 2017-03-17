@@ -277,6 +277,10 @@
     <color name="btn_gray">#737373</color>
     <color name="btn_gray_disabled">#A0A0A0</color>
     <color name="btn_gray_pressed">#F0F0F0</color>
+    <color name="cardview_dark_background">#FF424242</color>
+    <color name="cardview_light_background">#FFFFFFFF</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
@@ -339,6 +343,10 @@
     <color name="umeng_socialize_ucenter_bg">#EEEEEE</color>
     <color name="utils_color_err">#ff808080</color>
     <color name="white">#FFF</color>
+    <declare-styleable name="AddFloatingActionButton"><attr format="color" name="fab_plusIconColor"/></declare-styleable>
+    <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/><attr name="android:minWidth"/><attr name="android:minHeight"/></declare-styleable>
+    <declare-styleable name="FloatingActionButton"><attr format="color" name="fab_colorPressed"/><attr format="color" name="fab_colorDisabled"/><attr format="color" name="fab_colorNormal"/><attr format="reference" name="fab_icon"/><attr format="enum" name="fab_size"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr format="string" name="fab_title"/><attr format="boolean" name="fab_stroke_visible"/></declare-styleable>
+    <declare-styleable name="FloatingActionsMenu"><attr format="color" name="fab_addButtonColorPressed"/><attr format="color" name="fab_addButtonColorNormal"/><attr format="enum" name="fab_addButtonSize"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr format="color" name="fab_addButtonPlusIconColor"/><attr format="boolean" name="fab_addButtonStrokeVisible"/><attr format="reference" name="fab_labelStyle"/><attr format="enum" name="fab_labelsPosition"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="enum" name="fab_expandDirection"><enum name="up" value="0"/><enum name="down" value="1"/><enum name="left" value="2"/><enum name="right" value="3"/></attr></declare-styleable>
     <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust">
             <enum name="none" value="0"/>
             <enum name="adjust_width" value="1"/>
@@ -363,6 +371,19 @@
     <dimen name="bottom_h">48dp</dimen>
     <dimen name="btn_follow_h">30dp</dimen>
     <dimen name="btn_item_in">24dp</dimen>
+    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="cardview_default_radius">2dp</dimen>
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_stroke_width">1dp</dimen>
     <dimen name="font_large">20sp</dimen>
     <dimen name="font_normal">16sp</dimen>
     <dimen name="font_small">14sp</dimen>
@@ -456,6 +477,8 @@
     <dimen name="umeng_socialize_pad_window_height">350dip</dimen>
     <dimen name="umeng_socialize_pad_window_width">580dip</dimen>
     <dimen name="wbanner_h">80dp</dimen>
+    <item name="fab_expand_menu_button" type="id"/>
+    <item name="fab_label" type="id"/>
     <integer name="google_play_services_version">8487000</integer>
     <string name="about">关于系统</string>
     <string name="app_name">杭州河道水质</string>
@@ -968,6 +991,21 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
 
+    </style>
+    <style name="Base.CardView" parent="android:Widget">
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView" parent="Base.CardView">
+    </style>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
     <style name="Theme.AppStartLoad" parent="android:Theme">
         <item name="android:windowBackground">@drawable/bg_welcome</item>

@@ -76,6 +76,10 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_river.xml"
     },
     {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_note.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_note.xml"
+    },
+    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ranking2_item.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_ranking2_item.xml"
     },
@@ -504,6 +508,10 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_vline.xml"
     },
     {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_notepad.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_notepad.xml"
+    },
+    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_complaint.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_complaint.xml"
     },
@@ -518,6 +526,10 @@
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_editnote.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_editnote.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_mainpage_sectionbox.xml",

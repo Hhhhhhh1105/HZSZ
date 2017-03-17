@@ -84,12 +84,12 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_default_avatar.png"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_selected.png",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt_selected.png"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_tabbtn_o_bg.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_o_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_selected.png",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt_selected.png"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat.png",
@@ -172,24 +172,24 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_follow_off.png"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_welcome.png",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\bg_welcome.png"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_head_tab_r_bg.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_head_tab_r_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_welcome.png",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\bg_welcome.png"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\mk_position_undo1.png",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\mk_position_undo1.png"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_bg_i.9.png",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\bottom_bg_i.9.png"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_head_tab_l_bg_s.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_head_tab_l_bg_s.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_bg_i.9.png",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\bottom_bg_i.9.png"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook.png",
@@ -248,12 +248,12 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_white.9.png"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_pressed.png",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selected.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_sidebar_selected.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_pressed.png",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat_gray.png",
@@ -296,12 +296,12 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_box_btn_bg.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_nav_bar_bg.png",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_nav_bar_bg.png"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_nav_bar_bg.png",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_nav_bar_bg.png"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\form_btn3_bg.9.png",
@@ -380,12 +380,12 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_location_off.png"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\form_btn2_bg.9.png",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\form_btn2_bg.9.png"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_bg_gray.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\btn_white_bg_gray.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\form_btn2_bg.9.png",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\form_btn2_bg.9.png"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
