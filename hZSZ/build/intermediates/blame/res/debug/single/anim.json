@@ -1,5 +1,13 @@
 [
     {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\in_from_right.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\anim\\in_from_right.xml"
     },
@@ -8,20 +16,44 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\anim\\out_from_left.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\decelerate_cubic.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\anim\\decelerate_cubic.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
     },
     {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_in.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\anim\\umeng_socialize_fade_in.xml"
     },
     {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\out_from_right.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\anim\\out_from_right.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\popup_enter.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\anim\\popup_enter.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\in_from_left.xml",
@@ -34,6 +66,26 @@
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\popup_exit.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\anim\\popup_exit.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_out.xml",

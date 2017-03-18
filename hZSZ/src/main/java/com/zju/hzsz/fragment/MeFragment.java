@@ -32,8 +32,8 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
     private int[] showWhenLogined = { R.id.tv_logout, R.id.rl_setting, R.id.rl_complaint, R.id.rl_suggestion };
     //村级河长登陆时
     private int[] showWhenVillageChiefLogined = { R.id.tv_logout, R.id.rl_setting, R.id.rl_complaint, R.id.rl_suggestion, R.id.rl_chief_record };
-//    private int[] showWhenChiefLogined = { R.id.rl_chief_sign, R.id.rl_chief_mail, R.id.rl_chief_complaint, R.id.rl_chief_duban, R.id.rl_chief_notepad, R.id.rl_chief_record, R.id.rl_chief_suggestion };
-    private int[] showWhenChiefLogined = { R.id.rl_chief_sign, R.id.rl_chief_mail, R.id.rl_chief_complaint, R.id.rl_chief_duban, R.id.rl_chief_record, R.id.rl_chief_suggestion };
+    private int[] showWhenChiefLogined = { R.id.rl_chief_sign, R.id.rl_chief_mail, R.id.rl_chief_complaint, R.id.rl_chief_duban, R.id.rl_chief_notepad, R.id.rl_chief_record, R.id.rl_chief_suggestion };
+//    private int[] showWhenChiefLogined = { R.id.rl_chief_sign, R.id.rl_chief_mail, R.id.rl_chief_complaint, R.id.rl_chief_duban, R.id.rl_chief_record, R.id.rl_chief_suggestion };
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

@@ -1,7 +1,5 @@
 package com.zju.hzsz.model;
 
-import static android.R.attr.id;
-
 /**
  * Created by Wangli on 2017/3/13.
  */
@@ -22,7 +20,7 @@ public class Note {
     }
 
     public int getId() {
-        return id;
+        return noteId;
     }
 
     public void setId(int id) {
