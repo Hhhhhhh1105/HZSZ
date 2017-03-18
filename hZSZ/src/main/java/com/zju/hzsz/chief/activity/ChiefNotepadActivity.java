@@ -52,6 +52,7 @@ public class ChiefNotepadActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(ChiefNotepadActivity.this, ChiefEditNoteActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
                 finish();
             }

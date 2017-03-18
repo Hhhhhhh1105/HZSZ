@@ -55,6 +55,7 @@ public class ChiefEditNoteActivity extends BaseActivity {
                 dbManger.addToDB(title, content, time);
 
                 Intent i = new Intent(ChiefEditNoteActivity.this, ChiefNotepadActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
                 finish();
             }
