@@ -26,7 +26,7 @@ public class NoteOpenHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
 
-        sqLiteDatabase.execSQL("create table " + TABLE_NAME + " ("
+        sqLiteDatabase.execSQL("create table if not exists " + TABLE_NAME + " ("
                 + ID + " integer primary key autoincrement,"
                 + CONTENT + " text not null,"
                 + TITLE + " text not null,"

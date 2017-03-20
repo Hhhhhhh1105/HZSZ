@@ -109,7 +109,6 @@ public class DBManger {
     public Note readData(int noteID) {
         Cursor cursor = dbReader.rawQuery("SELECT * FROM note WHERE _id = ?", new String[]{noteID + ""});
         Note note = new Note();
-        System.out.println("database:cursor:" + cursor);
         if(cursor != null && cursor.moveToFirst()){
             note.setId(cursor.getInt(cursor.getColumnIndex(NoteOpenHelper.ID)));
             note.setTitle(cursor.getString(cursor.getColumnIndex(NoteOpenHelper.TITLE)));
