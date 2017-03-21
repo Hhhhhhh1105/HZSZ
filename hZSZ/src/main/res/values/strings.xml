@@ -120,7 +120,7 @@
     <string name="period_1month">30天</string>
 
     <!-- i'm tired for English variable name -->
-    <string name="river_quhezhang">区县河长</string>
+    <string name="river_quhezhang">河长姓名</string>
     <string name="river_fdhezhang">分段河长</string>
     <string name="river_quhezhang_cont">联系人</string>
     <string name="river_zhenhezhang">镇街河长</string>

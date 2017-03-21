@@ -72,7 +72,7 @@ public class ResUtils {
 		}
 	}
 
-	public static final int RIVER_S_LEVELS[] = new int[] { R.string.level_river_1, R.string.level_river_2, R.string.level_river_3s, R.string.level_river_3, R.string.level_river_4 };
+	public static final int RIVER_S_LEVELS[] = new int[] { R.string.level_river_1, R.string.level_river_2, R.string.level_river_3, R.string.level_river_4 };
 
 	public static int getRiverSLevel(int lv) {
 		--lv;
@@ -82,7 +82,7 @@ public class ResUtils {
 			return R.string.utils_str_err;
 	}
 
-	public static final int RIVER_S_LITTLE_LEVELS[] = new int[] { R.string.level_1, R.string.level_2, R.string.level_3s, R.string.level_3, R.string.level_4 };
+	public static final int RIVER_S_LITTLE_LEVELS[] = new int[] { R.string.level_1, R.string.level_2, R.string.level_3, R.string.level_4 };
 
 	public static int getRiverSLittleLevel(int lv) {
 		--lv;

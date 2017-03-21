@@ -5,54 +5,53 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="3622835873937"
+    timestamp="59670051396171"
     token="5820434530711097307"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1591" />
+        duration="2405" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="27" />
+        duration="57" />
     <task
         name="verifier"
-        duration="2" />
+        duration="15" />
 
+    <artifact
+        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
     <artifact
         location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
         type="DEX" />
 
     <build
-        timestamp="1706952387005"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="53046222571083"
+        verifier="BINARY_MANIFEST_FILE_CHANGE" >
         <artifact
             location="D:\AndroidStudio\HZSZ\hZSZ\build\outputs\apk\hZSZ-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="3240966247072"
+        timestamp="58858219458568"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
+            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
     <build
-        timestamp="3622835873937"
+        timestamp="59670051396171"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
         <artifact
             location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="12708664309937"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\outputs\apk\hZSZ-debug.apk"
-            type="MAIN" />
     </build>
 
 </instant-run>

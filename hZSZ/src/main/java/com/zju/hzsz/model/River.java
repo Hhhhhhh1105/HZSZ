@@ -51,6 +51,8 @@ public class River {
 	public RiverUser districtRiverSheriff; /* 区警长 */
 	public ContactDepartment comtactDepartment; /* 联系部门 */
 
+	public LowLevelRiver[] lowLevelRivers; //下属河道
+
 	//
 	public Station[] stations;
 	public SectionIndex[] indexs;
