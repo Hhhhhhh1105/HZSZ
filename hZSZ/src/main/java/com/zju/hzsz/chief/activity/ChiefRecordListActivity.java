@@ -1,13 +1,5 @@
 package com.zju.hzsz.chief.activity;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
-import java.util.Locale;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -35,6 +27,14 @@ import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
 import com.zju.hzsz.view.ListViewWarp.WarpHandler;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+import java.util.Locale;
 
 public class ChiefRecordListActivity extends BaseActivity implements WarpHandler {
 	private ListViewWarp listViewWarp = null;
@@ -228,6 +228,7 @@ public class ChiefRecordListActivity extends BaseActivity implements WarpHandler
 		try {
 			j.put("year", year);
 			j.put("month", month);
+			j.put("authority", getUser().getAuthority());
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}

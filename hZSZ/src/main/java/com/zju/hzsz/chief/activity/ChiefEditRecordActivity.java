@@ -204,7 +204,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 					}
 				}
-			}, RiverRecordRes.class, ParamUtils.freeParam(null, "recordId", riverRecord.recordId));
+			}, RiverRecordRes.class, ParamUtils.freeParam(null, "recordId", riverRecord.recordId,
+					"authority", getUser().getAuthority()));
 		}
 
 		findViewById(R.id.ib_chief_photo).setOnClickListener(new View.OnClickListener() {
@@ -405,6 +406,10 @@ public class ChiefEditRecordActivity extends BaseActivity {
 					submitParam.put("latlist",latlist_temp);
 					submitParam.put("lnglist",lnglist_temp);
 
+					//添加河长权限和uuid
+					submitParam.put("authority", getUser().getAuthority());
+					submitParam.put("UUID", getUser().getUuid());
+
 					if (location != null) {
 						submitParam.put("latitude", location.getLatitude());
 						submitParam.put("longtitude", location.getLongitude());
@@ -463,6 +468,11 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 	private void submitData() {
 		showOperating(R.string.doing_submitting);
+
+		//判断是否是村级河长
+		boolean isVillageChief = getUser().isLogined() && getUser().isVillageChief();
+		System.out.println("isVillage:" + isVillageChief);
+
 		getRequestContext().add("AddOrEdit_RiverRecord", new Callback<BaseRes>() {
 			@Override
 			public void callback(BaseRes o) {

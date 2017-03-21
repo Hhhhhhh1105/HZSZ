@@ -1,10 +1,5 @@
 package com.zju.hzsz.fragment.river;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
-import java.util.Locale;
-
 import android.content.Context;
 import android.content.Intent;
 import android.view.View;
@@ -32,6 +27,11 @@ import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+import java.util.Locale;
 
 public class RiverInfoPubItem extends BaseRiverPagerItem {
 	public RiverInfoPubItem(River river, BaseActivity context) {
@@ -216,7 +216,9 @@ public class RiverInfoPubItem extends BaseRiverPagerItem {
 						listViewWarp.setNoMore(false);
 					}
 				}
-			}, RiverRecordListRes.class, ParamUtils.freeParam(null, "riverID", river.riverId, "month", month, "year", year));
+			}, RiverRecordListRes.class, ParamUtils.freeParam(null, "riverID", river.riverId,
+					"month", month, "year", year,
+					"authority", ((BaseActivity) context).getUser().getAuthority()));
 		}
 		return true;
 	}

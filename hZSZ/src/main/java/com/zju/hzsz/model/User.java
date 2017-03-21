@@ -6,6 +6,7 @@ import java.util.List;
 public class User {
 	// public int userId = 3;
 	public String userName = null;
+
 	// public String userRealName = "未登录";
 	public String uuid = null;
 
@@ -39,6 +40,7 @@ public class User {
 		pwdmd5 = null;
 	}
 
+
 	// 河长
 	public int authority;
 	public River[] riverSum = new River[] {};
@@ -53,6 +55,24 @@ public class User {
 	public boolean isVillageChief(){
 		//村级河长的权限
 		return authority == 8 && ifOnJob == 0;
+	}
+
+	//河长权限
+	public int getAuthority() {
+		return authority;
+	}
+
+	public void setAuthority(int authority) {
+		this.authority = authority;
+	}
+
+	//获取河长
+	public String getUuid() {
+		return uuid;
+	}
+
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
 	}
 
 	// end 河长

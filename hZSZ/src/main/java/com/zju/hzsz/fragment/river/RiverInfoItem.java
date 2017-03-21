@@ -43,6 +43,7 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 
 		@Override
 		public void onClick(View v) {
+			//如果tag不为空，则显示拨打电话的dialog，tag值为电话号码
 			if (v.getTag() != null) {
 				final String tel = v.getTag().toString().trim();
 				if (tel.length() > 0) {
@@ -99,6 +100,10 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 		}
 	};
 
+	/**
+	 * 点击投诉或建议之后，弹出窗口
+	 * @param isCom：建议为false，投诉为true
+     */
 	private void readyToSugOrCom(final boolean isCom) {
 		if (river.isPiecewise()) {
 			String[] names = new String[river.townRiverChiefs.length];
@@ -181,6 +186,9 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 		}, RiverDataRes.class, p);
 	}
 
+	/**
+	 * 接收到返回信息后刷新显示
+	 */
 	private void refreshView() {
 		if (river != null) {
 			ViewWarp warp = new ViewWarp(view, context);
@@ -189,6 +197,7 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 			warp.setText(R.id.tv_river_start, river.startingPoint);
 			warp.setText(R.id.tv_river_owner, river.districtName);
 			warp.setText(R.id.tv_river_end, river.endingPoint);
+			//根据riverLevel判断河道的等级：省级、区级、镇街级等
 			warp.setText(R.id.tv_river_level, ResUtils.getRiverSLittleLevel(river.riverLevel));
 			warp.setText(R.id.tv_river_length, StrUtils.renderText(context, R.string.fmt_legnth_km, StrUtils.floatS2Str(river.riverLength)));
 			warp.setText(R.id.tv_responsibility, river.responsibility);
@@ -230,18 +239,21 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 				}
 			};
 
+			//iv和tv
 			warp.getViewById(R.id.iv_love).setOnClickListener(clk);
 			warp.getViewById(R.id.tv_love).setOnClickListener(clk);
 
 			String imgurl = StrUtils.getImgUrl(river.getImgUrl());
 			ImgUtils.loadImage(context, ((ImageView) view.findViewById(R.id.iv_picture)), imgurl, R.drawable.im_riverbox, R.drawable.im_riverbox);
 
+			//联系人部分
 			final LinearLayout ll_contacts = (LinearLayout) warp.getViewById(R.id.ll_contacts);
 			ll_contacts.removeAllViews();
 
 			boolean isQ = river.riverLevel <= 4; // 区及其以上
 			boolean isF = river.isPiecewise(); // 分段显示？
 
+			//区县河长还分段的话，显示“区县河长”，不显示河道名称
 			if (isQ && isF) {
 				View river_line = LinearLayout.inflate(context, R.layout.item_river_contact_line, null);
 				((TextView) (river_line.findViewById(R.id.tv_title_name))).setText(R.string.river_quhezhang);
@@ -311,16 +323,20 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 			}
 
 			for (int i = 0; i < river.townRiverChiefs.length && isQ; ++i) {
+				//若分段，则设置分段，显示“分段河长 镇街河名”
 				if (isF) {
 					View river_line = LinearLayout.inflate(context, R.layout.item_river_contact_line, null);
 					((TextView) (river_line.findViewById(R.id.tv_river_name))).setText(river.townRiverChiefs[i].townRiverName);
 
 					ll_contacts.addView(river_line);
 				}
+				//row：一行要显示的信息view
 				LinearLayout row = new LinearLayout(context);
 				row.setOrientation(LinearLayout.HORIZONTAL);
+				//显示“镇街河长 镇街河长名” false代表不能隐藏
 				row.addView(initContItem(R.string.river_zhenhezhang, river.townRiverChiefs[i].chiefName, river.townRiverChiefs[i].contactWay, false));
 
+				//如果是分段的话就显示当前段的警长信息，“河道警长 警长名”
 				if (isF) {
 					row.addView(initContItem(R.string.river_jingzhang, i < river.townRiverSheriffs.length ? river.townRiverSheriffs[i].chiefName : null, i < river.townRiverSheriffs.length ? river.townRiverSheriffs[i].contactWay : null, true));
 				} else {
@@ -332,12 +348,21 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 		}
 	}
 
+	/**
+	 *
+	 * @param titleid 河长职位等级
+	 * @param val 河长姓名
+	 * @param tel 河长电话
+	 * @param canHide
+     * @return
+     */
 	private View initContItem(int titleid, String val, String tel, boolean canHide) {
 		View view = LinearLayout.inflate(context, R.layout.item_river_contact_user, null);
 		if ((val == null || val.length() == 0) && (tel != null && tel.length() > 0))
 			val = "未指定";
 		((TextView) view.findViewById(R.id.tv_user_title)).setText(titleid);
 		((TextView) view.findViewById(R.id.tv_user_name)).setText(val);
+		//如果无电话号码，则不显示拨打电话的icon
 		if (tel == null || tel.length() == 0)
 			view.findViewById(R.id.iv_phone).setVisibility(View.GONE);
 		if (canHide && (val == null || val.length() == 0))

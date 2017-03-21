@@ -125,17 +125,21 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
                 v.setVisibility(logined ? View.VISIBLE : View.GONE);
         }
 
-        //如果是村级河长，则显示巡河的界面
-        if (isVillageChief){
-            View v = rootView.findViewById(R.id.rl_chief_record);
-            v.setVisibility(View.VISIBLE);
-        }
 
         for (int id : showWhenChiefLogined) {
             View v = rootView.findViewById(id);
             if (v != null)
                 v.setVisibility(ischief ? View.VISIBLE : View.GONE);
         }
+
+        //如果是村级河长，则显示巡河的界面
+        if (isVillageChief){
+            View v = rootView.findViewById(R.id.rl_chief_record);
+            v.setVisibility(View.VISIBLE);
+        }
+
+        //如果是区级河长，需要显示下级河长的投诉与巡河情况
+
 
 //		if(ischief){
 //			rootView.findViewById()(R.id.rl_complaint).setVisibility(View.GONE);
