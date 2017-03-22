@@ -57,6 +57,17 @@ public class User {
 		return authority == 8 && ifOnJob == 0;
 	}
 
+	//是否是区级河长
+	public boolean isDistrictChief() {
+		//区级河长的权限
+		return authority == 9;
+	}
+
+	public boolean isCityChief() {
+		//市级河长的权限
+		return authority == 10;
+	}
+
 	//河长权限
 	public int getAuthority() {
 		return authority;

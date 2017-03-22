@@ -56,12 +56,13 @@
             android:textSize="@dimen/font_large" />
 
         <TextView
+            android:id="@+id/river_alias"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/padding_medium"
             android:singleLine="true"
             android:visibility="gone"
-            android:text="@string/river_code"
+            android:text="河道别名"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/white"
             android:textSize="@dimen/font_small" />

@@ -188,7 +188,6 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 		JSONObject p = new JSONObject();
 		try {
 			p.put("riverId", river.riverId);
-//			p.put("riverId", 1);
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
@@ -228,6 +227,14 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 			warp.setText(R.id.tv_river_length, StrUtils.renderText(context, R.string.fmt_legnth_km, StrUtils.floatS2Str(river.riverLength)));
 			warp.setText(R.id.tv_responsibility, river.responsibility);
 			warp.setText(R.id.tv_river_target, river.target);
+
+
+			//河道别名
+			if (river.riverAlias != null && river.riverAlias != "") {
+				river.riverAlias = "（" + river.riverAlias + "）";
+				warp.setText(R.id.river_alias, river.riverAlias);
+				warp.getViewById(R.id.river_alias).setVisibility(View.VISIBLE);
+			}
 
 			warp.setImage(R.id.iv_love, river.isCared(context.getUser()) ? R.drawable.ic_loved : R.drawable.ic_love);
 
@@ -294,18 +301,24 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 				river_line.findViewById(R.id.tv_river_name).setVisibility(View.GONE);
 				ll_contacts.addView(river_line);*/
 
+				//河长姓名+联系人
 				LinearLayout row = new LinearLayout(context);
 				row.setOrientation(LinearLayout.HORIZONTAL);
 				row.addView(initContItem(title_name, river.districtRiverChief.chiefName, null, false));
 				row.addView(initContItem(R.string.river_quhezhang_cont, river.districtComtactPeo.chiefName, river.districtComtactPeo.contactWay, false));
 				ll_contacts.addView(row);
 
-				// 河道警长 ---
+				//河长职务+河道警长
 				row = new LinearLayout(context);
+				row.addView(initContItem(R.string.riverchief_responsibility, river.districtRiverChief.department, null, false));
 				row.addView(initContItem(R.string.river_jingzhang, river.districtRiverSheriff != null ? river.districtRiverSheriff.chiefName : null, river.districtRiverSheriff != null ? river.districtRiverSheriff.contactWay : null, false));
-				row.addView(initContItem(R.string.river_jingzhang, null, null, true));
 				ll_contacts.addView(row);
 
+				//联系部门+联系人
+				row = new LinearLayout(context);
+				row.addView(initContItem(R.string.river_contdep, river.comtactDepartment.department, null, false));
+				row.addView(initContItem(R.string.river_contpe, river.comtactDepartment.river_contact_user, river.comtactDepartment.department_phone, false));
+				ll_contacts.addView(row);
 
 
 
@@ -342,14 +355,27 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 				} else {
 					//若无下级河道则不显示下级河道
 					warp.getViewById(R.id.tv_low_level_river).setVisibility(View.GONE);
+					//显示不分级的镇街河长及联系方式
+					row = new LinearLayout(context);
+					row.addView(initContItem(R.string.river_zhenhezhang, river.townRiverChiefs[0].chiefName, river.townRiverChiefs[0].contactWay, false));
+					row.addView(initContItem(R.string.river_jingzhang, null, null, true));
+					ll_contacts.addView(row);
 				}
 			}
 			//镇街级河道
 			if(river.riverLevel == 4) {
+
+				//镇街河长+河道警长
 				LinearLayout row = new LinearLayout(context);
 				row.setOrientation(LinearLayout.HORIZONTAL);
 				row.addView(initContItem(R.string.river_zhenhezhang, river.townRiverChiefs[0].chiefName, river.townRiverChiefs[0].contactWay, false));
 				row.addView(initContItem(R.string.river_jingzhang, river.townRiverSheriffs.length > 0 ? river.townRiverSheriffs[0].chiefName : null, river.townRiverSheriffs.length > 0 ? river.townRiverSheriffs[0].contactWay : null, false));
+				ll_contacts.addView(row);
+
+				//河长职务
+				row = new LinearLayout(context);
+				row.setOrientation(LinearLayout.HORIZONTAL);
+				row.addView(initContItem(R.string.riverchief_responsibility, river.townRiverChiefs[0].department, null, false));
 				ll_contacts.addView(row);
 
 				//联系部门 联系人
@@ -432,7 +458,11 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 			((TextView) (supervision_phone.findViewById(R.id.tv_title_name))).setText("统一监督电话");
 			((TextView) (supervision_phone.findViewById(R.id.tv_river_name))).setText("18883869560");
 
-			ll_contacts.addView(supervision_phone);
+			LinearLayout row_superPhone = new LinearLayout(context);
+			row_superPhone.setOrientation(LinearLayout.HORIZONTAL);
+			row_superPhone.addView(initContItem(R.string.river_supervisePhone, river.supervisePhone, null, false));
+
+			ll_contacts.addView(row_superPhone);
 
 
 /*

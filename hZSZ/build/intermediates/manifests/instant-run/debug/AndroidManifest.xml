@@ -277,6 +277,9 @@
             android:name="com.zju.hzsz.chief.activity.ChiefDubanDetailActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.zju.hzsz.chief.activity.ChiefRivermanageActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.zju.hzsz.chief.activity.ChiefSignActivity"
             android:screenOrientation="portrait" />
         <activity

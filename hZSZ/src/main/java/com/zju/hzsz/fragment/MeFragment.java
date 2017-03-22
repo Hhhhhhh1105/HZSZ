@@ -32,7 +32,8 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
     private int[] showWhenLogined = { R.id.tv_logout, R.id.rl_setting, R.id.rl_complaint, R.id.rl_suggestion };
     //村级河长登陆时
     private int[] showWhenVillageChiefLogined = { R.id.tv_logout, R.id.rl_setting, R.id.rl_complaint, R.id.rl_suggestion, R.id.rl_chief_record };
-    private int[] showWhenChiefLogined = { R.id.rl_chief_sign, R.id.rl_chief_mail, R.id.rl_chief_complaint, R.id.rl_chief_duban, R.id.rl_chief_notepad, R.id.rl_chief_record, R.id.rl_chief_suggestion };
+    private int[] showWhenChiefLogined = { R.id.rl_chief_sign, R.id.rl_chief_mail, R.id.rl_chief_complaint, R.id.rl_chief_duban,
+            R.id.rl_chief_notepad, R.id.rl_chief_record, R.id.rl_chief_suggestion, R.id.rl_chief_rivermanage };
 //    private int[] showWhenChiefLogined = { R.id.rl_chief_sign, R.id.rl_chief_mail, R.id.rl_chief_complaint, R.id.rl_chief_duban, R.id.rl_chief_record, R.id.rl_chief_suggestion };
 
     @Override
@@ -55,6 +56,7 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
 
             rootView.findViewById(R.id.tv_chief_complaint).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_duban).setOnClickListener(this);
+            rootView.findViewById(R.id.tv_chief_rivermanage).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_notepad).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_inspect).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_record).setOnClickListener(this);
@@ -116,8 +118,11 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
     private void refreshView() {
         boolean logined = getBaseActivity().getUser().isLogined();
         boolean ischief = getBaseActivity().getUser().isLogined() && getBaseActivity().getUser().isChief();
-        //判断是否是村级河长
+        //判断是否是村级河长 8
         boolean isVillageChief = getBaseActivity().getUser().isLogined() && getBaseActivity().getUser().isVillageChief();
+        //判断是否是市级或区级河长 区级9 市级10
+        boolean isDistrictChief = logined && getBaseActivity().getUser().isDistrictChief();
+        boolean isCityChief = logined && getBaseActivity().getUser().isCityChief();
 
         for (int id : showWhenLogined) {
             View v = rootView.findViewById(id);
@@ -169,7 +174,6 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
                 Intent intent = new Intent(getBaseActivity(), com.zju.hzsz.chief.activity.ChiefCompListActivity.class);
                 intent.putExtra(Tags.TAG_ABOOLEAN, false);
                 startActivity(intent);
-
                 break;
             }
             case R.id.tv_chief_inspect:{
@@ -179,6 +183,11 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             }
             case R.id.tv_chief_record: {
                 Intent intent = new Intent(getBaseActivity(), com.zju.hzsz.chief.activity.ChiefRecordListActivity.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.tv_chief_rivermanage: {
+                Intent intent = new Intent(getBaseActivity(), com.zju.hzsz.chief.activity.ChiefRivermanageActivity.class);
                 startActivity(intent);
                 break;
             }

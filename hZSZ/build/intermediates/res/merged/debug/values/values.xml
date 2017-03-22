@@ -990,6 +990,7 @@
     <string name="mychiefinspect">开始巡河</string>
     <string name="mychiefmail">我的信箱</string>
     <string name="mychiefrecord">巡查记录</string>
+    <string name="mychiefrivermanage">管辖河道</string>
     <string name="mychiefsign">河长签到</string>
     <string name="mychiefsuggestion">处理建议</string>
     <string name="mycollect">我的收藏</string>
@@ -1059,6 +1060,7 @@
     <string name="river_select_segment">请选择河段</string>
     <string name="river_selriver">请选择区域</string>
     <string name="river_start">河道起点</string>
+    <string name="river_supervisePhone">统一监督电话</string>
     <string name="river_target">整治目标</string>
     <string name="river_tsxx">投诉信息</string>
     <string name="river_villagechief">下属村级河长</string>
@@ -1067,6 +1069,7 @@
     <string name="river_xxgk">信息公开</string>
     <string name="river_yhyc">一河一策</string>
     <string name="river_zhenhezhang">镇街河长</string>
+    <string name="riverchief_responsibility">河长职务</string>
     <string name="rivername">河道名称</string>
     <string name="satisfaction_count">满意度</string>
     <string name="save">保存</string>
