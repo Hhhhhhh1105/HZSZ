@@ -1037,10 +1037,12 @@
     <string name="replayinfo">回复详情</string>
     <string name="rive_name">河道名称</string>
     <string name="river_area">河道区域</string>
+    <string name="river_city_title">市级河长</string>
     <string name="river_code">河道编号:</string>
     <string name="river_contactinfo">河长联系方式</string>
     <string name="river_contdep">联系部门</string>
     <string name="river_contpe">联系人</string>
+    <string name="river_district_title">区级河长</string>
     <string name="river_dzgsp">基本信息</string>
     <string name="river_end">河道终点</string>
     <string name="river_fdhezhang">分段河长</string>
@@ -1059,6 +1061,9 @@
     <string name="river_start">河道起点</string>
     <string name="river_target">整治目标</string>
     <string name="river_tsxx">投诉信息</string>
+    <string name="river_villagechief">下属村级河长</string>
+    <string name="river_villagechief_position">职务</string>
+    <string name="river_villagechief_title">村级河长</string>
     <string name="river_xxgk">信息公开</string>
     <string name="river_yhyc">一河一策</string>
     <string name="river_zhenhezhang">镇街河长</string>

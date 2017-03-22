@@ -187,8 +187,8 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 	public void loadData() {
 		JSONObject p = new JSONObject();
 		try {
-//			p.put("riverId", river.riverId);
-			p.put("riverId", 1);
+			p.put("riverId", river.riverId);
+//			p.put("riverId", 1);
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
@@ -283,20 +283,20 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 			//市级河长或区级河长
 			if (river.riverLevel <= 3) {
 				View river_line = LinearLayout.inflate(context, R.layout.item_river_contact_line, null);
-				String title_name = null;
 
+				int title_name = 3;
 				if (2 == river.riverLevel)
-					title_name = "市级河长";
+					title_name = R.string.river_city_title;
 				else
-					title_name = "区级河长";
+					title_name = R.string.river_district_title;
 
-				((TextView) (river_line.findViewById(R.id.tv_title_name))).setText(title_name);
+			/*	((TextView) (river_line.findViewById(R.id.tv_title_name))).setText(title_name);
 				river_line.findViewById(R.id.tv_river_name).setVisibility(View.GONE);
-				ll_contacts.addView(river_line);
+				ll_contacts.addView(river_line);*/
 
 				LinearLayout row = new LinearLayout(context);
 				row.setOrientation(LinearLayout.HORIZONTAL);
-				row.addView(initContItem(R.string.river_quhezhang, river.districtRiverChief.chiefName, null, false));
+				row.addView(initContItem(title_name, river.districtRiverChief.chiefName, null, false));
 				row.addView(initContItem(R.string.river_quhezhang_cont, river.districtComtactPeo.chiefName, river.districtComtactPeo.contactWay, false));
 				ll_contacts.addView(row);
 
@@ -306,12 +306,7 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 				row.addView(initContItem(R.string.river_jingzhang, null, null, true));
 				ll_contacts.addView(row);
 
-				//增加统一监督电话
-				View supervision_phone = LinearLayout.inflate(context, R.layout.item_river_contact_line, null);
-				((TextView) (supervision_phone.findViewById(R.id.tv_title_name))).setText("统一监督电话");
-				((TextView) (supervision_phone.findViewById(R.id.tv_river_name))).setText("18883869560");
 
-				ll_contacts.addView(supervision_phone);
 
 
 				//市级河道或区级河道有下级河道
@@ -357,6 +352,7 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 				row.addView(initContItem(R.string.river_jingzhang, river.townRiverSheriffs.length > 0 ? river.townRiverSheriffs[0].chiefName : null, river.townRiverSheriffs.length > 0 ? river.townRiverSheriffs[0].contactWay : null, false));
 				ll_contacts.addView(row);
 
+				//联系部门 联系人
 				if (river.comtactDepartment != null) {
 					row = new LinearLayout(context);
 					row.setOrientation(LinearLayout.HORIZONTAL);
@@ -364,7 +360,79 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 					row.addView(initContItem(R.string.river_contpe, river.comtactDepartment.river_contact_user, river.comtactDepartment.department_phone, false));
 				}
 				ll_contacts.addView(row);
+
+				warp.getViewById(R.id.tv_low_level_river).setVisibility(View.GONE);
+
+				/*//镇街级河道有下属村级河长 分栏显示方式
+				if (river.villageRiverChiefs.length > 0) {
+
+					//下属村级河道
+					warp.getViewById(R.id.tv_low_level_river).setVisibility(View.VISIBLE);
+					((TextView) warp.getViewById(R.id.tv_low_level_river)).setText(R.string.river_villagechief);
+
+					for (int i = 0; i < river.villageRiverChiefs.length; i += 2) {
+						VillageRiverChief villageRiverChief_l = river.villageRiverChiefs[i];
+						VillageRiverChief villageRiverChief_r = (i + 1) < river.villageRiverChiefs.length ? river.villageRiverChiefs[i + 1] : null;
+
+						View view = LinearLayout.inflate(context, R.layout.item_mainpage_section, null);
+						((TextView) view.findViewById(R.id.tv_name_l)).setText(villageRiverChief_l.chiefName);
+						((TextView) view.findViewById(R.id.tv_level_l)).setText(villageRiverChief_l.position);
+						((ImageView) view.findViewById(R.id.iv_quality_l)).setImageResource(R.drawable.ic_phone);
+
+						view.findViewById(R.id.rl_section_left).setOnClickListener(telclik);
+						view.findViewById(R.id.rl_section_left).setTag(villageRiverChief_l.contactWay);
+
+						if (villageRiverChief_r!= null) {
+
+							((TextView) view.findViewById(R.id.tv_name_r)).setText(villageRiverChief_r.chiefName);
+							((TextView) view.findViewById(R.id.tv_level_r)).setText(villageRiverChief_r.position);
+							((ImageView) view.findViewById(R.id.iv_quality_r)).setImageResource(R.drawable.ic_phone);
+							((ImageView) view.findViewById(R.id.iv_quality_r)).setScaleType(ImageView.ScaleType.FIT_XY);
+
+							view.findViewById(R.id.rl_section_right).setOnClickListener(telclik);
+							view.findViewById(R.id.rl_section_right).setTag(villageRiverChief_r.contactWay);
+
+						} else {
+							view.findViewById(R.id.rl_section_right).setVisibility(View.INVISIBLE);
+						}
+
+						ll_rivers.addView(view);
+
+					}
+				} else {
+					//若无下级河道则不显示下属村级河长列表
+					warp.getViewById(R.id.tv_low_level_river).setVisibility(View.GONE);
+				}
+*/
+				//镇街级河道有下属村级河长 按分段河长方式显示
+				if (river.villageRiverChiefs.length > 0) {
+
+					warp.getViewById(R.id.tv_low_level_river).setVisibility(View.VISIBLE);
+					((TextView) warp.getViewById(R.id.tv_low_level_river)).setText(R.string.river_villagechief);
+
+					for (int i = 0; i < river.villageRiverChiefs.length; i++) {
+
+						LinearLayout row_village = new LinearLayout(context);
+						row_village.setOrientation(LinearLayout.HORIZONTAL);
+
+						row_village.addView(initContItem(R.string.river_villagechief_title, river.villageRiverChiefs[i].chiefName, river.villageRiverChiefs[i].contactWay, false));
+						row_village.addView(initContItem(R.string.river_villagechief_position, river.villageRiverChiefs[i].position, null, false));
+
+						ll_rivers.addView(row_village);
+					}
+
+				} else {
+					warp.getViewById(R.id.tv_low_level_river).setVisibility(View.GONE);
+				}
+
 			}
+
+			//增加统一监督电话
+			View supervision_phone = LinearLayout.inflate(context, R.layout.item_river_contact_line, null);
+			((TextView) (supervision_phone.findViewById(R.id.tv_title_name))).setText("统一监督电话");
+			((TextView) (supervision_phone.findViewById(R.id.tv_river_name))).setText("18883869560");
+
+			ll_contacts.addView(supervision_phone);
 
 
 /*

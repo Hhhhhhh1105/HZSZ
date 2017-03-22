@@ -52,6 +52,7 @@ public class River {
 	public ContactDepartment comtactDepartment; /* 联系部门 */
 
 	public LowLevelRiver[] lowLevelRivers; //下属河道
+	public VillageRiverChief[] villageRiverChiefs; //下属村级河长列表
 
 	//
 	public Station[] stations;
