@@ -230,7 +230,7 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 
 
 			//河道别名
-			if (river.riverAlias != null && river.riverAlias != "") {
+			if (river.riverAlias != null && !river.riverAlias.equals("")) {
 				river.riverAlias = "（" + river.riverAlias + "）";
 				warp.setText(R.id.river_alias, river.riverAlias);
 				warp.getViewById(R.id.river_alias).setVisibility(View.VISIBLE);
