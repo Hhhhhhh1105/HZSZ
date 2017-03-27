@@ -279,6 +279,9 @@
             android:name="com.zju.hzsz.chief.activity.ChiefRivermanageActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.zju.hzsz.chief.activity.ChiefLowLevelPubActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.zju.hzsz.chief.activity.ChiefSignActivity"
             android:screenOrientation="portrait" />
         <activity

@@ -277,6 +277,8 @@
             android:screenOrientation="portrait"></activity>
         <activity android:name=".chief.activity.ChiefRivermanageActivity"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".chief.activity.ChiefLowLevelPubActivity"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".chief.activity.ChiefSignActivity"
             android:screenOrientation="portrait"></activity>

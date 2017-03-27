@@ -12,9 +12,8 @@ import com.sin.android.sinlibs.adapter.SimpleListAdapter;
 import com.sin.android.sinlibs.adapter.SimpleViewInitor;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
-import com.zju.hzsz.activity.RiverActivity;
+import com.zju.hzsz.model.LowLevelRiver;
 import com.zju.hzsz.model.LowLevelRiverListRes;
-import com.zju.hzsz.model.River;
 import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.net.Constants;
 import com.zju.hzsz.utils.ParamUtils;
@@ -37,14 +36,14 @@ public class ChiefRivermanageActivity extends BaseActivity {
     private ListViewWarp listViewWarp = null;
     private SimpleListAdapter adapter = null;
 
-    private List<River> rivers = new ArrayList<River>();
+    private List<LowLevelRiver> rivers = new ArrayList<LowLevelRiver>();
 
     private View.OnClickListener lowLeverRiverClick = new View.OnClickListener() {
 
         @Override
         public void onClick(View v) {
             if (v.getTag() != null) {
-                Intent intent = new Intent(ChiefRivermanageActivity.this, RiverActivity.class);
+                Intent intent = new Intent(ChiefRivermanageActivity.this, com.zju.hzsz.chief.activity.ChiefLowLevelPubActivity.class);
                 intent.putExtra(Tags.TAG_RIVER, StrUtils.Obj2Str(v.getTag()));
                 startActivity(intent);
             }
@@ -59,7 +58,7 @@ public class ChiefRivermanageActivity extends BaseActivity {
                 convertView = LinearLayout.inflate(context, R.layout.item_chief_rivermanage, null);
             }
 
-            River river = (River) data;
+            LowLevelRiver river = (LowLevelRiver) data;
             //设置河道名字 河道等级
             ((TextView) convertView.findViewById(R.id.tv_name)).setText(river.riverName);
             ((TextView) convertView.findViewById(R.id.tv_level)).setText(ResUtils.getRiverSLittleLevel(river.riverLevel));
@@ -116,7 +115,7 @@ public class ChiefRivermanageActivity extends BaseActivity {
                 if (o != null && o.isSuccess()) {
                     if (refresh)
                         rivers.clear();
-                    for (River r : o.data.lowLevelRivers) {
+                    for (LowLevelRiver r : o.data.lowLevelRivers) {
                         rivers.add(r);
                     }
 

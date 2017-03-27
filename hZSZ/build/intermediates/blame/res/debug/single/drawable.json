@@ -136,12 +136,12 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_qzone_off.png"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_checkbox_checked_mtrl.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_checkbox_checked_mtrl.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_selected.png",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_at_selected.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_checkbox_checked_mtrl.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_checkbox_checked_mtrl.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_box_btn_bg_s.xml",
@@ -204,12 +204,12 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_off_mtrl.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_radio_off_mtrl.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_off_mtrl.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_radio_off_mtrl.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",

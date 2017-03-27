@@ -143,6 +143,13 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             v.setVisibility(View.VISIBLE);
         }
 
+        if (isCityChief || isDistrictChief) {
+            for (int id : showWhenDisChiefLogined) {
+                View v =rootView.findViewById(id);
+                v.setVisibility(View.VISIBLE);
+            }
+        }
+
         //如果是区级河长，需要显示下级河长的投诉与巡河情况
 
 
