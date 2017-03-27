@@ -231,6 +231,10 @@
             android:label="@string/outlet"
             android:screenOrientation="portrait"></activity>
         <activity
+            android:name=".activity.SmallWaterActivity"
+            android:label="@string/smallwater_info"
+            android:screenOrientation="portrait"></activity>
+        <activity
             android:name=".activity.SearchRiverActivity"
             android:label="@string/searchriver"
             android:screenOrientation="portrait"></activity>

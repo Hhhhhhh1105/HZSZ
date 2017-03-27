@@ -40,6 +40,7 @@ import com.zju.hzsz.activity.RiverActivity;
 import com.zju.hzsz.activity.RiverListActivity;
 import com.zju.hzsz.activity.SectionActivity;
 import com.zju.hzsz.activity.SectionListActivity;
+import com.zju.hzsz.activity.SmallWaterActivity;
 import com.zju.hzsz.activity.SugOrComtActivity;
 import com.zju.hzsz.clz.RootViewWarp;
 import com.zju.hzsz.model.CheckNotify;
@@ -50,6 +51,7 @@ import com.zju.hzsz.model.Industrialport;
 import com.zju.hzsz.model.River;
 import com.zju.hzsz.model.RiverListRes;
 import com.zju.hzsz.model.Section;
+import com.zju.hzsz.model.SmallWater;
 import com.zju.hzsz.model.StartInfo;
 import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.utils.ImgUtils;
@@ -58,7 +60,9 @@ import com.zju.hzsz.utils.ResUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.utils.ViewUtils;
 
+import static com.zju.hzsz.R.id.ll_outlets;
 import static com.zju.hzsz.R.id.ll_rivers;
+import static com.zju.hzsz.R.id.ll_smallwater;
 
 public class MainFragment extends BaseFragment implements OnRefreshListener {
 
@@ -318,6 +322,8 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			swipeRefreshLayout.setOnRefreshListener(this);
 			((LinearLayout) rootView.findViewById(R.id.ll_sections)).removeAllViews();
 			((LinearLayout) rootView.findViewById(ll_rivers)).removeAllViews();
+			((LinearLayout) rootView.findViewById(ll_outlets)).removeAllViews();
+			((LinearLayout) rootView.findViewById(ll_smallwater)).removeAllViews();
 
 			refreshData();
 
@@ -574,6 +580,52 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 		}
 	}
 
+	//更新小微水体信息
+	private void refreshSmallWaterUI(){
+		LinearLayout ll_smallwater = (LinearLayout) rootView.findViewById(R.id.ll_smallwater);
+		ll_smallwater.removeAllViews();
+
+		//点击单个item，进行跳转
+		View.OnClickListener smallWaterClick = new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				if (view.getTag() != null) {
+					Intent intent = new Intent(getBaseActivity(), SmallWaterActivity.class);
+					intent.putExtra(Tags.TAG_SMALLWATER, StrUtils.Obj2Str(view.getTag()));
+					startActivity(intent);
+				}
+			}
+		};
+
+		for (int i = 0; i < indexData.smallWaterSums.length; i += 2) {
+			SmallWater smallWater_l = indexData.smallWaterSums[i];
+			SmallWater smallWater_r = indexData.smallWaterSums[i + 1];
+
+			View view = LinearLayout.inflate(getBaseActivity(), R.layout.item_mainpage_section, null);
+
+			((TextView) view.findViewById(R.id.tv_name_l)).setText(smallWater_l.waterName);
+			((TextView) view.findViewById(R.id.tv_level_l)).setText(smallWater_l.position);
+			((ImageView) view.findViewById(R.id.iv_quality_l)).setImageResource(R.drawable.ic_smallwater_2);
+
+			view.findViewById(R.id.rl_section_left).setTag(smallWater_l);
+			view.findViewById(R.id.rl_section_left).setOnClickListener(smallWaterClick);
+
+			if (smallWater_r != null) {
+				((TextView) view.findViewById(R.id.tv_name_r)).setText(smallWater_r.waterName);
+				((TextView) view.findViewById(R.id.tv_level_r)).setText(smallWater_r.position);
+				((ImageView) view.findViewById(R.id.iv_quality_r)).setImageResource(R.drawable.ic_smallwater_2);
+
+				view.findViewById(R.id.rl_section_right).setTag(smallWater_r);
+				view.findViewById(R.id.rl_section_right).setOnClickListener(smallWaterClick);
+			} else {
+				view.findViewById(R.id.rl_section_right).setVisibility(View.INVISIBLE);
+			}
+
+			ll_smallwater.addView(view);
+		}
+
+	}
+
 	@Override
 	public void onRefresh() {
 		refreshData();
@@ -675,6 +727,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 					refreshSectionUI();
 					refreshRiverUI();
 					refreashOutletUI();
+					refreshSmallWaterUI();
 				}
 
 				if (o == null){

@@ -64,6 +64,10 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_login.xml"
     },
     {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_smallwater.png",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_smallwater.png"
+    },
+    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_pressed.png",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_tab_left_pressed.png"
     },
@@ -486,6 +490,10 @@
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_on.png",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_follow_on.png"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_smallwater_2.png",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_smallwater_2.png"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\md_transparent.xml",

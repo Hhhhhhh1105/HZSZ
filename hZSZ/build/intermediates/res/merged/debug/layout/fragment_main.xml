@@ -408,18 +408,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/page_padding"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/microwater_info"
+                        android:text="@string/smallwater_info"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textSize="@dimen/font_normal" />
 
                     <TextView
-                        android:id="@+id/tv_selmicrowater"
+                        android:id="@+id/tv_selsmallwater"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/shape_board_btn_bg"
@@ -435,7 +435,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/ll_microwater"
+                    android:id="@+id/ll_smallwater"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="0dp"
@@ -443,7 +443,7 @@
                     android:background="@color/gray"
                     android:orientation="vertical"
                     android:padding="0dp"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <include
                         android:layout_width="wrap_content"

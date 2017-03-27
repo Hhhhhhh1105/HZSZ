@@ -6,4 +6,5 @@ public class IndexData {
 	public District[] districtLists;
 	public String sloganPicPath;
 	public Industrialport[] industrialportlists;
+	public SmallWater[] smallWaterSums;
 }
