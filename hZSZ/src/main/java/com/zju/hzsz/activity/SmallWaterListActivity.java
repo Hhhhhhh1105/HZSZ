@@ -15,6 +15,7 @@ import com.zju.hzsz.Tags;
 import com.zju.hzsz.model.SmallWater;
 import com.zju.hzsz.model.SmallWaterListRes;
 import com.zju.hzsz.net.Callback;
+import com.zju.hzsz.net.Constants;
 import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
@@ -23,8 +24,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static com.zju.hzsz.net.Constants.DefaultPageSize;
 
 /**
  * 小微水体列表页
@@ -102,10 +101,13 @@ public class SmallWaterListActivity extends BaseActivity {
         if (refresh)
             listViewWarp.setRefreshing(true);
         else
-            listViewWarp.setLoadingMore(false);
+            listViewWarp.setLoadingMore(true);
         getRequestContext().add("Get_SmallWaterList", new Callback<SmallWaterListRes>() {
             @Override
             public void callback(SmallWaterListRes o) {
+
+                listViewWarp.setLoadingMore(false);
+                listViewWarp.setRefreshing(false);
 
                 if (o != null && o.isSuccess()) {
                     if (refresh) {
@@ -116,6 +118,7 @@ public class SmallWaterListActivity extends BaseActivity {
                     }
 
                     adapter.notifyDataSetChanged();
+
                 }
 
                 hideOperating();
@@ -129,8 +132,11 @@ public class SmallWaterListActivity extends BaseActivity {
         }, SmallWaterListRes.class, getPageParam(refresh));
     }
 
+    private final int DefaultPageSize = Constants.DefaultPageSize;
+
     protected JSONObject getPageParam(boolean refresh) {
-        JSONObject j = refresh ? ParamUtils.pageParam(DefaultPageSize, 1) : ParamUtils.pageParam(DefaultPageSize, (smallWaters.size() + DefaultPageSize - 1) / DefaultPageSize + 1);
+        JSONObject j = refresh ? ParamUtils.pageParam(DefaultPageSize, 1) :
+                ParamUtils.pageParam(DefaultPageSize, (smallWaters.size() + DefaultPageSize - 1) / DefaultPageSize + 1);
         return j;
     }
 }
