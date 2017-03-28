@@ -41,6 +41,7 @@ import com.zju.hzsz.activity.RiverListActivity;
 import com.zju.hzsz.activity.SectionActivity;
 import com.zju.hzsz.activity.SectionListActivity;
 import com.zju.hzsz.activity.SmallWaterActivity;
+import com.zju.hzsz.activity.SmallWaterListActivity;
 import com.zju.hzsz.activity.SugOrComtActivity;
 import com.zju.hzsz.clz.RootViewWarp;
 import com.zju.hzsz.model.CheckNotify;
@@ -293,6 +294,14 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 				@Override
 				public void onClick(View v) {
 					Intent intent = new Intent(getBaseActivity(), OutletListActivity.class);
+					startActivity(intent);
+				}
+			});
+			//“查看所有小微水体”跳转
+			rootView.findViewById(R.id.tv_selsmallwater).setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View view) {
+					Intent intent = new Intent(getBaseActivity(), SmallWaterListActivity.class);
 					startActivity(intent);
 				}
 			});
