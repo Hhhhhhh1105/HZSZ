@@ -1,7 +1,5 @@
 package com.zju.hzsz.activity;
 
-import org.json.JSONObject;
-
 import android.annotation.SuppressLint;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -25,6 +23,8 @@ import com.zju.hzsz.model.StartInfoRes;
 import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.receiver.PushReceiver;
 import com.zju.hzsz.utils.ImgUtils;
+
+import org.json.JSONObject;
 
 public class WelcomeActivity extends BaseActivity {
 	ImageView iv_welcome = null;
@@ -124,7 +124,10 @@ public class WelcomeActivity extends BaseActivity {
 			}
 		});
 
-		checkNotify();
+		if (getUser().getAuthority() != 0 && getUser().getAuthority() == 2) {
+			checkNotify();
+		}
+
 	}
 
 	private void checkNotify() {
