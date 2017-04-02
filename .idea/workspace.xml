@@ -11,13 +11,12 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="河长的notify:" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="NET:" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f20fd589-bcc1-45a9-935c-fd3cc5edf866" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hZSZ/src/main/res/drawable/ic_position.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -26,183 +25,31 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/afollestad/materialdialogs/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/afollestad/materialdialogs/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$integer.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$layout.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$string.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$style.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$styleable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/OutletActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/OutletActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/PhotoViewActivity$PhotoViewPagerItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/PhotoViewActivity$PhotoViewPagerItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/RiverPositionActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/RiverPositionActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/SearchCompActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/SearchCompActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/WelcomeActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/WelcomeActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/WelcomeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/WelcomeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefCompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefCompDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefInspectActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefInspectActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/OutletMapFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/OutletMapFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/PublicityListFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/PublicityListFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/PublicityMapFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/PublicityMapFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/RiverMapFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/RiverMapFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/SectionMapFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/SectionMapFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/river/RiverCompItem$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/river/RiverCompItem$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/river/RiverInfoItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/river/RiverInfoItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/river/RiverInfoPubItem$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/river/RiverInfoPubItem$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/utils/ResUtils.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/utils/ResUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/utils/ViewUtils.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/utils/ViewUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/me/zhanghai/android/materialprogressbar/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/me/zhanghai/android/materialprogressbar/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/afollestad/materialdialogs/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/afollestad/materialdialogs/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$integer.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$layout.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$string.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$style.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$styleable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/OutletActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/OutletActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/PhotoViewActivity$PhotoViewPagerItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/PhotoViewActivity$PhotoViewPagerItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/RiverPositionActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/RiverPositionActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/SearchCompActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/SearchCompActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/WelcomeActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/WelcomeActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/WelcomeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/WelcomeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/chief/activity/ChiefCompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/chief/activity/ChiefCompDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/chief/activity/ChiefInspectActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/chief/activity/ChiefInspectActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MainFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MainFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/OutletMapFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/OutletMapFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/PublicityListFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/PublicityListFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/PublicityMapFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/PublicityMapFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/RiverMapFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/RiverMapFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/SectionMapFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/SectionMapFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/river/RiverCompItem$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/river/RiverCompItem$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/river/RiverInfoItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/river/RiverInfoItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/river/RiverInfoPubItem$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/river/RiverInfoPubItem$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/utils/ResUtils.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/utils/ResUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/utils/ViewUtils.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/utils/ViewUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/me/zhanghai/android/materialprogressbar/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/me/zhanghai/android/materialprogressbar/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/view/ListViewWarp$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/view/ListViewWarp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/view/ListViewWarp$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/view/ListViewWarp$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/view/ListViewWarp.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/view/ListViewWarp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/view/ListViewWarp$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/view/ListViewWarp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/view/ListViewWarp$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/view/ListViewWarp$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/view/ListViewWarp.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/view/ListViewWarp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/zip-cache/GWJv71HyNvETyccmkvr0WZ1lAz0=" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/zip-cache/GWJv71HyNvETyccmkvr0WZ1lAz0=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/GWJv71HyNvETyccmkvr0WZ1lAz0=" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/GWJv71HyNvETyccmkvr0WZ1lAz0=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/instant-run-support/debug/instant-run.zip" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/instant-run-support/debug/instant-run.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_36dp.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_36dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi-v4/fab_bg_mini.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi-v4/fab_bg_mini.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/common_ic_googleplayservices.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/common_ic_googleplayservices.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_head_close_s.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_head_close_s.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_head_plus_s.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_head_plus_s.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_love_s.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/ic_love_s.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-mdpi-v4/fab_bg_normal.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-mdpi-v4/fab_bg_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xhdpi-v4/fab_bg_mini.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xhdpi-v4/fab_bg_mini.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/fab_bg_mini.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/fab_bg_mini.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/fab_bg_normal.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/fab_bg_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/md_nav_back.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/md_nav_back.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/afollestad/materialdialogs/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/afollestad/materialdialogs/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$integer.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$layout.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$string.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$style.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$styleable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/OutletActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/OutletActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/PhotoViewActivity$PhotoViewPagerItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/PhotoViewActivity$PhotoViewPagerItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/RiverPositionActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/RiverPositionActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/SearchCompActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/SearchCompActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/WelcomeActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/WelcomeActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/WelcomeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/WelcomeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/chief/activity/ChiefCompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/chief/activity/ChiefCompDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/chief/activity/ChiefInspectActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/chief/activity/ChiefInspectActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MainFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MainFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/OutletMapFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/OutletMapFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/PublicityListFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/PublicityListFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/PublicityMapFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/PublicityMapFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/RiverMapFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/RiverMapFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/SectionMapFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/SectionMapFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/river/RiverCompItem$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/river/RiverCompItem$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/river/RiverInfoItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/river/RiverInfoItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/river/RiverInfoPubItem$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/river/RiverInfoPubItem$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/utils/ResUtils.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/utils/ResUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/utils/ViewUtils.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/utils/ViewUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/me/zhanghai/android/materialprogressbar/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/me/zhanghai/android/materialprogressbar/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/OutletActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/OutletActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/PhotoViewActivity$PhotoViewPagerItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/PhotoViewActivity$PhotoViewPagerItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/RiverPositionActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/RiverPositionActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/SearchCompActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/SearchCompActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/WelcomeActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/WelcomeActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/WelcomeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/WelcomeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$integer.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$layout.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$string.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$style.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$styleable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MainFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MainFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/OutletMapFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/OutletMapFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/PublicityListFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/PublicityListFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/PublicityMapFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/PublicityMapFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/RiverMapFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/RiverMapFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/SectionMapFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/SectionMapFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/afollestad/materialdialogs/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/afollestad/materialdialogs/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/me/zhanghai/android/materialprogressbar/R$drawable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/me/zhanghai/android/materialprogressbar/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/chief/activity/ChiefCompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/chief/activity/ChiefCompDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/chief/activity/ChiefInspectActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/chief/activity/ChiefInspectActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/chief/activity/ChiefTrackViewActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/fragment/river/RiverCompItem$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/fragment/river/RiverCompItem$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/fragment/river/RiverInfoItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/fragment/river/RiverInfoItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/fragment/river/RiverInfoPubItem$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/fragment/river/RiverInfoPubItem$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/zju/hzsz/utils/ResUtils.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/zju/hzsz/utils/ResUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/zju/hzsz/utils/ViewUtils.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/zju/hzsz/utils/ViewUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/view/ListViewWarp$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/view/ListViewWarp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/view/ListViewWarp$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/view/ListViewWarp$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/view/ListViewWarp.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/view/ListViewWarp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/view/ListViewWarp$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/view/ListViewWarp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/view/ListViewWarp$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/view/ListViewWarp$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/view/ListViewWarp.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/view/ListViewWarp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/outputs/apk/hZSZ-debug.apk" afterPath="$PROJECT_DIR$/hZSZ/build/outputs/apk/hZSZ-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/com/afollestad/materialdialogs/R.java" afterPath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/com/afollestad/materialdialogs/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/com/zju/hzsz/R.java" afterPath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/com/zju/hzsz/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/me/zhanghai/android/materialprogressbar/R.java" afterPath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/me/zhanghai/android/materialprogressbar/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/WelcomeActivity.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/WelcomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/res/layout/item_smallwater.xml" afterPath="$PROJECT_DIR$/hZSZ/src/main/res/layout/item_smallwater.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/hZSZ.iml" afterPath="$PROJECT_DIR$/hZSZ/hZSZ.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SmallWaterListActivity.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SmallWaterListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefLowLevelPubActivity.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefLowLevelPubActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/view/ListViewWarp.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/view/ListViewWarp.java" />
     </list>
     <ignored path="HZSZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -240,7 +87,7 @@
       <file leaf-file-name="WelcomeActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/WelcomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="2244">
               <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding />
             </state>
@@ -250,8 +97,8 @@
       <file leaf-file-name="SmallWaterListActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SmallWaterListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="56" column="79" selection-start-line="56" selection-start-column="79" selection-end-line="56" selection-end-column="79" />
+            <state relative-caret-position="2596">
+              <caret line="141" column="1" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -259,16 +106,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item_smallwater.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_smallwater.xml">
+      <file leaf-file-name="ChiefRivermanageActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRivermanageActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="45" column="114" selection-start-line="45" selection-start-column="114" selection-end-line="45" selection-end-column="114" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChiefLowLevelPubActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefLowLevelPubActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="137" column="69" selection-start-line="137" selection-start-column="69" selection-end-line="137" selection-end-column="69" />
+              <folding>
+                <element signature="e#2620#4135#0" expanded="true" />
+                <element signature="e#4134#4135#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChiefEditRecordActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1584">
+              <caret line="129" column="54" selection-start-line="129" selection-start-column="54" selection-end-line="129" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListViewWarp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/view/ListViewWarp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comp_listview_footer.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/comp_listview_footer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comp_listview.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/comp_listview.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="46" column="70" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item_smallwater.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_smallwater.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1144">
+              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -2112,7 +2028,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_chief_editnote.xml" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/item_note.xml" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/NoteListRes.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/Values.java" />
@@ -2143,7 +2058,6 @@
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_river_infopub.xml" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefLowLevelPub.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_chief_lowlevelpub.xml" />
-        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefLowLevelPubActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/LowLevelRiverList.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/item_chief_rivermanage.xml" />
@@ -2160,9 +2074,11 @@
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/SmallWaterListRes.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SmallWaterListActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/WelcomeActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/item_smallwater.xml" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/view/ListViewWarp.java" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SmallWaterListActivity.java" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefLowLevelPubActivity.java" />
       </list>
     </option>
   </component>
@@ -2211,7 +2127,7 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/EasyPR_Android-master" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/SmallWaterListActivity.java&#10;welcome&#9;PSI&#9;JAVA://com.zju.hzsz.activity.WelcomeActivity&#10;out&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java&#10;an&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/AndroidManifest.xml&#10;Lowl&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/LowLevelRiverListRes.java&#10;mainf&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;mef&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;rivermanage&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRivermanageActivity.java&#10;Chief&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefLowLevelPubActivity.java&#10;lowle&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/LowLevelRiverList.java&#10;info&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;infp&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.river.RiverInfoPubItem&#10;rivermana&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRivermanageActivity.java&#10;Main&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;River&#9;PSI&#9;JAVA://com.zju.hzsz.model.River&#10;and&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/AndroidManifest.xml&#10;hz&#9;RUN_CONFIGURATION&#9;hZSZ&#10;manaa&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRivermanageActivity.java&#10;user&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/User.java&#10;Me&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;RiverA&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverActivity.java&#10;low&#9;PSI&#9;JAVA://com.zju.hzsz.model.LowLevelRiver&#10;riverIn&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;riverL&#9;PSI&#9;JAVA://com.zju.hzsz.activity.RiverListActivity&#10;RI&#9;PSI&#9;JAVA://com.zju.hzsz.model.River&#10;river&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_chief_rivermanage.xml&#10;str&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/values/strings.xml&#10;riverin&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;rec&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRecordListActivity.java&#10;outF&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.OutletFragment&#10;main&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_main.xml&#10;requ&#9;PSI&#9;JAVA://com.zju.hzsz.net.RequestContext&#10;chiefe&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java&#10;con&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;device&#9;PSI&#9;JAVA://android.bluetooth.BluetoothClass.Device&#10;chec&#9;PSI&#9;JAVA://com.sin.android.update.ToolBox.CheckCallback&#10;up&#9;PSI&#9;JAVA://com.sin.android.update.Update&#10;val&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/Values.java&#10;cons&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;forgo&#9;PSI&#9;JAVA://com.zju.hzsz.activity.ForgotPasswordActivity&#10;news&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/NewsFragment.java&#10;RIver&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverFragment.java&#10;Se&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/SearchNewsActivity.java&#10;NewsF&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.NewsFragment&#10;Riv&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;search&#9;PSI&#9;JAVA://com.zju.hzsz.activity.SearchRiverActivity&#10;edi&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java&#10;re&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java&#10;News&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/NewsFragment.java&#10;inf&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java" />
+    <property name="SearchEverywhereHistoryKey" value="chief&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRivermanageActivity.java&#10;welcome&#9;PSI&#9;JAVA://com.zju.hzsz.activity.WelcomeActivity&#10;out&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java&#10;an&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/AndroidManifest.xml&#10;Lowl&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/LowLevelRiverListRes.java&#10;mainf&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;mef&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;rivermanage&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRivermanageActivity.java&#10;Chief&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefLowLevelPubActivity.java&#10;lowle&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/LowLevelRiverList.java&#10;info&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;infp&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.river.RiverInfoPubItem&#10;rivermana&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRivermanageActivity.java&#10;Main&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;River&#9;PSI&#9;JAVA://com.zju.hzsz.model.River&#10;and&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/AndroidManifest.xml&#10;hz&#9;RUN_CONFIGURATION&#9;hZSZ&#10;manaa&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRivermanageActivity.java&#10;user&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/User.java&#10;Me&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;RiverA&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/RiverActivity.java&#10;low&#9;PSI&#9;JAVA://com.zju.hzsz.model.LowLevelRiver&#10;riverIn&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;riverL&#9;PSI&#9;JAVA://com.zju.hzsz.activity.RiverListActivity&#10;RI&#9;PSI&#9;JAVA://com.zju.hzsz.model.River&#10;river&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/item_chief_rivermanage.xml&#10;str&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/values/strings.xml&#10;riverin&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;rec&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRecordListActivity.java&#10;outF&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.OutletFragment&#10;main&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/res/layout/fragment_main.xml&#10;requ&#9;PSI&#9;JAVA://com.zju.hzsz.net.RequestContext&#10;chiefe&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java&#10;con&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;device&#9;PSI&#9;JAVA://android.bluetooth.BluetoothClass.Device&#10;chec&#9;PSI&#9;JAVA://com.sin.android.update.ToolBox.CheckCallback&#10;up&#9;PSI&#9;JAVA://com.sin.android.update.Update&#10;val&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/Values.java&#10;cons&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;forgo&#9;PSI&#9;JAVA://com.zju.hzsz.activity.ForgotPasswordActivity&#10;news&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/NewsFragment.java&#10;RIver&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverFragment.java&#10;Se&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/SearchNewsActivity.java&#10;NewsF&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.NewsFragment&#10;Riv&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;search&#9;PSI&#9;JAVA://com.zju.hzsz.activity.SearchRiverActivity&#10;edi&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java&#10;re&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/RequestContext.java&#10;News&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/NewsFragment.java&#10;inf&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="device.picker.selection" value="MDG4C16415003317" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/hZSZ/src/main/res/drawable" />
@@ -2847,7 +2763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490691654740</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="03-28-小微水体列表 图标ok">
+      <created>1490700778394</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1490700778394</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2863,30 +2786,29 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5811966" sideWeight="0.2396631" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24102564" sideWeight="0.770229" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23200613" sideWeight="0.50615114" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3880342" sideWeight="0.49389312" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25299147" sideWeight="0.48966026" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26495728" sideWeight="0.76033694" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.290469" sideWeight="0.49384886" order="10" side_tool="false" content_ui="tabs" x="0" y="20" width="1366" height="705" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5811966" sideWeight="0.2396631" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6649573" sideWeight="0.770229" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5589744" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649574" sideWeight="0.4970458" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5940246" sideWeight="0.14327918" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.204236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23200613" sideWeight="0.50615114" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3880342" sideWeight="0.49389312" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2895,6 +2817,7 @@
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.290469" sideWeight="0.49384886" order="10" side_tool="false" content_ui="tabs" x="0" y="20" width="1366" height="705" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2970123" sideWeight="0.4844904" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -2979,30 +2902,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/OutletListDataRes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_chief_recordlist.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/RiverListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="150" column="21" selection-start-line="150" selection-start-column="21" selection-end-line="150" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/RiverActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -3011,23 +2910,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_publicity.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="64" column="50" selection-start-line="12" selection-start-column="4" selection-end-line="70" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_record_3fied.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_record_3fied.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/User.java">
@@ -3045,13 +2944,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_river_infopub.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../sdk/platforms/android-24/android.jar!/android/widget/AbsListView.class">
@@ -3068,21 +2967,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/hZSZ/libs/sinlibs.2016.311.jar!/com/sin/android/sinlibs/adapter/SimpleListAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_chief_lowlevelpub.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-352">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/LowLevelRiver.java">
@@ -3114,13 +3006,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_mainpage_section.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/values/strings.xml">
@@ -3132,13 +3024,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_outlet.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/RankingRes.java">
@@ -3177,13 +3069,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9130">
           <caret line="415" column="49" selection-start-line="415" selection-start-column="49" selection-end-line="415" selection-end-column="49" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/OutletActivity.java">
@@ -3205,7 +3097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3223,13 +3114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefLowLevelPubActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="641">
@@ -3244,36 +3128,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRivermanageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_chief_rivermanage.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1408">
           <caret line="64" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_smallwater.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_smallwater.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/drawable-hdpi/ic_launcher.png">
@@ -3299,34 +3171,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_chief_rivermanage.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="23" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="36" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/SmallWaterList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/view/ListViewWarp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2200">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3334,47 +3195,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="304" column="40" selection-start-line="304" selection-start-column="40" selection-end-line="304" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="239" column="17" selection-start-line="239" selection-start-column="17" selection-end-line="239" selection-end-column="17" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/OutletListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="134" column="46" selection-start-line="133" selection-start-column="16" selection-end-line="134" selection-end-column="50" />
-          <folding>
-            <element signature="e#4937#5959#0" expanded="true" />
-            <element signature="e#5958#5959#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/WelcomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="2244">
           <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SmallWaterListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="56" column="79" selection-start-line="56" selection-start-column="79" selection-end-line="56" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3384,13 +3230,87 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_smallwater.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/comp_listview.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="46" column="70" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/comp_listview_footer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/hZSZ/libs/sinlibs.2016.311.jar!/com/sin/android/sinlibs/adapter/SimpleListAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/view/ListViewWarp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SmallWaterListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2596">
+          <caret line="141" column="1" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefRivermanageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="45" column="114" selection-start-line="45" selection-start-column="114" selection-end-line="45" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="129" column="54" selection-start-line="129" selection-start-column="54" selection-end-line="129" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefLowLevelPubActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="137" column="69" selection-start-line="137" selection-start-column="69" selection-end-line="137" selection-end-column="69" />
+          <folding>
+            <element signature="e#2620#4135#0" expanded="true" />
+            <element signature="e#4134#4135#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -134,7 +134,8 @@ public class ChiefLowLevelPubActivity extends BaseActivity {
                         RiverRecord record = (RiverRecord) o;
                         if (record != null) {
                             Intent intent = new Intent(ChiefLowLevelPubActivity.this, ChiefEditRecordActivity.class);
-                            intent.putExtra(Tags.TAG_RECORD, true);
+                            intent.putExtra(Tags.TAG_RECORD, StrUtils.Obj2Str(record));
+                            intent.putExtra(Tags.TAG_ABOOLEAN, true);
                             startActivityForResult(intent, Tags.CODE_EDIT);
                         }
                     }

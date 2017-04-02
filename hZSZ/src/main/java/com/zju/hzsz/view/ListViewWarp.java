@@ -44,12 +44,13 @@ public class ListViewWarp {
 		this.adapter = adapter;
 	}
 
+	//给编译器一条指令 告诉它对被批注的元素内部的某些警告保持静默
 	@SuppressWarnings("deprecation")
 	private void readyView() {
 		if (rootView == null) {
 			rootView = LinearLayout.inflate(context, R.layout.comp_listview, null);
 			swipeRefreshLayout = (SwipeRefreshLayout) rootView.findViewById(R.id.srl_listview);
-			swipeRefreshLayout.setColorScheme(R.color.holo_blue_bright, R.color.holo_green_light, R.color.holo_orange_light, R.color.holo_red_light);
+//			swipeRefreshLayout.setColorScheme(R.color.holo_blue_bright, R.color.holo_green_light, R.color.holo_orange_light, R.color.holo_red_light);
 			swipeRefreshLayout.setOnRefreshListener( new SwipeRefreshLayout.OnRefreshListener() {
 				@Override
 				public void onRefresh() {
@@ -64,6 +65,7 @@ public class ListViewWarp {
 
 			listView = (ListView) rootView.findViewById(R.id.lv_listview);
 
+			//加载中进度条
 			footerView = LinearLayout.inflate(context, R.layout.comp_listview_footer, null);
 			setFooterView(true);
 			listView.addFooterView(footerView);
@@ -158,7 +160,7 @@ public class ListViewWarp {
 
 	public void setNoMore(boolean noMore) {
 		if (noMore) {
-			setLoadingMore(false);
+			setLoadingMore(false); //不再加载更多并不显示footView的UI
 		} else {
 			setFooterView(true);
 		}
@@ -184,7 +186,7 @@ public class ListViewWarp {
 		this.status = status;
 		if (this.status == ListStatus.Error && footerView != null) {
 			((TextView) footerView.findViewById(R.id.tv_status)).setText("加载失败!");
-			footerView.findViewById(R.id.pb_loading).setVisibility(View.GONE);
+			footerView.findViewById(R.id.pb_loading).setVisibility(View.GONE); //隐藏进度条
 			setFooterView(true);
 		}
 	}

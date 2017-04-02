@@ -136,7 +136,7 @@ public class SmallWaterListActivity extends BaseActivity {
 
     protected JSONObject getPageParam(boolean refresh) {
         JSONObject j = refresh ? ParamUtils.pageParam(DefaultPageSize, 1) :
-                ParamUtils.pageParam(DefaultPageSize, (smallWaters.size() + DefaultPageSize - 1) / DefaultPageSize + 1);
+                ParamUtils.pageParam (DefaultPageSize, (smallWaters.size() + DefaultPageSize - 1) / DefaultPageSize + 1);
         return j;
     }
 }
