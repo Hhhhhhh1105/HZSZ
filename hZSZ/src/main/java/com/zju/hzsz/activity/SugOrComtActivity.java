@@ -86,6 +86,9 @@ public class SugOrComtActivity extends BaseActivity {
 			public void onClick(View arg0) {
 				// startActivityForResult(new
 				// Intent(MediaStore.ACTION_IMAGE_CAPTURE), Tags.CODE_ADDPHOTO);
+				//将提醒文字隐藏
+				findViewById(R.id.tv_btn_explain).setVisibility(View.GONE);
+
 				Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 
 				ContentValues values = new ContentValues();

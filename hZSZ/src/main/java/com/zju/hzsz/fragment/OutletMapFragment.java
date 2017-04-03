@@ -49,6 +49,7 @@ public class OutletMapFragment extends BaseFragment {
     double longScope = 0.05;
     double latiScope = 0.05;
     BitmapDescriptor bmp;
+    BitmapDescriptor bmp_me = null;
     MarkerOptions options = null;
     boolean isFirst = true;
 
@@ -64,6 +65,9 @@ public class OutletMapFragment extends BaseFragment {
             onHeadRefresh(true);
 
             baiduMap.setMaxAndMinZoomLevel(Values.MAP_ZOOM_MAX_LEVEL, 10);
+//            baiduMap.setMyLocationEnabled(true); //显示当前位置的小图标
+            bmp_me = BitmapDescriptorFactory.fromResource(R.drawable.ic_location_me);
+
             baiduMap.setOnMapStatusChangeListener(new BaiduMap.OnMapStatusChangeListener() {
 
                 @Override
@@ -101,7 +105,7 @@ public class OutletMapFragment extends BaseFragment {
                     return true;
                 }
             });
-            baiduMap.animateMapStatus(MapStatusUpdateFactory.zoomTo(Values.MAP_ZOOM_LEVEL));
+            baiduMap.animateMapStatus(MapStatusUpdateFactory.zoomTo(13));
             if (location != null) {
                 baiduMap.setMyLocationData(new MyLocationData.Builder().latitude(location.getLatitude()).longitude(location.getLongitude()).build());
                 MapStatus status = new MapStatus.Builder().target(new LatLng(location.getLatitude(), location.getLongitude())).build();
@@ -137,10 +141,13 @@ public class OutletMapFragment extends BaseFragment {
                         location = new Location("");
                         location.setLatitude(o.data.centerLati);
                         location.setLongitude(o.data.centerLongti);
-                        baiduMap.setMyLocationData(new MyLocationData.Builder().latitude(location.getLatitude()).
-                                longitude(location.getLongitude()).build());
-                        MapStatus status = new MapStatus.Builder().target(new LatLng(location.getLatitude(),
-                                location.getLongitude())).build();
+                        baiduMap.setMyLocationData(new MyLocationData.Builder()
+                                .latitude(getBaseActivity().getLatitude())
+                                .longitude(getBaseActivity().getLongitude())
+                                .build());
+                        MapStatus status = new MapStatus.Builder()
+                                .target(new LatLng(getBaseActivity().getLatitude(),
+                                getBaseActivity().getLongitude())).build();
                         baiduMap.setMapStatus(MapStatusUpdateFactory.newMapStatus(status));
 
                     }
@@ -160,13 +167,22 @@ public class OutletMapFragment extends BaseFragment {
 
                             outlets.put(outlet.sourceId, outlet);
                         }
+                        options = new MarkerOptions().position(new LatLng(getBaseActivity()
+                                .getLatitude(), getBaseActivity().getLongitude()))
+                                .icon(bmp_me);
+                        baiduMap.addOverlay(options);
+
                     }
                 }
 
                 hideOperating();
 
+
                 if (location != null){
-                    baiduMap.setMyLocationData(new MyLocationData.Builder().latitude(location.getLatitude()).longitude(location.getLongitude()).build());
+                    baiduMap.setMyLocationData(new MyLocationData.Builder()
+                            .latitude(getBaseActivity().getLatitude())
+                            .longitude(getBaseActivity().getLongitude())
+                            .build());
                 }
 
                 if (isFirst) {

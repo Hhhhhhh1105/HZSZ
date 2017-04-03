@@ -212,6 +212,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 			@Override
 			public void onClick(View arg0) {
+				findViewById(R.id.tv_btn_explain).setVisibility(View.GONE);
 				startAddPhoto();
 			}
 		});

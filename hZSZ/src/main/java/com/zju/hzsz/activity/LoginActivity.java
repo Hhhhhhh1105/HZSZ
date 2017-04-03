@@ -83,6 +83,7 @@ public class LoginActivity extends BaseActivity {
 					getUser().authority = o.data.authority;
 					getUser().riverSum = o.data.riverSum;
 					getUser().ifOnJob = o.data.ifOnJob;
+					getUser().districtId = o.data.districtId;
 					
 					getUser().pwdmd5 = pwdmd5;
 

@@ -80,9 +80,12 @@ public class TabRankingFragment extends BaseFragment implements OnPageChangeList
 						ViewWarp warp = new ViewWarp(convertView, context);
 						warp.setText(R.id.tv_index, (position + 1) + "");
 						warp.setText(R.id.tv_name, r.riverName);
-						warp.setText(R.id.tv_complaint_count, "" + r.complaintsSum);
-						warp.setText(R.id.tv_satisfaction_count, "" + ((int) (r.satisfactionRatio * 100)) + "%");
-						warp.setText(R.id.tv_unhandle, "" + r.comUnDeal);
+						warp.setText(R.id.tv_complaint_count, "" + r.complaintsSum); //投诉量
+						if (r.satisfactionRatio != 0)
+							warp.setText(R.id.tv_satisfaction_count, "" + ((int) (r.satisfactionRatio * 100)) + "%"); //满意度
+						else
+							warp.setText(R.id.tv_satisfaction_count, "-");
+						warp.setText(R.id.tv_unhandle, "" + r.comUnDeal); //未处理
 						return convertView;
 					}
 				});
@@ -183,6 +186,11 @@ public class TabRankingFragment extends BaseFragment implements OnPageChangeList
 			for (District d : Values.districtLists) {
 				if (d.districtName.contains("拱墅")) {
 					curDistrict = d;
+				}
+				//如果河长登陆，这里默认是所在区划
+				if (getBaseActivity().getUser().getDistrictId() != 0) {
+					if (d.districtId == getBaseActivity().getUser().getDistrictId())
+						curDistrict = d;
 				}
 			}
 			if (curDistrict == null)

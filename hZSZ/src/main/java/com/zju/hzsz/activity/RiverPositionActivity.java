@@ -17,8 +17,11 @@ import com.baidu.mapapi.map.PolylineOptions;
 import com.baidu.mapapi.model.LatLng;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
-import com.zju.hzsz.Values;
 import com.zju.hzsz.model.River;
+import com.zju.hzsz.model.RiverPosition;
+import com.zju.hzsz.model.RiverPositionRes;
+import com.zju.hzsz.net.Callback;
+import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.StrUtils;
 
 import java.util.ArrayList;
@@ -28,6 +31,10 @@ public class RiverPositionActivity extends BaseActivity {
 	River river = null;
 	private BaiduMap baiduMap = null;
 	protected Location location;
+	private List<LatLng> points;
+	private LatLng start;
+	private LatLng end;
+	private LatLng me;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +43,9 @@ public class RiverPositionActivity extends BaseActivity {
 		initHead(R.drawable.ic_head_back, 0);
 		setTitle("河道方位");
 		river = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_RIVER), River.class);
+
+		me = new LatLng(getLatitude(), getLongitude());
+
 		if (river != null) {
 			setTitle(river.riverName);
 			MapView mv_section = (MapView) findViewById(R.id.mv_position);
@@ -49,31 +59,48 @@ public class RiverPositionActivity extends BaseActivity {
 
 				}
 			});
-//			showOperating();
-			drawRiver();
-			/*getRequestContext().add("Get_OneRiverLoaction", new Callback<RiverDataRes>() {
+
+			showOperating();
+			getRequestContext().add("Get_OneRiverMap", new Callback<RiverPositionRes>() {
 				@Override
-				public void callback(RiverDataRes o) {
+				public void callback(RiverPositionRes o) {
 					hideOperating();
 					if (o != null && o.isSuccess()) {
-						ObjUtils.mergeObj(river, o.data);
-						setTitle(river.riverName);
-						if (river.latitude != 0 && river.longtitude != 0) {
-							// BitmapDescriptor bmp =
-							// BitmapDescriptorFactory.fromResource(R.drawable.mk_position);
-							BitmapDescriptor bmp = BitmapDescriptorFactory.fromResource(R.drawable.mk_position_done);
-							MarkerOptions options = new MarkerOptions().position(new LatLng(river.latitude, river.longtitude)).icon(bmp).title(river.riverName);
-							baiduMap.addOverlay(options);
-							// baiduMap.setMyLocationData(new
-							// MyLocationData.Builder().latitude(river.latitude).longitude(river.longtitude).build());
-							adjustViewPort();
 
-						} else {
-							showToast("暂时未没有该河道的方位信息！");
+						setTitle(river.riverName);
+
+						RiverPosition rp = o.data;
+						points = new ArrayList<LatLng>();
+						if (rp.baidu_start_lat != 0.0){
+							start = new LatLng(rp.baidu_start_lat, rp.baidu_start_lng);
+							points.add(start);
 						}
+						if (rp.baidu_pub1_lat != 0.0) {
+							LatLng pub1 = new LatLng(rp.baidu_pub1_lat, rp.baidu_pub1_lng);
+							points.add(pub1);
+						}
+
+						if (rp.baidu_pub2_lat != 0.0) {
+							LatLng pub2 = new LatLng(rp.baidu_pub2_lat, rp.baidu_pub2_lng);
+							points.add(pub2);
+						}
+
+						if (rp.baidu_pub3_lat != 0.0) {
+							LatLng pub3 = new LatLng(rp.baidu_pub3_lat, rp.baidu_pub3_lng);
+							points.add(pub3);
+						}
+						if (rp.baidu_end_lat != 0.0) {
+							end = new LatLng(rp.baidu_end_lat, rp.baidu_end_lng);
+							points.add(end);
+						}
+
+						drawRiver();
 					}
 				}
-			}, RiverDataRes.class, ParamUtils.freeParam(null, "riverId", river.riverId));*/
+			}, RiverPositionRes.class, ParamUtils.freeParam(null, "riverId", river.riverId));
+
+
+
 		}
 	}
 
@@ -86,38 +113,47 @@ public class RiverPositionActivity extends BaseActivity {
 		baiduMap.clear();
 
 		//在地图上显示起点和终点
-		BitmapDescriptor bmp_from = BitmapDescriptorFactory.fromResource(R.drawable.mk_position_done1);
-		BitmapDescriptor bmp_to = BitmapDescriptorFactory.fromResource(R.drawable.mk_position_undo1);
-		//起点和终点值 latitude:纬度 longitude:经度
-		LatLng from = new LatLng(30.271263, 120.133572);
-		LatLng to = new LatLng(30.270394, 120.133325);
+		BitmapDescriptor bmp_from = BitmapDescriptorFactory.fromResource(R.drawable.track_start);
+		BitmapDescriptor bmp_to = BitmapDescriptorFactory.fromResource(R.drawable.track_end);
+		BitmapDescriptor bmp_me = BitmapDescriptorFactory.fromResource(R.drawable.ic_location_me);
+		BitmapDescriptor bmp_pub = BitmapDescriptorFactory.fromResource(R.drawable.ic_pub);
+		MarkerOptions optionMe = new MarkerOptions().position(me).icon(bmp_me);
+		baiduMap.addOverlay(optionMe);
 
-		MarkerOptions optionFrom = new MarkerOptions().position(from).icon(bmp_from);
-		MarkerOptions optionTo = new MarkerOptions().position(to).icon(bmp_to);
+		if (start != null && end != null) {
+			MarkerOptions optionFrom = new MarkerOptions().position(start).icon(bmp_from);
+			MarkerOptions optionTo = new MarkerOptions().position(end).icon(bmp_to);
 
-		baiduMap.addOverlay(optionFrom);
-		baiduMap.addOverlay(optionTo);
+			baiduMap.addOverlay(optionFrom);
+			baiduMap.addOverlay(optionTo);
 
-		float lat = (float) ((from.latitude + to.latitude) / 2);
-		float lng = (float) ((from.longitude + from.longitude) / 2);
+			if (points.size() > 2) {
+				for (int  i = 1; i < points.size() - 1; i ++) {
+					MarkerOptions optionPub = new MarkerOptions().position(points.get(i)).icon(bmp_pub);
+					baiduMap.addOverlay(optionPub);
+				}
+			}
 
-		baiduMap.setMyLocationData(new MyLocationData.Builder().latitude(lat).longitude(lng).build());
+			float lat = (float) ((start.latitude + end.latitude) / 2);
+			float lng = (float) ((start.longitude + end.longitude) / 2);
+			baiduMap.setMyLocationData(new MyLocationData.Builder().latitude(lat).longitude(lng).build());
 
+			OverlayOptions ooPolyline = new PolylineOptions().width(10)
+					.color(Color.BLUE).points(points);
+			baiduMap.addOverlay(ooPolyline);
 
-		List<LatLng> points = new ArrayList<LatLng>();
-		points.add(from);
-		points.add(new LatLng(30.270666, 120.133430));
-		points.add(to);
-		OverlayOptions ooPolyline = new PolylineOptions().width(15)
-				.color(Color.BLUE).points(points);
-		baiduMap.addOverlay(ooPolyline);
-
-		//target：设置地图中心点；zoom:设置缩放级别
-		MapStatus status = new MapStatus.Builder().target(new LatLng(lat, lng)).zoom(Values.MAP_ZOOM_LEVEL).build();
-		//setMapStatus:改变地图的状态；MapStatusUpdateFactory:生成地图状态将要发生的变化
-		baiduMap.setMapStatus(MapStatusUpdateFactory.newMapStatus(status));
-
-
+			//target：设置地图中心点；zoom:设置缩放级别
+			MapStatus status = new MapStatus.Builder().target(new LatLng(lat, lng)).zoom(13).build();
+			//setMapStatus:改变地图的状态；MapStatusUpdateFactory:生成地图状态将要发生的变化
+			baiduMap.setMapStatus(MapStatusUpdateFactory.newMapStatus(status));
+		}else {
+			baiduMap.setMyLocationData(new MyLocationData.Builder()
+					.latitude(getLatitude()).longitude(getLongitude()).build());
+			//target：设置地图中心点；zoom:设置缩放级别
+			MapStatus status = new MapStatus.Builder().target(new LatLng(getLatitude(), getLongitude())).zoom(13).build();
+			//setMapStatus:改变地图的状态；MapStatusUpdateFactory:生成地图状态将要发生的变化
+			baiduMap.setMapStatus(MapStatusUpdateFactory.newMapStatus(status));
+		}
 
 
 	}

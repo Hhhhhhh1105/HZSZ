@@ -13,6 +13,13 @@ public class User {
 	public List<River> collections = null;
 	public List<Integer> readNewsIds = null;
 
+	//用户的区划信息：普通用户为0，河长为对应区划
+	public int districtId = 0;
+
+	public int getDistrictId() {
+		return districtId;
+	}
+
 	public String pwdmd5 = null;
 
 	public boolean isLogined() {

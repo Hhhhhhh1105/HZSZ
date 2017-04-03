@@ -58,7 +58,7 @@ public class NewsFragment extends TabPagerListFragment {
 			JSONObject p = getPageParam(refresh);//refresh为true加载默认条数当前数据为第一页，false时当前数据为当前页
 			try {
 				p.put("newsType", newsType);
-				p.put("districtId", curDistrict == null ? 0 : curDistrict.districtId);
+				p.put("districtId", curDistrict == null ? getBaseActivity().getUser().getDistrictId() : curDistrict.districtId);
 				p.put("longtitude", getBaseActivity().getLongitude());
 				p.put("latitude", getBaseActivity().getLatitude());
 			} catch (JSONException e) {
