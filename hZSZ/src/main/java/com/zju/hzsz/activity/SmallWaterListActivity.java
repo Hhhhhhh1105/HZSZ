@@ -97,7 +97,7 @@ public class SmallWaterListActivity extends BaseActivity implements CompoundButt
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //直接用管辖河道列表页的UI布局
-        setContentView(R.layout.activity_chief_rivermanage);
+        setContentView(R.layout.activity_smallwater_list);
         setTitle("所有小微水体");
         initHead(R.drawable.ic_head_back, 0);
 

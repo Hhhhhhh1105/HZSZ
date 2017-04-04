@@ -1,47 +1,15 @@
 [
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_smallwater.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_smallwater.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_chief_complaint.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_chief_complaint.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_chief_mail.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_chief_mail.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alloutlet.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_alloutlet.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_lowlevelpub.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_lowlevelpub.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_chief_duban.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_chief_duban.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_allsection.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_allsection.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_listitem.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_main.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_section_list.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_section_list.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_signrecord.xml",
@@ -64,10 +32,6 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_stub_actionbuttons.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_collect_river.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_collect_river.xml"
     },
@@ -88,36 +52,8 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_bak_platform_item_simple.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\confs_river_info_text.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\confs_river_info_text.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_river_contact_user.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_river_contact_user.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_news.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_news.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_river.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_river.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_note.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_note.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_singlechoice.xml",
@@ -136,10 +72,6 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_compevalinfo.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_compevalinfo.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qualityexplain.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_qualityexplain.xml"
     },
@@ -150,10 +82,6 @@
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_maildetail.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_maildetail.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_quality_line.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_quality_line.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
@@ -168,36 +96,8 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_compinfo.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_publicity.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_publicity.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_compdetail.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_compdetail.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_head.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_head.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_chief_complaint2.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_chief_complaint2.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_compphoto.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_compphoto.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_line_yesno.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_line_yesno.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_record_3fied.xml",
@@ -208,10 +108,6 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_dubandetail.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_dubandetail.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_dialog_progress_indeterminate.xml"
     },
@@ -220,24 +116,8 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_newsdetail.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_complist.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_complist.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_base_alert_dialog.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_base_alert_dialog.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_riverposition.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_riverposition.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_river_detail.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_river_detail.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
@@ -256,52 +136,20 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\confs_river_quality.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_comphanle.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_comphanle.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_sign.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_sign.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_section.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_section.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_dialog_list.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forgot.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_forgot.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photoview.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_photoview.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\tv_lastupdate.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\tv_lastupdate.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_compeval.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_compeval.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\tv_river_segment_tip.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\tv_river_segment_tip.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\getui_notification.xml",
@@ -316,32 +164,8 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_dialog_progress_indeterminate_horizontal.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_bind_select_dialog.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_bind_select_dialog.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_outlet.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_outlet.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_editrecord.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_editrecord.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_allriver.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_allriver.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\confs_river_info.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\confs_river_info.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_me.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_me.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\comp_listview.xml",
@@ -360,60 +184,20 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ranking2.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_ranking2.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setpwd.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_setpwd.xml"
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_composer_header.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_composer_header.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_mainpage_river.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_mainpage_river.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section_list.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_section_list.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_mehead.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_mehead.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_compresult.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_compresult.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_setting.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_ranking.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_ranking.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_complist.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_complist.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ranking3.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_ranking3.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_item.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_at_item.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_custom.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_dialog_custom.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_oauth_dialog.xml",
@@ -432,36 +216,8 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_river_infopub.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_stub_titleframe.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_about.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_suggest.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_suggest.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_maillist.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_maillist.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\confs_river_info_img.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\confs_river_info_img.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_section_indexone.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_section_indexone.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_shareboard_item.xml",
@@ -472,10 +228,6 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_river.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
@@ -484,76 +236,32 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_bak_platform_selector_dialog.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_publicity_map.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_publicity_map.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_outlet_list.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_outlet_list.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_dialog_progress.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_compphoto.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_compphoto.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section_map.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_section_map.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\confs_chief_complist.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\confs_chief_complist.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_tabhead.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_tabhead.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_searchriver.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_searchriver.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_alert_dialog_item.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_full_alert_dialog_item.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\confs_river_policy.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\confs_river_policy.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_record.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_record.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_failed_load_page.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_failed_load_page.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_titile_bar.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_titile_bar.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_chief_rivermanage.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_chief_rivermanage.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_searchnews.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_searchnews.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\comp_listview_footer.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\comp_listview_footer.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -564,44 +272,16 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_at_view.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_suggestion.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_suggestion.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_trackview.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_trackview.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_at_list.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_bak_at_list.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_arealist.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_arealist.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_outlet.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_outlet.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_mainpage_section.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_mainpage_section.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_river_comppublicity.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_river_comppublicity.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_ranking_area.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_ranking_area.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_keyword.xml",
@@ -612,24 +292,8 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_alert_dialog.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_full_alert_dialog.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_overlay.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_at_overlay.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ranking.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_ranking.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_searchcomp.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_searchcomp.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_quality_line_v.xml",
@@ -640,32 +304,12 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_outlet_map.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_outlet_map.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\rb_smalltab.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\rb_smalltab.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_river.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_river.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_comppublicity.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_comppublicity.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_inspect.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_inspect.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_complaition.xml",
@@ -692,6 +336,394 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_section.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_notepad.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_notepad.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_dialog_basic.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe_lesspadding.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_stub_titleframe_lesspadding.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_compstatus.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_compstatus.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_smallwater.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_smallwater.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_chief_complaint.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_chief_complaint.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_chief_mail.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_chief_mail.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alloutlet.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_alloutlet.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_chief_duban.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_chief_duban.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_allsection.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_allsection.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_section_list.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_section_list.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\confs_river_info_text.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\confs_river_info_text.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_river_contact_user.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_river_contact_user.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_news.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_news.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_river.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_river.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_note.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_note.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_compevalinfo.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_compevalinfo.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_quality_line.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_quality_line.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_publicity.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_publicity.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_compdetail.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_compdetail.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_head.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_head.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_compphoto.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_compphoto.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_line_yesno.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_line_yesno.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_dubandetail.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_dubandetail.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_complist.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_complist.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_base_alert_dialog.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_base_alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_riverposition.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_riverposition.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_river_detail.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_river_detail.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_comphanle.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_comphanle.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_section.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_section.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_dialog_list.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\tv_lastupdate.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\tv_lastupdate.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_compeval.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_compeval.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\tv_river_segment_tip.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\tv_river_segment_tip.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_bind_select_dialog.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_bind_select_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_outlet.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_outlet.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_editrecord.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_editrecord.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_allriver.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_allriver.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_me.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_me.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setpwd.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_setpwd.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ranking2.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_ranking2.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_mainpage_river.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_mainpage_river.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section_list.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_section_list.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_mehead.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_mehead.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_complist.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_complist.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ranking3.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_ranking3.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_item.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_at_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_custom.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_dialog_custom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_stub_titleframe.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_suggest.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_suggest.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\confs_river_info_img.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\confs_river_info_img.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_section_indexone.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_section_indexone.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_publicity_map.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_publicity_map.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_dialog_progress.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_compphoto.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_compphoto.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section_map.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_section_map.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_tabhead.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_tabhead.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_alert_dialog_item.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_full_alert_dialog_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\confs_river_policy.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\confs_river_policy.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_titile_bar.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_chief_rivermanage.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_chief_rivermanage.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\comp_listview_footer.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\comp_listview_footer.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_suggestion.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_suggestion.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_trackview.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_trackview.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_at_list.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_bak_at_list.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_arealist.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_arealist.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_mainpage_section.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_mainpage_section.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_ranking_area.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_ranking_area.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_overlay.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_at_overlay.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_alert_dialog.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_searchcomp.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_searchcomp.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_smallwater_list.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_smallwater_list.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\rb_smalltab.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\rb_smalltab.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_river.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_river.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_comppublicity.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_comppublicity.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_inspect.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_inspect.xml"
+    },
+    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_river_contact_line.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_river_contact_line.xml"
     },
@@ -708,24 +740,8 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_smallwater.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_complaint.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_complaint.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_section.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_section.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chief_notepad.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_chief_notepad.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mycollect.xml",
@@ -748,19 +764,7 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_dialog_basic.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe_lesspadding.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout\\md_stub_titleframe_lesspadding.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_news.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_compstatus.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_compstatus.xml"
     }
 ]
