@@ -75,6 +75,7 @@ public class SearchCompActivity extends BaseActivity implements CheckBox.OnCheck
 
         setContentView(R.layout.activity_searchcomp);
         initHead(R.drawable.ic_head_back, 0);
+        setTitle("搜索投诉公示");
 
         Calendar c = Calendar.getInstance();
 
@@ -325,8 +326,12 @@ public class SearchCompActivity extends BaseActivity implements CheckBox.OnCheck
                     showToast("没有找到相关投诉信息");
                 }
 
+
             }
         }, CompSearchDataRes.class, p);
+
+        //一次性返回所有数据
+        listViewWarp.setNoMore(true);
 
         return true;
     }
