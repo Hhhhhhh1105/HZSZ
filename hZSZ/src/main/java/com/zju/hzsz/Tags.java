@@ -40,6 +40,8 @@ public class Tags {
 	public static final int CODE_SELECTRIVER = 1010;
 	public static final int CODE_ALLRIVER = 1011;
 	public static final int CODE_LATLNG = 1012;
+	public static final int CODE_ALBUM = 1013;
+
 
 	public static final int ID_NOTIFICATION = 1000;
 

@@ -2,10 +2,12 @@ package com.zju.hzsz.chief.activity;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.location.Location;
@@ -13,6 +15,7 @@ import android.location.LocationManager;
 import android.media.ThumbnailUtils;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.provider.MediaStore;
 import android.util.Base64;
 import android.util.Log;
@@ -32,6 +35,9 @@ import com.baidu.location.BDLocationListener;
 import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
 import com.baidu.mapapi.model.LatLng;
+import com.getbase.floatingactionbutton.FloatingActionButton;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.sin.android.sinlibs.base.Callable;
 import com.sin.android.sinlibs.tagtemplate.ViewRender;
 import com.sin.android.sinlibs.utils.InjectUtils;
@@ -73,6 +79,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 	private ViewRender viewRender = new ViewRender();
 	private Location location = null;
 
+	private String picPath; //图片链接
+
 	private boolean isReadOnly = false;
 
 	private String latList;
@@ -83,6 +91,13 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 
 	private boolean hasImg = false;
+	private FloatingActionButton btnCamera;
+	private FloatingActionButton btnAlbum;
+	/**
+	 * ATTENTION: This was auto-generated to implement the App Indexing API.
+	 * See https://g.co/AppIndexing/AndroidStudio for more information.
+	 */
+	private GoogleApiClient client;
 
 
 	@Override
@@ -109,7 +124,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		btn_track.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(ChiefEditRecordActivity.this,com.zju.hzsz.chief.activity.ChiefInspectActivity.class);
+				Intent intent = new Intent(ChiefEditRecordActivity.this, ChiefInspectActivity.class);
 				intent.putExtra("latlist_temp", latlist_temp);//将当前的巡河数据传至巡河地图界面
 				intent.putExtra("lnglist_temp", lnglist_temp);
 				startActivityForResult(intent, Tags.CODE_LATLNG);
@@ -119,7 +134,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		btn_trackView.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(ChiefEditRecordActivity.this, com.zju.hzsz.chief.activity.ChiefTrackViewActivity.class);
+				Intent intent = new Intent(ChiefEditRecordActivity.this, ChiefTrackViewActivity.class);
 				intent.putExtra("latList", latList);
 				intent.putExtra("lngList", lngList);
 				startActivity(intent);
@@ -141,7 +156,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			refreshToView();
 
 			//检查是否开启了GPS,若未开启，则弹出窗口令其开启GPS
-			if (!isOPen(getApplicationContext())){
+			if (!isOPen(getApplicationContext())) {
 				//弹窗
 				AlertDialog.Builder ab = new AlertDialog.Builder(ChiefEditRecordActivity.this);
 				ab.setTitle("开启GPS定位");
@@ -191,10 +206,10 @@ public class ChiefEditRecordActivity extends BaseActivity {
 						latList = o.data.latlist;
 						lngList = o.data.lnglist;
 						//如果无轨迹则不显示“查看轨迹”按钮
-						if (latList == "" && lngList == ""){
+						if (latList == "" && lngList == "") {
 							btn_track.setVisibility(View.GONE);
 							btn_trackView.setVisibility(View.GONE);
-						}else{
+						} else {
 							btn_track.setVisibility(View.GONE);
 							btn_trackView.setVisibility(View.VISIBLE);
 						}
@@ -208,12 +223,28 @@ public class ChiefEditRecordActivity extends BaseActivity {
 					"authority", getUser().getAuthority()));
 		}
 
-		findViewById(R.id.ib_chief_photo).setOnClickListener(new View.OnClickListener() {
+		/*findViewById(R.id.ib_chief_photo).setOnClickListener(new View.OnClickListener() {
 
 			@Override
 			public void onClick(View arg0) {
 				findViewById(R.id.tv_btn_explain).setVisibility(View.GONE);
 				startAddPhoto();
+			}
+		});*/
+
+		//相机拍摄照片
+		findViewById(R.id.action_camera).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				startAddPhoto();
+			}
+		});
+
+		//相册挑选照片
+		findViewById(R.id.action_album).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				startAlbum();
 			}
 		});
 
@@ -224,12 +255,16 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			findViewById(R.id.hsv_photos).setVisibility(View.GONE);
 			findViewById(R.id.btn_selriver).setVisibility(View.GONE);
 			findViewById(R.id.btn_submit).setVisibility(View.GONE);
+			findViewById(R.id.multiple_actions).setVisibility(View.GONE);
 			((Button) findViewById(R.id.btn_cancel)).setText("关闭");
 		}
+		// ATTENTION: This was auto-generated to implement the App Indexing API.
+		// See https://g.co/AppIndexing/AndroidStudio for more information.
+		client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 	}
 
-	private static final String[] CBOX_TITLES = new String[] {//
-	//
+	private static final String[] CBOX_TITLES = new String[]{//
+			//
 			"河面有无成片漂浮废弃物、病死动物等", //
 			"河岸有无垃圾堆放", //
 			"河岸有无新建违法建筑物",//
@@ -239,8 +274,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			"河道长效管理机制和保洁机制是否到位"//
 	};
 
-	private static final String[] CBOX_FIELDS = new String[] {//
-	//
+	private static final String[] CBOX_FIELDS = new String[]{//
+			//
 			"flotage",//
 			"rubbish",//
 			"building",//
@@ -350,118 +385,123 @@ public class ChiefEditRecordActivity extends BaseActivity {
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
-		case R.id.btn_cancel:
-			finish();
-			break;
-		case R.id.btn_selriver: {
-			selectRiver();
-			break;
-		}
+			case R.id.btn_cancel:
+				finish();
+				break;
+			case R.id.btn_selriver: {
+				selectRiver();
+				break;
+			}
 	/*	case R.id.btn_track:{
 			Intent intent = new Intent(ChiefEditRecordActivity.this,com.zju.hzsz.chief.activity.ChiefInspectActivity.class);
 			startActivity(intent);
 			break;
 		}*/
-		case R.id.btn_submit: {
+			case R.id.btn_submit: {
 
-			if (!hasImg){
-				showToast("您还没拍摄照片，请上传后提交");
-				return;
-			}
+				if (!hasImg) {
+					showToast("您还没拍摄照片，请点击右侧“+”按钮添加照片");
+					return;
+				}
 
-			if (riverRecord.riverId == 0) {
-				showToast("您还没有选择河道，请先选择河道");
-				return;
-			} else {
-				submitParam = new JSONObject();
-				boolean needdeal = false;
-				try {
-					if (riverRecord.recordId != 0) {
-						submitParam.put("recordId", riverRecord.recordId);
-					}
-					for (int i = 0; i < CBOX_FIELDS.length; ++i) {
-						boolean b = ((CompoundButton) CBOXES[i].findViewById(R.id.cb_yes)).isChecked();
-						submitParam.put(CBOX_FIELDS[i], b ? 1 : 0);
-						needdeal = b || needdeal;
+				if (riverRecord.riverId == 0) {
+					showToast("您还没有选择河道，请先选择河道");
+					return;
+				} else {
+					submitParam = new JSONObject();
+					boolean needdeal = false;
+					try {
+						if (riverRecord.recordId != 0) {
+							submitParam.put("recordId", riverRecord.recordId);
+						}
+						for (int i = 0; i < CBOX_FIELDS.length; ++i) {
+							boolean b = ((CompoundButton) CBOXES[i].findViewById(R.id.cb_yes)).isChecked();
+							submitParam.put(CBOX_FIELDS[i], b ? 1 : 0);
+							needdeal = b || needdeal;
 
-						String s = b ? ((EditText) CBOXES[i].findViewById(R.id.et_text)).getText().toString().trim() : "";
-						if (b && s.length() == 0) {
-							showToast("您还有具体描述没填写，请先填写");
-							((EditText) CBOXES[i].findViewById(R.id.et_text)).requestFocus();
-							((EditText) CBOXES[i].findViewById(R.id.et_text)).setFocusable(true);
+							String s = b ? ((EditText) CBOXES[i].findViewById(R.id.et_text)).getText().toString().trim() : "";
+							if (b && s.length() == 0) {
+								showToast("您还有具体描述没填写，请先填写");
+								((EditText) CBOXES[i].findViewById(R.id.et_text)).requestFocus();
+								((EditText) CBOXES[i].findViewById(R.id.et_text)).setFocusable(true);
+								return;
+							}
+							submitParam.put(CBOX_FIELDS[i] + "s", s);
+						}
+						submitParam.put("RiverId", riverRecord.riverId);
+						submitParam.put("otherquestion", et_otherquestion.getText().toString());
+						if (needdeal && et_deal.getText().toString().length() == 0) {
+							showToast("您还没有填写处理情况，请先填写");
+							et_deal.requestFocus();
+							et_deal.setFocusable(true);
 							return;
 						}
-						submitParam.put(CBOX_FIELDS[i] + "s", s);
-					}
-					submitParam.put("RiverId", riverRecord.riverId);
-					submitParam.put("otherquestion", et_otherquestion.getText().toString());
-					if (needdeal && et_deal.getText().toString().length() == 0) {
-						showToast("您还没有填写处理情况，请先填写");
-						et_deal.requestFocus();
-						et_deal.setFocusable(true);
-						return;
-					}
-					submitParam.put("deal", et_deal.getText().toString());
+						submitParam.put("deal", et_deal.getText().toString());
 
-					//添加巡河轨迹经纬度信息
-					submitParam.put("latlist",latlist_temp);
-					submitParam.put("lnglist",lnglist_temp);
+						//增加图片链接
+						submitParam.put("picPath", picPath);
 
-					//添加河长权限和uuid
-					submitParam.put("authority", getUser().getAuthority());
-					submitParam.put("UUID", getUser().getUuid());
+						//添加巡河轨迹经纬度信息
+						submitParam.put("latlist", latlist_temp);
+						submitParam.put("lnglist", lnglist_temp);
 
-					if (location != null) {
-						submitParam.put("latitude", location.getLatitude());
-						submitParam.put("longtitude", location.getLongitude());
-					}
-				} catch (JSONException e) {
-					e.printStackTrace();
-				}
+						//添加河长权限和uuid
+						submitParam.put("authority", getUser().getAuthority());
+						submitParam.put("UUID", getUser().getUuid());
 
-				LinearLayout ll_photos = (LinearLayout) findViewById(R.id.ll_chief_photos);
-				if (ll_photos.getChildCount() > 1) {
-					// 有图片
-					final Uri[] bmps = new Uri[ll_photos.getChildCount() - 1];
-					for (int i = 0; i < bmps.length; ++i) {
-						bmps[i] = (Uri) ll_photos.getChildAt(i).getTag();
-					}
-					asynCallAndShowProcessDlg("正在处理图片...", new Callable() {
-						@Override
-						public void call(Object... args) {
-
-							StringBuffer sb = new StringBuffer();
-							for (Uri bmp : bmps) {
-								if (sb.length() > 0)
-									sb.append(";");
-								byte[] bts = bmp2Bytes(bmp);
-								Log.i("NET", bmp.toString() + " bts.len " + bts.length);
-								sb.append(Base64.encodeToString(bts, Base64.DEFAULT));
-							}
-							String picbase64 = sb.toString();
-							Log.i("NET", "all base64.len " + picbase64.length());
-							try {
-								submitParam.put("picBase64", picbase64);
-							} catch (JSONException e) {
-								e.printStackTrace();
-							}
-							safeCall(new Callable() {
-								@Override
-								public void call(Object... args) {
-									submitData();
-								}
-							});
+						if (location != null) {
+							submitParam.put("latitude", location.getLatitude());
+							submitParam.put("longtitude", location.getLongitude());
 						}
-					});
-				} else {
-					submitData();
+					} catch (JSONException e) {
+						e.printStackTrace();
+					}
+
+
+					LinearLayout ll_photos = (LinearLayout) findViewById(R.id.ll_chief_photos);
+					if (ll_photos.getChildCount() > 0) {
+						// 有图片
+						final Uri[] bmps = new Uri[ll_photos.getChildCount()];
+						for (int i = 0; i < bmps.length; i++) {
+							bmps[i] = (Uri) ll_photos.getChildAt(i).getTag();
+						}
+						asynCallAndShowProcessDlg("正在处理图片...", new Callable() {
+							@Override
+							public void call(Object... args) {
+
+								StringBuffer sb = new StringBuffer();
+								for (Uri bmp : bmps) {
+									if (sb.length() > 0)
+										sb.append(";");
+									byte[] bts = bmp2Bytes(bmp);
+//									Log.i("NET", bmp.toString() + " bts.len " + bts.length);
+									Log.i("NET", " bts.len " + bts.length);
+									sb.append(Base64.encodeToString(bts, Base64.DEFAULT));
+								}
+								String picbase64 = sb.toString();
+								Log.i("NET", "all base64.len " + picbase64.length());
+								try {
+									submitParam.put("picBase64", picbase64);
+								} catch (JSONException e) {
+									e.printStackTrace();
+								}
+								safeCall(new Callable() {
+									@Override
+									public void call(Object... args) {
+										submitData();
+									}
+								});
+							}
+						});
+					} else {
+						submitData();
+					}
 				}
+				break;
 			}
-			break;
-		}
-		default:
-			super.onClick(v);
-			break;
+			default:
+				super.onClick(v);
+				break;
 		}
 	}
 
@@ -472,7 +512,6 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 		//判断是否是村级河长
 		boolean isVillageChief = getUser().isLogined() && getUser().isVillageChief();
-		System.out.println("isVillage:" + isVillageChief);
 
 		getRequestContext().add("AddOrEdit_RiverRecord", new Callback<BaseRes>() {
 			@Override
@@ -514,22 +553,67 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		startActivityForResult(intent, Tags.CODE_ADDPHOTO);
 	}
 
-	//拍摄完成后在寻巡河表处添加照片
+	//从相册中调取照片
+	private void startAlbum() {
+
+		Intent intent = new Intent(Intent.ACTION_PICK, null);
+		intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
+		intent.setAction(Intent.ACTION_GET_CONTENT);
+		startActivityForResult(intent, Tags.CODE_ALBUM);
+	}
+
+	//拍摄完成后在巡河表处添加照片
 	private void addPhoto(Uri uri) {
 		//view的layout属性：48*48+fitXY
 		View view = RelativeLayout.inflate(this, R.layout.item_compphoto, null);
 		BitmapFactory.Options op = new BitmapFactory.Options();
 		try {
 			Bitmap pic = BitmapFactory.decodeStream(this.getContentResolver().openInputStream(uri), null, op);
+
+			int w = Values.UPLOAD_IMG_W;
+			int h = Values.UPLOAD_IMG_H;
+			if (pic.getHeight() != h)
+				pic = ThumbnailUtils.extractThumbnail(pic, w, h);
+
 			view.setTag(pic);
 			Log.i("NET", "" + pic.getWidth() + "*" + pic.getHeight());
 			((ImageView) view.findViewById(R.id.iv_photo)).setImageBitmap(pic);
+			view.setOnLongClickListener(new View.OnLongClickListener() {
+				@Override
+				public boolean onLongClick(final View view) {
+					//弹出“是否确定删除”对话框
+					//弹窗
+					AlertDialog.Builder ab = new AlertDialog.Builder(ChiefEditRecordActivity.this);
+					ab.setTitle("删除图片");
+					ab.setMessage("是否确定删除该巡河照片？");
+					ab.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+						@Override
+						public void onClick(DialogInterface arg0, int arg1) {
+							//移除照片
+							((LinearLayout) findViewById(R.id.ll_chief_photos)).removeView(view);
+
+							arg0.dismiss();
+						}
+					});
+					ab.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+						@Override
+						public void onClick(DialogInterface arg0, int arg1) {
+							arg0.dismiss();
+						}
+					});
+					ab.setCancelable(false);
+					ab.create().show();
+
+					//在长按操作之后不再加入短按操作
+					return true;
+				}
+			});
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 		view.setTag(uri);
-		((LinearLayout) findViewById(R.id.ll_chief_photos)).addView(view, ((LinearLayout) findViewById(R.id.ll_chief_photos)).getChildCount() - 1);
+		((LinearLayout) findViewById(R.id.ll_chief_photos)).addView(view, ((LinearLayout) findViewById(R.id.ll_chief_photos)).getChildCount());
 	}
 
 	private byte[] bmp2Bytes(Uri uri) {
@@ -577,7 +661,19 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		} else if (requestCode == Tags.CODE_CUTPHOTO && resultCode == RESULT_OK) {
 			addPhoto(imageFilePath);
 			hasImg = true;
-		}else if (requestCode == Tags.CODE_LATLNG && resultCode == RESULT_OK){
+		} else if (requestCode == Tags.CODE_ALBUM && resultCode == RESULT_OK){
+			try {
+
+				Uri uri = data.getData();
+				final String absolutePath=
+						getAbsolutePath(ChiefEditRecordActivity.this, uri);
+				addPhoto(uri);
+				hasImg = true;
+
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		} else if (requestCode == Tags.CODE_LATLNG && resultCode == RESULT_OK) {
 			String result = data.getExtras().getString("result");
 			//由inspect返回并需要上传至服务器的地理位置信息
 			latList = data.getExtras().getString("latList");
@@ -594,6 +690,32 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		}
 	}
 
+	public String getAbsolutePath(final Context context,
+								  final Uri uri) {
+		if (null == uri) return null;
+		final String scheme = uri.getScheme();
+		String data = null;
+		if (scheme == null)
+			data = uri.getPath();
+		else if (ContentResolver.SCHEME_FILE.equals(scheme)) {
+			data = uri.getPath();
+		} else if (ContentResolver.SCHEME_CONTENT.equals(scheme)) {
+			Cursor cursor = context.getContentResolver().query(uri,
+					new String[]{MediaStore.Images.ImageColumns.DATA},
+					null, null, null);
+			if (null != cursor) {
+				if (cursor.moveToFirst()) {
+					int index = cursor.getColumnIndex(
+							MediaStore.Images.ImageColumns.DATA);
+					if (index > -1) {
+						data = cursor.getString(index);
+					}
+				}
+				cursor.close();
+			}
+		}     return data;
+	}
+
 	String[] imgUrls = null;
 	private View.OnClickListener clkGotoPhotoView = new View.OnClickListener() {
 		@Override
@@ -608,8 +730,9 @@ public class ChiefEditRecordActivity extends BaseActivity {
 	};
 
 	private void initPhotoView(String urls) {
-		List<String> list = new ArrayList<String>();
+		final List<String> list = new ArrayList<String>();
 		if (urls != null) {
+			hasImg = true; //如果之前的巡河记录存在照片，则无需再进行拍照
 			for (String url : urls.split(";")) {
 				String s = url.trim();
 				if (s.length() > 0) {
@@ -621,15 +744,64 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			imgUrls = new String[list.size()];
 			imgUrls = list.toArray(imgUrls);
 			findViewById(R.id.hsv_result_photos).setVisibility(View.VISIBLE);
-			LinearLayout ll_photos = (LinearLayout) findViewById(R.id.ll_result_photos);
+			final LinearLayout ll_photos = (LinearLayout) findViewById(R.id.ll_result_photos);
 			ll_photos.removeAllViews();
 
 			for (int i = 0; i < imgUrls.length; ++i) {
-				String url = imgUrls[i];
+				final String url = imgUrls[i];
+				System.out.println("url:" + url);
 				View view = RelativeLayout.inflate(this, R.layout.item_compphoto, null);
 				ImgUtils.loadImage(this, (ImageView) view.findViewById(R.id.iv_photo), url, R.drawable.im_loading, R.drawable.im_failed);
 				view.setTag(i);
 				view.setOnClickListener(clkGotoPhotoView);
+				//实现长按删除图片
+				view.setOnLongClickListener(new View.OnLongClickListener() {
+					@Override
+					public boolean onLongClick(final View view) {
+
+						//弹出“是否确定删除”对话框
+						//弹窗
+						AlertDialog.Builder ab = new AlertDialog.Builder(ChiefEditRecordActivity.this);
+						ab.setTitle("删除图片");
+						ab.setMessage("是否确定删除该巡河照片？");
+						ab.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+							@Override
+							public void onClick(DialogInterface arg0, int arg1) {
+								//移除照片
+								ll_photos.removeView(view);
+
+								//picPath删去相应图片的链接
+								list.remove((int) view.getTag());
+								picPath = "";
+								for (int j = 0; j < list.size(); j++) {
+									picPath = picPath + list.get(j) + ";";
+								}
+
+								//为了放大查看图片时而更新数据
+								imgUrls = new String[list.size()];
+								imgUrls = list.toArray(imgUrls);
+								//更新每张图片的tag
+								for (int j = 0; j < ll_photos.getChildCount(); j++) {
+									ll_photos.getChildAt(j).setTag(j);
+								}
+
+								arg0.dismiss();
+							}
+						});
+						ab.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+							@Override
+							public void onClick(DialogInterface arg0, int arg1) {
+								arg0.dismiss();
+							}
+						});
+						ab.setCancelable(false);
+						ab.create().show();
+
+						//在长按操作之后不再加入短按操作
+						return true;
+
+					}
+				});
 				ll_photos.addView(view);
 			}
 
@@ -645,6 +817,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 	/**
 	 * 判断GPS是否开启，GPS或者AGPS开启一个就认为是开启的
+	 *
 	 * @param context
 	 * @return true 表示开启
 	 */
@@ -657,8 +830,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 	}
 
 
-
-	android.os.Handler handler = new android.os.Handler();
+	Handler handler = new Handler();
 	private boolean isFirstLoc = true;
 	LocationClient mLocClient;
 	public MyLocationListener myListener = new MyLocationListener();
@@ -669,7 +841,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 	/**
 	 * 地图初始化
 	 */
-	public void initLocation(){
+	public void initLocation() {
 
 		mLocClient = new LocationClient(this);
 		mLocClient.registerLocationListener(myListener);
@@ -682,11 +854,12 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		mLocClient.setLocOption(option);
 		mLocClient.start();
 	}
+	
 
 	/**
 	 * 地图sdk监听器
 	 */
-	class MyLocationListener implements BDLocationListener{
+	class MyLocationListener implements BDLocationListener {
 
 		@Override
 		public void onReceiveLocation(BDLocation bdLocation) {
@@ -694,7 +867,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			if (location == null)
 				return;
 
-			LatLng point = new LatLng(location.getLatitude(),location.getLongitude());
+			LatLng point = new LatLng(location.getLatitude(), location.getLongitude());
 			points.add(point);
 		}
 	}
@@ -702,30 +875,30 @@ public class ChiefEditRecordActivity extends BaseActivity {
 	/**
 	 * 每10s记录一次当前坐标值
 	 */
-	private class MyRunable implements Runnable{
+	private class MyRunable implements Runnable {
 
 		@Override
 		public void run() {
 
-			if(!mLocClient.isStarted()){
+			if (!mLocClient.isStarted()) {
 				mLocClient.start();
 			}
 
-			if (points == null){
+			if (points == null) {
 				handler.postDelayed(this, 10000);
 				return;
 			}
 
-			if (isFirstLoc && points.size() >= 1 && latlist_temp == null){
+			if (isFirstLoc && points.size() >= 1 && latlist_temp == null) {
 				//若从inspect返回（latlist_temp != null)就不执行这里的代码
 				isFirstLoc = false;
 				lnglist_temp = "" + points.get(points.size() - 1).longitude;
 				latlist_temp = "" + points.get(points.size() - 1).latitude;
 				point = points.get(points.size() - 1);
-				Log.i("temp:" , "first" + latlist_temp);
-			}else if (points.size() > 1){
+				Log.i("temp:", "first" + latlist_temp);
+			} else if (points.size() > 1) {
 				//要解决从inspect返回时point的经纬度
-				if (isFirstLoc){
+				if (isFirstLoc) {
 					//如果是从inspect返回，则isFirstLoc始终为真
 					System.out.println("recordInspect" + "：来自inspect跳到edit的记录位置");
 					point = points.get(points.size() - 1);
@@ -736,7 +909,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 					lnglist_temp = lnglist_temp + "," + points.get(points.size() - 1).longitude;
 					latlist_temp = latlist_temp + "," + points.get(points.size() - 1).latitude;
 					point = points.get(points.size() - 1);
-					Log.i("temp:" , latlist_temp);
+					Log.i("temp:", latlist_temp);
 				}
 			}
 
