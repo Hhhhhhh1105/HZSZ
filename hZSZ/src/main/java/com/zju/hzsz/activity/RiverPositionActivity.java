@@ -25,6 +25,8 @@ import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.StrUtils;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class RiverPositionActivity extends BaseActivity {
@@ -128,6 +130,15 @@ public class RiverPositionActivity extends BaseActivity {
 			baiduMap.addOverlay(optionTo);
 
 			if (points.size() > 2) {
+
+				//对各个公示牌按其与起点的距离进行排序
+				Collections.sort(points, new Comparator<LatLng>() {
+					@Override
+					public int compare(LatLng latLng1, LatLng latLng2) {
+						return new Double(getDistance(latLng1)).compareTo(new Double(getDistance(latLng2)));
+					}
+				});
+
 				for (int  i = 1; i < points.size() - 1; i ++) {
 					MarkerOptions optionPub = new MarkerOptions().position(points.get(i)).icon(bmp_pub);
 					baiduMap.addOverlay(optionPub);
@@ -155,6 +166,21 @@ public class RiverPositionActivity extends BaseActivity {
 			baiduMap.setMapStatus(MapStatusUpdateFactory.newMapStatus(status));
 		}
 
+
+	}
+
+	/**
+	 * 计算坐标点间的距离的函数
+	 * @return 距离
+     */
+	private double getDistance(LatLng p) {
+
+		double lat1 = p.latitude;
+		double lng1 = p.longitude;
+		double lat2 = start.latitude;
+		double lng2 = start.longitude;
+
+		return Math.pow(lat1 - lat2, 2) + Math.pow(lng1 - lng2, 2);
 
 	}
 

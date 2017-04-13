@@ -35,9 +35,7 @@ import com.baidu.location.BDLocationListener;
 import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
 import com.baidu.mapapi.model.LatLng;
-import com.getbase.floatingactionbutton.FloatingActionButton;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.common.api.GoogleApiClient;
+import com.getbase.floatingactionbutton.FloatingActionsMenu;
 import com.sin.android.sinlibs.base.Callable;
 import com.sin.android.sinlibs.tagtemplate.ViewRender;
 import com.sin.android.sinlibs.utils.InjectUtils;
@@ -91,13 +89,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 
 	private boolean hasImg = false;
-	private FloatingActionButton btnCamera;
-	private FloatingActionButton btnAlbum;
-	/**
-	 * ATTENTION: This was auto-generated to implement the App Indexing API.
-	 * See https://g.co/AppIndexing/AndroidStudio for more information.
-	 */
-	private GoogleApiClient client;
+
 
 
 	@Override
@@ -236,6 +228,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		findViewById(R.id.action_camera).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
+				//关闭FloatingActionMenu
+				((FloatingActionsMenu) findViewById(R.id.multiple_actions)).collapse();
 				startAddPhoto();
 			}
 		});
@@ -244,6 +238,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		findViewById(R.id.action_album).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
+				//关闭floatingActionMenu
+				((FloatingActionsMenu) findViewById(R.id.multiple_actions)).collapse();
 				startAlbum();
 			}
 		});
@@ -258,9 +254,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			findViewById(R.id.multiple_actions).setVisibility(View.GONE);
 			((Button) findViewById(R.id.btn_cancel)).setText("关闭");
 		}
-		// ATTENTION: This was auto-generated to implement the App Indexing API.
-		// See https://g.co/AppIndexing/AndroidStudio for more information.
-		client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
 	}
 
 	private static final String[] CBOX_TITLES = new String[]{//
