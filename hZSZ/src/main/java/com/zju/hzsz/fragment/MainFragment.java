@@ -17,6 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 import com.baidu.location.BDLocation;
@@ -33,6 +34,8 @@ import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.Values;
 import com.zju.hzsz.activity.MainActivity;
+import com.zju.hzsz.activity.NpcListActivity;
+import com.zju.hzsz.activity.NpcMemberActivity;
 import com.zju.hzsz.activity.OutletActivity;
 import com.zju.hzsz.activity.OutletListActivity;
 import com.zju.hzsz.activity.PhotoViewActivity;
@@ -61,6 +64,7 @@ import com.zju.hzsz.utils.ResUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.utils.ViewUtils;
 
+import static com.zju.hzsz.R.id.ll_npc;
 import static com.zju.hzsz.R.id.ll_outlets;
 import static com.zju.hzsz.R.id.ll_rivers;
 import static com.zju.hzsz.R.id.ll_smallwater;
@@ -305,6 +309,14 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 					startActivity(intent);
 				}
 			});
+			//“查看所有代表”跳转
+			rootView.findViewById(R.id.tv_selnpc).setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View view) {
+					Intent intent = new Intent(getBaseActivity(), NpcListActivity.class);
+					startActivity(intent);
+				}
+			});
 
 			/*
 			 * adapter = new SectionBoxAdapter(); ViewPager vp_sections =
@@ -333,6 +345,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			((LinearLayout) rootView.findViewById(ll_rivers)).removeAllViews();
 			((LinearLayout) rootView.findViewById(ll_outlets)).removeAllViews();
 			((LinearLayout) rootView.findViewById(ll_smallwater)).removeAllViews();
+			((LinearLayout) rootView.findViewById(ll_npc)).removeAllViews();
 
 			refreshData();
 
@@ -635,6 +648,48 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 
 	}
 
+	//更新人大代表监督信息
+	private void refreshNpcUI() {
+		LinearLayout ll_npc = (LinearLayout) rootView.findViewById(R.id.ll_npc);
+		ll_npc.removeAllViews();
+
+		View.OnClickListener npcClick = new View.OnClickListener() {
+
+			@Override
+			public void onClick(View view) {
+				if (view.getTag() != null) {
+					Intent intent = new Intent(getBaseActivity(), NpcMemberActivity.class);
+					intent.putExtra(Tags.TAG_RIVER, StrUtils.Obj2Str(view.getTag()));
+					startActivity(intent);
+				}
+			}
+		};
+
+		for (int i = 0; i < indexData.riverJsons.length; i += 2) {
+			River river_l = indexData.riverJsons[i];
+			River river_r = (i + 1) < indexData.riverJsons.length ? indexData.riverJsons[i + 1] : null;
+			View view = LinearLayout.inflate(getBaseActivity(), R.layout.item_mainpage_npc, null);
+
+			((TextView) view.findViewById(R.id.tv_river_l)).setText("于1天前巡过" + river_l.riverName);
+
+
+			view.findViewById(R.id.rl_npc_left).setOnClickListener(npcClick);
+			view.findViewById(R.id.rl_npc_left).setTag(river_l);
+
+			if (river_r != null) {
+
+				((TextView) view.findViewById(R.id.tv_river_r)).setText("于1天前巡过" + river_r.riverName);
+
+				view.findViewById(R.id.rl_npc_right).setOnClickListener(npcClick);
+				view.findViewById(R.id.rl_npc_right).setTag(river_r);
+			} else {
+				view.findViewById(R.id.rl_npc_right).setVisibility(View.INVISIBLE);
+			}
+
+			ll_npc.addView(view);
+		}
+	}
+
 	@Override
 	public void onRefresh() {
 		refreshData();
@@ -737,6 +792,16 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 					refreshRiverUI();
 					refreashOutletUI();
 					refreshSmallWaterUI();
+					//如果是人大代表，则显示人大代表监督模块
+					if (getBaseActivity().getUser().isNpc()){
+						rootView.findViewById(R.id.ll_npc).setVisibility(View.VISIBLE);
+						rootView.findViewById(R.id.ll_npc_text).setVisibility(View.VISIBLE);
+						((RadioButton) getBaseActivity().findViewById(R.id.rd_panhang)).setText("代表监督");
+						refreshNpcUI();
+					} else {
+						rootView.findViewById(R.id.ll_npc_text).setVisibility(View.GONE);
+						rootView.findViewById(R.id.ll_npc).setVisibility(View.GONE);
+					}
 				}
 
 				if (o == null){

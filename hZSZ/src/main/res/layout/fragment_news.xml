@@ -70,6 +70,7 @@
                     android:textColor="@color/btn_black_white"
                     android:textSize="@dimen/font_normal" />
 
+
                 <RadioButton
                     android:id="@+id/rb_dayqa"
                     android:layout_width="0dp"
@@ -84,6 +85,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@color/btn_black_white"
                     android:textSize="@dimen/font_normal" />
+
             </RadioGroup>
 
             <android.support.v4.view.ViewPager

@@ -194,7 +194,13 @@
             android:name="com.zju.hzsz.activity.MyCollectActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.zju.hzsz.activity.TabRankingFragment"
+            android:name="com.zju.hzsz.activity.NpcMemberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zju.hzsz.activity.NpcListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zju.hzsz.activity.NpcFeedbackActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.zju.hzsz.activity.CompListActivity"
@@ -308,6 +314,17 @@
             android:screenOrientation="portrait" />
 
         <!-- end chief -->
+
+
+        <!-- npc -->
+        <activity
+            android:name="com.zju.hzsz.npc.activity.NpcLegalListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zju.hzsz.npc.activity.NpcMyjobActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- end npc -->
 
         <service android:name="com.zju.hzsz.service.LocalService" />
 

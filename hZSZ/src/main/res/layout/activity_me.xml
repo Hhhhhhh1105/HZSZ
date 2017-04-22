@@ -335,6 +335,188 @@
                 </ImageView>
             </RelativeLayout>
 
+
+            <!--人大代表相关 start-->
+
+            <!--人大代表名字-->
+
+            <RelativeLayout
+                android:id="@+id/rl_npc_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/me_item_h"
+                android:layout_marginBottom="@dimen/page_item_margin_v"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tv_npc_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/me_item_h"
+                    android:layout_marginLeft="@dimen/me_item_tv_margin_left"
+                    android:layout_toRightOf="@+id/iv_npc_name"
+                    android:background="@drawable/btn_white_gray"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/me_item_tv_padding_left"
+                    android:paddingRight="@dimen/page_padding"
+                    android:text="市级代表：张大大"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray" />
+
+                <ImageView
+                    android:id="@+id/iv_npc_name"
+                    android:layout_width="@dimen/me_item_icon_w"
+                    android:layout_height="@dimen/me_item_icon_h"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_npc_name" >
+                </ImageView>
+
+            </RelativeLayout>
+
+            <!-- 我的河道 -->
+
+            <RelativeLayout
+                android:id="@+id/rl_npc_myriver"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/me_item_h"
+                android:layout_marginBottom="@dimen/page_item_margin_v"
+                android:layout_marginTop="@dimen/page_item_margin_v"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tv_npc_myriver"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/me_item_h"
+                    android:layout_marginLeft="@dimen/me_item_tv_margin_left"
+                    android:layout_toRightOf="@+id/iv_npc_myriver"
+                    android:background="@drawable/btn_white_gray"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/ic_arrow_rigth"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/me_item_tv_padding_left"
+                    android:paddingRight="@dimen/page_padding"
+                    android:text="我的河道"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray" />
+
+                <ImageView
+                    android:id="@+id/iv_npc_myriver"
+                    android:layout_width="@dimen/me_item_icon_w"
+                    android:layout_height="@dimen/me_item_icon_h"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_npc_myriver" >
+                </ImageView>
+            </RelativeLayout>
+
+            <!-- 我的履职 -->
+
+            <RelativeLayout
+                android:id="@+id/rl_npc_myjob"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/me_item_h"
+                android:layout_marginBottom="@dimen/page_item_margin_v"
+                android:layout_marginTop="@dimen/page_item_margin_v"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tv_npc_myjob"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/me_item_h"
+                    android:layout_marginLeft="@dimen/me_item_tv_margin_left"
+                    android:layout_toRightOf="@+id/iv_npc_myjob"
+                    android:background="@drawable/btn_white_gray"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/ic_arrow_rigth"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/me_item_tv_padding_left"
+                    android:paddingRight="@dimen/page_padding"
+                    android:text="我的履职"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray" />
+
+                <ImageView
+                    android:id="@+id/iv_npc_myjob"
+                    android:layout_width="@dimen/me_item_icon_w"
+                    android:layout_height="@dimen/me_item_icon_h"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_chief_sign" >
+                </ImageView>
+            </RelativeLayout>
+
+            <!-- 履职评价 -->
+            <RelativeLayout
+                android:id="@+id/rl_npc_comment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/me_item_h"
+                android:layout_marginBottom="@dimen/page_item_margin_v"
+                android:layout_marginTop="@dimen/page_item_margin_v" >
+
+                <TextView
+                    android:id="@+id/tv_npc_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/me_item_h"
+                    android:layout_marginLeft="@dimen/me_item_tv_margin_left"
+                    android:layout_toRightOf="@+id/iv_npc_comment"
+                    android:background="@drawable/btn_white_gray"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/ic_arrow_rigth"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/me_item_tv_padding_left"
+                    android:paddingRight="@dimen/page_padding"
+                    android:text="履职评价"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray" />
+
+                <ImageView
+                    android:id="@+id/iv_npc_comment"
+                    android:layout_width="@dimen/me_item_icon_w"
+                    android:layout_height="@dimen/me_item_icon_h"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_chief_record" >
+                </ImageView>
+            </RelativeLayout>
+
+            <!-- 规范法规 -->
+            <RelativeLayout
+                android:id="@+id/rl_npc_legal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/me_item_h"
+                android:layout_marginBottom="@dimen/page_item_margin_v"
+                android:layout_marginTop="@dimen/page_item_margin_v"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tv_npc_legal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/me_item_h"
+                    android:layout_marginLeft="@dimen/me_item_tv_margin_left"
+                    android:layout_toRightOf="@+id/iv_npc_legal"
+                    android:background="@drawable/btn_white_gray"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/ic_arrow_rigth"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/me_item_tv_padding_left"
+                    android:paddingRight="@dimen/page_padding"
+                    android:text="规范法规"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray" />
+
+                <ImageView
+                    android:id="@+id/iv_npc_legal"
+                    android:layout_width="@dimen/me_item_icon_w"
+                    android:layout_height="@dimen/me_item_icon_h"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_chief_duban">
+                </ImageView>
+            </RelativeLayout>
+
+
+            <!--人大代表相关 end -->
+
             <RelativeLayout
                 android:id="@+id/rl_chief_notepad"
                 android:layout_width="match_parent"

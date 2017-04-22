@@ -464,6 +464,13 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 
 			ll_contacts.addView(row_superPhone);
 
+			//人大监督员
+			LinearLayout row_npc = new LinearLayout(context);
+			row_npc.setOrientation(LinearLayout.HORIZONTAL);
+			row_npc.addView(initContItem(R.string.river_npc, "监督员姓名", "123456789", false));
+			ll_contacts.addView(row_npc);
+
+
 
 /*
 			boolean isQ = river.riverLevel <= 3; // riverLevel 1省2市3区4镇

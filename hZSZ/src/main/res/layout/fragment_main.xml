@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -109,22 +109,26 @@
                         android:src="@drawable/ic_onekey_comp"
                         android:visibility="gone" />
 
+                    <!--人大代表监督 start-->
+
                     <LinearLayout
+                        android:id="@+id/ll_npc_text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/ll_wbanner"
-                        android:padding="@dimen/page_padding" >
+                        android:padding="@dimen/page_padding"
+                        android:visibility="visible">
 
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="@string/river_info"
+                            android:text="人大代表监督"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:textSize="@dimen/font_normal" />
 
                         <TextView
-                            android:id="@+id/tv_selriver"
+                            android:id="@+id/tv_selnpc"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="@drawable/shape_board_btn_bg"
@@ -133,12 +137,68 @@
                             android:paddingLeft="@dimen/padding_large"
                             android:paddingRight="@dimen/padding_large"
                             android:paddingTop="@dimen/padding_small"
-                            android:text="查看所有河道"
+                            android:text="查看所有代表"
                             android:textAppearance="?android:attr/textAppearanceMedium"
                             android:textColor="@color/btn_green_white"
-                            android:textSize="@dimen/font_normal" />
+                            android:textSize="@dimen/font_normal"
+                            android:visibility="gone"/>
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_npc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ll_npc_text"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:background="@color/gray"
+                        android:orientation="vertical"
+                        android:padding="0dp"
+                        android:visibility="visible">
+
+                        <include
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            layout="@layout/item_mainpage_section" />
+
+                        <include
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            layout="@layout/item_mainpage_section" />
+                    </LinearLayout>
+
+                    <!--人大代表监督 end-->
+
                 </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/page_padding" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/river_info"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:id="@+id/tv_selriver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_board_btn_bg"
+                        android:clickable="true"
+                        android:paddingBottom="@dimen/padding_small"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:paddingRight="@dimen/padding_large"
+                        android:paddingTop="@dimen/padding_small"
+                        android:text="查看所有河道"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/btn_green_white"
+                        android:textSize="@dimen/font_normal" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"

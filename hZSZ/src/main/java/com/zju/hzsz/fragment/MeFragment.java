@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 import com.zju.hzsz.R;
@@ -14,16 +15,22 @@ import com.zju.hzsz.activity.AboutActivity;
 import com.zju.hzsz.activity.CompListActivity;
 import com.zju.hzsz.activity.LoginActivity;
 import com.zju.hzsz.activity.MyCollectActivity;
+import com.zju.hzsz.activity.RiverActivity;
 import com.zju.hzsz.activity.SettingActivity;
 import com.zju.hzsz.clz.RootViewWarp;
 import com.zju.hzsz.model.BaseRes;
 import com.zju.hzsz.model.CheckNotifyRes;
+import com.zju.hzsz.model.River;
 import com.zju.hzsz.net.Callback;
+import com.zju.hzsz.npc.activity.NpcLegalListActivity;
+import com.zju.hzsz.npc.activity.NpcMyjobActivity;
 import com.zju.hzsz.utils.ParamUtils;
+import com.zju.hzsz.utils.StrUtils;
 
 import org.json.JSONObject;
 
 /**
+ * 个人中心页面
  * Created by Wangli on 2017/1/18.
  */
 
@@ -35,6 +42,8 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             R.id.rl_chief_notepad, R.id.rl_chief_record, R.id.rl_chief_suggestion, R.id.rl_chief_rivermanage };
     private int[] showWhenDisChiefLogined = { R.id.rl_chief_rivermanage, R.id.rl_chief_record, R.id.rl_chief_notepad };
 //    private int[] showWhenChiefLogined = { R.id.rl_chief_sign, R.id.rl_chief_mail, R.id.rl_chief_complaint, R.id.rl_chief_duban, R.id.rl_chief_record, R.id.rl_chief_suggestion };
+    private int[] showWhenNpcLogined = { R.id.rl_npc_name, R.id.rl_npc_myriver, R.id.rl_npc_myjob, R.id.rl_npc_comment, R.id.rl_npc_legal };
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -56,6 +65,7 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
 
             rootView.findViewById(R.id.tv_chief_complaint).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_duban).setOnClickListener(this);
+            rootView.findViewById(R.id.tv_chief_duban).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_rivermanage).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_notepad).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_inspect).setOnClickListener(this);
@@ -63,6 +73,12 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             rootView.findViewById(R.id.tv_chief_suggestion).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_sign).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_mail).setOnClickListener(this);
+
+            rootView.findViewById(R.id.tv_npc_legal).setOnClickListener(this);  //规范法规
+            rootView.findViewById(R.id.tv_npc_myriver).setOnClickListener(this);  //我的河道
+            rootView.findViewById(R.id.tv_npc_myjob).setOnClickListener(this);  //我的履职
+//            rootView.findViewById(R.id.tv_npc_comment).setOnClickListener(this);  //履职评价
+
         }
 
         return rootView;
@@ -123,6 +139,7 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
         //判断是否是市级或区级河长 区级9 市级10
         boolean isDistrictChief = logined && getBaseActivity().getUser().isDistrictChief();
         boolean isCityChief = logined && getBaseActivity().getUser().isCityChief();
+        boolean isNpc = logined && getBaseActivity().getUser().isNpc();
 
         for (int id : showWhenLogined) {
             View v = rootView.findViewById(id);
@@ -135,6 +152,12 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             View v = rootView.findViewById(id);
             if (v != null)
                 v.setVisibility(ischief ? View.VISIBLE : View.GONE);
+        }
+
+        for (int id: showWhenNpcLogined) {
+            View v = rootView.findViewById(id);
+            if (v != null)
+                v.setVisibility(isNpc ? View.VISIBLE : View.GONE);
         }
 
         //如果是村级河长，则显示巡河的界面
@@ -150,6 +173,18 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             }
         }
 
+        //如果是人大代表账号
+        if (isNpc) {
+            //更改页面名为“代表监督”
+            getRootViewWarp().setHeadTitle("代表监督");
+            //更改底端tab栏为“代表监督”
+            ((RadioButton) getBaseActivity().findViewById(R.id.rd_panhang)).setText("代表监督");
+        } else {
+            getRootViewWarp().setHeadTitle("个人中心");
+            //更改底端tab栏为“代表监督”
+            ((RadioButton) getBaseActivity().findViewById(R.id.rd_panhang)).setText("个人中心");
+        }
+
         //如果是区级河长，需要显示下级河长的投诉与巡河情况
 
 
@@ -160,6 +195,7 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
 
         ((TextView) rootView.findViewById(R.id.tv_name)).setText(getBaseActivity().getUser().getDisplayName());
         ((TextView) rootView.findViewById(R.id.tv_info)).setText(getBaseActivity().getUser().getDisplayRiver());
+
     }
 
     @Override
@@ -208,6 +244,26 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
                 startActivity(intent);
                 break;
             }
+
+            case R.id.tv_npc_legal: {
+                startActivity(new Intent(getBaseActivity(), NpcLegalListActivity.class));
+                break;
+            }
+            case R.id.tv_npc_myriver: {
+                River river = new River();
+                river.riverId = getBaseActivity().getUser().getMyRiverId();
+                river.riverName = getBaseActivity().getUser().riverSum[0].riverName;
+                Intent intent = new Intent(getBaseActivity(), RiverActivity.class);
+                intent.putExtra(Tags.TAG_RIVER, StrUtils.Obj2Str(river));
+                startActivity(intent);
+                break;
+            }
+            case R.id.tv_npc_myjob: {
+                Intent intent = new Intent(getBaseActivity(), NpcMyjobActivity.class);
+                startActivity(intent);
+                break;
+            }
+
             case R.id.tv_complaint: {
                 startActivity(new Intent(getBaseActivity(), CompListActivity.class));
                 break;

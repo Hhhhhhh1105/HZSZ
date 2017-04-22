@@ -75,6 +75,11 @@ public class User {
 		return authority == 10;
 	}
 
+	//是否是人大代表
+	public boolean isNpc() {
+		return authority == 11;
+	}
+
 	//河长权限
 	public int getAuthority() {
 		return authority;
@@ -109,6 +114,22 @@ public class User {
 		}
 
 	}
+
+	//用于人大代表进入“我的河道”界面
+	public int getMyRiverId() {
+		if (isLogined() && isNpc()) {
+			if (riverSum == null || riverSum.length == 0) {
+				return 0;
+			} else if (riverSum.length == 1) {
+				return riverSum[0].riverId;
+			} else {
+				return 0;
+			}
+		} else {
+			return 0;
+		}
+	}
+
 
 	public List<Integer> getReadNewsIds() {
 		if (readNewsIds == null)

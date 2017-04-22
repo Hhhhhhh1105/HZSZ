@@ -66,7 +66,6 @@
             android:src="@drawable/arrow_right"
             android:visibility="visible" />
 
-
     </RelativeLayout>
 
 </LinearLayout>

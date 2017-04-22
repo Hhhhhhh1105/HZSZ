@@ -8,12 +8,12 @@ package com.google.android.gms;
 
 public final class R {
 	public static final class attr {
-		public static final int buttonSize = 0x7f0100fa;
-		public static final int circleCrop = 0x7f0100db;
-		public static final int colorScheme = 0x7f0100fb;
-		public static final int imageAspectRatio = 0x7f0100da;
-		public static final int imageAspectRatioAdjust = 0x7f0100d9;
-		public static final int scopeUris = 0x7f0100fc;
+		public static final int buttonSize = 0x7f0100fc;
+		public static final int circleCrop = 0x7f0100dd;
+		public static final int colorScheme = 0x7f0100fd;
+		public static final int imageAspectRatio = 0x7f0100dc;
+		public static final int imageAspectRatioAdjust = 0x7f0100db;
+		public static final int scopeUris = 0x7f0100fe;
 	}
 	public static final class color {
 		public static final int common_action_bar_splitter = 0x7f0b001b;
@@ -140,11 +140,11 @@ public final class R {
 	public static final class style {
 	}
 	public static final class styleable {
-		public static final int[] LoadingImageView = { 0x7f0100d9, 0x7f0100da, 0x7f0100db };
+		public static final int[] LoadingImageView = { 0x7f0100db, 0x7f0100dc, 0x7f0100dd };
 		public static final int LoadingImageView_circleCrop = 2;
 		public static final int LoadingImageView_imageAspectRatio = 1;
 		public static final int LoadingImageView_imageAspectRatioAdjust = 0;
-		public static final int[] SignInButton = { 0x7f0100fa, 0x7f0100fb, 0x7f0100fc };
+		public static final int[] SignInButton = { 0x7f0100fc, 0x7f0100fd, 0x7f0100fe };
 		public static final int SignInButton_buttonSize = 0;
 		public static final int SignInButton_colorScheme = 1;
 		public static final int SignInButton_scopeUris = 2;

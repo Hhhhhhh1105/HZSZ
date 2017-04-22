@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_large" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="代表姓名"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:id="@+id/tv_smallwater_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:text="吴**"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_large" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="监督河道"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:id="@+id/tv_smallwater_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:text="余杭塘河（祥符街道）"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_large" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="河道起点"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:id="@+id/tv_smallwater_problem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:text="运河"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_large"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="河道终点"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:id="@+id/tv_smallwater_comptime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:text="紫金港"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="监督职责"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:textSize="@dimen/font_normal"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_smallwater_suggestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="日常巡河/监督劣V类水剿灭工作"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="16sp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="监督目标"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_smallwater_linkman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="水清，流畅，岸绿，景美，宜居"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="16sp"
+                    />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

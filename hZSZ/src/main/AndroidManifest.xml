@@ -195,7 +195,11 @@
             android:name=".activity.MyCollectActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".activity.TabRankingFragment"
+            android:name=".activity.NpcMemberActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.NpcListActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.NpcFeedbackActivity"
             android:screenOrientation="portrait"></activity>
         <activity
             android:name=".activity.CompListActivity"
@@ -305,6 +309,14 @@
             android:screenOrientation="portrait"></activity>
 
         <!-- end chief -->
+
+        <!-- npc -->
+        <activity android:name=".npc.activity.NpcLegalListActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".npc.activity.NpcMyjobActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- end npc -->
 
         <service android:name=".service.LocalService" />
 
