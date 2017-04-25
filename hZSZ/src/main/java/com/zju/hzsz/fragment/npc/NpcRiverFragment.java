@@ -14,6 +14,7 @@ import com.sin.android.sinlibs.adapter.SimpleListAdapter;
 import com.sin.android.sinlibs.adapter.SimpleViewInitor;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
+import com.zju.hzsz.activity.NpcMemberActivity;
 import com.zju.hzsz.chief.activity.YearMonthSelectDialog;
 import com.zju.hzsz.fragment.BaseFragment;
 import com.zju.hzsz.model.RiverRecord;
@@ -22,6 +23,8 @@ import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
+
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -41,10 +44,15 @@ public class NpcRiverFragment extends BaseFragment {
     public String year = "2017";
     public String month = "4";
     private YearMonthSelectDialog selectDialog = null;
+    JSONObject params = null;
+    int deputyId = 0;
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        if (((TextView) getActivity().findViewById(R.id.tv_head_title)).getText().equals("代表监督详情页"))
+            deputyId = NpcMemberActivity.npc.deputyId;
 
         //将日期设置为当前年月
         year = "" + Calendar.getInstance().get(Calendar.YEAR);
@@ -143,7 +151,14 @@ public class NpcRiverFragment extends BaseFragment {
         }
 
 
-        getBaseActivity().getRequestContext().add("Get_RiverRecord_List", new Callback<RiverRecordListRes>() {
+        if (deputyId != 0) {
+            params = ParamUtils.freeParam(null, "month", month, "year", year,
+                    "deputyId", deputyId);
+        } else {
+            params = ParamUtils.freeParam(null, "month", month, "year", year);
+        }
+
+        getBaseActivity().getRequestContext().add("Get_Record_List", new Callback<RiverRecordListRes>() {
             @Override
             public void callback(RiverRecordListRes o) {
                 listViewWarp.setRefreshing(false);
@@ -163,9 +178,7 @@ public class NpcRiverFragment extends BaseFragment {
                     listViewWarp.setNoMore(false);
                 }
             }
-        }, RiverRecordListRes.class, ParamUtils.freeParam(null, "riverID", 378,
-                "month", month, "year", year,
-                "authority", 11));
+        }, RiverRecordListRes.class, params);
 
 
         return true;

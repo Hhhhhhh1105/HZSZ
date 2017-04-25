@@ -80,7 +80,7 @@ public class NpcCompFragment extends BaseFragment {
                 public boolean onLoadMore() {
                     loadData(false);
                     return true;
-                }//不加载更多，一次性全部载入。
+                }
             });
 
             listViewWarp.getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {

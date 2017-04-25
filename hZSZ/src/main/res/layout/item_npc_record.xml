@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
         android:gravity="center_horizontal"
         android:text="巡过"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -31,11 +31,13 @@
 
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:singleLine="true"
-        android:maxEms="12"
+        android:maxLength="10"
+        android:ellipsize="end"
         android:tag="tt:{.recordRiverName}"
         android:text="菜洋河"
         android:textAppearance="?android:attr/textAppearanceMedium"
