@@ -3,6 +3,7 @@ package com.zju.hzsz;
 public class Tags {
 	public static final String TAG_SECTION = "section";
 	public static final String TAG_RIVER = "river";
+	public static final String TAG_NPC = "npc";
 	public static final String TAG_OUTLET = "outlet";
 	public static final String TAG_SMALLWATER = "smallwater";
 	public static final String TAG_INDEX = "index";

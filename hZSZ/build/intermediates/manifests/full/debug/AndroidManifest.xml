@@ -323,6 +323,9 @@
         <activity
             android:name="com.zju.hzsz.npc.activity.NpcMyjobActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zju.hzsz.npc.activity.NpcRankActivity"
+            android:screenOrientation="portrait" />
 
         <!-- end npc -->
 

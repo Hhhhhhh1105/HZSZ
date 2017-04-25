@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/lineheight"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_medium"
+    android:paddingLeft="@dimen/page_padding"
+    android:paddingRight="@dimen/page_padding"
+    android:paddingTop="@dimen/padding_medium" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="河面有无成片漂浮废弃物、病死动物等"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_normal" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_good"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/padding_medium"
+            android:button="@null"
+            android:checked="true"
+            android:drawableLeft="@drawable/cb_green_gray"
+            android:text="好"
+            android:textColor="@color/text_gray_green" />
+
+        <CheckBox
+            android:id="@+id/cb_medium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="false"
+            android:drawableLeft="@drawable/cb_green_gray"
+            android:text="一般"
+            android:textColor="@color/text_gray_green" />
+
+        <CheckBox
+            android:id="@+id/cb_bad"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="false"
+            android:drawableLeft="@drawable/cb_green_gray"
+            android:text="差"
+            android:textColor="@color/text_gray_green" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_text"
+        style="@style/form_singleline_te"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/form_3line_h"
+        android:background="@drawable/shape_gray_board_btn_bg"
+        android:gravity="top|left"
+        android:hint="具体描述"
+        android:padding="@dimen/padding_medium"
+        android:singleLine="false"
+        android:visibility="gone" />
+
+</LinearLayout>

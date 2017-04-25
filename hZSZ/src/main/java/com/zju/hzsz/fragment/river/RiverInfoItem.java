@@ -159,6 +159,13 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 		if (view == null) {
 			view = LinearLayout.inflate(context, R.layout.confs_river_info, null);
 
+			//如果是人大代表的河的话，就去掉“建议”和“投诉”这两个按钮,以使得这条河与普通河道区分开
+			//判断条件：1.是人大代表 2.河道id一致
+			if (context.getUser().isNpc() && river.riverId == context.getUser().riverSum[0].riverId) {
+				view.findViewById(R.id.iv_suggestion).setVisibility(View.GONE);
+				view.findViewById(R.id.iv_complaint).setVisibility(View.GONE);
+			}
+
 			view.findViewById(R.id.iv_complaint).setOnClickListener(comclik);
 			view.findViewById(R.id.iv_suggestion).setOnClickListener(sugclik);
 
@@ -464,10 +471,13 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 
 			ll_contacts.addView(row_superPhone);
 
-			//人大监督员
+			//人大监督员 如果非人大代表，不能看到电话号码
 			LinearLayout row_npc = new LinearLayout(context);
 			row_npc.setOrientation(LinearLayout.HORIZONTAL);
-			row_npc.addView(initContItem(R.string.river_npc, "监督员姓名", "123456789", false));
+			if (context.getUser().isNpc())
+				row_npc.addView(initContItem(R.string.river_npc, "监督员姓名", "123456789", false));
+			else
+				row_npc.addView(initContItem(R.string.river_npc, "监督员姓名", null, false));
 			ll_contacts.addView(row_npc);
 
 

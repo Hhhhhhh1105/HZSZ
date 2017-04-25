@@ -37,12 +37,14 @@ import java.util.List;
 import java.util.Locale;
 
 public class ChiefRecordListActivity extends BaseActivity implements WarpHandler {
+
 	private ListViewWarp listViewWarp = null;
 	private SimpleListAdapter adapter = null;
-
 	private List<RiverRecord> records = new ArrayList<RiverRecord>();
 
 	private ViewRender viewRender = new ViewRender();
+
+	// 编辑巡河单时的监听器
 	protected OnClickListener edtClk = new OnClickListener() {
 
 		@Override
@@ -55,6 +57,8 @@ public class ChiefRecordListActivity extends BaseActivity implements WarpHandler
 			}
 		}
 	};
+
+	//删除巡河单，没有用到
 	protected OnClickListener delClk = new OnClickListener() {
 
 		@Override

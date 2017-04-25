@@ -184,24 +184,19 @@
 
                     <ImageButton
                         android:id="@+id/ib_photo"
-                        android:layout_width="@dimen/head_icon_w"
-                        android:layout_height="@dimen/head_icon_h"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:background="@null"
                         android:contentDescription="@null"
                         android:scaleType="fitXY"
                         android:src="@drawable/ic_addphoto" />
 
-                    <TextView
-                        android:id="@+id/tv_btn_explain"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="3dp"
-                        android:text="点击添加照片"/>
 
                 </LinearLayout>
             </HorizontalScrollView>
 
             <LinearLayout
+                android:id="@+id/ll_anonymity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/form_singleline_margin_v"

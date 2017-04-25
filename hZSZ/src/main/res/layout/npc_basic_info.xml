@@ -42,7 +42,7 @@
             android:textSize="@dimen/font_normal" />
 
         <TextView
-            android:id="@+id/tv_river_owner"
+            android:id="@+id/tv_npc_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/padding_large"
@@ -72,7 +72,7 @@
             android:textSize="@dimen/font_normal" />
 
         <TextView
-            android:id="@+id/tv_river_start"
+            android:id="@+id/tv_npc_mobilephone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/padding_large"
@@ -92,7 +92,7 @@
             android:textSize="@dimen/font_normal" />
 
         <TextView
-            android:id="@+id/tv_river_level"
+            android:id="@+id/tv_npc_district"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/padding_large"
@@ -122,13 +122,14 @@
             android:textSize="@dimen/font_normal" />
 
         <TextView
-            android:id="@+id/tv_river_target"
+            android:id="@+id/tv_npc_river"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/padding_large"
             android:gravity="center_horizontal"
             android:layout_weight="1"
             android:maxLines="1"
+            android:maxEms="10"
             android:text="余杭塘河（祥符街道）"
             android:drawableRight="@drawable/ic_right_arrow"
             android:textAppearance="?android:attr/textAppearanceMedium"

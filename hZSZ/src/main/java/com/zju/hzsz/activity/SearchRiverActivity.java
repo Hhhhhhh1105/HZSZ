@@ -247,10 +247,18 @@ public class SearchRiverActivity extends BaseActivity implements OnCheckedChange
 					for (District d : o.data.districtLists) {
 						DistrictWarper dw = new DistrictWarper(d); //id + name
 						dwItems.add(dw);
-						// if (curDw == null && d.districtName.contains("上城")) {
-						// curDw = dw;
-						// curDw.checked = true;
-						// }
+					/*	 if (curDw == null && d.districtName.contains("上城")) {
+						 curDw = dw;
+						 curDw.checked = true;
+						 }*/
+						//如果有区划，则显示自身区划。如果无区划，则显示上城区
+						if (getUser().getDistrictId() == d.districtId) {
+							curDw = dw;
+							curDw.checked = true;
+						} else if(getUser().getDistrictId() == 0) {
+							 curDw = new DistrictWarper(o.data.districtLists[0]);
+							 curDw.checked = true;
+						 }
 					}
 					if (curDw != null)
 						startSearch(true);

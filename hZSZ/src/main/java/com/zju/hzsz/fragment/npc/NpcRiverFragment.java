@@ -3,17 +3,18 @@ package com.zju.hzsz.fragment.npc;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.sin.android.sinlibs.adapter.SimpleListAdapter;
 import com.sin.android.sinlibs.adapter.SimpleViewInitor;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
+import com.zju.hzsz.chief.activity.YearMonthSelectDialog;
 import com.zju.hzsz.fragment.BaseFragment;
 import com.zju.hzsz.model.RiverRecord;
 import com.zju.hzsz.model.RiverRecordListRes;
@@ -23,6 +24,7 @@ import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -38,18 +40,22 @@ public class NpcRiverFragment extends BaseFragment {
 
     public String year = "2017";
     public String month = "4";
+    private YearMonthSelectDialog selectDialog = null;
 
-    @Nullable
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
+        //将日期设置为当前年月
+        year = "" + Calendar.getInstance().get(Calendar.YEAR);
+        month = "" + (Calendar.getInstance().get(Calendar.MONTH) + 1);
 
         adapter = new SimpleListAdapter(getBaseActivity(), list, new SimpleViewInitor() {
 
             @Override
             public View initView(Context context, int position, View convertView, ViewGroup parent, Object data) {
 
-                convertView = LinearLayout.inflate(context, R.layout.item_record_3fied, null);
+                convertView = LinearLayout.inflate(context, R.layout.item_npc_record, null);
 
                 RiverRecord record = (RiverRecord) data;
                 getBaseActivity().getViewRender().renderView(convertView, record);
@@ -93,10 +99,39 @@ public class NpcRiverFragment extends BaseFragment {
         listViewWarp.startRefresh();
 
         if (this.rootView == null) {
+            View view = LinearLayout.inflate(getBaseActivity(), R.layout.inc_seldate, null);
+            listViewWarp.getListView().addHeaderView(view);
             rootView = listViewWarp.getRootView();
         }
 
+        rootView.findViewById(R.id.tv_seldate).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (selectDialog == null) {
+                    selectDialog = new YearMonthSelectDialog(getBaseActivity(), new YearMonthSelectDialog.Callback() {
+                        @Override
+                        public void onYMSelected(int y, int m) {
+                            year = "" + y;
+                            month = "" + m;
+                            refreshDateView();
+                            //刷新数据
+                            loadData(true);
+                        }
+                    });
+                }
+                selectDialog.show();
+            }
+        });
+
+        refreshDateView();
+
+
         return rootView;
+    }
+
+    //日期更新函数
+    private void refreshDateView() {
+        ((TextView) rootView.findViewById(R.id.tv_seldate)).setText(year + "年" + month + "月");
     }
 
     private boolean loadData(final boolean refresh) {

@@ -1,20 +1,10 @@
 package com.zju.hzsz.activity;
 
-import android.app.Fragment;
-import android.app.FragmentTransaction;
 import android.location.Location;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.RadioGroup;
-import android.widget.RadioGroup.OnCheckedChangeListener;
 
-import com.zju.hzsz.R;
-import com.zju.hzsz.fragment.RiverListFragment;
-import com.zju.hzsz.fragment.RiverMapFragment;
-import com.zju.hzsz.service.LocalService.LocationCallback;
-
-public class RiverListActivity extends BaseActivity implements OnCheckedChangeListener {
-	RiverListFragment listFragment = new RiverListFragment();
+public class RiverListActivity extends SearchRiverActivity{
+	/*RiverListFragment listFragment = new RiverListFragment();
 	RiverMapFragment mapFragment = new RiverMapFragment();
 	boolean isMainPage = false;
 	public static Location location = null;
@@ -101,5 +91,13 @@ public class RiverListActivity extends BaseActivity implements OnCheckedChangeLi
 				}
 			});
 		}
+	}*/
+
+	public static Location location = null;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setTitle("所有河道");
 	}
 }

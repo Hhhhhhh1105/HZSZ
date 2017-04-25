@@ -77,7 +77,7 @@ public class User {
 
 	//是否是人大代表
 	public boolean isNpc() {
-		return authority == 11;
+		return authority >= 20;
 	}
 
 	//河长权限

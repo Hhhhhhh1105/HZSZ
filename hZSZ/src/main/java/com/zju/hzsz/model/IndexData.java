@@ -7,4 +7,5 @@ public class IndexData {
 	public String sloganPicPath;
 	public Industrialport[] industrialportlists;
 	public SmallWater[] smallWaterSums;
+	public Npc[] deputiesJsons; //人大代表
 }

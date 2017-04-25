@@ -24,6 +24,7 @@ import com.zju.hzsz.model.River;
 import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.npc.activity.NpcLegalListActivity;
 import com.zju.hzsz.npc.activity.NpcMyjobActivity;
+import com.zju.hzsz.npc.activity.NpcRankActivity;
 import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.StrUtils;
 
@@ -77,7 +78,7 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             rootView.findViewById(R.id.tv_npc_legal).setOnClickListener(this);  //规范法规
             rootView.findViewById(R.id.tv_npc_myriver).setOnClickListener(this);  //我的河道
             rootView.findViewById(R.id.tv_npc_myjob).setOnClickListener(this);  //我的履职
-//            rootView.findViewById(R.id.tv_npc_comment).setOnClickListener(this);  //履职评价
+            rootView.findViewById(R.id.tv_npc_comment).setOnClickListener(this);  //履职评价
 
         }
 
@@ -260,6 +261,12 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             }
             case R.id.tv_npc_myjob: {
                 Intent intent = new Intent(getBaseActivity(), NpcMyjobActivity.class);
+                startActivity(intent);
+                break;
+            }
+
+            case R.id.tv_npc_comment: {
+                Intent intent = new Intent(getBaseActivity(), NpcRankActivity.class);
                 startActivity(intent);
                 break;
             }

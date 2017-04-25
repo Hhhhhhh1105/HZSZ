@@ -52,6 +52,7 @@ import com.zju.hzsz.model.District;
 import com.zju.hzsz.model.IndexData;
 import com.zju.hzsz.model.IndexDataRes;
 import com.zju.hzsz.model.Industrialport;
+import com.zju.hzsz.model.Npc;
 import com.zju.hzsz.model.River;
 import com.zju.hzsz.model.RiverListRes;
 import com.zju.hzsz.model.Section;
@@ -659,13 +660,13 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			public void onClick(View view) {
 				if (view.getTag() != null) {
 					Intent intent = new Intent(getBaseActivity(), NpcMemberActivity.class);
-					intent.putExtra(Tags.TAG_RIVER, StrUtils.Obj2Str(view.getTag()));
+					intent.putExtra(Tags.TAG_NPC, StrUtils.Obj2Str(view.getTag()));
 					startActivity(intent);
 				}
 			}
 		};
 
-		for (int i = 0; i < indexData.riverJsons.length; i += 2) {
+		/*for (int i = 0; i < indexData.riverJsons.length; i += 2) {
 			River river_l = indexData.riverJsons[i];
 			River river_r = (i + 1) < indexData.riverJsons.length ? indexData.riverJsons[i + 1] : null;
 			View view = LinearLayout.inflate(getBaseActivity(), R.layout.item_mainpage_npc, null);
@@ -682,6 +683,39 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 
 				view.findViewById(R.id.rl_npc_right).setOnClickListener(npcClick);
 				view.findViewById(R.id.rl_npc_right).setTag(river_r);
+			} else {
+				view.findViewById(R.id.rl_npc_right).setVisibility(View.INVISIBLE);
+			}
+
+			ll_npc.addView(view);
+		}*/
+
+		for (int i = 0; i < indexData.deputiesJsons.length; i += 2) {
+			Npc npc_l = indexData.deputiesJsons[i];
+			Npc npc_r = (i + 1) < indexData.deputiesJsons.length ? indexData.deputiesJsons[i + 1] : null;
+			View view = LinearLayout.inflate(getBaseActivity(), R.layout.item_mainpage_npc, null);
+
+			((TextView) view.findViewById(R.id.tv_name_l)).setText(npc_l.name);  //人大姓名
+			((TextView) view.findViewById(R.id.tv_title_l)).setText(npc_l.position);   //管理等级
+			if (npc_l.lastRecordDays > 0)
+				((TextView) view.findViewById(R.id.tv_river_l)).setText("于" + npc_l.lastRecordDays + "天前巡过" + npc_l.riverName);  //巡河信息
+			else
+				((TextView) view.findViewById(R.id.tv_river_l)).setText("" + "于今天巡过" + npc_l.riverName);
+
+			view.findViewById(R.id.rl_npc_left).setOnClickListener(npcClick);
+			view.findViewById(R.id.rl_npc_left).setTag(npc_l);
+
+			if (npc_r != null) {
+
+				((TextView) view.findViewById(R.id.tv_name_r)).setText(npc_r.name);  //人大姓名
+				((TextView) view.findViewById(R.id.tv_title_r)).setText(npc_r.position);   //管理等级
+				if (npc_r.lastRecordDays > 0)
+					((TextView) view.findViewById(R.id.tv_river_r)).setText("于" + npc_r.lastRecordDays + "天前巡过" + npc_r.riverName);  //巡河信息
+				else
+					((TextView) view.findViewById(R.id.tv_river_r)).setText("" + "于今天巡过" + npc_r.riverName);
+
+				view.findViewById(R.id.rl_npc_right).setOnClickListener(npcClick);
+				view.findViewById(R.id.rl_npc_right).setTag(npc_r);
 			} else {
 				view.findViewById(R.id.rl_npc_right).setVisibility(View.INVISIBLE);
 			}

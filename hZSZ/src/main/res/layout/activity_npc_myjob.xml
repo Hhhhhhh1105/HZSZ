@@ -25,7 +25,7 @@
                     android:layout_width="0dp"
                     android:layout_height="80dp"
                     android:layout_weight="1"
-                    android:src="@drawable/ic_head_back"
+                    android:src="@drawable/ic_npc_comp"
                     app:cb_color="#FF4444" />
 
                 <at.markushi.ui.CircleButton
@@ -33,7 +33,7 @@
                     android:layout_width="0dp"
                     android:layout_height="80dp"
                     android:layout_weight="1"
-                    android:src="@drawable/ic_head_back"
+                    android:src="@drawable/ic_npc_sug"
                     app:cb_color="#FFBB33" />
 
                 <at.markushi.ui.CircleButton
@@ -41,7 +41,7 @@
                     android:layout_width="0dp"
                     android:layout_height="80dp"
                     android:layout_weight="1"
-                    android:src="@drawable/ic_head_back"
+                    android:src="@drawable/ic_npc_track"
                     app:cb_color="#00B0F0" />
 
             </LinearLayout>

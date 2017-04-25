@@ -40,10 +40,10 @@ import java.io.FileNotFoundException;
 //import com.zju.hzsz.Values;
 
 public class SugOrComtActivity extends BaseActivity {
-	River river = null;
-	int segment_ix = -1;
-	private boolean isCom = false;
-	private Location location = null;
+	River river = null;   //投诉河段
+	int segment_ix = -1;   //分段信息
+	private boolean isCom = false;   //投诉还是建议
+ 	private Location location = null;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -63,7 +63,14 @@ public class SugOrComtActivity extends BaseActivity {
 			// 投诉
 			((TextView) findViewById(R.id.tv_suggest_river)).setText(R.string.form_complaint_river);
 			((CheckBox) findViewById(R.id.ck_anonymity)).setText(R.string.form_complaint_anonymity);
-			((EditText) findViewById(R.id.et_suggest_name)).setHint(R.string.hint_com_name);
+
+			//如果是代表投诉，则显示“代表姓名”,并去掉匿名
+			if (getUser().isNpc()) {
+				((EditText) findViewById(R.id.et_suggest_name)).setHint("代表姓名");
+				findViewById(R.id.ll_anonymity).setVisibility(View.GONE);
+			} else
+				((EditText) findViewById(R.id.et_suggest_name)).setHint(R.string.hint_com_name);
+
 			((EditText) findViewById(R.id.et_suggest_subject)).setHint(R.string.hint_com_subject);
 		} else {
 			// 建议
@@ -87,7 +94,7 @@ public class SugOrComtActivity extends BaseActivity {
 				// startActivityForResult(new
 				// Intent(MediaStore.ACTION_IMAGE_CAPTURE), Tags.CODE_ADDPHOTO);
 				//将提醒文字隐藏
-				findViewById(R.id.tv_btn_explain).setVisibility(View.GONE);
+//				findViewById(R.id.tv_btn_explain).setVisibility(View.GONE);
 
 				Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 
@@ -260,6 +267,10 @@ public class SugOrComtActivity extends BaseActivity {
 		}
 
 		anonymity = ((CheckBox) findViewById(R.id.ck_anonymity)).isChecked();
+		//如果是人大，则不匿名
+		if (getUser().isNpc())
+			anonymity = false;
+
 		rid = segment_ix < 0 ? river.riverId : (river.townRiverChiefs[segment_ix].townRiverId);
 
 		LinearLayout ll_photos = (LinearLayout) findViewById(R.id.ll_photos);

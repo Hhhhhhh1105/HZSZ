@@ -145,7 +145,10 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			riverRecord.locRiverName = "选择河道";
 			viewRender.renderView(findViewById(R.id.sv_main), riverRecord);
 
-			refreshToView();
+			if (!getUser().isNpc())
+				refreshToView();
+			else
+				refreshToNpcView();
 
 			//检查是否开启了GPS,若未开启，则弹出窗口令其开启GPS
 			if (!isOPen(getApplicationContext())) {
@@ -207,7 +210,10 @@ public class ChiefEditRecordActivity extends BaseActivity {
 						}
 
 						viewRender.renderView(findViewById(R.id.sv_main), riverRecord);
-						refreshToView();
+						if (!getUser().isNpc())
+							refreshToView();
+						else
+							refreshToNpcView();
 
 					}
 				}
@@ -268,6 +274,16 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			"河道长效管理机制和保洁机制是否到位"//
 	};
 
+	private static final String[] CBOX_NPC_TITLES = new String[]{//
+			//
+			"1.河道水质情况评价（颜色、气味、浊度等）", //flotage
+			"2.河道保洁情况评价（漂浮物、废弃物等）", //rubbish
+			"3.河道养护情况评价（绿化、游步道等）", // odour
+			"4.沿线违法、违章建筑情况", // building
+			"5.沿线排污口情况（以晴天是否排污为准）",// outfall
+	};
+
+
 	private static final String[] CBOX_FIELDS = new String[]{//
 			//
 			"flotage",//
@@ -279,7 +295,17 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			"riverinplace",//
 	};
 
+	private static final String[] CBOX_NPC_FIELDS = new String[]{//
+			//
+			"flotage",//
+			"rubbish",//
+			"odour",//
+			"building",//
+			"outfall",//
+	};
+
 	private View[] CBOXES = new View[CBOX_FIELDS.length];
+	private View[] CBOXES_NPC = new View[CBOX_NPC_FIELDS.length];
 
 	private OnCheckedChangeListener cclTogTag = new OnCheckedChangeListener() {
 		@Override
@@ -290,6 +316,30 @@ public class ChiefEditRecordActivity extends BaseActivity {
 				tcb.setChecked(!c);
 			}
 			v.findViewById(R.id.et_text).setVisibility(((CompoundButton) v.findViewById(R.id.cb_yes)).isChecked() ? View.VISIBLE : View.GONE);
+		}
+	};
+
+	private OnCheckedChangeListener cclTogTagNpc = new OnCheckedChangeListener() {
+		@Override
+		public void onCheckedChanged(CompoundButton cb, boolean c) {
+			View v = (View) cb.getTag();
+
+			if (cb.getId() == R.id.cb_good) {
+				((CompoundButton) v.findViewById(R.id.cb_bad)).setChecked(false);
+				((CompoundButton) v.findViewById(R.id.cb_medium)).setChecked(false);
+			}
+
+			if (cb.getId() == R.id.cb_medium) {
+				((CompoundButton) v.findViewById(R.id.cb_good)).setChecked(false);
+				((CompoundButton) v.findViewById(R.id.cb_bad)).setChecked(false);
+			}
+
+			if (cb.getId() == R.id.cb_bad) {
+				((CompoundButton) v.findViewById(R.id.cb_medium)).setChecked(false);
+				((CompoundButton) v.findViewById(R.id.cb_good)).setChecked(false);
+			}
+
+			v.findViewById(R.id.et_text).setVisibility(((CompoundButton) v.findViewById(R.id.cb_bad)).isChecked() ? View.VISIBLE : View.GONE);
 		}
 	};
 
@@ -345,10 +395,76 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		refreshSelectRiverBtn();
 	}
 
+	private void refreshToNpcView() {
+		ll_cboxes.removeAllViews();
+		Class<?> clz = RiverRecord.class;
+		for (int i = 0; i < CBOX_NPC_TITLES.length; ++i) {
+			if (i > 0) {
+				ll_cboxes.addView(LinearLayout.inflate(this, R.layout.inc_vline, null));
+			}
+			View v = LinearLayout.inflate(this, R.layout.inc_line_npctrack, null);
+			((TextView) v.findViewById(R.id.tv_title)).setText(CBOX_NPC_TITLES[i]);
+
+			boolean yes = false;
+			String text = null;
+			try {
+				Field f = clz.getField(CBOX_NPC_FIELDS[i]);
+				yes = f.getInt(riverRecord) == 1;
+
+				text = (String) clz.getField(CBOX_NPC_FIELDS[i] + "s").get(riverRecord);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			if (text == null)
+				text = "";
+
+			if ("building".equals(CBOX_NPC_FIELDS[i]) || "outfall".equals(CBOX_NPC_FIELDS[i]) ) {
+				((CheckBox) v.findViewById(R.id.cb_good)).setText("无");
+				((CheckBox) v.findViewById(R.id.cb_medium)).setText("难以确认");
+				((CheckBox) v.findViewById(R.id.cb_bad)).setText("有");
+			}
+
+			v.findViewById(R.id.cb_good).setTag(v);
+			v.findViewById(R.id.cb_medium).setTag(v);
+			v.findViewById(R.id.cb_bad).setTag(v);
+			((EditText) v.findViewById(R.id.et_text)).setText(text);
+
+
+			if (!isReadOnly) {
+				((CheckBox) v.findViewById(R.id.cb_good)).setOnCheckedChangeListener(cclTogTagNpc);
+				((CheckBox) v.findViewById(R.id.cb_medium)).setOnCheckedChangeListener(cclTogTagNpc);
+				((CheckBox) v.findViewById(R.id.cb_bad)).setOnCheckedChangeListener(cclTogTagNpc);
+			} else {
+				((CheckBox) v.findViewById(R.id.cb_good)).setEnabled(false);
+				((CheckBox) v.findViewById(R.id.cb_bad)).setEnabled(false);
+				((CheckBox) v.findViewById(R.id.cb_medium)).setEnabled(false);
+				v.findViewById(R.id.et_text).setEnabled(false);
+			}
+			((CheckBox) v.findViewById(R.id.cb_good)).setChecked(yes);
+			((CheckBox) v.findViewById(R.id.cb_medium)).setChecked(!yes);
+			((CheckBox) v.findViewById(R.id.cb_bad)).setChecked(!yes);
+			v.findViewById(R.id.et_text).setVisibility(yes ? View.VISIBLE : View.GONE);
+
+			CBOXES_NPC[i] = v;
+			ll_cboxes.addView(v);
+		}
+		//去掉处理情况
+		findViewById(R.id.ll_deal).setVisibility(View.GONE);
+
+		refreshSelectRiverBtn();
+	}
+
 	//更新选择河道按钮
 	private void refreshSelectRiverBtn() {
 		if (riverRecord.locRiver != null)
 			((Button) findViewById(R.id.btn_selriver)).setText(riverRecord.locRiver.riverName);
+		else if (getUser().riverSum.length == 1) {
+			//如果是人大,则显示人大的河
+			((Button) findViewById(R.id.btn_selriver)).setText(getUser().riverSum[0].riverName);
+			riverRecord.locRiver = getUser().riverSum[0];
+			riverRecord.riverId = getUser().getMyRiverId();
+			riverRecord.locRiverName = getUser().riverSum[0].riverName;
+		}
 		else
 			((Button) findViewById(R.id.btn_selriver)).setText("请选择河道");
 	}
@@ -408,29 +524,65 @@ public class ChiefEditRecordActivity extends BaseActivity {
 						if (riverRecord.recordId != 0) {
 							submitParam.put("recordId", riverRecord.recordId);
 						}
-						for (int i = 0; i < CBOX_FIELDS.length; ++i) {
-							boolean b = ((CompoundButton) CBOXES[i].findViewById(R.id.cb_yes)).isChecked();
-							submitParam.put(CBOX_FIELDS[i], b ? 1 : 0);
-							needdeal = b || needdeal;
+						if (!getUser().isNpc()) {
+							for (int i = 0; i < CBOX_FIELDS.length; ++i) {
+								boolean b = ((CompoundButton) CBOXES[i].findViewById(R.id.cb_yes)).isChecked();
+								submitParam.put(CBOX_FIELDS[i], b ? 1 : 0);
+								needdeal = b || needdeal;
 
-							String s = b ? ((EditText) CBOXES[i].findViewById(R.id.et_text)).getText().toString().trim() : "";
-							if (b && s.length() == 0) {
-								showToast("您还有具体描述没填写，请先填写");
-								((EditText) CBOXES[i].findViewById(R.id.et_text)).requestFocus();
-								((EditText) CBOXES[i].findViewById(R.id.et_text)).setFocusable(true);
+								String s = b ? ((EditText) CBOXES[i].findViewById(R.id.et_text)).getText().toString().trim() : "";
+								if (b && s.length() == 0) {
+									showToast("您还有具体描述没填写，请先填写");
+									((EditText) CBOXES[i].findViewById(R.id.et_text)).requestFocus();
+									((EditText) CBOXES[i].findViewById(R.id.et_text)).setFocusable(true);
+									return;
+								}
+								submitParam.put(CBOX_FIELDS[i] + "s", s);
+							}
+
+							//处理情况
+							if (needdeal && et_deal.getText().toString().length() == 0) {
+								showToast("您还没有填写处理情况，请先填写");
+								et_deal.requestFocus();
+								et_deal.setFocusable(true);
 								return;
 							}
-							submitParam.put(CBOX_FIELDS[i] + "s", s);
+							submitParam.put("deal", et_deal.getText().toString());
+
+						} else {
+							for (int i = 0; i < CBOX_NPC_FIELDS.length; ++i) {
+								int b = 0;
+								if (((CompoundButton) CBOXES_NPC[i].findViewById(R.id.cb_good)).isChecked())
+									b = 1;
+								else if (((CompoundButton) CBOXES_NPC[i].findViewById(R.id.cb_medium)).isChecked())
+									b = 2;
+								else
+									b = 3;
+
+								submitParam.put(CBOX_NPC_FIELDS[i], b );
+								needdeal = b!=1  || needdeal;
+
+								String s = b==3 ? ((EditText) CBOXES_NPC[i].findViewById(R.id.et_text)).getText().toString().trim() : "";
+								if (b == 3 && s.length() == 0) {
+									showToast("您还有具体描述没填写，请先填写");
+									((EditText) CBOXES_NPC[i].findViewById(R.id.et_text)).requestFocus();
+									((EditText) CBOXES_NPC[i].findViewById(R.id.et_text)).setFocusable(true);
+									return;
+								}
+								submitParam.put(CBOX_NPC_FIELDS[i] + "s", s);
+							}
+
+							submitParam.put("sludge", 0);
+							submitParam.put("sludges", "");
+							submitParam.put("riverinplace", 0);
+							submitParam.put("riverinplaces", "");
+							submitParam.put("deal", "");
+
 						}
+
 						submitParam.put("RiverId", riverRecord.riverId);
 						submitParam.put("otherquestion", et_otherquestion.getText().toString());
-						if (needdeal && et_deal.getText().toString().length() == 0) {
-							showToast("您还没有填写处理情况，请先填写");
-							et_deal.requestFocus();
-							et_deal.setFocusable(true);
-							return;
-						}
-						submitParam.put("deal", et_deal.getText().toString());
+
 
 						//增加图片链接
 						submitParam.put("picPath", picPath);
