@@ -29,7 +29,8 @@ public class NpcMemberActivity extends BaseActivity implements RadioGroup.OnChec
     NpcCompFragment npcCompFragment = new NpcCompFragment();
     NpcRiverFragment npcRiverFragment = new NpcRiverFragment();
     PublicityListFragment listFragment = new PublicityListFragment();
-    Npc npc = null;
+
+    public static Npc npc = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

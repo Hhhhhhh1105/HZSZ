@@ -66,7 +66,7 @@ public class NpcMyjobActivity extends BaseActivity implements RadioGroup.OnCheck
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_npc_myjob);
 
-        setTitle("代表监督详情页");
+        setTitle("我的履职");
         initHead(R.drawable.ic_head_back, 0);
         ((RadioGroup) findViewById(R.id.rg_headtab)).setOnCheckedChangeListener(this);
 

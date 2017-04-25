@@ -16,14 +16,18 @@ import com.sin.android.sinlibs.adapter.SimpleViewInitor;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.activity.CompDetailActivity;
+import com.zju.hzsz.activity.NpcMemberActivity;
 import com.zju.hzsz.fragment.BaseFragment;
 import com.zju.hzsz.model.CompPublicity;
-import com.zju.hzsz.model.CompPublicitysRes;
 import com.zju.hzsz.model.CompSugs;
+import com.zju.hzsz.model.NpcCompListRes;
 import com.zju.hzsz.net.Callback;
+import com.zju.hzsz.net.Constants;
 import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
+
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,9 +42,14 @@ public class NpcCompFragment extends BaseFragment {
     private ListViewWarp listViewWarp = null;
     private SimpleListAdapter adapter = null;
     private List<CompPublicity> list = new ArrayList<CompPublicity>();
+    JSONObject params = null;
+    int deputyId = 0;
 
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
+
+        if (((TextView) getActivity().findViewById(R.id.tv_head_title)).getText().equals("代表监督详情页"))
+            deputyId = NpcMemberActivity.npc.deputyId;
 
         if (listViewWarp == null) {
             adapter = new SimpleListAdapter(getBaseActivity(), list, new SimpleViewInitor() {
@@ -69,7 +78,8 @@ public class NpcCompFragment extends BaseFragment {
 
                 @Override
                 public boolean onLoadMore() {
-                    return false;
+                    loadData(false);
+                    return true;
                 }//不加载更多，一次性全部载入。
             });
 
@@ -106,14 +116,27 @@ public class NpcCompFragment extends BaseFragment {
     private boolean loadData(final boolean refresh) {
         if (refresh)
             listViewWarp.setRefreshing(true);
-        getRequestContext().add("Get_LastComplaint_List", new Callback<CompPublicitysRes>() {
+        else
+            listViewWarp.setLoadingMore(true);
+
+        if (deputyId != 0) {
+            params = ParamUtils.freeParam(getPageParam(refresh), "deputyId", deputyId);
+        } else {
+            params = ParamUtils.freeParam(getPageParam(refresh));
+        }
+
+
+        getRequestContext().add("complaints_list_get", new Callback<NpcCompListRes>() {
             @Override
-            public void callback(CompPublicitysRes o) {
-                listViewWarp.setRefreshing(false);//得到数据后就停止刷新
+            public void callback(NpcCompListRes o) {
+
+                listViewWarp.setLoadingMore(false);
+                listViewWarp.setRefreshing(false);
+
                 if (o != null && o.isSuccess() && o.data != null) {
                     if (refresh)
                         list.clear();
-                    for (CompPublicity cp : o.data) {
+                    for (CompPublicity cp : o.data.complaints) {
                         // cp.compPicPath =
                         // "http://simg.sinajs.cn/blog7style/images/common/godreply/btn.png";
                         list.add(cp);
@@ -121,12 +144,25 @@ public class NpcCompFragment extends BaseFragment {
 
                     adapter.notifyDataSetChanged();
                 }
-                if (list.size() == 0)
+                //判断是否还有数据
+                if ((o != null && o.data != null && o.data.complaints != null) && (o.data.pageInfo != null && list.size() >= o.data.pageInfo.totalCounts || o.data.complaints.length == 0)) {
                     listViewWarp.setNoMore(true);
+                } else {
+                    listViewWarp.setNoMore(false);
+                }
             }
-        }, CompPublicitysRes.class, ParamUtils.freeParam(null));
+        }, NpcCompListRes.class, params);
+
         return true;
     }
 
+    //分页函数
+    private final int DefaultPageSize = Constants.DefaultPageSize;
+
+    protected JSONObject getPageParam(boolean refresh) {
+        JSONObject j = refresh ? ParamUtils.pageParam(DefaultPageSize, 1) :
+                ParamUtils.pageParam (DefaultPageSize, (list.size() + DefaultPageSize - 1) / DefaultPageSize + 1);
+        return j;
+    }
 
 }
