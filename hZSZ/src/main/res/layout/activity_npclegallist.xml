@@ -11,6 +11,14 @@
         layout="@layout/inc_head" />
 
 
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/linew"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </LinearLayout>
 
 
 </LinearLayout>

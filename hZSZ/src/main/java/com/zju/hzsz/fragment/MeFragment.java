@@ -26,9 +26,12 @@ import com.zju.hzsz.npc.activity.NpcLegalListActivity;
 import com.zju.hzsz.npc.activity.NpcMyjobActivity;
 import com.zju.hzsz.npc.activity.NpcRankActivity;
 import com.zju.hzsz.utils.ParamUtils;
+import com.zju.hzsz.utils.ResUtils;
 import com.zju.hzsz.utils.StrUtils;
 
 import org.json.JSONObject;
+
+import static android.app.Activity.RESULT_OK;
 
 /**
  * 个人中心页面
@@ -56,13 +59,6 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             warp.setHeadImage(0, 0);
             warp.setHeadTitle(R.string.mycenter);
 
-            if (getBaseActivity().getUser().isNpc()) {
-                rootView.findViewById(R.id.iv_logo).setVisibility(View.INVISIBLE);
-                rootView.findViewById(R.id.tv_name).setVisibility(View.INVISIBLE);
-                rootView.findViewById(R.id.tv_info).setVisibility(View.INVISIBLE);
-                rootView.findViewById(R.id.shape_radius).setVisibility(View.INVISIBLE);
-                rootView.findViewById(R.id.npc_logo).setVisibility(View.VISIBLE);
-            }
 
             rootView.findViewById(R.id.tv_complaint).setOnClickListener(this);
             rootView.findViewById(R.id.tv_suggestion).setOnClickListener(this);
@@ -88,6 +84,15 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             rootView.findViewById(R.id.tv_npc_myjob).setOnClickListener(this);  //我的履职
             rootView.findViewById(R.id.tv_npc_comment).setOnClickListener(this);  //履职评价
 
+        }
+
+        if ( getBaseActivity().getUser().isLogined() && getBaseActivity().getUser().isNpc()) {
+            changeNpcLogo();
+            ((TextView) rootView.findViewById(R.id.tv_complaint)).setText("其他投诉");
+            ((TextView) rootView.findViewById(R.id.tv_suggestion)).setText("其他建议");
+        } else {
+            ((TextView) rootView.findViewById(R.id.tv_complaint)).setText("我的投诉");
+            ((TextView) rootView.findViewById(R.id.tv_suggestion)).setText("我的建议");
         }
 
         return rootView;
@@ -188,10 +193,15 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             getRootViewWarp().setHeadTitle("代表监督");
             //更改底端tab栏为“代表监督”
             ((RadioButton) getBaseActivity().findViewById(R.id.rd_panhang)).setText("代表监督");
+            //更改河长条目的信息
+            ((TextView) getRootViewWarp().getViewById(R.id.tv_npc_name))
+                    .setText(ResUtils.getNpcTitle(getBaseActivity().getUser().getAuthority()) + "："
+                            + getBaseActivity().getUser().realName);
         } else {
             getRootViewWarp().setHeadTitle("个人中心");
-            //更改底端tab栏为“代表监督”
+            //更改底端tab栏为“个人中心”
             ((RadioButton) getBaseActivity().findViewById(R.id.rd_panhang)).setText("个人中心");
+
         }
 
         //如果是区级河长，需要显示下级河长的投诉与巡河情况
@@ -325,6 +335,17 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
 
     private void logout() {
         showOperating();
+
+        //更换logo
+        rootView.findViewById(R.id.iv_logo).setVisibility(View.VISIBLE);
+        rootView.findViewById(R.id.tv_name).setVisibility(View.VISIBLE);
+        rootView.findViewById(R.id.tv_info).setVisibility(View.VISIBLE);
+        rootView.findViewById(R.id.shape_radius).setVisibility(View.VISIBLE);
+        rootView.findViewById(R.id.npc_logo).setVisibility(View.INVISIBLE);
+        //更换"我的投诉"、"我的建议"
+        ((TextView) rootView.findViewById(R.id.tv_complaint)).setText("我的投诉");
+        ((TextView) rootView.findViewById(R.id.tv_suggestion)).setText("我的建议");
+
         getRequestContext().add("User_Logout_Action", new Callback<BaseRes>() {
             @Override
             public void callback(BaseRes o) {
@@ -338,5 +359,25 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
         }, BaseRes.class, ParamUtils.freeParam(null, "cid", getBaseActivity().getLocalService() != null ? getBaseActivity().getLocalService().getCid() : ""));
     }
 
+    private void changeNpcLogo() {
+        //更换logo
+        rootView.findViewById(R.id.iv_logo).setVisibility(View.INVISIBLE);
+        rootView.findViewById(R.id.tv_name).setVisibility(View.INVISIBLE);
+        rootView.findViewById(R.id.tv_info).setVisibility(View.INVISIBLE);
+        rootView.findViewById(R.id.shape_radius).setVisibility(View.INVISIBLE);
+        rootView.findViewById(R.id.npc_logo).setVisibility(View.VISIBLE);
+        //更换"其他投诉"、"其他建议"
+        ((TextView) rootView.findViewById(R.id.tv_complaint)).setText("其他投诉");
+        ((TextView) rootView.findViewById(R.id.tv_suggestion)).setText("其他建议");
 
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (resultCode == RESULT_OK && getBaseActivity().getUser().isLogined() && getBaseActivity().getUser().isNpc()) {
+            changeNpcLogo();
+        } else {
+            super.onActivityResult(requestCode, resultCode, data);
+        }
+    }
 }

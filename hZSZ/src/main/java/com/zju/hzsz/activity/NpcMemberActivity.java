@@ -37,7 +37,7 @@ public class NpcMemberActivity extends BaseActivity implements RadioGroup.OnChec
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_npcmember);
 
-        setTitle("代表监督详情页");
+        setTitle("代表信息页");
         initHead(R.drawable.ic_head_back, 0);
         ((RadioGroup) findViewById(R.id.rg_headtab)).setOnCheckedChangeListener(this);
 

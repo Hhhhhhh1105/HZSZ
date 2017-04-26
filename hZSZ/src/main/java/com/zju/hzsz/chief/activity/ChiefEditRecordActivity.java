@@ -91,7 +91,6 @@ public class ChiefEditRecordActivity extends BaseActivity {
 	private boolean hasImg = false;
 
 
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -111,6 +110,30 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		findViewById(R.id.btn_selriver).setOnClickListener(this);//选择河道按钮
 		findViewById(R.id.btn_submit).setOnClickListener(this);//保存按钮
 		findViewById(R.id.btn_cancel).setOnClickListener(this);//取消按钮
+
+		//退出巡河时的提醒
+		findViewById(R.id.iv_head_left).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				AlertDialog.Builder ab = new AlertDialog.Builder(ChiefEditRecordActivity.this);
+				ab.setTitle("是否退出巡河");
+				ab.setMessage("退出巡河界面后，所记录轨迹将消失");
+				ab.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface arg0, int arg1) {
+						finish();
+					}
+				});
+				ab.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface arg0, int arg1) {
+						arg0.dismiss();
+					}
+				});
+				ab.setCancelable(false);
+				ab.create().show();
+			}
+		});
 
 		btn_track = (Button) findViewById(R.id.btn_track);//查看轨迹按钮-巡河界面
 		btn_track.setOnClickListener(new View.OnClickListener() {
@@ -229,6 +252,9 @@ public class ChiefEditRecordActivity extends BaseActivity {
 				startAddPhoto();
 			}
 		});*/
+
+
+
 
 		//相机拍摄照片
 		findViewById(R.id.action_camera).setOnClickListener(new View.OnClickListener() {

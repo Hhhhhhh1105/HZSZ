@@ -131,6 +131,18 @@ public class User {
 	}
 
 
+	//人大-显示人大姓名
+	public String realName;
+
+	public String getRealName() {
+		return realName;
+	}
+
+	public void setRealName(String realName) {
+		this.realName = realName;
+	}
+
+
 	public List<Integer> getReadNewsIds() {
 		if (readNewsIds == null)
 			readNewsIds = new ArrayList<Integer>();

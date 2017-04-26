@@ -82,6 +82,16 @@ public class ResUtils {
 			return R.string.utils_str_err;
 	}
 
+	public static final String NPC_TITLE[] = new String[] { "乡镇代表", "区级代表", "市级代表" };
+
+	public static String getNpcTitle(int authority) {
+		authority = authority - 21;
+		if (authority >= 0 && authority < NPC_TITLE.length)
+			return NPC_TITLE[authority];
+		else
+			return " ";
+	}
+
 	public static final int RIVER_S_LITTLE_LEVELS[] = new int[] { R.string.level_1, R.string.level_2, R.string.level_3, R.string.level_4 };
 
 	public static int getRiverSLittleLevel(int lv) {

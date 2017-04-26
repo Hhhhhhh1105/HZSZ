@@ -48,7 +48,7 @@ public class NpcCompFragment extends BaseFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
 
-        if (((TextView) getActivity().findViewById(R.id.tv_head_title)).getText().equals("代表监督详情页"))
+        if (((TextView) getActivity().findViewById(R.id.tv_head_title)).getText().equals("代表信息页"))
             deputyId = NpcMemberActivity.npc.deputyId;
 
         if (listViewWarp == null) {

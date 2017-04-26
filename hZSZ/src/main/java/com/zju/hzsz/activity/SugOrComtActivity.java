@@ -14,6 +14,7 @@ import android.provider.MediaStore;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
@@ -84,8 +85,13 @@ public class SugOrComtActivity extends BaseActivity {
 
 		//如果是人大代表，则显示“代表姓名”，并隐去匿名
 		if (getUser().isNpc()) {
-			((EditText) findViewById(R.id.et_suggest_name)).setHint("代表姓名");
+//			((EditText) findViewById(R.id.et_suggest_name)).setHint("代表姓名");
+			//将投诉人直接显示为人大代表的姓名
+			((EditText) findViewById(R.id.et_suggest_name)).setText(getUser().getRealName());
+			((EditText) findViewById(R.id.et_suggest_name)).setEnabled(false);
 			findViewById(R.id.ll_anonymity).setVisibility(View.GONE);
+			//不自动弹出软键盘
+			getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 		}
 
 
@@ -532,6 +538,7 @@ public class SugOrComtActivity extends BaseActivity {
 
 		hideOperating();
 	}
+
 
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
