@@ -56,6 +56,14 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             warp.setHeadImage(0, 0);
             warp.setHeadTitle(R.string.mycenter);
 
+            if (getBaseActivity().getUser().isNpc()) {
+                rootView.findViewById(R.id.iv_logo).setVisibility(View.INVISIBLE);
+                rootView.findViewById(R.id.tv_name).setVisibility(View.INVISIBLE);
+                rootView.findViewById(R.id.tv_info).setVisibility(View.INVISIBLE);
+                rootView.findViewById(R.id.shape_radius).setVisibility(View.INVISIBLE);
+                rootView.findViewById(R.id.npc_logo).setVisibility(View.VISIBLE);
+            }
+
             rootView.findViewById(R.id.tv_complaint).setOnClickListener(this);
             rootView.findViewById(R.id.tv_suggestion).setOnClickListener(this);
             rootView.findViewById(R.id.tv_collection).setOnClickListener(this);

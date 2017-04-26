@@ -50,6 +50,20 @@ public class NpcMyjobActivity extends BaseActivity implements RadioGroup.OnCheck
         }
     };
 
+    private View.OnClickListener sugClick = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            River river = new River();
+            river.riverId = getUser().getMyRiverId();
+            river.riverName = getUser().riverSum[0].riverName;
+            Intent intent = new Intent(NpcMyjobActivity.this, SugOrComtActivity.class);
+            intent.putExtra(Tags.TAG_RIVER, StrUtils.Obj2Str(river));
+            intent.putExtra(Tags.TAG_INDEX, -1);
+            intent.putExtra(Tags.TAG_ABOOLEAN, false);
+            startActivity(intent);
+        }
+    };
+
     private View.OnClickListener trackClick = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
@@ -72,6 +86,7 @@ public class NpcMyjobActivity extends BaseActivity implements RadioGroup.OnCheck
 
 
         findViewById(R.id.btn_comp).setOnClickListener(comclik);
+        findViewById(R.id.btn_sug).setOnClickListener(sugClick);
         findViewById(R.id.btn_track).setOnClickListener(trackClick);
 
 

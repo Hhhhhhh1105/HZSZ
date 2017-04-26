@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -65,8 +64,19 @@ public class NpcRiverFragment extends BaseFragment {
 
                 convertView = LinearLayout.inflate(context, R.layout.item_npc_record, null);
 
-                RiverRecord record = (RiverRecord) data;
+                final RiverRecord record = (RiverRecord) data;
                 getBaseActivity().getViewRender().renderView(convertView, record);
+
+                convertView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(getBaseActivity(), com.zju.hzsz.chief.activity.ChiefEditRecordActivity.class);
+                        intent.putExtra(Tags.TAG_RECORD, StrUtils.Obj2Str(record));
+                        intent.putExtra(Tags.TAG_ABOOLEAN, true);
+                        getBaseActivity().startActivityForResult(intent, Tags.CODE_EDIT);
+                    }
+                });
+
 
                 return convertView;
             }
@@ -85,6 +95,7 @@ public class NpcRiverFragment extends BaseFragment {
             }
         });
 
+/*
         listViewWarp.getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
@@ -102,7 +113,7 @@ public class NpcRiverFragment extends BaseFragment {
 
                 }
             }
-        });
+        });*/
 
         listViewWarp.startRefresh();
 

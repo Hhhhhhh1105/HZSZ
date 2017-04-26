@@ -280,7 +280,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			"2.河道保洁情况评价（漂浮物、废弃物等）", //rubbish
 			"3.河道养护情况评价（绿化、游步道等）", // odour
 			"4.沿线违法、违章建筑情况", // building
-			"5.沿线排污口情况（以晴天是否排污为准）",// outfall
+			"5.沿线排污口情况（以晴天是否排污为准）"// outfall
 	};
 
 
@@ -324,17 +324,17 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		public void onCheckedChanged(CompoundButton cb, boolean c) {
 			View v = (View) cb.getTag();
 
-			if (cb.getId() == R.id.cb_good) {
+			if (cb.getId() == R.id.cb_good && c) {
 				((CompoundButton) v.findViewById(R.id.cb_bad)).setChecked(false);
 				((CompoundButton) v.findViewById(R.id.cb_medium)).setChecked(false);
 			}
 
-			if (cb.getId() == R.id.cb_medium) {
+			if (cb.getId() == R.id.cb_medium && c) {
 				((CompoundButton) v.findViewById(R.id.cb_good)).setChecked(false);
 				((CompoundButton) v.findViewById(R.id.cb_bad)).setChecked(false);
 			}
 
-			if (cb.getId() == R.id.cb_bad) {
+			if (cb.getId() == R.id.cb_bad && c) {
 				((CompoundButton) v.findViewById(R.id.cb_medium)).setChecked(false);
 				((CompoundButton) v.findViewById(R.id.cb_good)).setChecked(false);
 			}
@@ -405,11 +405,11 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			View v = LinearLayout.inflate(this, R.layout.inc_line_npctrack, null);
 			((TextView) v.findViewById(R.id.tv_title)).setText(CBOX_NPC_TITLES[i]);
 
-			boolean yes = false;
+			int yes = 1;
 			String text = null;
 			try {
 				Field f = clz.getField(CBOX_NPC_FIELDS[i]);
-				yes = f.getInt(riverRecord) == 1;
+				yes = f.getInt(riverRecord); //决定哪一个打勾
 
 				text = (String) clz.getField(CBOX_NPC_FIELDS[i] + "s").get(riverRecord);
 			} catch (Exception e) {
@@ -440,10 +440,12 @@ public class ChiefEditRecordActivity extends BaseActivity {
 				((CheckBox) v.findViewById(R.id.cb_medium)).setEnabled(false);
 				v.findViewById(R.id.et_text).setEnabled(false);
 			}
-			((CheckBox) v.findViewById(R.id.cb_good)).setChecked(yes);
-			((CheckBox) v.findViewById(R.id.cb_medium)).setChecked(!yes);
-			((CheckBox) v.findViewById(R.id.cb_bad)).setChecked(!yes);
-			v.findViewById(R.id.et_text).setVisibility(yes ? View.VISIBLE : View.GONE);
+			if (yes == 0)
+				yes = 1;
+			((CheckBox) v.findViewById(R.id.cb_good)).setChecked(yes == 1); //加个小于号是为了默认能够在“好”的地方打勾
+			((CheckBox) v.findViewById(R.id.cb_medium)).setChecked(yes == 2);
+			((CheckBox) v.findViewById(R.id.cb_bad)).setChecked(yes == 3);
+			v.findViewById(R.id.et_text).setVisibility(yes == 3? View.VISIBLE : View.GONE);
 
 			CBOXES_NPC[i] = v;
 			ll_cboxes.addView(v);

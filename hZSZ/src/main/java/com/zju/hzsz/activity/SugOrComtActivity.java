@@ -45,6 +45,16 @@ public class SugOrComtActivity extends BaseActivity {
 	private boolean isCom = false;   //投诉还是建议
  	private Location location = null;
 
+	private River r;
+
+	private LinearLayout ll_cboxes = null;
+	private boolean isReadOnly = false;
+
+	//河长考核指标
+	private int chiefPatrol = 0;
+	private int chiefFeedBack = 0;
+	private int chiefWork = 0;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -55,7 +65,7 @@ public class SugOrComtActivity extends BaseActivity {
 
 		initHead(R.drawable.ic_head_close, 0);
 
-		River r = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_RIVER), River.class);
+		r = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_RIVER), River.class);
 		int ix = getIntent().getIntExtra(Tags.TAG_INDEX, -1);
 		isCom = getIntent().getBooleanExtra(Tags.TAG_ABOOLEAN, false);
 
@@ -64,12 +74,7 @@ public class SugOrComtActivity extends BaseActivity {
 			((TextView) findViewById(R.id.tv_suggest_river)).setText(R.string.form_complaint_river);
 			((CheckBox) findViewById(R.id.ck_anonymity)).setText(R.string.form_complaint_anonymity);
 
-			//如果是代表投诉，则显示“代表姓名”,并去掉匿名
-			if (getUser().isNpc()) {
-				((EditText) findViewById(R.id.et_suggest_name)).setHint("代表姓名");
-				findViewById(R.id.ll_anonymity).setVisibility(View.GONE);
-			} else
-				((EditText) findViewById(R.id.et_suggest_name)).setHint(R.string.hint_com_name);
+			((EditText) findViewById(R.id.et_suggest_name)).setHint(R.string.hint_com_name);
 
 			((EditText) findViewById(R.id.et_suggest_subject)).setHint(R.string.hint_com_subject);
 		} else {
@@ -77,7 +82,26 @@ public class SugOrComtActivity extends BaseActivity {
 			findViewById(R.id.hsv_photos).setVisibility(View.GONE);
 		}
 
+		//如果是人大代表，则显示“代表姓名”，并隐去匿名
+		if (getUser().isNpc()) {
+			((EditText) findViewById(R.id.et_suggest_name)).setHint("代表姓名");
+			findViewById(R.id.ll_anonymity).setVisibility(View.GONE);
+		}
+
+
 		setTitle(isCom ? R.string.icomplaint : R.string.isuggest);
+
+		//如果是人大代表，并且这条河是自己的河时,并且是监督状态时
+		if (getUser().isNpc() && r.riverId == getUser().getMyRiverId() && !isCom) {
+			refreshToNpcView();
+			btnInit();
+
+			subject = "人大代表监督河长，无主题";
+			contentt = "人大代表监督河长，无内容描述";
+
+			setTitle("我要监督");
+			((TextView) findViewById(R.id.tv_suggest_river)).setText("监督河道");
+		}
 
 		findViewById(R.id.btn_submit).setOnClickListener(new View.OnClickListener() {
 
@@ -184,6 +208,109 @@ public class SugOrComtActivity extends BaseActivity {
 		}
 	}
 
+
+	/*建议表单相关 start*/
+
+	//人大UI
+	private void refreshToNpcView() {
+		findViewById(R.id.inc_npc_sug).setVisibility(View.VISIBLE);
+		findViewById(R.id.ll_et_sugcontent).setVisibility(View.GONE);
+		findViewById(R.id.ll_et_sugsubject).setVisibility(View.GONE);
+		findViewById(R.id.ll_gps).setVisibility(View.GONE);
+	}
+
+	//为各个按钮绑定监听器
+	private void btnInit() {
+		int[] btnToInit = {
+				R.id.cb_good_1, R.id.cb_good_2, R.id.cb_good_3,
+				R.id.cb_medium_1, R.id.cb_medium_2, R.id.cb_medium_3,
+				R.id.cb_bad_1, R.id.cb_bad_2, R.id.cb_bad_3
+		};
+
+		for (int id: btnToInit) {
+			View v = findViewById(id);
+			if (v != null)
+				((CompoundButton) v).setOnCheckedChangeListener(cclTogTagNpc);
+		}
+	}
+
+	//各个按钮的监听器
+	private CompoundButton.OnCheckedChangeListener cclTogTagNpc = new CompoundButton.OnCheckedChangeListener() {
+		@Override
+		public void onCheckedChanged(CompoundButton cb, boolean c) {
+
+			if (c) {
+				switch (cb.getId()) {
+					case R.id.cb_good_1 : {
+						chiefPatrol = 1;
+						((CompoundButton) findViewById(R.id.cb_bad_1)).setChecked(false);
+						((CompoundButton) findViewById(R.id.cb_medium_1)).setChecked(false);
+						break;
+					}
+					case R.id.cb_bad_1 : {
+						chiefPatrol = 3;
+						((CompoundButton) findViewById(R.id.cb_good_1)).setChecked(false);
+						((CompoundButton) findViewById(R.id.cb_medium_1)).setChecked(false);
+						break;
+					}
+
+					case R.id.cb_medium_1 : {
+						chiefPatrol = 2;
+						((CompoundButton) findViewById(R.id.cb_bad_1)).setChecked(false);
+						((CompoundButton) findViewById(R.id.cb_good_1)).setChecked(false);
+						break;
+					}
+
+					case R.id.cb_good_2 : {
+						chiefFeedBack = 1;
+						((CompoundButton) findViewById(R.id.cb_bad_2)).setChecked(false);
+						((CompoundButton) findViewById(R.id.cb_medium_2)).setChecked(false);
+						break;
+					}
+					case R.id.cb_bad_2 : {
+						chiefFeedBack = 3;
+						((CompoundButton) findViewById(R.id.cb_good_2)).setChecked(false);
+						((CompoundButton) findViewById(R.id.cb_medium_2)).setChecked(false);
+						break;
+					}
+
+					case R.id.cb_medium_2 : {
+						chiefFeedBack = 2;
+						((CompoundButton) findViewById(R.id.cb_bad_2)).setChecked(false);
+						((CompoundButton) findViewById(R.id.cb_good_2)).setChecked(false);
+						break;
+					}
+
+					case R.id.cb_good_3 : {
+						chiefWork = 1;
+						((CompoundButton) findViewById(R.id.cb_bad_3)).setChecked(false);
+						((CompoundButton) findViewById(R.id.cb_medium_3)).setChecked(false);
+						break;
+					}
+					case R.id.cb_bad_3 : {
+						chiefWork = 3;
+						((CompoundButton) findViewById(R.id.cb_good_3)).setChecked(false);
+						((CompoundButton) findViewById(R.id.cb_medium_3)).setChecked(false);
+						break;
+					}
+
+					case R.id.cb_medium_3 : {
+						chiefWork = 2;
+						((CompoundButton) findViewById(R.id.cb_bad_3)).setChecked(false);
+						((CompoundButton) findViewById(R.id.cb_good_3)).setChecked(false);
+						break;
+					}
+
+					default:
+						break;
+				}
+			}
+
+		}
+	};
+
+	/*建议表单相关 end*/
+
 	private void setWithRiver(River r, int ix) {
 		if (r != null) {
 			river = r;
@@ -214,8 +341,9 @@ public class SugOrComtActivity extends BaseActivity {
 
 	private void submmit() {
 		uname = ((EditText) findViewById(R.id.et_suggest_name)).getText().toString().trim();
-		subject = ((EditText) findViewById(R.id.et_suggest_subject)).getText().toString().trim();
-		contentt = ((EditText) findViewById(R.id.et_suggest_contentt)).getText().toString().trim();
+		//注意了，如果是人大，没有这两个编辑框。
+		subject = subject == null ? ((EditText) findViewById(R.id.et_suggest_subject)).getText().toString().trim(): subject;
+		contentt = contentt == null ? ((EditText) findViewById(R.id.et_suggest_contentt)).getText().toString().trim() : contentt;
 
 		telno = ((EditText) findViewById(R.id.et_phonenum)).getText().toString().trim();
 		// code = ((EditText)
@@ -330,6 +458,18 @@ public class SugOrComtActivity extends BaseActivity {
 		} else {
 			p = ParamUtils.freeParam(null, "riverId", rid, "advTheme", subject, "advContent", contentt, "advName", uname, "advTelephone", telno, "ifAnonymous", anonymity ? 1 : 0);
 		}
+
+		//人大代表的相关参数
+		try{
+
+			p.put("chiefPatrol", chiefPatrol);
+			p.put("chiefFeedBack", chiefFeedBack);
+			p.put("chiefWork", chiefWork);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
 		// if(((CheckBox) findViewById(R.id.ck_gps)).isChecked())
 		if (location != null && ((CheckBox) findViewById(R.id.ck_gps)).isChecked()) {
 			try {
@@ -351,16 +491,34 @@ public class SugOrComtActivity extends BaseActivity {
 				}
 			}, SugOrComRes.class, p);
 		} else {
-			getRequestContext().add("riveradvise_action_add", new Callback<SugOrComRes>() {
-				@Override
-				public void callback(SugOrComRes o) {
-					if (o != null && o.isSuccess()) {
-						doResult(o);
-					} else {
-						hideOperating();
+			//如果是人大监督自己的河道
+			if (getUser().isNpc() && r.riverId == getUser().getMyRiverId() && !isCom) {
+
+				getRequestContext().add("Add_DeputySupervise_Action", new Callback<SugOrComRes>() {
+					@Override
+					public void callback(SugOrComRes o) {
+						if (o != null && o.isSuccess()) {
+							doResult(o);
+						} else {
+							hideOperating();
+						}
 					}
-				}
-			}, SugOrComRes.class, p);
+				}, SugOrComRes.class, p);
+
+			} else {
+
+				getRequestContext().add("riveradvise_action_add", new Callback<SugOrComRes>() {
+					@Override
+					public void callback(SugOrComRes o) {
+						if (o != null && o.isSuccess()) {
+							doResult(o);
+						} else {
+							hideOperating();
+						}
+					}
+				}, SugOrComRes.class, p);
+
+			}
 		}
 	}
 

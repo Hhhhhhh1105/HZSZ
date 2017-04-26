@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="5c0d2ba7850b007037642a1e9081a588ca8ffc77">
+        sha1="55ec6e6db4e4449180bf7a483e4a090a5b82ef86">
         <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0d82dc1de439c6414b750fac996d17db7eefbbf2\classes.dex" />
     </item>
     <item
@@ -27,177 +27,6 @@
         revision="24.0.0"
         sha1="81be8fa4be06641ed58e4360ef27f5a1ab31d3d6">
         <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.afollestad.material-dialogs-core-0.8.5.1_dc3d3fc36a9fc6cb2c30080c72d12535631eb525\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\mpandroidchartlibrary-2-1-0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="e8e579486323fc12433aca39b93329498a3bbc2d">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\mpandroidchartlibrary-2-1-0_e7a1f7213de3f5e7328bb01837470f5872b86155\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\GetuiExt-2.0.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="7825bfa9135d693e2046eab96fd94e724e0f9eda">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\GetuiExt-2.0.3_df75c800de92a62dffd57c35c5966a6e2dd8f066\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="2045bd651082251428983eb450e6b41983f9878f">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a946bc99ec511c22e1e7ff6896c411f001288dc5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\GetuiSDK2.6.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="3100fe637e8a196d202d7ab652355d5ecc31d465">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\GetuiSDK2.6.1.0_e8c8d71e49d2501c9f7f1342a184ab422d947212\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\SocialSDK_QQZone_2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="4a69b33758dcba3ef519cbd4b6c8af5f41603c4f">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_2_5d45ae57d72b2460efbedbd9a076770a1197e619\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\com.google.gson.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="8cc29697b28803f398e9c45400a7df9dd43a0bb0">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\com.google.gson_eb1245750e10f54f8abdf017ffe9b4416b729fb2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\umeng_social_sdk.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="857c78387c5b911f5dc9b20b307f0edfd16befed">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_sdk_0c1843a439672aa3578143a8180c16ccc87ac1e7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="292a9fa091757208efa65e77eef63088247e51f3">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_b4fe69ca41a5d1a13bf9301cc7e3716393fcac28\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_78ac3704b42dc370330d4a5ec4caf7efceb1e7ab\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\MobCommons-2016.1201.1839.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="d2416fb4e3fe16c82785fc6cd4f8b768b25c6202">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2016.1201.1839_b7bff1b020fb87e9fb3d61bc28218c713062717c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.10.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.getbase-floatingactionbutton-1.10.1_6462eda421a958bbe71d55a3a5dd37bd8d491832\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\BaiduLBS_Android.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="1b35ed593f00f02cecde3ec92683b58bba96a58e">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_0d473495c6ae4f5c99408957cc5092bc2a071f46\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.0.0_0d57dae1ace1091b79c00d6771b9f3c7d9482159\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\locSDK_6.13.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="89074d1026c4938136ae6922ac9e7b0130dc27d4">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.13_085f8190fa20764a31206cc71bfb1ca3f7ff28a9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\SMSSDK-2.1.3\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="fc6d206c94c04bb831ae00c9f6a2833e6aab8a73">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-SMSSDK-2.1.3_85df4f9053aac289432bc448f19a5b5f8433e483\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\SocialSDK_QQZone_1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_1_5f538cb0e806dc6f925af98faac18dbc285952ec\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\uk.co.senab.photoview.1.2.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="cc23e8b6581d22e9a80527ddbb91c8374580de1e">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\uk.co.senab.photoview.1.2.2_b7ec572550f78fbf6350232b3f8d411932f21945\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\SocialSDK_WeiXin_2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="ec0faf74d92d4882d9be51b1b9ebb5ebc83fbea7">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_WeiXin_2_fc4c6a018dd23fc9f46b80c970bfa6c1b9f453a1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_9a84a0eba75e6b0dbe1e225d04f40d95c9da84b8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -237,12 +66,57 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\mpandroidchartlibrary-2-1-0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e8e579486323fc12433aca39b93329498a3bbc2d">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\mpandroidchartlibrary-2-1-0_e7a1f7213de3f5e7328bb01837470f5872b86155\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\GetuiExt-2.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7825bfa9135d693e2046eab96fd94e724e0f9eda">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\GetuiExt-2.0.3_df75c800de92a62dffd57c35c5966a6e2dd8f066\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="11baace1f3188710d381413173278db990d3b7c9">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a946bc99ec511c22e1e7ff6896c411f001288dc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\GetuiSDK2.6.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3100fe637e8a196d202d7ab652355d5ecc31d465">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\GetuiSDK2.6.1.0_e8c8d71e49d2501c9f7f1342a184ab422d947212\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidStudio\HZSZ\hZSZ\libs\httpmime-4.1.3.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
         <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.1.3_08c1779a8d38ecfe32b3004a9633fb1b17ea674b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\SocialSDK_QQZone_2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4a69b33758dcba3ef519cbd4b6c8af5f41603c4f">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_2_5d45ae57d72b2460efbedbd9a076770a1197e619\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -264,12 +138,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\com.google.gson.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8cc29697b28803f398e9c45400a7df9dd43a0bb0">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\com.google.gson_eb1245750e10f54f8abdf017ffe9b4416b729fb2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidStudio\HZSZ\hZSZ\libs\json_simple-1.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
         <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\json_simple-1.1_3ae59a25daa04318ac6e798f49ab4256f7d3cae3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\umeng_social_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="857c78387c5b911f5dc9b20b307f0edfd16befed">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_sdk_0c1843a439672aa3578143a8180c16ccc87ac1e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_b4fe69ca41a5d1a13bf9301cc7e3716393fcac28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_78ac3704b42dc370330d4a5ec4caf7efceb1e7ab\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -291,6 +201,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\MobCommons-2016.1201.1839.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d2416fb4e3fe16c82785fc6cd4f8b768b25c6202">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2016.1201.1839_b7bff1b020fb87e9fb3d61bc28218c713062717c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.10.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.getbase-floatingactionbutton-1.10.1_6462eda421a958bbe71d55a3a5dd37bd8d491832\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="1b35ed593f00f02cecde3ec92683b58bba96a58e">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_0d473495c6ae4f5c99408957cc5092bc2a071f46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidStudio\HZSZ\hZSZ\libs\picasso-2.5.2.jar"
         jumboMode="true"
         optimize="true"
@@ -309,12 +246,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.0.0_0d57dae1ace1091b79c00d6771b9f3c7d9482159\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidStudio\HZSZ\hZSZ\libs\SocialSDK_QQZone_3.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="d57cae1dcd1eeeec2cd8197fcdd7a0316216481e">
         <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_3_4135d4c23cea3b8a03d4b539baa8d1cb17182046\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\locSDK_6.13.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="89074d1026c4938136ae6922ac9e7b0130dc27d4">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.13_085f8190fa20764a31206cc71bfb1ca3f7ff28a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\SMSSDK-2.1.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fc6d206c94c04bb831ae00c9f6a2833e6aab8a73">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-SMSSDK-2.1.3_85df4f9053aac289432bc448f19a5b5f8433e483\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -333,6 +297,42 @@
         revision="24.0.0"
         sha1="3311e6e539ebd7a6f754b11ab3c988a287e8d97e">
         <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\sinlibs.2016.311_a49069f7c6e9470511b362810ff3837d716d279a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\SocialSDK_QQZone_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_1_5f538cb0e806dc6f925af98faac18dbc285952ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\uk.co.senab.photoview.1.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="cc23e8b6581d22e9a80527ddbb91c8374580de1e">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\uk.co.senab.photoview.1.2.2_b7ec572550f78fbf6350232b3f8d411932f21945\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ec0faf74d92d4882d9be51b1b9ebb5ebc83fbea7">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_WeiXin_2_fc4c6a018dd23fc9f46b80c970bfa6c1b9f453a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_9a84a0eba75e6b0dbe1e225d04f40d95c9da84b8\classes.dex" />
     </item>
     <item
         is-multidex="true"

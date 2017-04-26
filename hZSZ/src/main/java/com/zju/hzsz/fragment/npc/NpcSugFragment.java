@@ -1,6 +1,7 @@
 package com.zju.hzsz.fragment.npc;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,7 +19,9 @@ import com.zju.hzsz.model.DeputySupervise;
 import com.zju.hzsz.model.NpcSugListRes;
 import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.net.Constants;
+import com.zju.hzsz.npc.activity.NpcSugDetailActivity;
 import com.zju.hzsz.utils.ParamUtils;
+import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
 
 import org.json.JSONObject;
@@ -55,8 +58,17 @@ public class NpcSugFragment extends BaseFragment {
 
                 convertView = LinearLayout.inflate(context, R.layout.item_npc_sug, null);
 
-                DeputySupervise ds = (DeputySupervise) data;
+                final DeputySupervise ds = (DeputySupervise) data;
                 getBaseActivity().getViewRender().renderView(convertView, ds);
+
+                convertView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(getBaseActivity(), NpcSugDetailActivity.class);
+                        intent.putExtra("npcsug", StrUtils.Obj2Str(ds));
+                        startActivity(intent);
+                    }
+                });
 
                 return convertView;
             }

@@ -48,6 +48,7 @@ public class CompDetailActivity extends BaseActivity {
 
 		if (comp != null) {
 			if (!comp.isComp()) {
+				//在comp中就可以判断其是投诉还是建议
 				// 建议
 				changeToSugs((ViewGroup) findViewById(R.id.ll_root));
 			}

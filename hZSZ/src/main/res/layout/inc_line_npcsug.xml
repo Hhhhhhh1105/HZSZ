@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/lineheight"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_medium"
+    android:paddingLeft="@dimen/page_padding"
+    android:paddingRight="@dimen/page_padding"
+    android:paddingTop="@dimen/padding_medium" >
+
+    <TextView
+        android:id="@+id/tv_npc_workcomment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="工作评价"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_title_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="河长巡河情况评价（次数 、频率、记录等）"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_good_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/padding_medium"
+            android:button="@null"
+            android:checked="true"
+            android:drawableLeft="@drawable/cb_green_gray"
+            android:text="好"
+            android:textColor="@color/text_gray_green" />
+
+        <CheckBox
+            android:id="@+id/cb_medium_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="false"
+            android:drawableLeft="@drawable/cb_green_gray"
+            android:text="一般"
+            android:textColor="@color/text_gray_green" />
+
+        <CheckBox
+            android:id="@+id/cb_bad_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="false"
+            android:drawableLeft="@drawable/cb_green_gray"
+            android:text="差"
+            android:textColor="@color/text_gray_green" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_title_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="河长处理投诉举报情况评价（时效、解决率）"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_good_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/padding_medium"
+            android:button="@null"
+            android:checked="true"
+            android:drawableLeft="@drawable/cb_green_gray"
+            android:text="好"
+            android:textColor="@color/text_gray_green" />
+
+        <CheckBox
+            android:id="@+id/cb_medium_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="false"
+            android:drawableLeft="@drawable/cb_green_gray"
+            android:text="一般"
+            android:textColor="@color/text_gray_green" />
+
+        <CheckBox
+            android:id="@+id/cb_bad_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="false"
+            android:drawableLeft="@drawable/cb_green_gray"
+            android:text="差"
+            android:textColor="@color/text_gray_green" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_title_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="对河长履职情况的总体评价"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_good_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/padding_medium"
+            android:button="@null"
+            android:checked="true"
+            android:drawableLeft="@drawable/cb_green_gray"
+            android:text="满意"
+            android:textColor="@color/text_gray_green" />
+
+        <CheckBox
+            android:id="@+id/cb_medium_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="false"
+            android:drawableLeft="@drawable/cb_green_gray"
+            android:text="基本满意"
+            android:textColor="@color/text_gray_green" />
+
+        <CheckBox
+            android:id="@+id/cb_bad_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="false"
+            android:drawableLeft="@drawable/cb_green_gray"
+            android:text="不满意"
+            android:textColor="@color/text_gray_green" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/bg_gray"/>
+
+    <LinearLayout
+        style="@style/form_singleline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/form_singleline_margin_v"
+        android:layout_marginTop="@dimen/form_singleline_margin_v"
+        android:orientation="horizontal"
+        android:padding="@dimen/form_contain_padding" >
+
+        <EditText
+            android:id="@+id/et_npc_otherquestion"
+            style="@style/form_singleline_te"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/form_5line_h"
+            android:layout_weight="1"
+            android:gravity="top|left"
+            android:hint="其他建议" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

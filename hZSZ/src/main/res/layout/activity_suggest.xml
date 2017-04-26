@@ -88,6 +88,13 @@
                     android:singleLine="true" />
             </LinearLayout>
 
+            <include
+                android:id="@+id/inc_npc_sug"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                layout="@layout/inc_line_npcsug"
+                android:visibility="gone" />
+
             <LinearLayout
                 style="@style/form_singleline"
                 android:layout_width="fill_parent"
@@ -130,6 +137,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_et_sugsubject"
                 style="@style/form_singleline"
                 android:layout_width="fill_parent"
                 android:layout_height="@dimen/form_singleline_h"
@@ -149,6 +157,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_et_sugcontent"
                 style="@style/form_singleline"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -223,6 +232,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_gps"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/form_singleline_margin_v"

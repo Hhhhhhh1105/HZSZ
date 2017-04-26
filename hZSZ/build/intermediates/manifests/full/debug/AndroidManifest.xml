@@ -326,7 +326,9 @@
         <activity
             android:name="com.zju.hzsz.npc.activity.NpcRankActivity"
             android:screenOrientation="portrait" />
-
+        <activity
+            android:name="com.zju.hzsz.npc.activity.NpcSugDetailActivity"
+            android:screenOrientation="portrait" />
         <!-- end npc -->
 
         <service android:name="com.zju.hzsz.service.LocalService" />
