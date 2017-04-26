@@ -24,6 +24,7 @@ import com.zju.hzsz.model.District;
 import com.zju.hzsz.model.NpcRanking;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -55,6 +56,11 @@ public class NpcRankActivity extends BaseActivity {
 
         setTitle("代表履职排名");
         initHead(R.drawable.ic_head_back, R.drawable.ic_head_order);
+
+        //将日期设置为当前年月
+        year = "" + Calendar.getInstance().get(Calendar.YEAR);
+        month = "" + (Calendar.getInstance().get(Calendar.MONTH) + 1);
+        refreshDateView();
 
         SwipeRefreshLayout swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.srl_listview);
         lv_ranking = (ListView) findViewById(R.id.lv_ranking);
