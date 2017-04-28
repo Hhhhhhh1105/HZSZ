@@ -5,53 +5,35 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="52767371799649"
+    timestamp="1914156558020"
     token="5820434530711097307"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1502" />
+        duration="20604" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="135" />
+        duration="2772" />
     <task
         name="verifier"
-        duration="10" />
+        duration="523" />
 
     <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
+        location="D:\AndroidStudio\HZSZ\hZSZ\build\outputs\apk\hZSZ-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="49646879410227"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\outputs\apk\hZSZ-debug.apk"
-            type="MAIN" />
-    </build>
-    <build
-        timestamp="50845408206082"
+        timestamp="26222044298408"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="52057822557075"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="52767371799649"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
             type="DEX" />
     </build>
 

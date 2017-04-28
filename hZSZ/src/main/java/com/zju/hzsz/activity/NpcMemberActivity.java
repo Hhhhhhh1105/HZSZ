@@ -16,6 +16,7 @@ import com.zju.hzsz.fragment.npc.NpcRiverFragment;
 import com.zju.hzsz.fragment.npc.NpcSugFragment;
 import com.zju.hzsz.model.Npc;
 import com.zju.hzsz.model.River;
+import com.zju.hzsz.utils.ResUtils;
 import com.zju.hzsz.utils.StrUtils;
 
 /**
@@ -44,7 +45,7 @@ public class NpcMemberActivity extends BaseActivity implements RadioGroup.OnChec
         npc = StrUtils.Str2Obj(getIntent().getExtras().getString(Tags.TAG_NPC), Npc.class);
         //设置人大代表的基本信息
         ((TextView) findViewById(R.id.tv_npc_name)).setText(npc.name);
-        ((TextView) findViewById(R.id.tv_npc_title)).setText(npc.position);
+        ((TextView) findViewById(R.id.tv_npc_title)).setText(ResUtils.getNpcTitle(npc.authority));
         ((TextView) findViewById(R.id.tv_npc_mobilephone)).setText(npc.mobilephone);
         ((TextView) findViewById(R.id.tv_npc_district)).setText(npc.districtName);
 

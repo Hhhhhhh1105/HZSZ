@@ -7,6 +7,8 @@ public class RiverRecord {
 	public String recordSerNum;
 	public DateTime recordDate;
 
+	public int recordPersonAuthority; //巡河人的权限
+
 	public int flotage; // 河面是否存在漂浮物
 	public String flotages; // 具体描述
 	public int rubbish; // 河岸是否存在垃圾

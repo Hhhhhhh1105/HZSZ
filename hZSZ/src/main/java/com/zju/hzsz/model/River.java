@@ -54,6 +54,8 @@ public class River {
 	public LowLevelRiver[] lowLevelRivers; //下属河道
 	public VillageRiverChief[] villageRiverChiefs; //下属村级河长列表
 
+	public Npc[] deputiesJsons; //人大代表
+
 	public String riverAlias; //河道别名
 	public String supervisePhone; //统一监督电话
 	//

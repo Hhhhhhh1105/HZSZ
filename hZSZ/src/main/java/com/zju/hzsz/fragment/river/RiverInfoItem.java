@@ -294,6 +294,10 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 			final LinearLayout ll_rivers = (LinearLayout) warp.getViewById(R.id.ll_rivers);
 			ll_rivers.removeAllViews();
 
+			//人大监督员部分
+			final LinearLayout ll_npcs = (LinearLayout) warp.getViewById(R.id.ll_npcs);
+			ll_npcs.removeAllViews();
+
 			//市级河长或区级河长
 			if (river.riverLevel <= 3) {
 				View river_line = LinearLayout.inflate(context, R.layout.item_river_contact_line, null);
@@ -471,14 +475,37 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 
 			ll_contacts.addView(row_superPhone);
 
-			//人大监督员 如果非人大代表，不能看到电话号码
-			LinearLayout row_npc = new LinearLayout(context);
+
+		/*	LinearLayout row_npc = new LinearLayout(context);
 			row_npc.setOrientation(LinearLayout.HORIZONTAL);
 			if (context.getUser().isNpc())
 				row_npc.addView(initContItem(R.string.river_npc, "监督员姓名", "123456789", false));
 			else
 				row_npc.addView(initContItem(R.string.river_npc, "监督员姓名", null, false));
-			ll_contacts.addView(row_npc);
+			ll_contacts.addView(row_npc);*/
+
+			//人大监督员 如果非人大代表，不能看到电话号码
+			if (river.deputiesJsons.length > 0) {
+
+				warp.getViewById(R.id.tv_npc).setVisibility(View.VISIBLE);
+
+				for (int i = 0; i < river.deputiesJsons.length; i++) {
+
+					LinearLayout row_npc = new LinearLayout(context);
+					row_npc.setOrientation(LinearLayout.HORIZONTAL);
+					if (context.getUser().isNpc()) {
+						row_npc.addView(initContItem(R.string.river_npc_name, river.deputiesJsons[i].name, river.deputiesJsons[i].mobilephone, false));
+					}
+					else {
+						row_npc.addView(initContItem(R.string.river_npc_name, river.deputiesJsons[i].name, null, false));
+					}
+					row_npc.addView(initContItem(R.string.river_npc_title, ResUtils.getNpcTitle(river.deputiesJsons[i].authority), null, false));
+					ll_npcs.addView(row_npc);
+				}
+
+			} else {
+				warp.getViewById(R.id.tv_npc).setVisibility(View.GONE);
+			}
 
 
 

@@ -123,7 +123,10 @@
     <string name="river_district_title">区级河长</string>
     <string name="river_city_title">市级河长</string>
     <string name="river_supervisePhone">统一监督电话</string>
+
     <string name="river_npc">人大监督员</string>
+    <string name="river_npc_name">代表姓名</string>
+    <string name="river_npc_title">代表级别</string>
 
     <!-- i'm tired for English variable name -->
     <string name="river_quhezhang">河长姓名</string>

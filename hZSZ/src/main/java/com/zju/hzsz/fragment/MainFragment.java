@@ -696,7 +696,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			View view = LinearLayout.inflate(getBaseActivity(), R.layout.item_mainpage_npc, null);
 
 			((TextView) view.findViewById(R.id.tv_name_l)).setText(npc_l.name);  //人大姓名
-			((TextView) view.findViewById(R.id.tv_title_l)).setText(npc_l.position);   //管理等级
+			((TextView) view.findViewById(R.id.tv_title_l)).setText(ResUtils.getNpcTitle(npc_l.authority));   //管理等级
 			if (npc_l.lastRecordDays > 0)
 				((TextView) view.findViewById(R.id.tv_river_l)).setText("于" + npc_l.lastRecordDays + "天前巡过" + npc_l.riverName);  //巡河信息
 			else
@@ -708,7 +708,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			if (npc_r != null) {
 
 				((TextView) view.findViewById(R.id.tv_name_r)).setText(npc_r.name);  //人大姓名
-				((TextView) view.findViewById(R.id.tv_title_r)).setText(npc_r.position);   //管理等级
+				((TextView) view.findViewById(R.id.tv_title_r)).setText(ResUtils.getNpcTitle(npc_r.authority));   //管理等级
 				if (npc_r.lastRecordDays > 0)
 					((TextView) view.findViewById(R.id.tv_river_r)).setText("于" + npc_r.lastRecordDays + "天前巡过" + npc_r.riverName);  //巡河信息
 				else

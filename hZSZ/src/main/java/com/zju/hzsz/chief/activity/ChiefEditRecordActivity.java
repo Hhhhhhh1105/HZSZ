@@ -111,29 +111,6 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		findViewById(R.id.btn_submit).setOnClickListener(this);//保存按钮
 		findViewById(R.id.btn_cancel).setOnClickListener(this);//取消按钮
 
-		//退出巡河时的提醒
-		findViewById(R.id.iv_head_left).setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				AlertDialog.Builder ab = new AlertDialog.Builder(ChiefEditRecordActivity.this);
-				ab.setTitle("是否退出巡河");
-				ab.setMessage("退出巡河界面后，所记录轨迹将消失");
-				ab.setPositiveButton("确定", new DialogInterface.OnClickListener() {
-					@Override
-					public void onClick(DialogInterface arg0, int arg1) {
-						finish();
-					}
-				});
-				ab.setNegativeButton("取消", new DialogInterface.OnClickListener() {
-					@Override
-					public void onClick(DialogInterface arg0, int arg1) {
-						arg0.dismiss();
-					}
-				});
-				ab.setCancelable(false);
-				ab.create().show();
-			}
-		});
 
 		btn_track = (Button) findViewById(R.id.btn_track);//查看轨迹按钮-巡河界面
 		btn_track.setOnClickListener(new View.OnClickListener() {
@@ -168,6 +145,30 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			riverRecord.locRiverName = "选择河道";
 			viewRender.renderView(findViewById(R.id.sv_main), riverRecord);
 
+			//退出巡河时的提醒
+			findViewById(R.id.iv_head_left).setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View view) {
+					AlertDialog.Builder ab = new AlertDialog.Builder(ChiefEditRecordActivity.this);
+					ab.setTitle("是否退出巡河");
+					ab.setMessage("退出巡河界面后，所记录轨迹将消失");
+					ab.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+						@Override
+						public void onClick(DialogInterface arg0, int arg1) {
+							finish();
+						}
+					});
+					ab.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+						@Override
+						public void onClick(DialogInterface arg0, int arg1) {
+							arg0.dismiss();
+						}
+					});
+					ab.setCancelable(false);
+					ab.create().show();
+				}
+			});
+
 			if (!getUser().isNpc())
 				refreshToView();
 			else
@@ -196,6 +197,14 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			}
 		} else {//从具体巡河条目中进入
 			setTitle("编辑巡查记录");
+
+			findViewById(R.id.iv_head_left).setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View view) {
+					finish();
+				}
+			});
+
 			ll_cboxes.removeAllViews();
 
 			showOperating();
@@ -233,14 +242,17 @@ public class ChiefEditRecordActivity extends BaseActivity {
 						}
 
 						viewRender.renderView(findViewById(R.id.sv_main), riverRecord);
-						if (!getUser().isNpc())
-							refreshToView();
-						else
+//						if (!getUser().isNpc())
+						//点击具体条目之后，若巡河人的级别为人大，则用人大的视图；是河长，则用河长的视图
+						if (riverRecord.recordPersonAuthority > 20)
 							refreshToNpcView();
+						else
+							refreshToView();
 
 					}
 				}
 			}, RiverRecordRes.class, ParamUtils.freeParam(null, "recordId", riverRecord.recordId,
+					"recordPersonName", riverRecord.recordPersonName,
 					"authority", getUser().getAuthority()));
 		}
 
