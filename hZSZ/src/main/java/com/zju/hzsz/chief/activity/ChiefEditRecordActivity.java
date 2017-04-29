@@ -253,6 +253,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 				}
 			}, RiverRecordRes.class, ParamUtils.freeParam(null, "recordId", riverRecord.recordId,
 					"recordPersonName", riverRecord.recordPersonName,
+					"recordPersonId",riverRecord.recordPersonId,
 					"authority", getUser().getAuthority()));
 		}
 

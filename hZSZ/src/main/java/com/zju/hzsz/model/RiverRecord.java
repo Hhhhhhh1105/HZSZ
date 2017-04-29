@@ -8,6 +8,7 @@ public class RiverRecord {
 	public DateTime recordDate;
 
 	public int recordPersonAuthority; //巡河人的权限
+	public long recordPersonId; //巡河人的userId
 
 	public int flotage; // 河面是否存在漂浮物
 	public String flotages; // 具体描述

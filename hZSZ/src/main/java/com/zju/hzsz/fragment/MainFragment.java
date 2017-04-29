@@ -34,7 +34,6 @@ import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.Values;
 import com.zju.hzsz.activity.MainActivity;
-import com.zju.hzsz.activity.NpcListActivity;
 import com.zju.hzsz.activity.NpcMemberActivity;
 import com.zju.hzsz.activity.OutletActivity;
 import com.zju.hzsz.activity.OutletListActivity;
@@ -59,6 +58,7 @@ import com.zju.hzsz.model.Section;
 import com.zju.hzsz.model.SmallWater;
 import com.zju.hzsz.model.StartInfo;
 import com.zju.hzsz.net.Callback;
+import com.zju.hzsz.npc.activity.NpcMyjobActivity;
 import com.zju.hzsz.utils.ImgUtils;
 import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.ResUtils;
@@ -314,7 +314,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			rootView.findViewById(R.id.tv_selnpc).setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View view) {
-					Intent intent = new Intent(getBaseActivity(), NpcListActivity.class);
+					Intent intent = new Intent(getBaseActivity(), NpcMyjobActivity.class);
 					startActivity(intent);
 				}
 			});
