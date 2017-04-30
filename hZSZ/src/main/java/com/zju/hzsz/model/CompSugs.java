@@ -18,6 +18,8 @@ public class CompSugs {
 	public String advTheme;
 	public String advicePicPath;
 
+	public int compPersonId; //投诉人的Id
+
 	public boolean isComp() {
 		return complaintsId != 0;
 	}

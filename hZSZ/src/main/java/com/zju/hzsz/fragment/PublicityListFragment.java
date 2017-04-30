@@ -116,6 +116,7 @@ public class PublicityListFragment extends BaseFragment {
 						comp.compStatus = cp.compStatus;
 						comp.compTheme = cp.compTheme;
 						comp.complaintsContent = cp.compContent;
+						comp.compPersonId = cp.compPersonId;
 
 						Intent intent = new Intent(getBaseActivity(), CompDetailActivity.class);
 						intent.putExtra(Tags.TAG_COMP, StrUtils.Obj2Str(comp));

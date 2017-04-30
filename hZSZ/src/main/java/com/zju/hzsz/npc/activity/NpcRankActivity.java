@@ -22,6 +22,9 @@ import com.zju.hzsz.chief.activity.YearMonthSelectDialog;
 import com.zju.hzsz.clz.ViewWarp;
 import com.zju.hzsz.model.District;
 import com.zju.hzsz.model.NpcRanking;
+import com.zju.hzsz.model.NpcRankingRes;
+import com.zju.hzsz.net.Callback;
+import com.zju.hzsz.utils.ParamUtils;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -63,6 +66,7 @@ public class NpcRankActivity extends BaseActivity {
         refreshDateView();
 
         SwipeRefreshLayout swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.srl_listview);
+        swipeRefreshLayout.setEnabled(false);
         lv_ranking = (ListView) findViewById(R.id.lv_ranking);
 
         //区划选择监听器
@@ -113,8 +117,8 @@ public class NpcRankActivity extends BaseActivity {
 
                 ViewWarp warp = new ViewWarp(convertView, context);
                 warp.setText(R.id.tv_index, (position + 1) + "");
-                warp.setText(R.id.tv_name, nr.npcName);
-                warp.setText(R.id.tv_worksum, nr.npcWorkSum + "");
+                warp.setText(R.id.tv_name, nr.deputyName);
+                warp.setText(R.id.tv_worksum, nr.deputyJobSum + "");
 
                 return convertView;
             }
@@ -133,28 +137,43 @@ public class NpcRankActivity extends BaseActivity {
     //数据更新函数
     public void onRefresh() {
 
-        setRefreshing(true);
+        showOperating();
 
         //发送请求
         //test
-        rankings.clear();
+      /*  rankings.clear();
         for (int i = 0; i < 10; i ++) {
             NpcRanking np = new NpcRanking();
             np.setNpcName("张大大");
             np.setNpcWorkSum(10 - i);
             rankings.add(np);
-        }
+        }*/
 
-        adapter.notifyDataSetChanged();
+        getRequestContext().add("Get_Deputies_RankingList", new Callback<NpcRankingRes>() {
+            @Override
+            public void callback(NpcRankingRes o) {
 
-        setRefreshing(false);
+                hideOperating();
+
+                if (o != null && o.isSuccess()) {
+                    rankings.clear();
+                    for (NpcRanking nr : o.data) {
+                        rankings.add(nr);
+                    }
+                    adapter.notifyDataSetChanged();
+
+                    if (o.data.length == 0) {
+                        showToast("暂时无排行榜数据");
+                    }
+
+                }
+
+            }
+        }, NpcRankingRes.class, ParamUtils.freeParam(null, "year", year, "month", month, "districtId", curDistrict.districtId));
 
     }
 
-    //显示刷新进度条
-    private void setRefreshing(boolean b) {
-        ((SwipeRefreshLayout) findViewById(R.id.srl_listview)).setRefreshing(b);
-    }
+
 
 
 

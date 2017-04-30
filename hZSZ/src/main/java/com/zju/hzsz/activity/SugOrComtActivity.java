@@ -103,7 +103,6 @@ public class SugOrComtActivity extends BaseActivity {
 			btnInit();
 
 			subject = "人大代表监督河长，无主题";
-			contentt = "人大代表监督河长，无内容描述";
 
 			setTitle("我要监督");
 			((TextView) findViewById(R.id.tv_suggest_river)).setText("监督河道");
@@ -349,7 +348,10 @@ public class SugOrComtActivity extends BaseActivity {
 		uname = ((EditText) findViewById(R.id.et_suggest_name)).getText().toString().trim();
 		//注意了，如果是人大，没有这两个编辑框。
 		subject = subject == null ? ((EditText) findViewById(R.id.et_suggest_subject)).getText().toString().trim(): subject;
-		contentt = contentt == null ? ((EditText) findViewById(R.id.et_suggest_contentt)).getText().toString().trim() : contentt;
+		if (getUser().isNpc() && r.riverId == getUser().getMyRiverId()) {
+			contentt = ((EditText) findViewById(R.id.et_npc_otherquestion)).getText().toString().trim();
+		} else
+			contentt = ((EditText) findViewById(R.id.et_suggest_contentt)).getText().toString().trim();
 
 		telno = ((EditText) findViewById(R.id.et_phonenum)).getText().toString().trim();
 		// code = ((EditText)
@@ -389,8 +391,13 @@ public class SugOrComtActivity extends BaseActivity {
 		}
 
 		if (contentt.length() == 0) {
-			showToast("内容描述不能为空!");
-			((EditText) findViewById(R.id.et_suggest_contentt)).requestFocus();
+			if (getUser().isNpc()) {
+				showToast("其他建议不能为空!");
+				((EditText) findViewById(R.id.et_npc_otherquestion)).requestFocus();
+			} else{
+				showToast("内容描述不能为空!");
+				((EditText) findViewById(R.id.et_suggest_contentt)).requestFocus();
+			}
 			return;
 		}
 

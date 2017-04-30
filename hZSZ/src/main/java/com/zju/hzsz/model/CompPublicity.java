@@ -21,6 +21,8 @@ public class CompPublicity {
 	public double compLong;
 	public double compLat;
 
+	public int compPersonId; //投诉人的Id
+
 	//得到年月日形式的字符串
 	public String getDateTime() {
 		return compTime != null ? compTime.getYMDHM(BaseActivity.getCurActivity()) : "";

@@ -3,6 +3,7 @@ package com.zju.hzsz.npc.activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import com.zju.hzsz.R;
@@ -41,6 +42,11 @@ public class NpcSugDetailActivity extends BaseActivity {
         ((TextView) findViewById(R.id.tv_npc_suptime)).setText(ds.getDateTime());
         ((TextView) findViewById(R.id.tv_sup_personname)).setText(ds.dealPersonName);
         ((TextView) findViewById(R.id.tv_sup_river)).setText(ds.advRiverName);
+
+        //设置建议内容，并将按钮设置成不可点击
+        ((EditText) findViewById(R.id.et_npc_otherquestion)).setText(ds.advContent);
+        ((EditText) findViewById(R.id.et_npc_otherquestion)).setEnabled(false);
+
     }
 
     private void initWork() {

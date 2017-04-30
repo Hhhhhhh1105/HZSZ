@@ -293,6 +293,8 @@
         <activity
             android:name=".chief.activity.ChiefSignActivity"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".chief.activity.ChiefNpcSupActivity"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".chief.activity.ChiefMailListActivity"
             android:screenOrientation="portrait"></activity>

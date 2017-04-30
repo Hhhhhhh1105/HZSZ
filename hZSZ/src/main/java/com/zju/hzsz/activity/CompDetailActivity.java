@@ -23,6 +23,8 @@ import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.ResUtils;
 import com.zju.hzsz.utils.StrUtils;
 
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -124,7 +126,24 @@ public class CompDetailActivity extends BaseActivity {
 
 	private void loadData() {
 		showOperating();
-		getRequestContext().add(comp.isComp() ? "complaintscontent_data_get" : "advicecontent_data_get", new Callback<CompDetailRes>() {
+
+		JSONObject params;
+		String request;
+
+		if (comp.isComp()) {
+			request =  "complaintscontent_data_get";
+			params = ParamUtils.freeParam(null, "complaintsId" , comp.getId());
+			if (comp.compPersonId > 0) {
+				request = "Get_ChiefComplain_Content";
+				params = ParamUtils.freeParam(null, "complianId" , comp.getId());
+			}
+
+		} else {
+			request = "advicecontent_data_get";
+			params = ParamUtils.freeParam(null, "adviceId", comp.getId());
+		}
+
+		getRequestContext().add(request, new Callback<CompDetailRes>() {
 			@Override
 			public void callback(CompDetailRes o) {
 				hideOperating();
@@ -136,7 +155,7 @@ public class CompDetailActivity extends BaseActivity {
 					initPhotoView(compFul.getPicPath());
 				}
 			}
-		}, CompDetailRes.class, ParamUtils.freeParam(null, comp.isComp() ? "complaintsId" : "adviceId", comp.getId()));
+		}, CompDetailRes.class, params);
 
 		if (comp.getStatus() >= 3) {
 			// 获取评价
@@ -148,7 +167,7 @@ public class CompDetailActivity extends BaseActivity {
 						render.renderView(findViewById(R.id.ll_evalinfo), o.data);
 					}
 				}
-			}, EvalRes.class, ParamUtils.freeParam(null, comp.isComp() ? "complaintsId" : "adviceId", comp.getId()));
+			}, EvalRes.class, params);
 		}
 	}
 

@@ -7,15 +7,15 @@ package com.zju.hzsz.model;
 
 public class NpcRanking {
     //代表姓名
-    public String npcName;
+    public String deputyName;
     //履职次数
-    public int npcWorkSum;
+    public int deputyJobSum;
 
     public void setNpcWorkSum(int npcWorkSum) {
-        this.npcWorkSum = npcWorkSum;
+        this.deputyJobSum = npcWorkSum;
     }
 
     public void setNpcName(String npcName) {
-        this.npcName = npcName;
+        this.deputyName = npcName;
     }
 }

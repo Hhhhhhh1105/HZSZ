@@ -110,6 +110,7 @@ public class RiverInfoPubItem extends BaseRiverPagerItem {
 							comp.complaintsId = cp.getId();
 							comp.complaintsPicPath = cp.getCompPicPath();
 							comp.compStatus = cp.compStatus;
+							comp.compPersonId = cp.compPersonId;
 
 							Intent intent = new Intent(context, CompDetailActivity.class);
 							intent.putExtra(Tags.TAG_COMP, StrUtils.Obj2Str(comp));
