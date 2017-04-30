@@ -43,7 +43,7 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
     private int[] showWhenLogined = { R.id.tv_logout, R.id.rl_setting, R.id.rl_complaint, R.id.rl_suggestion };
     //村级河长登陆时
     private int[] showWhenChiefLogined = { R.id.rl_chief_sign, R.id.rl_chief_mail, R.id.rl_chief_complaint, R.id.rl_chief_duban,
-            R.id.rl_chief_notepad, R.id.rl_chief_record, R.id.rl_chief_suggestion };
+            R.id.rl_chief_notepad, R.id.rl_chief_record, R.id.rl_chief_suggestion, R.id.rl_chief_npcsug };
     private int[] showWhenDisChiefLogined = { R.id.rl_chief_rivermanage, R.id.rl_chief_record, R.id.rl_chief_notepad };
 //    private int[] showWhenChiefLogined = { R.id.rl_chief_sign, R.id.rl_chief_mail, R.id.rl_chief_complaint, R.id.rl_chief_duban, R.id.rl_chief_record, R.id.rl_chief_suggestion };
     private int[] showWhenNpcLogined = { R.id.rl_npc_name, R.id.rl_npc_myriver, R.id.rl_npc_myjob, R.id.rl_npc_comment, R.id.rl_npc_legal };
@@ -78,6 +78,7 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             rootView.findViewById(R.id.tv_chief_suggestion).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_sign).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_mail).setOnClickListener(this);
+            rootView.findViewById(R.id.tv_chief_npcsug).setOnClickListener(this);  //代表监督
 
             rootView.findViewById(R.id.tv_npc_legal).setOnClickListener(this);  //规范法规
             rootView.findViewById(R.id.tv_npc_myriver).setOnClickListener(this);  //我的河道
@@ -250,6 +251,11 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             }
             case R.id.tv_chief_rivermanage: {
                 Intent intent = new Intent(getBaseActivity(), com.zju.hzsz.chief.activity.ChiefRivermanageActivity.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.tv_chief_npcsug: {
+                Intent intent = new Intent(getBaseActivity(), com.zju.hzsz.chief.activity.ChiefNpcSupActivity.class);
                 startActivity(intent);
                 break;
             }

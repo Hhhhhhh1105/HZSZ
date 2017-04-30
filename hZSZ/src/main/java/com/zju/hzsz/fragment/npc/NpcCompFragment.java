@@ -122,7 +122,7 @@ public class NpcCompFragment extends BaseFragment {
         if (deputyId != 0) {
             params = ParamUtils.freeParam(getPageParam(refresh), "deputyId", deputyId);
         } else {
-            params = ParamUtils.freeParam(getPageParam(refresh));
+            params = ParamUtils.freeParam(getPageParam(refresh), "deputyStatus", 1);
         }
 
 

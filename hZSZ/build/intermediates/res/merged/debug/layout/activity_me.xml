@@ -201,6 +201,8 @@
                 </ImageView>
             </RelativeLayout>
 
+
+
             <RelativeLayout
                 android:id="@+id/rl_chief_inspect"
                 android:layout_width="match_parent"
@@ -333,6 +335,40 @@
                     android:scaleType="fitXY"
                     android:src="@drawable/ic_chief_duban" >
                 </ImageView>
+            </RelativeLayout>
+
+            <!--代表监督-->
+            <RelativeLayout
+                android:id="@+id/rl_chief_npcsug"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/me_item_h"
+                android:layout_marginBottom="@dimen/page_item_margin_v"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_chief_npcsug"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/me_item_h"
+                    android:layout_marginLeft="@dimen/me_item_tv_margin_left"
+                    android:layout_toRightOf="@+id/iv_chief_npcsug"
+                    android:background="@drawable/btn_white_gray"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/me_item_tv_padding_left"
+                    android:paddingRight="@dimen/page_padding"
+                    android:text="代表监督"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray" />
+
+                <ImageView
+                    android:id="@+id/iv_chief_npcsug"
+                    android:layout_width="@dimen/me_item_icon_w"
+                    android:layout_height="@dimen/me_item_icon_h"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_npc_name" >
+                </ImageView>
+
             </RelativeLayout>
 
 

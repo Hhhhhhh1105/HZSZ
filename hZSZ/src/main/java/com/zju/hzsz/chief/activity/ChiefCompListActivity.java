@@ -1,11 +1,5 @@
 package com.zju.hzsz.chief.activity;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
@@ -24,7 +18,6 @@ import com.sin.android.sinlibs.adapter.SimpleListAdapter;
 import com.sin.android.sinlibs.adapter.SimpleViewInitor;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
-
 import com.zju.hzsz.adapter.PagerItem;
 import com.zju.hzsz.adapter.SimplePagerAdapter;
 import com.zju.hzsz.clz.ViewWarp;
@@ -39,6 +32,12 @@ import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
 import com.zju.hzsz.view.ListViewWarp.WarpHandler;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class ChiefCompListActivity extends BaseActivity implements
 		OnPageChangeListener, OnCheckedChangeListener {
 	public class CompListPager extends PagerItem implements WarpHandler {
@@ -48,6 +47,7 @@ public class ChiefCompListActivity extends BaseActivity implements
 		private List<ChiefComp> items = new ArrayList<ChiefComp>();
 		private SimpleListAdapter adapter = null;
 
+		//处理投诉单按钮
 		private View.OnClickListener btnClk = new View.OnClickListener() {
 
 			@Override
@@ -59,7 +59,7 @@ public class ChiefCompListActivity extends BaseActivity implements
 
 					intent.putExtra(Tags.TAG_COMP, StrUtils.Obj2Str(comp));
 					intent.putExtra(Tags.TAG_ISCOMP, isComp);
-					intent.putExtra(Tags.TAG_HANDLED, type != 0);
+					intent.putExtra(Tags.TAG_HANDLED, type != 0);    //0是未处理，1是已处理
 
 					startActivityForResult(intent, Tags.CODE_COMP);
 				}
@@ -78,16 +78,16 @@ public class ChiefCompListActivity extends BaseActivity implements
 				ViewWarp warp = new ViewWarp(convertView,
 						ChiefCompListActivity.this);
 				ChiefComp comp = (ChiefComp) data;
-				warp.setText(R.id.tv_status, comp.getStatuss());
-				warp.setText(R.id.tv_sernum, comp.getSerNum());
-				warp.setText(R.id.tv_title, comp.getTheme());
-				warp.setText(R.id.tv_content, comp.getContent());
+				warp.setText(R.id.tv_status, comp.getStatuss());  //处理状态
+				warp.setText(R.id.tv_sernum, comp.getSerNum());   //投诉单编号
+				warp.setText(R.id.tv_title, comp.getTheme());   //投诉单标题
+				warp.setText(R.id.tv_content, comp.getContent());  //投诉单内容
 				warp.setText(R.id.tv_time, comp.getDate() != null ? comp
-						.getDate().getYMDHM(ChiefCompListActivity.this) : "");
+						.getDate().getYMDHM(ChiefCompListActivity.this) : "");    //投诉时间
 
 				if (type == 0) {
 					((Button) warp.getViewById(R.id.btn_handle))
-							.setText(isComp ? "处理投诉" : "处理建议");
+							.setText(isComp ? "处理投诉" : "处理建议");         //0是未处理，1是已处理
 				} else {
 					((Button) warp.getViewById(R.id.btn_handle))
 							.setText("查看处理单");
@@ -99,6 +99,7 @@ public class ChiefCompListActivity extends BaseActivity implements
 			}
 		};
 
+		//CompListPager类的构造函数
 		public CompListPager(int type) {
 			super();
 			this.type = type;
@@ -129,12 +130,14 @@ public class ChiefCompListActivity extends BaseActivity implements
 			return view;
 		}
 
+		//下拉刷新
 		@Override
 		public boolean onRefresh() {
 			loadComps(true);
 			return true;
 		}
 
+		//上拉加载
 		@Override
 		public boolean onLoadMore() {
 			loadComps(false);
@@ -163,6 +166,7 @@ public class ChiefCompListActivity extends BaseActivity implements
 								}
 								adapter.notifyDataSetChanged();
 
+								//无更多
 								if (items.size() >= o.data.pageInfo.totalCounts) {
 									listViewWarp.setNoMore(true);
 								}
@@ -187,7 +191,7 @@ public class ChiefCompListActivity extends BaseActivity implements
 		}
 	}
 
-	private boolean isComp = true;
+	private boolean isComp = true; //默认值为true
 	private int[] rdids = new int[] { R.id.rb_chief_comp_unhandle,
 			R.id.rb_chief_comp_handled };
 	private List<PagerItem> pagerItems = null;
@@ -198,7 +202,7 @@ public class ChiefCompListActivity extends BaseActivity implements
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_chief_complist);
 
-		isComp = getIntent().getBooleanExtra(Tags.TAG_ABOOLEAN, true);
+		isComp = getIntent().getBooleanExtra(Tags.TAG_ABOOLEAN, true);  //默认为true
 
 		if (isComp) {
 			setTitle(R.string.mychiefcomplaint);
