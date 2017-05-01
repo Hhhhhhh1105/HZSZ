@@ -69,6 +69,7 @@ public class ChiefNpcCompListFragment extends BaseFragment implements ViewPager.
                 if (view.getTag() instanceof ChiefComp) {
                     ChiefComp comp = (ChiefComp) view.getTag();
                     Intent intent = new Intent(getBaseActivity(), ChiefCompDetailActivity.class);
+                    intent.putExtra(Tags.TAG_ISNPCCOMP, true);//代表是河长的投诉
                     intent.putExtra(Tags.TAG_COMP, StrUtils.Obj2Str(comp));
                     intent.putExtra(Tags.TAG_ISCOMP, isComp);
                     intent.putExtra(Tags.TAG_HANDLED, type != 0);

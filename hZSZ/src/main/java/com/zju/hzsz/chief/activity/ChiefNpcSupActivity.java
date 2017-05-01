@@ -44,7 +44,7 @@ public class ChiefNpcSupActivity extends BaseActivity implements RadioGroup.OnCh
                 replaceFragment(npcCompListFragment);
                 break;
             case R.id.rb_head_right:
-                replaceFragment(npcCompListFragment);
+                replaceFragment(npcSugListFragment);
                 break;
             default:
                 break;

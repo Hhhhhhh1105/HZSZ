@@ -35,6 +35,8 @@ import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.utils.ViewUtils;
 
+import org.json.JSONObject;
+
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.lang.reflect.InvocationTargetException;
@@ -47,6 +49,7 @@ public class ChiefCompDetailActivity extends BaseActivity {
 	private boolean isComp = true;
 	private boolean isHandled = true;
 	private boolean hasImg = false;
+	private boolean isNpcComp = false;
 
 	private TemplateEngine templateEngine = new TemplateEngine() {
 
@@ -73,6 +76,7 @@ public class ChiefCompDetailActivity extends BaseActivity {
 		setContentView(R.layout.activity_chief_compdetail);
 		isHandled = getIntent().getBooleanExtra(Tags.TAG_HANDLED, false);
 		comp = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_COMP), ChiefComp.class);
+		isNpcComp = getIntent().getBooleanExtra(Tags.TAG_ISNPCCOMP, false);
 
 		findViewById(R.id.ll_evalinfo).setVisibility(View.GONE);
 		if (isHandled) {
@@ -169,7 +173,28 @@ public class ChiefCompDetailActivity extends BaseActivity {
 
 	private void loadData() {
 		showOperating();
-		getRequestContext().add(comp.isComp() ? "Get_ChiefComplain_Content" : "Get_ChiefAdvise_Content", new Callback<ChiefCompFulRes>() {
+
+		JSONObject params;
+		String request;
+
+		if (isNpcComp) {
+			//人大投诉
+			request = "Get_ChiefDeputyComplain_Content";
+			params = ParamUtils.freeParam(null, "complainId" , comp.getId());
+
+		} else if (comp.isComp()){
+			//普通投诉
+			request = "Get_ChiefComplain_Content";
+			params = ParamUtils.freeParam(null, "complianId" , comp.getId());
+
+		} else {
+			//建议
+			request = "Get_ChiefAdvise_Content";
+			params = ParamUtils.freeParam(null, "adviseId", comp.getId());
+
+		}
+
+		getRequestContext().add(request, new Callback<ChiefCompFulRes>() {
 			@Override
 			public void callback(ChiefCompFulRes o) {
 				hideOperating();
@@ -198,7 +223,7 @@ public class ChiefCompDetailActivity extends BaseActivity {
 					initResultPhotoView(compFul.dealPicPath);
 				}
 			}
-		}, ChiefCompFulRes.class, ParamUtils.freeParam(null, comp.isComp() ? "complianId" : "adviseId", comp.getId()));
+		}, ChiefCompFulRes.class, params);
 	}
 
 	@Override
@@ -269,7 +294,31 @@ public class ChiefCompDetailActivity extends BaseActivity {
 
 	private void submitData() {
 		showOperating("正在提交数据...");
-		getRequestContext().add(comp.isComp() ? "Add_ChiefComplainDeal_Content" : "Add_ChiefAdviseDeal_Content", new Callback<BaseRes>() {
+
+		String request;
+		JSONObject params;
+
+		if (isNpcComp) {
+
+			//人大投诉处理
+			request = "Add_ChiefDeputyComplain_Deal";
+			params = ParamUtils.freeParam(null, "complainId", comp.getId(), "dealStatus", opetype, "dealContent", dealContent, "picBase64", picbase64);
+
+		} else if (comp.isComp()) {
+
+			//普通用户投诉处理
+			request = "Add_ChiefComplainDeal_Content";
+			params = ParamUtils.freeParam(null, "complianId", comp.getId(), "dealStatus", opetype, "dealContent", dealContent, "picBase64", picbase64);
+
+		} else {
+
+			//建议
+			request = "Add_ChiefAdviseDeal_Content";
+			params = ParamUtils.freeParam(null, "adviseId", comp.getId(), "dealStatus", opetype, "dealContent", dealContent, "picBase64", picbase64);
+
+		}
+
+		getRequestContext().add(request, new Callback<BaseRes>() {
 			@Override
 			public void callback(BaseRes o) {
 				hideOperating();
@@ -282,7 +331,7 @@ public class ChiefCompDetailActivity extends BaseActivity {
 				}
 			}
 			// picBase64
-		}, BaseRes.class, ParamUtils.freeParam(null, comp.isComp() ? "complianId" : "adviseId", comp.getId(), "dealStatus", opetype, "dealContent", dealContent, "picBase64", picbase64));
+		}, BaseRes.class, params);
 	}
 
 	private Uri imageFilePath = null;

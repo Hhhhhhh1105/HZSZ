@@ -131,9 +131,11 @@ public class CompDetailActivity extends BaseActivity {
 		String request;
 
 		if (comp.isComp()) {
+			//人大/河长查看自身的投诉单详情
 			request =  "complaintscontent_data_get";
 			params = ParamUtils.freeParam(null, "complaintsId" , comp.getId());
 			if (comp.compPersonId > 0) {
+				//人大/河长查看最新投诉的投诉单详情
 				request = "Get_ChiefComplain_Content";
 				params = ParamUtils.freeParam(null, "complianId" , comp.getId());
 			}

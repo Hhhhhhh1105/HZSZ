@@ -20,6 +20,9 @@ public class DeputySupervise {
     public String advRiverName;
     public String advRiverDist;
 
+    public String advPerson;
+    public DateTime advDate;
+
     public String dealPersonName;  //处理人
     public String dealTeleNum;
     public DateTime dealTime;
@@ -38,6 +41,14 @@ public class DeputySupervise {
 
     public String getYMD2() {
         return advTime != null ? advTime.getYMD2(BaseActivity.getCurActivity()) : "";
+    }
+
+    public String getAdvDateTime() {
+        return advDate != null ? advDate.getYMDHM(BaseActivity.getCurActivity()) : "";
+    }
+
+    public String getAdvYMD2() {
+        return advDate != null ? advDate.getYMD2(BaseActivity.getCurActivity()) : "";
     }
 
 }

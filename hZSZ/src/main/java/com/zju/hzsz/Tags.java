@@ -22,7 +22,10 @@ public class Tags {
 
 	public static final String TAG_CODE = "code";
 	public static final String TAG_TITLE = "title";
-	
+
+	public static final String TAG_ISNPCCOMP = "isnpccomp";
+
+
 	public static final String TAG_PARAM = "param";
 
 	public static final int CODE_LOGIN = 1000;
