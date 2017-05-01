@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:2:1-494:12
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:2:1-496:12
 	package
 		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:3:5-27
 		INJECTED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml
@@ -180,7 +180,7 @@ ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:116:5-89
 	android:name
 		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:116:31-86
 application
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:118:5-492:19
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:118:5-494:19
 MERGED from [com.github.markushi:circlebutton:1.1] D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\AndroidManifest.xml:9:5-20
 MERGED from [:SMSSDK-2.1.3:] D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\SMSSDK-2.1.3\AndroidManifest.xml:11:5-12:19
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:19:5-20
@@ -532,318 +532,324 @@ ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:296:9-297:61
 		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:297:13-49
 	android:name
 		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:296:19-69
+activity#com.zju.hzsz.npc.activity.ChiefNpcSugDetailActivity
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:298:9-299:61
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:299:13-49
+	android:name
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:298:19-73
 activity#com.zju.hzsz.chief.activity.ChiefMailListActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:298:9-300:61
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:300:9-302:61
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:300:13-49
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:302:13-49
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:299:13-65
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:301:13-65
 activity#com.zju.hzsz.chief.activity.ChiefNotepadActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:301:9-303:61
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:303:9-305:61
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:303:13-49
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:305:13-49
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:302:13-64
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:304:13-64
 activity#com.zju.hzsz.chief.activity.ChiefEditNoteActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:304:9-306:61
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:306:9-308:61
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:306:13-49
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:308:13-49
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:305:13-65
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:307:13-65
 activity#com.zju.hzsz.chief.activity.ChiefMailDetailActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:307:9-309:61
-	android:screenOrientation
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:309:13-49
-	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:308:13-67
-activity#com.zju.hzsz.chief.activity.ChiefTrackViewActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:310:9-311:61
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:309:9-311:61
 	android:screenOrientation
 		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:311:13-49
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:310:19-72
-activity#com.zju.hzsz.npc.activity.NpcLegalListActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:316:9-317:61
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:310:13-67
+activity#com.zju.hzsz.chief.activity.ChiefTrackViewActivity
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:312:9-313:61
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:317:13-49
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:313:13-49
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:316:19-68
-activity#com.zju.hzsz.npc.activity.NpcMyjobActivity
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:312:19-72
+activity#com.zju.hzsz.npc.activity.NpcLegalListActivity
 ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:318:9-319:61
 	android:screenOrientation
 		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:319:13-49
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:318:19-64
-activity#com.zju.hzsz.npc.activity.NpcRankActivity
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:318:19-68
+activity#com.zju.hzsz.npc.activity.NpcMyjobActivity
 ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:320:9-321:61
 	android:screenOrientation
 		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:321:13-49
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:320:19-63
-activity#com.zju.hzsz.npc.activity.NpcSugDetailActivity
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:320:19-64
+activity#com.zju.hzsz.npc.activity.NpcRankActivity
 ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:322:9-323:61
 	android:screenOrientation
 		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:323:13-49
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:322:19-68
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:322:19-63
+activity#com.zju.hzsz.npc.activity.NpcSugDetailActivity
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:324:9-325:61
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:325:13-49
+	android:name
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:324:19-68
 service#com.zju.hzsz.service.LocalService
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:326:9-57
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:328:9-57
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:326:18-54
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:328:18-54
 activity#com.zju.hzsz.activity.CompPhotoActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:328:9-330:61
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:330:9-332:61
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:330:13-49
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:332:13-49
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:329:13-55
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:331:13-55
 activity#com.zju.hzsz.activity.PhotoViewActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:331:9-334:89
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:333:9-336:89
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:333:13-49
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:335:13-49
 	android:theme
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:334:13-77
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:336:13-77
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:332:13-55
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:334:13-55
 activity#com.zju.hzsz.activity.RiverPositionActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:335:9-337:61
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:337:9-339:61
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:337:13-49
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:339:13-49
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:336:13-59
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:338:13-59
 meta-data#UMENG_APPKEY
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:339:9-341:56
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:341:9-343:56
 	android:value
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:341:13-53
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:343:13-53
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:340:13-40
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:342:13-40
 activity#com.umeng.socialize.view.ShareActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:353:9-359:71
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:355:9-361:71
 	android:launchMode
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:356:13-44
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:358:13-44
 	android:noHistory
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:357:13-37
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:359:13-37
 	android:windowSoftInputMode
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:359:13-68
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:361:13-68
 	android:configChanges
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:355:13-57
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:357:13-57
 	android:theme
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:358:13-50
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:360:13-50
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:354:13-66
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:356:13-66
 activity#com.zju.hzsz.wxapi.WXEntryActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:360:9-365:75
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:362:9-367:75
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:364:13-49
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:366:13-49
 	android:exported
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:363:13-36
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:365:13-36
 	android:configChanges
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:362:13-74
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:364:13-74
 	android:theme
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:365:13-72
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:367:13-72
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:361:13-50
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:363:13-50
 activity#com.tencent.tauth.AuthActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:368:9-380:20
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:370:9-382:20
 	android:launchMode
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:370:13-44
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:372:13-44
 	android:noHistory
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:371:13-37
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:373:13-37
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:369:13-58
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:371:13-58
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:372:13-379:29
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:374:13-381:29
 action#android.intent.action.VIEW
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:373:17-69
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:375:17-69
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:373:25-66
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:375:25-66
 category#android.intent.category.DEFAULT
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:375:17-76
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:377:17-76
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:375:27-73
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:377:27-73
 category#android.intent.category.BROWSABLE
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:376:17-78
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:378:17-78
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:376:27-75
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:378:27-75
 data
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:378:17-59
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:380:17-59
 	android:scheme
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:378:23-56
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:380:23-56
 activity#com.tencent.connect.common.AssistActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:381:9-384:84
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:383:9-386:84
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:383:13-49
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:385:13-49
 	android:theme
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:384:13-72
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:386:13-72
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:382:13-69
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:384:13-69
 meta-data#PUSH_APPID
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:388:9-390:54
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:390:9-392:54
 	android:value
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:390:13-51
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:392:13-51
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:389:13-38
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:391:13-38
 meta-data#PUSH_APPKEY
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:391:9-393:54
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:393:9-395:54
 	android:value
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:393:13-51
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:395:13-51
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:392:13-39
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:394:13-39
 meta-data#PUSH_APPSECRET
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:394:9-396:53
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:396:9-398:53
 	android:value
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:396:13-50
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:398:13-50
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:395:13-42
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:397:13-42
 receiver#com.zju.hzsz.receiver.PushReceiver
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:399:9-405:20
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:401:9-407:20
 	android:exported
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:401:13-37
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:403:13-37
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:400:13-50
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:402:13-50
 intent-filter#com.igexin.sdk.action.4YaVWDm7Cj8Fv7qvEQ2CW4
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:402:13-404:29
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:404:13-406:29
 action#com.igexin.sdk.action.4YaVWDm7Cj8Fv7qvEQ2CW4
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:403:17-87
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:405:17-87
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:403:25-84
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:405:25-84
 service#com.igexin.sdk.PushService
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:408:9-412:54
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:410:9-414:54
 	android:process
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:412:13-43
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:414:13-43
 	android:label
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:411:13-47
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:413:13-47
 	android:exported
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:410:13-36
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:412:13-36
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:409:13-54
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:411:13-54
 service#com.igexin.sdk.PushServiceUser
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:413:9-416:62
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:415:9-418:62
 	android:label
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:416:13-51
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:418:13-51
 	android:exported
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:415:13-36
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:417:13-36
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:414:13-58
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:416:13-58
 receiver#com.igexin.sdk.PushReceiver
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:418:9-429:20
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:420:9-431:20
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:418:19-61
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:420:19-61
 intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED+android.intent.action.MEDIA_MOUNTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.igexin.sdk.action.refreshls
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:419:13-428:29
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:421:13-430:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:420:17-79
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:422:17-79
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:420:25-76
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:422:25-76
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:421:17-79
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:423:17-79
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:421:25-76
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:423:25-76
 action#android.intent.action.USER_PRESENT
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:422:17-77
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:424:17-77
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:422:25-74
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:424:25-74
 action#com.igexin.sdk.action.refreshls
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:423:17-74
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:425:17-74
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:423:25-71
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:425:25-71
 action#android.intent.action.MEDIA_MOUNTED
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:425:17-78
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:427:17-78
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:425:25-75
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:427:25-75
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:426:17-87
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:428:17-87
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:426:25-84
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:428:25-84
 action#android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:427:17-90
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:429:17-90
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:427:25-87
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:429:25-87
 receiver#com.igexin.sdk.PushManagerReceiver
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:430:9-436:20
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:432:9-438:20
 	android:exported
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:432:13-37
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:434:13-37
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:431:13-62
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:433:13-62
 intent-filter#com.igexin.sdk.action.pushmanager
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:433:13-435:29
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:435:13-437:29
 action#com.igexin.sdk.action.pushmanager
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:434:17-76
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:436:17-76
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:434:25-73
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:436:25-73
 activity#com.igexin.sdk.PushActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:438:9-444:84
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:440:9-446:84
 	android:process
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:442:13-43
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:444:13-43
 	android:excludeFromRecents
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:440:13-46
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:442:13-46
 	android:exported
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:441:13-37
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:443:13-37
 	android:theme
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:444:13-72
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:446:13-72
 	android:taskAffinity
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:443:13-67
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:445:13-67
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:439:13-55
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:441:13-55
 service#com.igexin.download.DownloadService
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:446:9-448:46
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:448:9-450:46
 	android:process
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:448:13-43
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:450:13-43
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:447:13-63
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:449:13-63
 receiver#com.igexin.download.DownloadReceiver
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:450:9-454:20
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:452:9-456:20
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:450:19-70
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:452:19-70
 intent-filter#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:451:13-453:29
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:453:13-455:29
 provider#com.igexin.download.DownloadProvider
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:456:9-460:46
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:458:9-462:46
 	android:authorities
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:458:13-57
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:460:13-57
 	android:process
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:460:13-43
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:462:13-43
 	android:exported
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:459:13-36
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:461:13-36
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:457:13-64
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:459:13-64
 activity#com.igexin.getuiext.activity.GetuiExtActivity
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:462:9-469:75
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:464:9-471:75
 	android:process
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:467:13-43
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:469:13-43
 	android:excludeFromRecents
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:465:13-46
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:467:13-46
 	android:exported
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:466:13-37
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:468:13-37
 	android:configChanges
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:464:13-72
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:466:13-72
 	android:theme
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:469:13-72
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:471:13-72
 	android:taskAffinity
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:468:13-62
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:470:13-62
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:463:13-73
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:465:13-73
 receiver#com.igexin.getuiext.service.PayloadReceiver
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:471:9-478:20
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:473:9-480:20
 	android:exported
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:473:13-37
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:475:13-37
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:472:13-71
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:474:13-71
 intent-filter#com.igexin.sdk.action.4YaVWDm7Cj8Fv7qvEQ2CW4+com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:474:13-477:29
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:476:13-479:29
 action#com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:475:17-87
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:477:17-87
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:475:25-84
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:477:25-84
 service#com.igexin.getuiext.service.GetuiExtService
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:480:9-482:46
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:482:9-484:46
 	android:process
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:482:13-43
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:484:13-43
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:481:13-71
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:483:13-71
 meta-data#com.google.android.gms.version
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:487:9-489:69
+ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:489:9-491:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:489:13-66
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:491:13-66
 	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:488:13-58
+		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:490:13-58

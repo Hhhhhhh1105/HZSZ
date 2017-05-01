@@ -1,6 +1,7 @@
 package com.zju.hzsz.fragment.npc.chief;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,7 +16,9 @@ import com.zju.hzsz.model.ChiefNpcSugListRes;
 import com.zju.hzsz.model.DeputySupervise;
 import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.net.Constants;
+import com.zju.hzsz.npc.activity.ChiefNpcSugDetailActivity;
 import com.zju.hzsz.utils.ParamUtils;
+import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
 
 import org.json.JSONObject;
@@ -36,7 +39,7 @@ public class ChiefNpcSugListFragment extends BaseFragment {
     JSONObject params = null;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         //适配器：每个监督条目的UI及数据填充
         adapter = new SimpleListAdapter(getBaseActivity(), list, new SimpleViewInitor() {
@@ -49,7 +52,14 @@ public class ChiefNpcSugListFragment extends BaseFragment {
                 final DeputySupervise ds = (DeputySupervise) data;
                 getBaseActivity().getViewRender().renderView(convertView, ds);
 
-
+                convertView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(getBaseActivity(), ChiefNpcSugDetailActivity.class);
+                        intent.putExtra("npcsug", StrUtils.Obj2Str(ds));
+                        startActivity(intent);
+                    }
+                });
 
                 return convertView;
             }

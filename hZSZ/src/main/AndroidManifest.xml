@@ -295,6 +295,8 @@
             android:screenOrientation="portrait"></activity>
         <activity android:name=".chief.activity.ChiefNpcSupActivity"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".npc.activity.ChiefNpcSugDetailActivity"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".chief.activity.ChiefMailListActivity"
             android:screenOrientation="portrait"></activity>

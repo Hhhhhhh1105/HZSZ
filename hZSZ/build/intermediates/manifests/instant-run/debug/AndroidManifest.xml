@@ -302,6 +302,9 @@
             android:name="com.zju.hzsz.chief.activity.ChiefNpcSupActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.zju.hzsz.npc.activity.ChiefNpcSugDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.zju.hzsz.chief.activity.ChiefMailListActivity"
             android:screenOrientation="portrait" />
         <activity
