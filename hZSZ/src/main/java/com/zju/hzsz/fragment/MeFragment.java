@@ -156,6 +156,9 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
         boolean isCityChief = logined && getBaseActivity().getUser().isCityChief();
         boolean isNpc = logined && getBaseActivity().getUser().isNpc();
 
+        //管辖河道小bug - 1.4.30
+        rootView.findViewById(R.id.rl_chief_rivermanage).setVisibility(View.GONE);
+
         for (int id : showWhenLogined) {
             View v = rootView.findViewById(id);
             if (v != null)

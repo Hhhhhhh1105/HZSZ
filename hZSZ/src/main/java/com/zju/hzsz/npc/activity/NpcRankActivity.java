@@ -100,12 +100,19 @@ public class NpcRankActivity extends BaseActivity {
         for (District d : Values.districtLists) {
             //这里默认是所在区划
             if (getUser().getDistrictId() != 0) {
-                if (d.districtId == getUser().getDistrictId())
+                if (d.districtId == getUser().getDistrictId()){
+                    //更新显示UI-区划名字
                     curDistrict = d;
+                    ((TextView) findViewById(R.id.tv_rankingtitle)).setText("" + curDistrict.districtName + "代表履职排行榜");
+                }
             }
         }
-        if (curDistrict == null)
+
+        if (curDistrict == null) {
+            //更新显示UI-区划名字
             curDistrict = Values.districtLists[0];
+            ((TextView) findViewById(R.id.tv_rankingtitle)).setText("" + curDistrict.districtName + "代表履职排行榜");
+        }
 
         adapter = new SimpleListAdapter(this, rankings, new SimpleViewInitor() {
             @Override

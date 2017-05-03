@@ -348,7 +348,7 @@ public class SugOrComtActivity extends BaseActivity {
 		uname = ((EditText) findViewById(R.id.et_suggest_name)).getText().toString().trim();
 		//注意了，如果是人大，没有这两个编辑框。
 		subject = subject == null ? ((EditText) findViewById(R.id.et_suggest_subject)).getText().toString().trim(): subject;
-		if (getUser().isNpc() && r.riverId == getUser().getMyRiverId()) {
+		if (getUser().isNpc() && r.riverId == getUser().getMyRiverId() && !isCom) {
 			contentt = ((EditText) findViewById(R.id.et_npc_otherquestion)).getText().toString().trim();
 		} else
 			contentt = ((EditText) findViewById(R.id.et_suggest_contentt)).getText().toString().trim();
@@ -391,7 +391,7 @@ public class SugOrComtActivity extends BaseActivity {
 		}
 
 		if (contentt.length() == 0) {
-			if (getUser().isNpc()) {
+			if (getUser().isNpc() && !isCom) {
 				showToast("其他建议不能为空!");
 				((EditText) findViewById(R.id.et_npc_otherquestion)).requestFocus();
 			} else{
