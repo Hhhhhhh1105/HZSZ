@@ -66,6 +66,7 @@ public class PublicityMapFragment extends BaseFragment {
 						comp.complaintsPicPath = cp.getCompPicPath();
 						comp.compTheme = cp.compTheme;
 						comp.compStatus = cp.compStatus;
+						comp.compPersonId = cp.compPersonId;
 
 						Intent intent = new Intent(getBaseActivity(), CompDetailActivity.class);
 						intent.putExtra(Tags.TAG_COMP, StrUtils.Obj2Str(comp));
