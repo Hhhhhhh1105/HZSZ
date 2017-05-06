@@ -34,7 +34,7 @@
                 android:gravity="center"
                 android:background="@color/lightgreen"
                 android:padding="@dimen/padding_large"
-                android:text="西湖区代表履职排行榜"
+                android:text="西湖区人大代表履职统计"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/text_gray" />
 

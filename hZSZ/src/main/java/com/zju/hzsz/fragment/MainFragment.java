@@ -697,10 +697,12 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 
 			((TextView) view.findViewById(R.id.tv_name_l)).setText(npc_l.name);  //人大姓名
 			((TextView) view.findViewById(R.id.tv_title_l)).setText(ResUtils.getNpcTitle(npc_l.authority));   //管理等级
-			if (npc_l.lastRecordDays > 0)
+			if (npc_l.lastRecordHours > 24)
 				((TextView) view.findViewById(R.id.tv_river_l)).setText("于" + npc_l.lastRecordDays + "天前巡过" + npc_l.riverName);  //巡河信息
-			else
-				((TextView) view.findViewById(R.id.tv_river_l)).setText("" + "于今天巡过" + npc_l.riverName);
+			else if (npc_l.lastRecordHours > 0)
+				((TextView) view.findViewById(R.id.tv_river_l)).setText("于"+ npc_l.lastRecordHours + "小时前巡过" + npc_l.riverName);
+			else if (npc_l.lastRecordHours == 0)
+				((TextView) view.findViewById(R.id.tv_river_l)).setText("" + "刚刚巡过" + npc_l.riverName);
 
 			view.findViewById(R.id.rl_npc_left).setOnClickListener(npcClick);
 			view.findViewById(R.id.rl_npc_left).setTag(npc_l);
@@ -709,10 +711,12 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 
 				((TextView) view.findViewById(R.id.tv_name_r)).setText(npc_r.name);  //人大姓名
 				((TextView) view.findViewById(R.id.tv_title_r)).setText(ResUtils.getNpcTitle(npc_r.authority));   //管理等级
-				if (npc_r.lastRecordDays > 0)
+				if (npc_r.lastRecordHours > 24)
 					((TextView) view.findViewById(R.id.tv_river_r)).setText("于" + npc_r.lastRecordDays + "天前巡过" + npc_r.riverName);  //巡河信息
-				else
-					((TextView) view.findViewById(R.id.tv_river_r)).setText("" + "于今天巡过" + npc_r.riverName);
+				else if (npc_r.lastRecordHours > 0)
+					((TextView) view.findViewById(R.id.tv_river_r)).setText("于"+ npc_r.lastRecordHours + "小时前巡过" + npc_r.riverName);
+				else if (npc_r.lastRecordHours == 0)
+					((TextView) view.findViewById(R.id.tv_river_r)).setText("" + "刚刚巡过" + npc_r.riverName);
 
 				view.findViewById(R.id.rl_npc_right).setOnClickListener(npcClick);
 				view.findViewById(R.id.rl_npc_right).setTag(npc_r);

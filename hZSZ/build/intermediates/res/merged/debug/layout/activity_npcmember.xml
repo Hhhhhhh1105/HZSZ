@@ -27,14 +27,31 @@
         android:paddingTop="@dimen/padding_medium"
         android:visibility="visible" >
 
+        <!--开发完之后又要求调顺序，偷个懒没改代码 改布局-->
+
+        <RadioButton
+            android:id="@+id/rb_head_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_tabbtn_l_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:checked="true"
+            android:padding="@dimen/padding_small"
+            android:text="巡河记录"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/btn_black_white"
+            android:textSize="@dimen/font_normal" />
+
         <RadioButton
             android:id="@+id/rb_head_left"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/shape_tabbtn_l_bg"
+            android:background="@drawable/shape_tabbtn_m_bg"
             android:button="@null"
-            android:checked="true"
             android:gravity="center"
             android:padding="@dimen/padding_small"
             android:text="投诉举报"
@@ -48,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="-1dp"
             android:layout_weight="1"
-            android:background="@drawable/shape_tabbtn_m_bg"
+            android:background="@drawable/shape_tabbtn_r_bg"
             android:button="@null"
             android:gravity="center"
             android:padding="@dimen/padding_small"
@@ -57,20 +74,7 @@
             android:textColor="@color/btn_black_white"
             android:textSize="@dimen/font_normal" />
 
-        <RadioButton
-            android:id="@+id/rb_head_right"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="-1dp"
-            android:layout_weight="1"
-            android:background="@drawable/shape_tabbtn_r_bg"
-            android:button="@null"
-            android:gravity="center"
-            android:padding="@dimen/padding_small"
-            android:text="巡河记录"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@color/btn_black_white"
-            android:textSize="@dimen/font_normal" />
+
     </RadioGroup>
 
     <FrameLayout

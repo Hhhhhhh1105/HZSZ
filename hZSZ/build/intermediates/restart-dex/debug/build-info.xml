@@ -5,313 +5,58 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="13087881831653"
+    timestamp="29270045712794"
     token="5820434530711097307"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1655" />
+        duration="2039" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="77" />
+        duration="71" />
     <task
         name="verifier"
-        duration="15" />
+        duration="2" />
 
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.markushi-circlebutton-1.1_b506e84fb91abd047df71887b4f32e27e2f21ae8\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_b4fe69ca41a5d1a13bf9301cc7e3716393fcac28\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\GetuiExt-2.0.3_df75c800de92a62dffd57c35c5966a6e2dd8f066\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.0_5985fc9adc11f4f0501898000888305a1732ea40\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.1.3_08c1779a8d38ecfe32b3004a9633fb1b17ea674b\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_78ac3704b42dc370330d4a5ec4caf7efceb1e7ab\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\com.google.gson_eb1245750e10f54f8abdf017ffe9b4416b729fb2\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a946bc99ec511c22e1e7ff6896c411f001288dc5\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.0_3caa2d56e8d5263a8080ecfa417902f2942fa96b\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.getbase-floatingactionbutton-1.10.1_6462eda421a958bbe71d55a3a5dd37bd8d491832\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0d82dc1de439c6414b750fac996d17db7eefbbf2\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.0_899df90c88c1dfafb7de50a63db749d39375dbd8\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\json_simple-1.1_3ae59a25daa04318ac6e798f49ab4256f7d3cae3\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\me.zhanghai.android.materialprogressbar-library-1.1.4_e24fbad2e9c1bb470c434ba3c47a85f501fe786d\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_1_5f538cb0e806dc6f925af98faac18dbc285952ec\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\mpandroidchartlibrary-2-1-0_e7a1f7213de3f5e7328bb01837470f5872b86155\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_WeiXin_2_fc4c6a018dd23fc9f46b80c970bfa6c1b9f453a1\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.0_7bc65ae367e70118020c6e0829b1ccb03c7244c1\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_2_5d45ae57d72b2460efbedbd9a076770a1197e619\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-analytics-v5.5.3_05372cb2ffb44eb438e5d88351e1a7d1994aea29\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\GetuiSDK2.6.1.0_e8c8d71e49d2501c9f7f1342a184ab422d947212\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\sinlibs.2016.311_a49069f7c6e9470511b362810ff3837d716d279a\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.afollestad.material-dialogs-core-0.8.5.1_dc3d3fc36a9fc6cb2c30080c72d12535631eb525\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_3_4135d4c23cea3b8a03d4b539baa8d1cb17182046\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\uk.co.senab.photoview.1.2.2_b7ec572550f78fbf6350232b3f8d411932f21945\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.5.2_cca2f96b33ade480b6962440938d06611f66cc67\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_9a84a0eba75e6b0dbe1e225d04f40d95c9da84b8\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\com.android.volley_96ed3917d472a5a31eab22904e45e9903e9adf59\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.0_2ba7784a5314ea759caa73f6bed28b993c9aa0cf\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.13_085f8190fa20764a31206cc71bfb1ca3f7ff28a9\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2016.1201.1839_75f04822a56e260806facd56fe03bc278b33ae31\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_ebf50e9b96580e8df4a5038e88e588d02502d9ff\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2016.1201.1839_b7bff1b020fb87e9fb3d61bc28218c713062717c\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_WeiXin_1_f5ccafc8036f3c2ccee9b56e5be6c02e5755e330\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_0d473495c6ae4f5c99408957cc5092bc2a071f46\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-SMSSDK-2.1.3_85df4f9053aac289432bc448f19a5b5f8433e483\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.0_b815b47cdb6eed6dba8e43eee5d26adf996dfe1a\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.0.0_0d57dae1ace1091b79c00d6771b9f3c7d9482159\classes.dex"
-        type="DEX" />
-    <artifact
-        location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_sdk_0c1843a439672aa3578143a8180c16ccc87ac1e7\classes.dex"
-        type="DEX" />
     <artifact
         location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
         type="DEX" />
 
     <build
-        timestamp="11060572964783"
+        timestamp="27531048095441"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\AndroidStudio\HZSZ\hZSZ\build\outputs\apk\hZSZ-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="13087881831653"
+        timestamp="28597584046528"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.markushi-circlebutton-1.1_b506e84fb91abd047df71887b4f32e27e2f21ae8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_b4fe69ca41a5d1a13bf9301cc7e3716393fcac28\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\GetuiExt-2.0.3_df75c800de92a62dffd57c35c5966a6e2dd8f066\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.0_5985fc9adc11f4f0501898000888305a1732ea40\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.1.3_08c1779a8d38ecfe32b3004a9633fb1b17ea674b\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_78ac3704b42dc370330d4a5ec4caf7efceb1e7ab\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\com.google.gson_eb1245750e10f54f8abdf017ffe9b4416b729fb2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a946bc99ec511c22e1e7ff6896c411f001288dc5\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.0_3caa2d56e8d5263a8080ecfa417902f2942fa96b\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.getbase-floatingactionbutton-1.10.1_6462eda421a958bbe71d55a3a5dd37bd8d491832\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0d82dc1de439c6414b750fac996d17db7eefbbf2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.0_899df90c88c1dfafb7de50a63db749d39375dbd8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\json_simple-1.1_3ae59a25daa04318ac6e798f49ab4256f7d3cae3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\me.zhanghai.android.materialprogressbar-library-1.1.4_e24fbad2e9c1bb470c434ba3c47a85f501fe786d\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_1_5f538cb0e806dc6f925af98faac18dbc285952ec\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\mpandroidchartlibrary-2-1-0_e7a1f7213de3f5e7328bb01837470f5872b86155\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_WeiXin_2_fc4c6a018dd23fc9f46b80c970bfa6c1b9f453a1\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.0_7bc65ae367e70118020c6e0829b1ccb03c7244c1\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_2_5d45ae57d72b2460efbedbd9a076770a1197e619\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-analytics-v5.5.3_05372cb2ffb44eb438e5d88351e1a7d1994aea29\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\GetuiSDK2.6.1.0_e8c8d71e49d2501c9f7f1342a184ab422d947212\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\sinlibs.2016.311_a49069f7c6e9470511b362810ff3837d716d279a\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.afollestad.material-dialogs-core-0.8.5.1_dc3d3fc36a9fc6cb2c30080c72d12535631eb525\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_3_4135d4c23cea3b8a03d4b539baa8d1cb17182046\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\uk.co.senab.photoview.1.2.2_b7ec572550f78fbf6350232b3f8d411932f21945\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.5.2_cca2f96b33ade480b6962440938d06611f66cc67\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_9a84a0eba75e6b0dbe1e225d04f40d95c9da84b8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\com.android.volley_96ed3917d472a5a31eab22904e45e9903e9adf59\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.0_2ba7784a5314ea759caa73f6bed28b993c9aa0cf\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.13_085f8190fa20764a31206cc71bfb1ca3f7ff28a9\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2016.1201.1839_75f04822a56e260806facd56fe03bc278b33ae31\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_ebf50e9b96580e8df4a5038e88e588d02502d9ff\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
         <artifact
             location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="28689070334269"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2016.1201.1839_b7bff1b020fb87e9fb3d61bc28218c713062717c\classes.dex"
+            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="29208897892367"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_WeiXin_1_f5ccafc8036f3c2ccee9b56e5be6c02e5755e330\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_0d473495c6ae4f5c99408957cc5092bc2a071f46\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-SMSSDK-2.1.3_85df4f9053aac289432bc448f19a5b5f8433e483\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.0_b815b47cdb6eed6dba8e43eee5d26adf996dfe1a\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.0.0_0d57dae1ace1091b79c00d6771b9f3c7d9482159\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_sdk_0c1843a439672aa3578143a8180c16ccc87ac1e7\classes.dex"
-            type="DEX" />
+            location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="29270045712794"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\AndroidStudio\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />

@@ -21,6 +21,14 @@
             android:orientation="horizontal">
 
                 <at.markushi.ui.CircleButton
+                    android:id="@+id/btn_track"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_npc_track"
+                    app:cb_color="#00B0F0" />
+
+                <at.markushi.ui.CircleButton
                     android:id="@+id/btn_comp"
                     android:layout_width="0dp"
                     android:layout_height="80dp"
@@ -36,13 +44,7 @@
                     android:src="@drawable/ic_npc_sug"
                     app:cb_color="#FFBB33" />
 
-                <at.markushi.ui.CircleButton
-                    android:id="@+id/btn_track"
-                    android:layout_width="0dp"
-                    android:layout_height="80dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/ic_npc_track"
-                    app:cb_color="#00B0F0" />
+
 
             </LinearLayout>
 
@@ -60,13 +62,28 @@
         android:visibility="visible" >
 
         <RadioButton
+            android:id="@+id/rb_head_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:background="@drawable/shape_tabbtn_l_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_small"
+            android:text="巡河记录"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/btn_black_white"
+            android:textSize="@dimen/font_normal" />
+
+        <RadioButton
             android:id="@+id/rb_head_left"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/shape_tabbtn_l_bg"
+            android:background="@drawable/shape_tabbtn_m_bg"
             android:button="@null"
-            android:checked="true"
             android:gravity="center"
             android:padding="@dimen/padding_small"
             android:text="投诉举报"
@@ -80,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="-1dp"
             android:layout_weight="1"
-            android:background="@drawable/shape_tabbtn_m_bg"
+            android:background="@drawable/shape_tabbtn_r_bg"
             android:button="@null"
             android:gravity="center"
             android:padding="@dimen/padding_small"
@@ -89,20 +106,7 @@
             android:textColor="@color/btn_black_white"
             android:textSize="@dimen/font_normal" />
 
-        <RadioButton
-            android:id="@+id/rb_head_right"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="-1dp"
-            android:layout_weight="1"
-            android:background="@drawable/shape_tabbtn_r_bg"
-            android:button="@null"
-            android:gravity="center"
-            android:padding="@dimen/padding_small"
-            android:text="巡河记录"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@color/btn_black_white"
-            android:textSize="@dimen/font_normal" />
+
     </RadioGroup>
 
     <FrameLayout

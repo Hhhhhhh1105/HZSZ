@@ -14,6 +14,7 @@ public class Npc {
     public int riverId;  //管理河道
     public String mobilephone;   //联系方式
     public int lastRecordDays;   //上一次巡河是几天前
+    public int lastRecordHours; //上一次巡河是几小时前
     public String riverName;   //管理河道名字
     public String districtName; //所属区划
     public int authority; //代表权限

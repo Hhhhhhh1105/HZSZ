@@ -57,7 +57,7 @@ public class NpcRankActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_npc_rank);
 
-        setTitle("代表履职排名");
+        setTitle("人大履职统计");
         initHead(R.drawable.ic_head_back, R.drawable.ic_head_order);
 
         //将日期设置为当前年月
@@ -103,7 +103,7 @@ public class NpcRankActivity extends BaseActivity {
                 if (d.districtId == getUser().getDistrictId()){
                     //更新显示UI-区划名字
                     curDistrict = d;
-                    ((TextView) findViewById(R.id.tv_rankingtitle)).setText("" + curDistrict.districtName + "代表履职排行榜");
+                    ((TextView) findViewById(R.id.tv_rankingtitle)).setText("" + curDistrict.districtName + "人大代表履职统计");
                 }
             }
         }
@@ -111,7 +111,7 @@ public class NpcRankActivity extends BaseActivity {
         if (curDistrict == null) {
             //更新显示UI-区划名字
             curDistrict = Values.districtLists[0];
-            ((TextView) findViewById(R.id.tv_rankingtitle)).setText("" + curDistrict.districtName + "代表履职排行榜");
+            ((TextView) findViewById(R.id.tv_rankingtitle)).setText("" + curDistrict.districtName + "人大代表履职统计");
         }
 
         adapter = new SimpleListAdapter(this, rankings, new SimpleViewInitor() {
@@ -208,7 +208,7 @@ public class NpcRankActivity extends BaseActivity {
                 public void onClick(View arg0) {
                     dismissArea();
                     curDistrict = (District) arg0.getTag(); //这是数据改变的重点所在
-                    ((TextView) findViewById(R.id.tv_rankingtitle)).setText("" + curDistrict.districtName + "代表履职排行榜");
+                    ((TextView) findViewById(R.id.tv_rankingtitle)).setText("" + curDistrict.districtName + "人大代表履职统计");
 
                     //根据区划刷新排行榜数据
                     onRefresh();

@@ -62,7 +62,7 @@ public class NpcMemberActivity extends BaseActivity implements RadioGroup.OnChec
             }
         });
 
-        replaceFragment(npcCompFragment);
+        replaceFragment(npcRiverFragment);
 
     }
 

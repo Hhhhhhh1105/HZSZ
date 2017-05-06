@@ -98,15 +98,20 @@ public class SugOrComtActivity extends BaseActivity {
 		setTitle(isCom ? R.string.icomplaint : R.string.isuggest);
 
 		//如果是人大代表，并且这条河是自己的河时,并且是监督状态时
-		if (getUser().isNpc() && r.riverId == getUser().getMyRiverId() && !isCom) {
-			refreshToNpcView();
-			btnInit();
+		if (r != null) {
 
-			subject = "人大代表监督河长，无主题";
+			if (getUser().isNpc() && r.riverId == getUser().getMyRiverId() && !isCom) {
+				refreshToNpcView();
+				btnInit();
 
-			setTitle("我要监督");
-			((TextView) findViewById(R.id.tv_suggest_river)).setText("监督河道");
+				subject = "人大代表监督河长，无主题";
+
+				setTitle("我要监督");
+				((TextView) findViewById(R.id.tv_suggest_river)).setText("监督河道");
+			}
+
 		}
+
 
 		findViewById(R.id.btn_submit).setOnClickListener(new View.OnClickListener() {
 

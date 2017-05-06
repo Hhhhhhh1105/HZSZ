@@ -90,7 +90,7 @@ public class NpcMyjobActivity extends BaseActivity implements RadioGroup.OnCheck
         findViewById(R.id.btn_track).setOnClickListener(trackClick);
 
 
-        replaceFragment(npcCompFragment);
+        replaceFragment(npcRiverFragment);
 
     }
 
