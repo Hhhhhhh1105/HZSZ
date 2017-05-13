@@ -9,7 +9,6 @@ package com.zju.hzsz;
 
 public final class Manifest {
     public static final class permission {
-        public static final String BAIDU_LOCATION_SERVICE="android.permission.BAIDU_LOCATION_SERVICE";
         public static final String hzsz="getui.permission.GetuiService.com.zju.hzsz";
     }
 }

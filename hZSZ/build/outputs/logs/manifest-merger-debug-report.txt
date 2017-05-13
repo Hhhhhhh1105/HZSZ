@@ -101,10 +101,6 @@ uses-permission#android.permission.WRITE_SETTINGS
 ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:26:5-73
 	android:name
 		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:26:22-70
-permission#android.permission.BAIDU_LOCATION_SERVICE
-ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:28:5-76
-	android:name
-		ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:28:17-73
 uses-permission#android.permission.BAIDU_LOCATION_SERVICE
 ADDED from D:\AndroidStudio\HZSZ\hZSZ\src\main\AndroidManifest.xml:30:5-81
 	android:name

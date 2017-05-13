@@ -33,7 +33,7 @@
                         android:id="@+id/iv_banner"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/img_large_h"
-                        android:background="@drawable/eg_img"
+                        android:background="@drawable/slogan"
                         android:contentDescription="@null"
                         android:scaleType="fitXY" />
 

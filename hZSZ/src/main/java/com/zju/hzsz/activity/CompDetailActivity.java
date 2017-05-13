@@ -165,8 +165,11 @@ public class CompDetailActivity extends BaseActivity {
 				@Override
 				public void callback(EvalRes o) {
 					if (o != null && o.isSuccess()) {
-						findViewById(R.id.ll_evalinfo).setVisibility(View.VISIBLE);
-						render.renderView(findViewById(R.id.ll_evalinfo), o.data);
+						//为了评价情况正确显示
+						if (!(comp.compPersonId > 0)){
+							findViewById(R.id.ll_evalinfo).setVisibility(View.VISIBLE);
+							render.renderView(findViewById(R.id.ll_evalinfo), o.data);
+						}
 					}
 				}
 			}, EvalRes.class, params);
@@ -202,9 +205,13 @@ public class CompDetailActivity extends BaseActivity {
 			warp.getViewById(R.id.ll_result).setVisibility(View.GONE);
 		}
 
-		if (compFul.evelContent != null && compFul.evelContent.length() > 0) {
+		//如果有评价的话
+		if (compFul.evelLevel > -1) {
 			findViewById(R.id.ll_evalinfo).setVisibility(View.VISIBLE);
-			render.renderView(findViewById(R.id.ll_evalinfo), compFul);
+			((TextView) findViewById(R.id.tv_eval_evallevel)).setText(compFul.getEvelLevels());
+			((TextView) findViewById(R.id.tv_eval_evalremark)).setText(compFul.evelContent);
+		} else {
+			findViewById(R.id.ll_evalinfo).setVisibility(View.GONE);
 		}
 	}
 

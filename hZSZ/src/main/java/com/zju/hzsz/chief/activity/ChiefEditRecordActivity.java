@@ -500,11 +500,11 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		if (riverRecord.locRiver != null)
 			((Button) findViewById(R.id.btn_selriver)).setText(riverRecord.locRiver.riverName);
 		else if (getUser().riverSum.length == 1) {
-			//如果是人大,则显示人大的河
+			//如果河长或人大只有一条河，则直接显示其所负责的河段
 			((Button) findViewById(R.id.btn_selriver)).setText(getUser().riverSum[0].riverName);
 			riverRecord.locRiver = getUser().riverSum[0];
-			riverRecord.riverId = getUser().getMyRiverId();
-			riverRecord.locRiverName = getUser().riverSum[0].riverName;
+			riverRecord.riverId = riverRecord.locRiver.riverId;
+			riverRecord.locRiverName = riverRecord.locRiver.riverName;
 		}
 		else
 			((Button) findViewById(R.id.btn_selriver)).setText("请选择河道");

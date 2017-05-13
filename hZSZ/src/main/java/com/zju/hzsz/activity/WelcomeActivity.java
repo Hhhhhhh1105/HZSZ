@@ -19,7 +19,6 @@ import com.zju.hzsz.chief.activity.ChiefCompListActivity;
 import com.zju.hzsz.chief.activity.ChiefMailListActivity;
 import com.zju.hzsz.model.CheckNotifyRes;
 import com.zju.hzsz.model.StartInfo;
-import com.zju.hzsz.model.StartInfoRes;
 import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.receiver.PushReceiver;
 import com.zju.hzsz.utils.ImgUtils;
@@ -52,7 +51,7 @@ public class WelcomeActivity extends BaseActivity {
 			ImgUtils.loadImage(WelcomeActivity.this, iv_welcome, com.zju.hzsz.utils.StrUtils.getImgUrl(startInfo.picPath));
 		}
 
-		getRequestContext().add("Get_StartPage", new Callback<StartInfoRes>() {
+	/*	getRequestContext().add("Get_StartPage", new Callback<StartInfoRes>() {
 			@Override
 			public void callback(StartInfoRes o) {
 				if (o != null && o.isSuccess() && o.data != null) {
@@ -64,7 +63,7 @@ public class WelcomeActivity extends BaseActivity {
 					}
 				}
 			}
-		}, StartInfoRes.class, null);
+		}, StartInfoRes.class, null);*/
 
 		asynCall(new Callable() {
 			@Override
@@ -72,7 +71,7 @@ public class WelcomeActivity extends BaseActivity {
 				try {
 					// Thread.sleep(6000);
 					synchronized (WelcomeActivity.this) {
-						WelcomeActivity.this.wait(6000);
+//						WelcomeActivity.this.wait(2000);
 					}
 					welcome_showed = true;
 					safeCall(new Callable() {
@@ -87,7 +86,7 @@ public class WelcomeActivity extends BaseActivity {
 					});
 					if (startInfo.picPath != null && startInfo.picPath.length() > 0) {
 						synchronized (WelcomeActivity.this) {
-							WelcomeActivity.this.wait(6000);
+//							WelcomeActivity.this.wait(2000);
 						}
 					}
 				} catch (Exception e) {
