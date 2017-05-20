@@ -243,6 +243,15 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 				warp.getViewById(R.id.river_alias).setVisibility(View.VISIBLE);
 			}
 
+			//区县级河道去掉“投诉”和“公示”两个按钮
+			if (river.riverLevel <= 3) {
+				warp.getViewById(R.id.iv_complaint).setVisibility(View.INVISIBLE);
+				warp.getViewById(R.id.iv_suggestion).setVisibility(View.INVISIBLE);
+			} else {
+				warp.getViewById(R.id.iv_complaint).setVisibility(View.VISIBLE);
+				warp.getViewById(R.id.iv_suggestion).setVisibility(View.VISIBLE);
+			}
+
 			warp.setImage(R.id.iv_love, river.isCared(context.getUser()) ? R.drawable.ic_loved : R.drawable.ic_love);
 
 			View.OnClickListener clk = new View.OnClickListener() {
@@ -315,14 +324,15 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 				//河长姓名+联系人
 				LinearLayout row = new LinearLayout(context);
 				row.setOrientation(LinearLayout.HORIZONTAL);
-				row.addView(initContItem(title_name, river.districtRiverChief.chiefName, null, false));
-				row.addView(initContItem(R.string.river_quhezhang_cont, river.districtComtactPeo.chiefName, river.districtComtactPeo.contactWay, false));
+				row.addView(initContItem(title_name, river.districtRiverChief.chiefName, river.districtRiverChief.contactWay, false));
+//				row.addView(initContItem(R.string.river_quhezhang_cont, river.districtComtactPeo.chiefName, river.districtComtactPeo.contactWay, false));
+				row.addView(initContItem(R.string.river_jingzhang, river.districtRiverSheriff != null ? river.districtRiverSheriff.chiefName : null, river.districtRiverSheriff != null ? river.districtRiverSheriff.contactWay : null, false));
 				ll_contacts.addView(row);
 
 				//河长职务+河道警长
 				row = new LinearLayout(context);
 				row.addView(initContItem(R.string.riverchief_responsibility, river.districtRiverChief.department, null, false));
-				row.addView(initContItem(R.string.river_jingzhang, river.districtRiverSheriff != null ? river.districtRiverSheriff.chiefName : null, river.districtRiverSheriff != null ? river.districtRiverSheriff.contactWay : null, false));
+//				row.addView(initContItem(R.string.river_jingzhang, river.districtRiverSheriff != null ? river.districtRiverSheriff.chiefName : null, river.districtRiverSheriff != null ? river.districtRiverSheriff.contactWay : null, false));
 				ll_contacts.addView(row);
 
 				//联系部门+联系人

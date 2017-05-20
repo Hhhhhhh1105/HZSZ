@@ -16,7 +16,6 @@ import com.zju.hzsz.clz.ViewWarp;
 import com.zju.hzsz.model.CompDetailRes;
 import com.zju.hzsz.model.CompFul;
 import com.zju.hzsz.model.CompSugs;
-import com.zju.hzsz.model.EvalRes;
 import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.utils.ImgUtils;
 import com.zju.hzsz.utils.ParamUtils;
@@ -135,7 +134,7 @@ public class CompDetailActivity extends BaseActivity {
 			request =  "complaintscontent_data_get";
 			params = ParamUtils.freeParam(null, "complaintsId" , comp.getId());
 			if (comp.compPersonId > 0) {
-				//人大/河长查看最新投诉的投诉单详情
+				//查看最新投诉的投诉单详情
 				request = "Get_ChiefComplain_Content";
 				params = ParamUtils.freeParam(null, "complianId" , comp.getId());
 			}
@@ -159,7 +158,7 @@ public class CompDetailActivity extends BaseActivity {
 			}
 		}, CompDetailRes.class, params);
 
-		if (comp.getStatus() >= 3) {
+	/*	if (comp.getStatus() >= 3) {
 			// 获取评价
 			getRequestContext().add(comp.isComp() ? "complaintseval_action_get" : "adviceeval_action_get", new Callback<EvalRes>() {
 				@Override
@@ -173,7 +172,7 @@ public class CompDetailActivity extends BaseActivity {
 					}
 				}
 			}, EvalRes.class, params);
-		}
+		}*/
 	}
 
 	private void refreshView() {
@@ -211,6 +210,11 @@ public class CompDetailActivity extends BaseActivity {
 			((TextView) findViewById(R.id.tv_eval_evallevel)).setText(compFul.getEvelLevels());
 			((TextView) findViewById(R.id.tv_eval_evalremark)).setText(compFul.evelContent);
 		} else {
+			findViewById(R.id.ll_evalinfo).setVisibility(View.GONE);
+		}
+
+		//人大不显示评价模块
+		if (getUser().isNpc()) {
 			findViewById(R.id.ll_evalinfo).setVisibility(View.GONE);
 		}
 	}

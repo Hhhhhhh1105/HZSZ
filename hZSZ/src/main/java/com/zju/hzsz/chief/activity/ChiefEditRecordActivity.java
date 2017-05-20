@@ -273,9 +273,15 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		findViewById(R.id.action_camera).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				//关闭FloatingActionMenu
-				((FloatingActionsMenu) findViewById(R.id.multiple_actions)).collapse();
-				startAddPhoto();
+				//若照片超过5张，则无法继续添加
+				if (((LinearLayout) findViewById(R.id.ll_chief_photos)).getChildCount() > 4) {
+					showToast("照片过多，只限5张，可长按图片进行删除");
+					((FloatingActionsMenu) findViewById(R.id.multiple_actions)).collapse();
+				} else {
+					//关闭FloatingActionMenu
+					((FloatingActionsMenu) findViewById(R.id.multiple_actions)).collapse();
+					startAddPhoto();
+				}
 			}
 		});
 
@@ -283,9 +289,15 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		findViewById(R.id.action_album).setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				//关闭floatingActionMenu
-				((FloatingActionsMenu) findViewById(R.id.multiple_actions)).collapse();
-				startAlbum();
+
+				if (((LinearLayout) findViewById(R.id.ll_chief_photos)).getChildCount() > 4) {
+					showToast("照片过多，只限5张，可长按图片进行删除");
+					((FloatingActionsMenu) findViewById(R.id.multiple_actions)).collapse();
+				} else {
+					//关闭floatingActionMenu
+					((FloatingActionsMenu) findViewById(R.id.multiple_actions)).collapse();
+					startAlbum();
+				}
 			}
 		});
 

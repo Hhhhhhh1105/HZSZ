@@ -608,12 +608,12 @@
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_me.xml"
     },
     {
-        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setpwd.xml",
-        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_setpwd.xml"
-    },
-    {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_ranking2.xml",
         "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_ranking2.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setpwd.xml",
+        "source": "D:\\AndroidStudio\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_setpwd.xml"
     },
     {
         "merged": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_mainpage_river.xml",
