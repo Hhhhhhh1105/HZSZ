@@ -17,6 +17,7 @@ import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptor;
 import com.baidu.mapapi.map.BitmapDescriptorFactory;
+import com.baidu.mapapi.map.MapStatus;
 import com.baidu.mapapi.map.MapStatusUpdate;
 import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.baidu.mapapi.map.MapView;
@@ -26,6 +27,7 @@ import com.baidu.mapapi.map.OverlayOptions;
 import com.baidu.mapapi.map.PolylineOptions;
 import com.baidu.mapapi.model.LatLng;
 import com.zju.hzsz.R;
+import com.zju.hzsz.Values;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -70,6 +72,9 @@ public class ChiefInspectActivity extends BaseActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        SDKInitializer.initialize(this.getApplication());
+
         setContentView(R.layout.activity_chief_inspect);
         setTitle("巡河");
         initHead(R.drawable.ic_head_back,0);
@@ -168,12 +173,19 @@ public class ChiefInspectActivity extends BaseActivity{
                 intent.putExtra("lngList", lngList);
 
                 ChiefInspectActivity.this.setResult(RESULT_OK, intent);
+
+                //若成功提交，则地理坐标缓存值设置设为空
+                getUser().setBaiduLatPoints("");
+                getUser().setBaiduLngPoints("");
+
                 ChiefInspectActivity.this.finish();
             }
         }
     };
 
     private void drawBeforeTrack() {
+
+        showOperating();
 
         mBaiduMap.clear();
         BitmapDescriptor bmp_from = BitmapDescriptorFactory.fromResource(R.drawable.track_start);
@@ -186,6 +198,10 @@ public class ChiefInspectActivity extends BaseActivity{
         mBaiduMap.addOverlay(ooPolyline);
         Log.i("recordinspect", "画过起点");
 
+        MapStatus status = new MapStatus.Builder().target(from).zoom(Values.MAP_ZOOM_LEVEL).build();
+        mBaiduMap.setMapStatus(MapStatusUpdateFactory.newMapStatus(status));
+
+        hideOperating();
 
     }
 
@@ -351,6 +367,13 @@ public class ChiefInspectActivity extends BaseActivity{
     protected void onResume() {
         mMapView.onResume();
         super.onResume();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        getUser().setBaiduLatPoints(latList);
+        getUser().setBaiduLngPoints(lngList);
     }
 
     @Override

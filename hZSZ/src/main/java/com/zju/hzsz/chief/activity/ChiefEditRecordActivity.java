@@ -104,7 +104,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			latlist_temp = "" + location.getLatitude();
 			latlist_temp = "" + location.getLongitude();
 		}
-		handler.postDelayed(new MyRunable(), 3000); //每3s记录一次当前轨迹
+		handler.postDelayed(new MyRunable(), 10000); //每10s记录一次当前轨迹
 		initLocation();
 
 		findViewById(R.id.btn_selriver).setOnClickListener(this);//选择河道按钮
@@ -146,33 +146,35 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			viewRender.renderView(findViewById(R.id.sv_main), riverRecord);
 
 			//退出巡河时的提醒
-			findViewById(R.id.iv_head_left).setOnClickListener(new View.OnClickListener() {
-				@Override
-				public void onClick(View view) {
-					AlertDialog.Builder ab = new AlertDialog.Builder(ChiefEditRecordActivity.this);
-					ab.setTitle("是否退出巡河");
-					ab.setMessage("退出巡河界面后，所记录轨迹将消失");
-					ab.setPositiveButton("确定", new DialogInterface.OnClickListener() {
-						@Override
-						public void onClick(DialogInterface arg0, int arg1) {
-							finish();
-						}
-					});
-					ab.setNegativeButton("取消", new DialogInterface.OnClickListener() {
-						@Override
-						public void onClick(DialogInterface arg0, int arg1) {
-							arg0.dismiss();
-						}
-					});
-					ab.setCancelable(false);
-					ab.create().show();
-				}
-			});
+			findViewById(R.id.iv_head_left).setOnClickListener(exitTrackRiver);
 
 			if (!getUser().isNpc())
 				refreshToView();
 			else
 				refreshToNpcView();
+
+			//检查是否正确退出了巡河,弹出窗口询问其是否继续巡河
+			if (getUser().getBaiduLatPoints() != null && !getUser().getBaiduLatPoints().equals("")) {
+				AlertDialog.Builder ab = new AlertDialog.Builder(ChiefEditRecordActivity.this);
+				ab.setTitle("有未完成的巡河轨迹");
+				ab.setMessage("系统检测到您上次未正常提交巡河单，继续采用之前的巡河轨迹？");
+				ab.setPositiveButton("是", new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface arg0, int arg1) {
+						latlist_temp = getUser().getBaiduLatPoints();
+						lnglist_temp = getUser().getBaiduLngPoints();
+						arg0.dismiss();
+					}
+				});
+				ab.setNegativeButton("否", new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface arg0, int arg1) {
+						arg0.dismiss();
+					}
+				});
+				ab.setCancelable(false);
+				ab.create().show();
+			}
 
 			//检查是否开启了GPS,若未开启，则弹出窗口令其开启GPS
 			if (!isOPen(getApplicationContext())) {
@@ -274,8 +276,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			@Override
 			public void onClick(View view) {
 				//若照片超过5张，则无法继续添加
-				if (((LinearLayout) findViewById(R.id.ll_chief_photos)).getChildCount() > 4) {
-					showToast("照片过多，只限5张，可长按图片进行删除");
+				if (((LinearLayout) findViewById(R.id.ll_chief_photos)).getChildCount() > 2) {
+					showToast("照片过多，只限3张，可长按图片进行删除");
 					((FloatingActionsMenu) findViewById(R.id.multiple_actions)).collapse();
 				} else {
 					//关闭FloatingActionMenu
@@ -290,8 +292,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			@Override
 			public void onClick(View view) {
 
-				if (((LinearLayout) findViewById(R.id.ll_chief_photos)).getChildCount() > 4) {
-					showToast("照片过多，只限5张，可长按图片进行删除");
+				if (((LinearLayout) findViewById(R.id.ll_chief_photos)).getChildCount() > 2) {
+					showToast("照片过多，只限3张，可长按图片进行删除");
 					((FloatingActionsMenu) findViewById(R.id.multiple_actions)).collapse();
 				} else {
 					//关闭floatingActionMenu
@@ -367,6 +369,34 @@ public class ChiefEditRecordActivity extends BaseActivity {
 				tcb.setChecked(!c);
 			}
 			v.findViewById(R.id.et_text).setVisibility(((CompoundButton) v.findViewById(R.id.cb_yes)).isChecked() ? View.VISIBLE : View.GONE);
+		}
+	};
+
+	private View.OnClickListener exitTrackRiver = new View.OnClickListener() {
+		@Override
+		public void onClick(View view) {
+			AlertDialog.Builder ab = new AlertDialog.Builder(ChiefEditRecordActivity.this);
+			ab.setTitle("是否退出巡河");
+			ab.setMessage("退出巡河界面后，所记录轨迹将消失");
+			ab.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface arg0, int arg1) {
+
+					//提交成功之后，将缓存坐标值设为空
+					latlist_temp = "";
+					lnglist_temp = "";
+
+					finish();
+				}
+			});
+			ab.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface arg0, int arg1) {
+					arg0.dismiss();
+				}
+			});
+			ab.setCancelable(false);
+			ab.create().show();
 		}
 	};
 
@@ -563,8 +593,11 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			case R.id.btn_submit: {
 
 				if (!hasImg) {
-					showToast("您还没拍摄照片，请点击右侧“+”按钮添加照片");
-					return;
+					//如果不是人大，则不用拍照片
+					if (!getUser().isNpc()) {
+						showToast("您还没拍摄照片，请点击右侧“+”按钮添加照片");
+						return;
+					}
 				}
 
 				if (riverRecord.riverId == 0) {
@@ -719,6 +752,11 @@ public class ChiefEditRecordActivity extends BaseActivity {
 				if (o != null && o.isSuccess()) {
 					showToast("提交成功!");
 					setResult(RESULT_OK);
+
+					//提交成功之后，将缓存坐标值设为空
+					latlist_temp = "";
+					lnglist_temp = "";
+
 					finish();
 				}
 			}
@@ -1063,10 +1101,10 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		@Override
 		public void onReceiveLocation(BDLocation bdLocation) {
 
-			if (location == null)
+			if (bdLocation == null)
 				return;
 
-			LatLng point = new LatLng(location.getLatitude(), location.getLongitude());
+			LatLng point = new LatLng(bdLocation.getLatitude(), bdLocation.getLongitude());
 			points.add(point);
 		}
 	}
@@ -1112,16 +1150,26 @@ public class ChiefEditRecordActivity extends BaseActivity {
 				}
 			}
 
-			handler.postDelayed(this, 5000);
+			handler.postDelayed(this, 10000);
 		}
 	}
 
+	@Override
+	protected void onStop() {
+		super.onStop();
+
+		getUser().setBaiduLatPoints(latlist_temp);
+		getUser().setBaiduLngPoints(lnglist_temp);
+
+		points.clear();
+		mLocClient.unRegisterLocationListener(myListener);
+	}
 
 	//防止退出当前activity之后还在继续定位
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
-		points.clear();
-		mLocClient.unRegisterLocationListener(myListener);
+	/*	points.clear();
+		mLocClient.unRegisterLocationListener(myListener);*/
 	}
 }

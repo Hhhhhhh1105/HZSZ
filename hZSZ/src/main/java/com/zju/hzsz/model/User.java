@@ -143,6 +143,27 @@ public class User {
 	}
 
 
+	//百度坐标-暂存
+	public String baiduLatPoints = "";
+	public String baiduLngPoints = "";
+
+	public String getBaiduLatPoints() {
+		return baiduLatPoints;
+	}
+
+	public void setBaiduLatPoints(String baiduLatPoints) {
+		this.baiduLatPoints = baiduLatPoints;
+	}
+
+	public String getBaiduLngPoints() {
+		return baiduLngPoints;
+	}
+
+	public void setBaiduLngPoints(String baiduLngPoints) {
+		this.baiduLngPoints = baiduLngPoints;
+	}
+
+
 	public List<Integer> getReadNewsIds() {
 		if (readNewsIds == null)
 			readNewsIds = new ArrayList<Integer>();

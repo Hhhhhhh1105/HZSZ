@@ -32,7 +32,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/me_item_h"
                 android:layout_marginBottom="@dimen/page_item_margin_v"
-                android:layout_marginTop="@dimen/page_item_margin_v" >
+                android:layout_marginTop="@dimen/page_item_margin_v"
+                android:visibility="gone">
 
                 <TextView
                     android:id="@+id/tv_chief_sign"
