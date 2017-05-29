@@ -247,9 +247,6 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 			if (river.riverLevel <= 3) {
 				warp.getViewById(R.id.iv_complaint).setVisibility(View.INVISIBLE);
 				warp.getViewById(R.id.iv_suggestion).setVisibility(View.INVISIBLE);
-			} else {
-				warp.getViewById(R.id.iv_complaint).setVisibility(View.VISIBLE);
-				warp.getViewById(R.id.iv_suggestion).setVisibility(View.VISIBLE);
 			}
 
 			warp.setImage(R.id.iv_love, river.isCared(context.getUser()) ? R.drawable.ic_loved : R.drawable.ic_love);
