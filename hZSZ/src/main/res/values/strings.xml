@@ -371,4 +371,8 @@
     <!-- utils -->
     <string name="utils_str_err">ERROR</string>
 
+    <!--npc isRead-->
+    <string name="sup_isread">河长已阅</string>
+    <string name="sup_notread">河长未阅</string>
+
 </resources>

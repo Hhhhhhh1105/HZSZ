@@ -34,6 +34,8 @@ public class DeputySupervise {
     public String dealResult;
     public String evelContent;
 
+    public int isRead;  //是否已阅
+
     //得到年月日形式的字符串
     public String getDateTime() {
         return advTime != null ? advTime.getYMDHM(BaseActivity.getCurActivity()) : "";

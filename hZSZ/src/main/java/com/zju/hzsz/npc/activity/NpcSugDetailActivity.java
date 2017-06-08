@@ -2,8 +2,9 @@ package com.zju.hzsz.npc.activity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.CompoundButton;
-import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.zju.hzsz.R;
@@ -30,6 +31,8 @@ public class NpcSugDetailActivity extends BaseActivity {
 
         ds = StrUtils.Str2Obj(getIntent().getStringExtra("npcsug"), DeputySupervise.class);
 
+
+
         initView();
         initWork();
 
@@ -44,8 +47,13 @@ public class NpcSugDetailActivity extends BaseActivity {
         ((TextView) findViewById(R.id.tv_sup_river)).setText(ds.advRiverName);
 
         //设置建议内容，并将按钮设置成不可点击
-        ((EditText) findViewById(R.id.et_npc_otherquestion)).setText(ds.advContent);
-        ((EditText) findViewById(R.id.et_npc_otherquestion)).setEnabled(false);
+        ((TextView) findViewById(R.id.tv_sug_content)).setText(ds.advContent);
+
+        ((ImageView) findViewById(R.id.iv_status)).setImageResource(ds.isRead == 1 ? R.drawable.im_cp_handled : R.drawable.im_cp_unhandle);
+        ((TextView) findViewById(R.id.tv_isread)).setTextColor(getResources().getColor(ds.isRead == 1 ? R.color.green : R.color.red));
+        ((TextView) findViewById(R.id.tv_isread)).setText(ds.isRead == 1 ? R.string.sup_isread : R.string.sup_notread);
+
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
     }
 
@@ -198,6 +206,7 @@ public class NpcSugDetailActivity extends BaseActivity {
 
         }
     };
+
 
 
 }

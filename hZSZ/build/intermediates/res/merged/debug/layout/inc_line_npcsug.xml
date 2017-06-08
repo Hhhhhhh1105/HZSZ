@@ -209,9 +209,9 @@
 
         <EditText
             android:id="@+id/et_npc_otherquestion"
-            style="@style/form_singleline_te"
+            style="@style/form_line_te"
             android:layout_width="0dp"
-            android:layout_height="@dimen/form_5line_h"
+            android:layout_height="@dimen/form_8line_h"
             android:layout_weight="1"
             android:gravity="top|left"
             android:hint="其他建议" />
