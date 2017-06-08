@@ -8,6 +8,7 @@ import android.widget.RadioGroup;
 
 import com.zju.hzsz.R;
 import com.zju.hzsz.fragment.npc.chief.ChiefNpcCompListFragment;
+import com.zju.hzsz.fragment.npc.chief.ChiefNpcRecordFragment;
 import com.zju.hzsz.fragment.npc.chief.ChiefNpcSugListFragment;
 
 /**
@@ -17,9 +18,10 @@ import com.zju.hzsz.fragment.npc.chief.ChiefNpcSugListFragment;
 
 public class ChiefNpcSupActivity extends BaseActivity implements RadioGroup.OnCheckedChangeListener {
 
-
+    ChiefNpcRecordFragment chiefNpcRecordFragment = new ChiefNpcRecordFragment();
     ChiefNpcCompListFragment npcCompListFragment = new ChiefNpcCompListFragment();
     ChiefNpcSugListFragment npcSugListFragment = new ChiefNpcSugListFragment();
+
 
 
     @Override
@@ -33,7 +35,7 @@ public class ChiefNpcSupActivity extends BaseActivity implements RadioGroup.OnCh
         ((RadioGroup) findViewById(R.id.rg_headtab)).setOnCheckedChangeListener(this);
 
         //一开始显示人大的投诉界面
-        replaceFragment(npcCompListFragment);
+        replaceFragment(chiefNpcRecordFragment);
 
     }
 
@@ -41,6 +43,9 @@ public class ChiefNpcSupActivity extends BaseActivity implements RadioGroup.OnCh
     public void onCheckedChanged(RadioGroup radioGroup, int rdid) {
         switch (rdid) {
             case R.id.rb_head_left:
+                replaceFragment(chiefNpcRecordFragment);
+                break;
+            case R.id.rb_head_medium:
                 replaceFragment(npcCompListFragment);
                 break;
             case R.id.rb_head_right:

@@ -77,6 +77,13 @@ public class NpcRankActivity extends BaseActivity {
             }
         });
 
+        findViewById(R.id.tv_seldistrict).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showAreaPop();
+            }
+        });
+
         //日期选择监听器
         findViewById(R.id.tv_seldate).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,6 +111,7 @@ public class NpcRankActivity extends BaseActivity {
                     //更新显示UI-区划名字
                     curDistrict = d;
                     ((TextView) findViewById(R.id.tv_rankingtitle)).setText("" + curDistrict.districtName + "人大代表履职统计");
+                    ((TextView) findViewById(R.id.tv_seldistrict)).setText("" + curDistrict.districtName);
                 }
             }
         }
@@ -112,6 +120,7 @@ public class NpcRankActivity extends BaseActivity {
             //更新显示UI-区划名字
             curDistrict = Values.districtLists[0];
             ((TextView) findViewById(R.id.tv_rankingtitle)).setText("" + curDistrict.districtName + "人大代表履职统计");
+            ((TextView) findViewById(R.id.tv_seldistrict)).setText("" + curDistrict.districtName);
         }
 
         adapter = new SimpleListAdapter(this, rankings, new SimpleViewInitor() {
@@ -209,7 +218,7 @@ public class NpcRankActivity extends BaseActivity {
                     dismissArea();
                     curDistrict = (District) arg0.getTag(); //这是数据改变的重点所在
                     ((TextView) findViewById(R.id.tv_rankingtitle)).setText("" + curDistrict.districtName + "人大代表履职统计");
-
+                    ((TextView) findViewById(R.id.tv_seldistrict)).setText("" + curDistrict.districtName);
                     //根据区划刷新排行榜数据
                     onRefresh();
                 }

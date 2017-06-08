@@ -65,6 +65,24 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/green"
                 android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择区划"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:id="@+id/tv_seldistrict"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_medium"
+                android:text="西湖区"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/green"
+                android:textSize="@dimen/font_normal" />
         </LinearLayout>
 
         <LinearLayout

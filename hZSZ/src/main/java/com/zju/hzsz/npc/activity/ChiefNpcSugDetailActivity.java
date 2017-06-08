@@ -31,6 +31,9 @@ public class ChiefNpcSugDetailActivity extends BaseActivity {
         setTitle("监督单详情页");
         initHead(R.drawable.ic_head_back, 0);
 
+        findViewById(R.id.iv_status).setVisibility(View.INVISIBLE);
+        findViewById(R.id.tv_isread).setVisibility(View.INVISIBLE);
+
         ds = StrUtils.Str2Obj(getIntent().getStringExtra("npcsug"), DeputySupervise.class);
         adviceId = Integer.toString(ds.advId);
 
@@ -64,8 +67,7 @@ public class ChiefNpcSugDetailActivity extends BaseActivity {
         ((TextView) findViewById(R.id.tv_sup_river)).setText(ds.advRiverName);
         ((TextView) findViewById(R.id.tv_sug_content)).setText(ds.advContent);
 
-        findViewById(R.id.iv_status).setVisibility(View.INVISIBLE);
-        findViewById(R.id.tv_isread).setVisibility(View.INVISIBLE);
+
 
     }
 

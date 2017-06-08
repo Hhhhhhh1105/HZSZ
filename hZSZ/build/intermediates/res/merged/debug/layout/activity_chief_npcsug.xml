@@ -32,6 +32,21 @@
             android:checked="true"
             android:gravity="center"
             android:padding="@dimen/padding_small"
+            android:text="代表巡河"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/btn_black_white"
+            android:textSize="@dimen/font_normal" />
+
+        <RadioButton
+            android:id="@+id/rb_head_medium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_tabbtn_m_bg"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:padding="@dimen/padding_small"
             android:text="投诉举报"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="@color/btn_black_white"
