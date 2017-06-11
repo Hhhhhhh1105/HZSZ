@@ -35,6 +35,7 @@ public class RiverRecord {
 	public int riverId; // 巡查的河道Id
 	public String recordPersonName;
 	public String recordRiverName;
+	public int recordPersonAuth; //巡河人的等级
 
 	// local
 	public River locRiver;
@@ -46,5 +47,22 @@ public class RiverRecord {
 
 	public String getYMDHM() {
 		return recordDate != null ? recordDate.getYMDHM(BaseActivity.getCurActivity()) : "";
+	}
+
+	public String[] recordPersonAuthStr = {"村级", "镇街级", "区级", "市级"};
+
+	public String getRecordPersonAuthStr() {
+		switch (recordPersonAuth) {
+			case 2:
+				return recordPersonAuthStr[1];
+			case 8:
+				return recordPersonAuthStr[0];
+			case 9:
+				return recordPersonAuthStr[2];
+			case 10:
+				return recordPersonAuthStr[3];
+			default:
+				return "";
+		}
 	}
 }

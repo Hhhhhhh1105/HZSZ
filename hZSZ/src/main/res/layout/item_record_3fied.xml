@@ -11,8 +11,9 @@
     android:paddingTop="@dimen/padding_medium" >
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:tag="tt:{.m:getYMD2}"
         android:text="2015-5-1"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -22,21 +23,22 @@
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:gravity="center"
         android:singleLine="true"
-        android:tag="tt:{.recordRiverName}"
-        android:text="菜洋河"
+        android:tag="tt:{.recordPersonName}"
+        android:text="小刘"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/black"
         android:textSize="@dimen/font_normal" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:tag="tt:{.recordPersonName}"
-        android:text="小李"
+        android:tag="tt:{.m:getRecordPersonAuthStr}"
+        android:text="村级"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/black"
         android:textSize="@dimen/font_normal" />
