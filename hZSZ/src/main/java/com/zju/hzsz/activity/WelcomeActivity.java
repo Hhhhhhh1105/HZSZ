@@ -166,6 +166,32 @@ public class WelcomeActivity extends BaseActivity {
 						nm.notify(Tags.ID_NOTIFICATION, notification);
 					}
 
+					if (o.data.sumUnDealDeputyComp > 0) {
+						Context context = WelcomeActivity.this;
+						NotificationManager nm = ((NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE));
+
+						Notification.Builder builder = new Notification.Builder(context);
+						builder.setSmallIcon(R.drawable.ic_launcher);
+
+						String content = "您有" + o.data.sumUnDealDeputyComp + "条代表投诉未处理!";
+
+						builder.setTicker(content);
+						builder.setContentTitle(getString(R.string.app_name));
+						builder.setContentText(content);
+						builder.setAutoCancel(true);
+						Notification notification = null;
+						if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+							notification = builder.build();
+						} else {
+							notification = builder.getNotification();
+						}
+
+						Intent notificationIntent = new Intent(context, ChiefCompListActivity.class);
+						PendingIntent contentIntent = PendingIntent.getActivity(context, 0, notificationIntent, 0);
+						notification.contentIntent = contentIntent;
+						nm.notify(Tags.ID_NOTIFICATION, notification);
+					}
+
 					if (o.data.sumUnReadMail > 0) {
 						Context context = WelcomeActivity.this;
 						NotificationManager nm = ((NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE));

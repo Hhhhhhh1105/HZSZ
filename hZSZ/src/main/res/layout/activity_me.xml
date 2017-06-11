@@ -86,6 +86,20 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/text_gray" />
 
+                <TextView
+                    android:id="@+id/tv_chief_unhandle_npccomplaint_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="@dimen/me_item_h"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:text="@string/eg_chief_unhandle_comp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:visibility="gone" >
+                </TextView>
+
                 <ImageView
                     android:id="@+id/iv_chief_npcsug"
                     android:layout_width="@dimen/me_item_icon_w"

@@ -116,6 +116,14 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
                         ((TextView) rootView.findViewById(R.id.tv_chief_unhandlecomplaint_count)).setVisibility(View.GONE);
                     }
 
+                    //代表投诉提醒
+                    if (o.data.sumUnDealDeputyComp > 0) {
+                        ((TextView) rootView.findViewById(R.id.tv_chief_unhandle_npccomplaint_count)).setText(o.data.sumUnDealDeputyComp + "个代表投诉未处理");
+                        ((TextView) rootView.findViewById(R.id.tv_chief_unhandle_npccomplaint_count)).setVisibility(View.VISIBLE);
+                    } else {
+                        ((TextView) rootView.findViewById(R.id.tv_chief_unhandle_npccomplaint_count)).setVisibility(View.GONE);
+                    }
+
                     if (o.data.sumUndealAdv > 0) {
                         ((TextView) rootView.findViewById(R.id.tv_chief_unhandlesuggestion_count)).setText(o.data.sumUndealAdv + "个建议未处理");
                         ((TextView) rootView.findViewById(R.id.tv_chief_unhandlesuggestion_count)).setVisibility(View.VISIBLE);
