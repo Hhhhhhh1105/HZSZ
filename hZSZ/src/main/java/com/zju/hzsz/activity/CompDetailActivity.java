@@ -16,6 +16,7 @@ import com.zju.hzsz.clz.ViewWarp;
 import com.zju.hzsz.model.CompDetailRes;
 import com.zju.hzsz.model.CompFul;
 import com.zju.hzsz.model.CompSugs;
+import com.zju.hzsz.model.EvalRes;
 import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.utils.ImgUtils;
 import com.zju.hzsz.utils.ParamUtils;
@@ -31,6 +32,10 @@ public class CompDetailActivity extends BaseActivity {
 	private CompSugs comp = null;
 	private CompFul compFul = null;
 	private boolean readOnly = false;
+	private TextView tv_eval_btn;
+	private String request;
+
+	private boolean ifShowComment = false; //若有deputyId,则说明是从首页点击进入投诉
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -44,8 +49,12 @@ public class CompDetailActivity extends BaseActivity {
 		findViewById(R.id.ll_result).setVisibility(View.GONE);
 		findViewById(R.id.ll_evalinfo).setVisibility(View.GONE);
 
+		tv_eval_btn = (TextView) findViewById(R.id.tv_eval);
+		tv_eval_btn.setVisibility(View.GONE);
+
 		comp = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_COMP), CompSugs.class);
 		readOnly = getIntent().getBooleanExtra(Tags.TAG_ABOOLEAN, false);//ture,只读
+		ifShowComment = getIntent().getIntExtra("deputyId", 0) == 0 ;
 
 		if (comp != null) {
 			if (!comp.isComp()) {
@@ -127,16 +136,41 @@ public class CompDetailActivity extends BaseActivity {
 		showOperating();
 
 		JSONObject params;
-		String request;
 
 		if (comp.isComp()) {
-			//人大/河长查看自身的投诉单详情
-			request =  "complaintscontent_data_get";
-			params = ParamUtils.freeParam(null, "complaintsId" , comp.getId());
+
 			if (comp.compPersonId > 0) {
-				//查看最新投诉的投诉单详情
+				//查看“最新投诉”的投诉单详情
 				request = "Get_ChiefComplain_Content";
 				params = ParamUtils.freeParam(null, "complianId" , comp.getId());
+			} else {
+				//人大/河长查看自身的投诉单详情
+				request =  "complaintscontent_data_get";
+				params = ParamUtils.freeParam(null, "complaintsId" , comp.getId());
+
+				//status 3:已处理 6：追加处理评价  7：已评价，满意
+				//人大评价部分的显示 - 得确定是从人大的个人中心进入 - 用deputyId来控制
+				//即首页点击进入时传入deputyId,个人中心不传，默认为0，用ifShowComment boolean值表明是否显示
+				if (getUser().isNpc() && ifShowComment) {
+
+					if (comp.getStatus() == 1) {
+						// 待受理
+					} else if (comp.getStatus() == 2) {
+						// 已受理
+					} else if (comp.getStatus() == 3 || comp.getStatus() == 6) {
+						// 已处理, 或者已经追加处理
+						tv_eval_btn.setVisibility(View.VISIBLE);
+						tv_eval_btn.setText("马上评价>>");
+					} else if (comp.getStatus() >= 4) {
+						//查看评价
+						tv_eval_btn.setVisibility(View.VISIBLE);
+						tv_eval_btn.setText("查看评价>>");
+					}
+
+					tv_eval_btn.setTag(comp);
+					tv_eval_btn.setOnClickListener(btnClk);
+
+				}
 			}
 
 		} else {
@@ -158,21 +192,23 @@ public class CompDetailActivity extends BaseActivity {
 			}
 		}, CompDetailRes.class, params);
 
-	/*	if (comp.getStatus() >= 3) {
-			// 获取评价
-			getRequestContext().add(comp.isComp() ? "complaintseval_action_get" : "adviceeval_action_get", new Callback<EvalRes>() {
+		if (!ifShowComment && getUser().isNpc()) {
+			// 获取评价  --- 这里人大的评价和普通评价分开写了
+			//不展示“查看评价”，“马上评价的话”的话
+			getRequestContext().add("complaintseval_action_get", new Callback<EvalRes>() {
 				@Override
 				public void callback(EvalRes o) {
 					if (o != null && o.isSuccess()) {
 						//为了评价情况正确显示
-						if (!(comp.compPersonId > 0)){
+						if (!(comp.compPersonId > 0)) {
 							findViewById(R.id.ll_evalinfo).setVisibility(View.VISIBLE);
 							render.renderView(findViewById(R.id.ll_evalinfo), o.data);
 						}
 					}
 				}
 			}, EvalRes.class, params);
-		}*/
+		}
+
 	}
 
 	private void refreshView() {
@@ -214,7 +250,7 @@ public class CompDetailActivity extends BaseActivity {
 		}
 
 		//人大不显示评价模块
-		if (getUser().isNpc()) {
+		if (getUser().isNpc() && !request.equals("Get_ChiefComplain_Content")) {
 			findViewById(R.id.ll_evalinfo).setVisibility(View.GONE);
 		}
 	}
@@ -262,6 +298,29 @@ public class CompDetailActivity extends BaseActivity {
 
 		} else {
 			findViewById(R.id.hsv_result_photos).setVisibility(View.GONE);
+		}
+	}
+
+	private View.OnClickListener btnClk = new View.OnClickListener() {
+
+		@Override
+		public void onClick(View v) {
+			if (v.getTag() instanceof CompSugs) {
+				CompSugs comp = (CompSugs) v.getTag();
+				Intent intent = new Intent(CompDetailActivity.this, EvalCompActivity.class);
+				intent.putExtra(Tags.TAG_COMP, StrUtils.Obj2Str(comp));
+				startActivityForResult(intent, Tags.CODE_COMP);
+			}
+		}
+	};
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+
+		if (requestCode == Tags.CODE_COMP && resultCode == RESULT_OK) {
+			// 重新加载
+			loadData();
 		}
 	}
 }

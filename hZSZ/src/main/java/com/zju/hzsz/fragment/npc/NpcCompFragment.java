@@ -95,10 +95,12 @@ public class NpcCompFragment extends BaseFragment {
                         comp.compStatus = cp.compStatus;
                         comp.compTheme = cp.compTheme;
                         comp.complaintsContent = cp.compContent;
+                        comp.complaintsNum = cp.complaintsNum;
 
                         Intent intent = new Intent(getBaseActivity(), CompDetailActivity.class);
                         intent.putExtra(Tags.TAG_COMP, StrUtils.Obj2Str(comp));
                         intent.putExtra(Tags.TAG_ABOOLEAN, true);
+                        intent.putExtra("deputyId", deputyId);
                         startActivity(intent);
                     }
                 }

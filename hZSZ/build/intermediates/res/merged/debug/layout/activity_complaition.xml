@@ -566,6 +566,24 @@
                     android:text="@string/submit"
                     android:textColor="@color/btn_white_green" />
             </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_medium"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingBottom="@dimen/padding_2large"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingRight="@dimen/padding_large"
+                android:paddingTop="@dimen/padding_2large"
+                android:text="马上评价>>"
+                android:id="@+id/tv_eval"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/green"
+                android:textSize="@dimen/font_large"
+                android:visibility="gone"/>
+
         </LinearLayout>
     </ScrollView>
 

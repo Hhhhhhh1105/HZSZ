@@ -18,17 +18,62 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java" line="1015" />
     <bookmark url="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/SugOrComtActivity.java" line="68" />
-    <bookmark url="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcCompFragment.java" line="121" />
+    <bookmark url="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcCompFragment.java" line="123" />
     <bookmark url="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcCompFragment.java" line="51" />
     <bookmark url="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java" line="249" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f20fd589-bcc1-45a9-935c-fd3cc5edf866" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/BaiduLBS_Android_0d473495c6ae4f5c99408957cc5092bc2a071f46.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/GetuiExt-2.0.3_df75c800de92a62dffd57c35c5966a6e2dd8f066.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/GetuiSDK2.6.1.0_e8c8d71e49d2501c9f7f1342a184ab422d947212.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/MobCommons-2016.1201.1839_b7bff1b020fb87e9fb3d61bc28218c713062717c.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/MobTools-2016.1201.1839_75f04822a56e260806facd56fe03bc278b33ae31.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/SocialSDK_QQZone_1_5f538cb0e806dc6f925af98faac18dbc285952ec.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/SocialSDK_QQZone_2_5d45ae57d72b2460efbedbd9a076770a1197e619.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/SocialSDK_QQZone_3_4135d4c23cea3b8a03d4b539baa8d1cb17182046.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/SocialSDK_WeiXin_1_f5ccafc8036f3c2ccee9b56e5be6c02e5755e330.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/SocialSDK_WeiXin_2_fc4c6a018dd23fc9f46b80c970bfa6c1b9f453a1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_b815b47cdb6eed6dba8e43eee5d26adf996dfe1a.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_7bc65ae367e70118020c6e0829b1ccb03c7244c1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.0.0_0d57dae1ace1091b79c00d6771b9f3c7d9482159.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.0_5985fc9adc11f4f0501898000888305a1732ea40.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.0_2ba7784a5314ea759caa73f6bed28b993c9aa0cf.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_b4fe69ca41a5d1a13bf9301cc7e3716393fcac28.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.android.volley_96ed3917d472a5a31eab22904e45e9903e9adf59.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.getbase-floatingactionbutton-1.10.1_6462eda421a958bbe71d55a3a5dd37bd8d491832.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.github.afollestad.material-dialogs-core-0.8.5.1_dc3d3fc36a9fc6cb2c30080c72d12535631eb525.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.github.markushi-circlebutton-1.1_b506e84fb91abd047df71887b4f32e27e2f21ae8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_78ac3704b42dc370330d4a5ec4caf7efceb1e7ab.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_ebf50e9b96580e8df4a5038e88e588d02502d9ff.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_9a84a0eba75e6b0dbe1e225d04f40d95c9da84b8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/com.google.gson_eb1245750e10f54f8abdf017ffe9b4416b729fb2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/debug_3de1092eefb453851295805c8951033c6a0587d8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/httpmime-4.1.3_08c1779a8d38ecfe32b3004a9633fb1b17ea674b.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-SMSSDK-2.1.3_85df4f9053aac289432bc448f19a5b5f8433e483.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/internal_impl-24.1.0_899df90c88c1dfafb7de50a63db749d39375dbd8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/json_simple-1.1_3ae59a25daa04318ac6e798f49ab4256f7d3cae3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/locSDK_6.13_085f8190fa20764a31206cc71bfb1ca3f7ff28a9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/me.zhanghai.android.materialprogressbar-library-1.1.4_e24fbad2e9c1bb470c434ba3c47a85f501fe786d.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/mpandroidchartlibrary-2-1-0_e7a1f7213de3f5e7328bb01837470f5872b86155.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/picasso-2.5.2_cca2f96b33ade480b6962440938d06611f66cc67.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/sinlibs.2016.311_a49069f7c6e9470511b362810ff3837d716d279a.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/support-annotations-24.1.0_3caa2d56e8d5263a8080ecfa417902f2942fa96b.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/uk.co.senab.photoview.1.2.2_b7ec572550f78fbf6350232b3f8d411932f21945.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/umeng-analytics-v5.5.3_05372cb2ffb44eb438e5d88351e1a7d1994aea29.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/pre-dexed/debug/umeng_social_sdk_0c1843a439672aa3578143a8180c16ccc87ac1e7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/buildId.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_hZSZ_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
@@ -39,11 +84,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$string.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$style.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$styleable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AuthCodeActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AuthCodeActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AuthCodeActivity$3$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AuthCodeActivity$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AuthCodeActivity$3$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AuthCodeActivity$3$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AuthCodeActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AuthCodeActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AuthCodeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/AuthCodeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/BaseActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/BaseActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/ChangePasswordActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/ChangePasswordActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompDetailActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompDetailActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompDetailActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompDetailActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompDetailActivity$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompDetailActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompDetailActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompListActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompListActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompListActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/CompListActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/EvalCompActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/EvalCompActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/EvalCompActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/EvalCompActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/ForgotPasswordActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/ForgotPasswordActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/LoginActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/MainActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/MeActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/MeActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/MeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/MeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/MyCollectActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/MyCollectActivity$5.class" />
@@ -54,6 +112,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/OutletActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/OutletActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/PhotoViewActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/PhotoViewActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/RegisterActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/RegisterActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/RegisterActivity$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/RegisterActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/RegisterActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/RegisterActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/RiverActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/RiverActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/RiverActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/RiverActivity.class" />
@@ -74,7 +133,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/SugOrComtActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/SugOrComtActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/SugOrComtActivity$8.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/SugOrComtActivity$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/SugOrComtActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/SugOrComtActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/WelcomeActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/WelcomeActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/WelcomeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/activity/WelcomeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/adapter/MyAdapter.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/adapter/MyAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefCompDetailActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/chief/activity/ChiefCompDetailActivity$4.class" />
@@ -98,8 +156,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$22.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment$22.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MainFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MeFragment$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MeFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MeFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MeFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MeFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MeFragment$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MeFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/MeFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/NewsFragment.class" />
@@ -124,6 +180,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment$RankingPager.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment$RankingPager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/TabRankingFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/npc/NpcCompFragment$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/npc/NpcCompFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/npc/NpcCompFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/npc/NpcCompFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/npc/NpcCompFragment$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/npc/NpcCompFragment$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/npc/NpcCompFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/npc/NpcCompFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/npc/NpcRiverFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/npc/NpcRiverFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/npc/NpcSugFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/npc/NpcSugFragment.class" />
@@ -136,7 +194,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/river/RiverPolicyItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/river/RiverPolicyItem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/river/RiverQualityItem$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/river/RiverQualityItem$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/river/RiverQualityItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/fragment/river/RiverQualityItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/model/CheckNotify.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/model/CheckNotify.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/npc/activity/NpcLegalListActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/npc/activity/NpcLegalListActivity$2.class" />
@@ -149,6 +206,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/utils/ViewUtils.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/utils/ViewUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/view/ListViewWarp.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/com/zju/hzsz/view/ListViewWarp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/me/zhanghai/android/materialprogressbar/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/classes/debug/me/zhanghai/android/materialprogressbar/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/afollestad/materialdialogs/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/afollestad/materialdialogs/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$id.class" />
@@ -157,11 +216,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$string.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$style.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$styleable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/AuthCodeActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/AuthCodeActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/AuthCodeActivity$3$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/AuthCodeActivity$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/AuthCodeActivity$3$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/AuthCodeActivity$3$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/AuthCodeActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/AuthCodeActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/AuthCodeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/AuthCodeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/BaseActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/BaseActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/ChangePasswordActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/ChangePasswordActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompDetailActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompDetailActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompDetailActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompDetailActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompDetailActivity$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompDetailActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompDetailActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompListActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompListActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompListActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/CompListActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/EvalCompActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/EvalCompActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/EvalCompActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/EvalCompActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/ForgotPasswordActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/ForgotPasswordActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/LoginActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/MainActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/MeActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/MeActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/MeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/MeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/MyCollectActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/MyCollectActivity$5.class" />
@@ -172,6 +244,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/OutletActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/OutletActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/PhotoViewActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/PhotoViewActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/RegisterActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/RegisterActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/RegisterActivity$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/RegisterActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/RegisterActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/RegisterActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/RiverActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/RiverActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/RiverActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/RiverActivity.class" />
@@ -192,7 +265,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/SugOrComtActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/SugOrComtActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/SugOrComtActivity$8.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/SugOrComtActivity$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/SugOrComtActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/SugOrComtActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/WelcomeActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/WelcomeActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/WelcomeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/activity/WelcomeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/adapter/MyAdapter.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/adapter/MyAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/chief/activity/ChiefCompDetailActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/chief/activity/ChiefCompDetailActivity$4.class" />
@@ -216,8 +288,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MainFragment$22.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MainFragment$22.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MainFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MainFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MeFragment$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MeFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MeFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MeFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MeFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MeFragment$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MeFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/MeFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/NewsFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/NewsFragment$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/NewsFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/NewsFragment.class" />
@@ -242,6 +312,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/TabRankingFragment$RankingPager.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/TabRankingFragment$RankingPager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/TabRankingFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/TabRankingFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/npc/NpcCompFragment$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/npc/NpcCompFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/npc/NpcCompFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/npc/NpcCompFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/npc/NpcCompFragment$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/npc/NpcCompFragment$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/npc/NpcCompFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/npc/NpcCompFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/npc/NpcRiverFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/npc/NpcRiverFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/npc/NpcSugFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/npc/NpcSugFragment.class" />
@@ -254,7 +326,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/river/RiverPolicyItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/river/RiverPolicyItem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/river/RiverQualityItem$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/river/RiverQualityItem$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/river/RiverQualityItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/fragment/river/RiverQualityItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/model/CheckNotify.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/model/CheckNotify.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/npc/activity/NpcLegalListActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental-verifier/debug/com/zju/hzsz/npc/activity/NpcLegalListActivity$2.class" />
@@ -271,25 +342,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/GWJv71HyNvETyccmkvr0WZ1lAz0=" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/GWJv71HyNvETyccmkvr0WZ1lAz0=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/instant-run-support/debug/instant-run.zip" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/instant-run-support/debug/instant-run.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/common_full_open_on_phone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/common_ic_googleplayservices.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi/common_ic_googleplayservices.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-mdpi-v4/fab_bg_normal.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-mdpi-v4/fab_bg_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_36dp.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_36dp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xhdpi-v4/fab_bg_mini.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xhdpi-v4/fab_bg_mini.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xhdpi-v4/fab_bg_normal.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xhdpi-v4/fab_bg_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xhdpi-v4/md_nav_back.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xhdpi-v4/md_nav_back.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/fab_bg_normal.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/fab_bg_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxhdpi/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxhdpi/common_full_open_on_phone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/fab_bg_normal.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/fab_bg_normal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable/umeng_socialize_nav_bar_bg.png" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/drawable/umeng_socialize_nav_bar_bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" />
@@ -306,11 +367,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$string.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$style.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$styleable.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/AuthCodeActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/AuthCodeActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/AuthCodeActivity$3$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/AuthCodeActivity$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/AuthCodeActivity$3$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/AuthCodeActivity$3$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/AuthCodeActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/AuthCodeActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/AuthCodeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/AuthCodeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/BaseActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/BaseActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/ChangePasswordActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/ChangePasswordActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompDetailActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompDetailActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompDetailActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompDetailActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompDetailActivity$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompDetailActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompDetailActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompListActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompListActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompListActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/CompListActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/EvalCompActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/EvalCompActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/EvalCompActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/EvalCompActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/ForgotPasswordActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/ForgotPasswordActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/LoginActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/MainActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/MeActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/MeActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/MeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/MeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/MyCollectActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/MyCollectActivity$5.class" />
@@ -321,6 +395,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/OutletActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/OutletActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/PhotoViewActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/PhotoViewActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/RegisterActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/RegisterActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/RegisterActivity$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/RegisterActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/RegisterActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/RegisterActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/RiverActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/RiverActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/RiverActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/RiverActivity.class" />
@@ -341,7 +416,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/SugOrComtActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/SugOrComtActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/SugOrComtActivity$8.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/SugOrComtActivity$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/SugOrComtActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/SugOrComtActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/WelcomeActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/WelcomeActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/WelcomeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/activity/WelcomeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/adapter/MyAdapter.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/adapter/MyAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/chief/activity/ChiefCompDetailActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/chief/activity/ChiefCompDetailActivity$4.class" />
@@ -365,8 +439,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MainFragment$22.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MainFragment$22.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MainFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MainFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MeFragment$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MeFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MeFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MeFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MeFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MeFragment$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MeFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/MeFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/NewsFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/NewsFragment$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/NewsFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/NewsFragment.class" />
@@ -391,6 +463,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/TabRankingFragment$RankingPager.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/TabRankingFragment$RankingPager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/TabRankingFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/TabRankingFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/npc/NpcCompFragment$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/npc/NpcCompFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/npc/NpcCompFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/npc/NpcCompFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/npc/NpcCompFragment$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/npc/NpcCompFragment$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/npc/NpcCompFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/npc/NpcCompFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/npc/NpcRiverFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/npc/NpcRiverFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/npc/NpcSugFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/npc/NpcSugFragment.class" />
@@ -403,7 +477,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/river/RiverPolicyItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/river/RiverPolicyItem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/river/RiverQualityItem$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/river/RiverQualityItem$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/river/RiverQualityItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/fragment/river/RiverQualityItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/model/CheckNotify.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/model/CheckNotify.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/npc/activity/NpcLegalListActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/npc/activity/NpcLegalListActivity$2.class" />
@@ -416,11 +489,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/utils/ViewUtils.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/utils/ViewUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/view/ListViewWarp.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/zju/hzsz/view/ListViewWarp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/me/zhanghai/android/materialprogressbar/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRun/debug/folders/1/5/main/me/zhanghai/android/materialprogressbar/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/AuthCodeActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/AuthCodeActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/AuthCodeActivity$3$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/AuthCodeActivity$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/AuthCodeActivity$3$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/AuthCodeActivity$3$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/AuthCodeActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/AuthCodeActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/AuthCodeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/AuthCodeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/BaseActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/BaseActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/ChangePasswordActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/ChangePasswordActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompDetailActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompDetailActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompDetailActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompDetailActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompDetailActivity$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompDetailActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompDetailActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompListActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompListActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompListActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/CompListActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/EvalCompActivity$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/EvalCompActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/EvalCompActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/EvalCompActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/ForgotPasswordActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/ForgotPasswordActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/LoginActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/MainActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/MeActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/MeActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/MeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/MeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/MyCollectActivity$5.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/MyCollectActivity$5.class" />
@@ -431,6 +517,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/OutletActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/OutletActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/PhotoViewActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/PhotoViewActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/RegisterActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/RegisterActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/RegisterActivity$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/RegisterActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/RegisterActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/RegisterActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/RiverActivity$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/RiverActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/RiverActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/RiverActivity.class" />
@@ -451,13 +538,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/SugOrComtActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/SugOrComtActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/SugOrComtActivity$8.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/SugOrComtActivity$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/SugOrComtActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/SugOrComtActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/WelcomeActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/WelcomeActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/WelcomeActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/activity/WelcomeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/clz/RootViewWarp.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/clz/RootViewWarp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/view/ListViewWarp.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/zju/hzsz/view/ListViewWarp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/zju/hzsz/fragment/npc/chief/ChiefNpcCompListFragment$CompListPager$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/zju/hzsz/fragment/npc/chief/ChiefNpcCompListFragment$CompListPager$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/zju/hzsz/fragment/npc/NpcCompFragment$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/zju/hzsz/fragment/npc/NpcCompFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/zju/hzsz/fragment/npc/NpcCompFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/zju/hzsz/fragment/npc/NpcCompFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/zju/hzsz/fragment/npc/NpcCompFragment$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/zju/hzsz/fragment/npc/NpcCompFragment$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/zju/hzsz/fragment/npc/NpcCompFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/zju/hzsz/fragment/npc/NpcCompFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/zju/hzsz/fragment/npc/NpcRiverFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/zju/hzsz/fragment/npc/NpcRiverFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/zju/hzsz/fragment/npc/NpcSugFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/zju/hzsz/fragment/npc/NpcSugFragment.class" />
@@ -472,8 +560,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MainFragment$22.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MainFragment$22.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MainFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MainFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MeFragment$1.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MeFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MeFragment$2.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MeFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MeFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MeFragment$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MeFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/MeFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/NewsFragment$3.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/NewsFragment$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/NewsFragment.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/fragment/NewsFragment.class" />
@@ -508,7 +594,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/npc/activity/NpcSugDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/zju/hzsz/npc/activity/NpcSugDetailActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/afollestad/materialdialogs/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/afollestad/materialdialogs/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/zju/hzsz/adapter/MyAdapter.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/zju/hzsz/adapter/MyAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/zju/hzsz/model/CheckNotify.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/zju/hzsz/model/CheckNotify.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/me/zhanghai/android/materialprogressbar/R$id.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/me/zhanghai/android/materialprogressbar/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/chief/activity/ChiefCompDetailActivity$4.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/chief/activity/ChiefCompDetailActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/chief/activity/ChiefCompDetailActivity.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/chief/activity/ChiefCompDetailActivity.class" />
@@ -535,34 +620,29 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/fragment/river/RiverQualityItem.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/zju/hzsz/fragment/river/RiverQualityItem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/zju/hzsz/utils/ViewUtils.class" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/zju/hzsz/utils/ViewUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/outputs/apk/hZSZ-debug.apk" afterPath="$PROJECT_DIR$/hZSZ/build/outputs/apk/hZSZ-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/com/afollestad/materialdialogs/R.java" afterPath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/com/afollestad/materialdialogs/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/com/zju/hzsz/R.java" afterPath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/com/zju/hzsz/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/me/zhanghai/android/materialprogressbar/R.java" afterPath="$PROJECT_DIR$/hZSZ/build/generated/source/r/debug/me/zhanghai/android/materialprogressbar/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/color.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/layout/activity_me.xml" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/layout/activity_me.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/layout/activity_complaition.xml" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/res/merged/debug/layout/activity_complaition.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/buildId.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" afterPath="$PROJECT_DIR$/hZSZ/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/WelcomeActivity.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/WelcomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/CheckNotify.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/CheckNotify.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_me.xml" afterPath="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_me.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/CompDetailActivity.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/CompDetailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcCompFragment.java" afterPath="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcCompFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_complaition.xml" afterPath="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_complaition.xml" />
     </list>
     <ignored path="HZSZ.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -597,154 +677,126 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fragment_river_infopub.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_river_infopub.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RiverRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/RiverRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3388">
-              <caret line="342" column="0" selection-start-line="342" selection-start-column="0" selection-end-line="342" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WelcomeActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/WelcomeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-252">
-              <caret line="178" column="78" selection-start-line="178" selection-start-column="78" selection-end-line="178" selection-end-column="78" />
-              <folding>
-                <element signature="e#5725#5753#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckNotify.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/CheckNotify.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RiverInfoItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7084">
-              <caret line="350" column="101" selection-start-line="350" selection-start-column="101" selection-end-line="350" selection-end-column="101" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="119" column="57" selection-start-line="119" selection-start-column="57" selection-end-line="119" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_me.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_me.xml">
+      <file leaf-file-name="NpcCompFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcCompFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
-              <folding>
-                <element signature="e#4249#4267#0" expanded="true" />
-                <element signature="e#4353#4376#0" expanded="true" />
-                <element signature="e#4410#4442#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#396#397#0" expanded="false" />
-                <element signature="e#420#421#0" expanded="false" />
-                <element signature="e#482#483#0" expanded="false" />
-                <element signature="e#529#530#0" expanded="false" />
-                <element signature="e#1013#1014#0" expanded="false" />
-                <element signature="e#1057#1058#0" expanded="false" />
-                <element signature="e#1359#1360#0" expanded="false" />
-                <element signature="e#1388#1389#0" expanded="false" />
-                <element signature="e#1426#1427#0" expanded="false" />
-                <element signature="e#1449#1450#0" expanded="false" />
-                <element signature="e#1493#1494#0" expanded="false" />
-                <element signature="e#1526#1527#0" expanded="false" />
-                <element signature="e#1562#1563#0" expanded="false" />
-                <element signature="e#1580#1581#0" expanded="false" />
-                <element signature="e#1617#1618#0" expanded="false" />
-                <element signature="e#1640#1641#0" expanded="false" />
-                <element signature="e#2347#2348#0" expanded="false" />
-                <element signature="e#2369#2370#0" expanded="false" />
-                <element signature="e#2414#2415#0" expanded="false" />
-                <element signature="e#2445#2446#0" expanded="false" />
-                <element signature="e#2568#2569#0" expanded="false" />
-                <element signature="e#2596#2597#0" expanded="false" />
-                <element signature="e#2653#2654#0" expanded="false" />
-                <element signature="e#2696#2697#0" expanded="false" />
-                <element signature="e#2734#2735#0" expanded="false" />
-                <element signature="e#2762#2763#0" expanded="false" />
-                <element signature="e#2819#2820#0" expanded="false" />
-                <element signature="e#2862#2863#0" expanded="false" />
-                <element signature="e#3412#3413#0" expanded="false" />
-                <element signature="e#3456#3457#0" expanded="false" />
-                <element signature="e#3498#3499#0" expanded="false" />
-                <element signature="e#3520#3521#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="item_record_3fied.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_record_3fied.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <caret line="97" column="62" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
               <folding />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompDetailActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/CompDetailActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="180" column="41" selection-start-line="180" selection-start-column="41" selection-end-line="180" selection-end-column="41" />
+              <folding>
+                <element signature="e#5156#5504#0" expanded="true" />
+                <element signature="e#5503#5504#0" expanded="true" />
+                <element signature="e#5697#6029#0" expanded="true" />
+                <element signature="e#6028#6029#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EvalRes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/EvalRes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Eval.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/Eval.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompSugs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/CompSugs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+              <folding>
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="confs_river_info.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/confs_river_info.xml">
           <provider editor-type-id="android-designer2">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="29" column="30" selection-start-line="27" selection-start-column="11" selection-end-line="42" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EvalCompActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/EvalCompActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1828">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_evalcomp.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_evalcomp.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompListActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/CompListActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="172" column="55" selection-start-line="171" selection-start-column="4" selection-end-line="179" selection-end-column="5" />
+              <folding>
+                <element signature="method#onActivityResult#0;class#CompListActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_complaition.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_complaition.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="584" column="40" selection-start-line="584" selection-start-column="40" selection-end-line="584" selection-end-column="40" />
+              <folding>
+                <element signature="e#22571#27643#0" expanded="false" />
+                <element signature="e#27966#27989#0" expanded="true" />
+                <element signature="e#28144#28167#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -2591,9 +2643,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefCompListActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_chief_npccomp.xml" />
-        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcCompFragment.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/Tags.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/chief/ChiefNpcCompListFragment.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefCompDetailActivity.java" />
@@ -2615,7 +2665,6 @@
         <option value="$PROJECT_DIR$/hZSZ/src/main/assets/newsdetail_tpl.html" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_main.xml" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/CompListActivity.java" />
-        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/CompDetailActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/User.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java" />
@@ -2642,6 +2691,9 @@
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/WelcomeActivity.java" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_me.xml" />
         <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcCompFragment.java" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_complaition.xml" />
+        <option value="$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/CompDetailActivity.java" />
       </list>
     </option>
   </component>
@@ -2674,15 +2726,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane />
       </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2690,7 +2742,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="E:/Android/workplace/BdBox1.7(1128)/BdBox1.7" />
-    <property name="SearchEverywhereHistoryKey" value="wel&#9;PSI&#9;JAVA://com.zju.hzsz.activity.WelcomeActivity&#10;main&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;mef&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;info&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.river.RiverInfoItem&#10;riverin&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.river.RiverInfoPubItem&#10;riverma&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.RiverMapFragment&#10;tra&#9;PSI&#9;JAVA://com.zju.hzsz.chief.activity.ChiefTrackViewActivity&#10;Mainf&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;riverp&#9;PSI&#9;JAVA://com.zju.hzsz.activity.RiverPositionActivity&#10;Main&#9;PSI&#9;JAVA://com.zju.hzsz.activity.MainActivity&#10;mapfr&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.SectionMapFragment&#10;and&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/AndroidManifest.xml&#10;map&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.PublicityMapFragment&#10;npcra&#9;PSI&#9;JAVA://com.zju.hzsz.npc.activity.NpcRankActivity&#10;Mef&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;me&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;npcrive&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.npc.NpcRiverFragment&#10;login&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/LoginActivity.java&#10;ME&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;log&#9;PSI&#9;JAVA://com.zju.hzsz.activity.BaseActivity.LoginCallback&#10;user&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/User.java&#10;lo&#9;PSI&#9;JAVA://com.zju.hzsz.activity.LoginActivity&#10;com&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcCompFragment.java&#10;Searc&#9;PSI&#9;JAVA://com.zju.hzsz.activity.SearchCompActivity&#10;news&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/NewsFragment.java&#10;river&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;req&#9;PSI&#9;JAVA://com.zju.hzsz.net.RequestContext&#10;cons&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;chief&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java&#10;Va&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/Values.java&#10;val&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/Values.java&#10;con&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;out&#9;PSI&#9;JAVA://com.zju.hzsz.activity.OutletActivity&#10;User&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/User.java&#10;Me&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;Comp&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/CompDetailActivity.java&#10;riverIn&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;pubI&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.river.RiverInfoPubItem&#10;NewsF&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.NewsFragment&#10;News&#9;PSI&#9;JAVA://com.zju.hzsz.activity.NewsDetailActivity&#10;comp&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/CompDetailActivity.java&#10;member&#9;PSI&#9;JAVA://com.zju.hzsz.activity.NpcMemberActivity&#10;NpcMy&#9;PSI&#9;JAVA://com.zju.hzsz.npc.activity.NpcMyjobActivity&#10;pr&#9;ACTION&#9;ActivatePreviewToolWindow&#10;NpcRiver&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcRiverFragment.java&#10;pub&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/PublicityListFragment.java&#10;npcr&#9;PSI&#9;JAVA://com.zju.hzsz.npc.activity.NpcRankActivity&#10;sug&#9;PSI&#9;JAVA://com.zju.hzsz.activity.SugOrComtActivity&#10;Npcsug&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.npc.NpcSugFragment&#10;npcsugde&#9;PSI&#9;JAVA://com.zju.hzsz.npc.activity.NpcSugDetailActivity" />
+    <property name="SearchEverywhereHistoryKey" value="Mef&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;RIVER&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;wel&#9;PSI&#9;JAVA://com.zju.hzsz.activity.WelcomeActivity&#10;main&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;mef&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;info&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.river.RiverInfoItem&#10;riverin&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.river.RiverInfoPubItem&#10;riverma&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.RiverMapFragment&#10;tra&#9;PSI&#9;JAVA://com.zju.hzsz.chief.activity.ChiefTrackViewActivity&#10;Mainf&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java&#10;riverp&#9;PSI&#9;JAVA://com.zju.hzsz.activity.RiverPositionActivity&#10;Main&#9;PSI&#9;JAVA://com.zju.hzsz.activity.MainActivity&#10;mapfr&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.SectionMapFragment&#10;and&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/AndroidManifest.xml&#10;map&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.PublicityMapFragment&#10;npcra&#9;PSI&#9;JAVA://com.zju.hzsz.npc.activity.NpcRankActivity&#10;me&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;npcrive&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.npc.NpcRiverFragment&#10;login&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/LoginActivity.java&#10;ME&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;log&#9;PSI&#9;JAVA://com.zju.hzsz.activity.BaseActivity.LoginCallback&#10;user&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/User.java&#10;lo&#9;PSI&#9;JAVA://com.zju.hzsz.activity.LoginActivity&#10;com&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcCompFragment.java&#10;Searc&#9;PSI&#9;JAVA://com.zju.hzsz.activity.SearchCompActivity&#10;news&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/NewsFragment.java&#10;river&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;req&#9;PSI&#9;JAVA://com.zju.hzsz.net.RequestContext&#10;cons&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;chief&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefInspectActivity.java&#10;Va&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/Values.java&#10;val&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/Values.java&#10;con&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/net/Constants.java&#10;out&#9;PSI&#9;JAVA://com.zju.hzsz.activity.OutletActivity&#10;User&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/model/User.java&#10;Me&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java&#10;Comp&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/CompDetailActivity.java&#10;riverIn&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java&#10;pubI&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.river.RiverInfoPubItem&#10;NewsF&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.NewsFragment&#10;News&#9;PSI&#9;JAVA://com.zju.hzsz.activity.NewsDetailActivity&#10;comp&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/activity/CompDetailActivity.java&#10;member&#9;PSI&#9;JAVA://com.zju.hzsz.activity.NpcMemberActivity&#10;NpcMy&#9;PSI&#9;JAVA://com.zju.hzsz.npc.activity.NpcMyjobActivity&#10;pr&#9;ACTION&#9;ActivatePreviewToolWindow&#10;NpcRiver&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcRiverFragment.java&#10;pub&#9;FILE&#9;file://D:/AndroidStudio/HZSZ/hZSZ/src/main/java/com/zju/hzsz/fragment/PublicityListFragment.java&#10;npcr&#9;PSI&#9;JAVA://com.zju.hzsz.npc.activity.NpcRankActivity&#10;sug&#9;PSI&#9;JAVA://com.zju.hzsz.activity.SugOrComtActivity&#10;Npcsug&#9;PSI&#9;JAVA://com.zju.hzsz.fragment.npc.NpcSugFragment" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="device.picker.selection" value="28150562" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/hZSZ/src/main/res/drawable" />
@@ -3067,13 +3119,6 @@
       <option name="presentableId" value="Default" />
       <updated>1482386421390</updated>
     </task>
-    <task id="LOCAL-00012" summary="02-23-edit-to-inspect-is-ok">
-      <created>1487859761511</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1487859761512</updated>
-    </task>
     <task id="LOCAL-00013" summary="02-23-outlet-distance">
       <created>1487907366900</created>
       <option name="number" value="00013" />
@@ -3410,7 +3455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497172830062</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="06-11 代表投诉数提醒">
+      <created>1497185432405</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1497185432406</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3429,7 +3481,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71965814" sideWeight="0.2519084" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73989457" sideWeight="0.7480916" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8347979" sideWeight="0.7480916" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3437,17 +3489,17 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23129772" sideWeight="0.50615114" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3880342" sideWeight="0.49389312" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25299147" sideWeight="0.48966026" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25982907" sideWeight="0.74351144" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.258348" sideWeight="0.74351144" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2840735" sideWeight="0.49384886" order="9" side_tool="false" content_ui="tabs" x="0" y="20" width="1366" height="705" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.557265" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2840735" sideWeight="0.49384886" order="9" side_tool="false" content_ui="tabs" x="0" y="20" width="1366" height="705" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55711776" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32597622" sideWeight="0.49406528" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5940246" sideWeight="0.14327918" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26641223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2656968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -3460,6 +3512,41 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2940171" sideWeight="0.4844904" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71965814" sideWeight="0.2519084" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46572936" sideWeight="0.7480916" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24816984" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23129772" sideWeight="0.50615114" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3880342" sideWeight="0.49389312" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25299147" sideWeight="0.48966026" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25982907" sideWeight="0.74351144" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2840735" sideWeight="0.49384886" order="9" side_tool="false" content_ui="tabs" x="0" y="20" width="1366" height="705" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.557265" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32597622" sideWeight="0.49406528" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5940246" sideWeight="0.14327918" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2656968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2940171" sideWeight="0.4844904" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -3507,89 +3594,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/NpcSugList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_npc_sug.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcSugFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="58" column="75" selection-start-line="58" selection-start-column="75" selection-end-line="58" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/inc_line_npcsug_mini.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2796">
-          <caret line="193" column="19" selection-start-line="193" selection-start-column="19" selection-end-line="193" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/inc_line_npcsug.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="188" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="222" selection-end-column="15" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8250">
-          <caret line="375" column="44" selection-start-line="375" selection-start-column="44" selection-end-line="375" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_npc_comp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="12" selection-end-line="44" selection-end-column="49" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcCompFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="65" column="110" selection-start-line="64" selection-start-column="20" selection-end-line="65" selection-end-column="176" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="96" column="35" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/utils/PreferencesWarp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/chief/activity/ChiefEditRecordActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -3606,13 +3610,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_npc_sugdetail.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/npc/activity/ChiefNpcSugDetailActivity.java">
@@ -3658,13 +3662,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_chief_npcsug.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/drawable-hdpi/ic_head_order_s.png">
@@ -3680,23 +3684,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/inc_head.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-462">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_npc_rank.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_npc_rank.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1760">
           <caret line="80" column="65" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/npc/activity/NpcRankActivity.java">
@@ -3707,14 +3711,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_section_map.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="39" column="28" selection-start-line="36" selection-start-column="3" selection-end-line="41" selection-end-column="35" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/AndroidManifest.xml">
@@ -3806,7 +3809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3822,36 +3824,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="55" column="69" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/fragment_river_infopub.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/RiverRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7084">
-          <caret line="350" column="101" selection-start-line="350" selection-start-column="101" selection-end-line="350" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="1386">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -3889,6 +3871,7 @@
             <element signature="e#2762#2763#0" expanded="false" />
             <element signature="e#2819#2820#0" expanded="false" />
             <element signature="e#2862#2863#0" expanded="false" />
+            <element signature="e#3147#3156#0" expanded="false" />
             <element signature="e#3412#3413#0" expanded="false" />
             <element signature="e#3456#3457#0" expanded="false" />
             <element signature="e#3498#3499#0" expanded="false" />
@@ -3898,20 +3881,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/item_record_3fied.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3388">
-          <caret line="342" column="0" selection-start-line="342" selection-start-column="0" selection-end-line="342" selection-end-column="0" />
+        <state relative-caret-position="352">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -3928,41 +3903,160 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_me.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/WelcomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
+        <state relative-caret-position="2850">
           <caret line="178" column="78" selection-start-line="178" selection-start-column="78" selection-end-line="178" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MainFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="342" column="0" selection-start-line="342" selection-start-column="0" selection-end-line="342" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/RiverRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/river/RiverInfoItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2882">
+          <caret line="159" column="65" selection-start-line="159" selection-start-column="65" selection-end-line="159" selection-end-column="65" />
           <folding>
-            <element signature="e#5725#5753#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/confs_river_info.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="30" selection-start-line="27" selection-start-column="11" selection-end-line="42" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/MeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="119" column="57" selection-start-line="119" selection-start-column="57" selection-end-line="119" selection-end-column="57" />
+        <state relative-caret-position="100">
+          <caret line="309" column="69" selection-start-line="309" selection-start-column="69" selection-end-line="309" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_me.xml">
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_evalcomp.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/fragment/npc/NpcCompFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
+          <caret line="97" column="62" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/CompListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="172" column="55" selection-start-line="171" selection-start-column="4" selection-end-line="179" selection-end-column="5" />
           <folding>
-            <element signature="e#4249#4267#0" expanded="true" />
-            <element signature="e#4353#4376#0" expanded="true" />
-            <element signature="e#4410#4442#0" expanded="true" />
+            <element signature="method#onActivityResult#0;class#CompListActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/EvalRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/Eval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/res/layout/activity_complaition.xml">
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="584" column="40" selection-start-line="584" selection-start-column="40" selection-end-line="584" selection-end-column="40" />
+          <folding>
+            <element signature="e#22571#27643#0" expanded="false" />
+            <element signature="e#27966#27989#0" expanded="true" />
+            <element signature="e#28144#28167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/model/CompSugs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/EvalCompActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1828">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hZSZ/src/main/java/com/zju/hzsz/activity/CompDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="180" column="41" selection-start-line="180" selection-start-column="41" selection-end-line="180" selection-end-column="41" />
+          <folding>
+            <element signature="e#5156#5504#0" expanded="true" />
+            <element signature="e#5503#5504#0" expanded="true" />
+            <element signature="e#5697#6029#0" expanded="true" />
+            <element signature="e#6028#6029#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
