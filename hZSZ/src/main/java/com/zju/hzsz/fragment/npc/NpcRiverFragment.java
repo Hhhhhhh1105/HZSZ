@@ -1,6 +1,8 @@
 package com.zju.hzsz.fragment.npc;
 
+import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,6 +18,7 @@ import com.zju.hzsz.Tags;
 import com.zju.hzsz.activity.NpcMemberActivity;
 import com.zju.hzsz.chief.activity.YearMonthSelectDialog;
 import com.zju.hzsz.fragment.BaseFragment;
+import com.zju.hzsz.model.BaseRes;
 import com.zju.hzsz.model.RiverRecord;
 import com.zju.hzsz.model.RiverRecordListRes;
 import com.zju.hzsz.net.Callback;
@@ -42,9 +45,41 @@ public class NpcRiverFragment extends BaseFragment {
 
     public String year = "2017";
     public String month = "4";
+    private String day = "1";
     private YearMonthSelectDialog selectDialog = null;
     JSONObject params = null;
     int deputyId = 0;
+
+
+    protected View.OnLongClickListener delClk = new View.OnLongClickListener() {
+        @Override
+        public boolean onLongClick(View view) {
+            final RiverRecord record = (RiverRecord) view.getTag();
+            if (record != null) {
+                Dialog d = getBaseActivity().createMessageDialog("提示", "确定删除该记录吗?", "删除", "取消", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface arg0, int arg1) {
+                        showOperating();
+                        getRequestContext().add("Delete_RiverRecord", new Callback<BaseRes>() {
+                            @Override
+                            public void callback(BaseRes o) {
+                                hideOperating();
+                                if (o != null && o.isSuccess()) {
+                                    getBaseActivity().showToast("删除成功!");
+                                    list.remove(record);
+                                    adapter.notifyDataSetChanged();
+                                }
+                            }
+                        }, BaseRes.class, ParamUtils.freeParam(null, "recordId", record.recordId));
+                    }
+                }, null, null);
+                d.show();
+            }
+            return true;
+        }
+    };
+
+
 
 
     @Override
@@ -56,6 +91,7 @@ public class NpcRiverFragment extends BaseFragment {
         //将日期设置为当前年月
         year = "" + Calendar.getInstance().get(Calendar.YEAR);
         month = "" + (Calendar.getInstance().get(Calendar.MONTH) + 1);
+        day = "" + (Calendar.getInstance().get(Calendar.DAY_OF_MONTH));
 
         adapter = new SimpleListAdapter(getBaseActivity(), list, new SimpleViewInitor() {
 
@@ -77,7 +113,20 @@ public class NpcRiverFragment extends BaseFragment {
                     }
                 });
 
+                //判断是否是今天
+                boolean isToday = Integer.parseInt(year) == (record.recordDate.year + 1900) &&
+                        Integer.parseInt(month) == (record.recordDate.month + 1) &&
+                        Integer.parseInt(day) == record.recordDate.date;
 
+                //deputyId == 0看其是否是从个人中心进入的
+                if (deputyId == 0 && isToday){
+                    //长按删除巡河记录
+                    convertView.setOnLongClickListener(delClk);
+                }
+
+
+
+                convertView.setTag(record);
                 return convertView;
             }
         });
