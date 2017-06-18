@@ -96,6 +96,7 @@ public class NpcCompFragment extends BaseFragment {
                         comp.compTheme = cp.compTheme;
                         comp.complaintsContent = cp.compContent;
                         comp.complaintsNum = cp.complaintsNum;
+                        comp.isRead = cp.isRead;
 
                         Intent intent = new Intent(getBaseActivity(), CompDetailActivity.class);
                         intent.putExtra(Tags.TAG_COMP, StrUtils.Obj2Str(comp));

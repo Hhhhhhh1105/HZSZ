@@ -20,6 +20,8 @@ public class CompSugs {
 
 	public int compPersonId; //投诉人的Id
 
+	public int isRead; //代表投诉河长是否已阅
+
 	public boolean isComp() {
 		return complaintsId != 0;
 	}

@@ -23,6 +23,8 @@ public class CompPublicity {
 
 	public int compPersonId; //投诉人的Id
 
+	public int isRead; //代表投诉河长是否已读
+
 	//得到年月日形式的字符串
 	public String getDateTime() {
 		return compTime != null ? compTime.getYMDHM(BaseActivity.getCurActivity()) : "";

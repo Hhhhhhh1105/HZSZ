@@ -175,7 +175,7 @@ public class ChiefCompDetailActivity extends BaseActivity {
 		showOperating();
 
 		JSONObject params;
-		String request;
+		final String request;
 
 		if (isNpcComp) {
 			//人大投诉
@@ -221,6 +221,17 @@ public class ChiefCompDetailActivity extends BaseActivity {
 					}
 					
 					initResultPhotoView(compFul.dealPicPath);
+
+					//查看人大那边的评价
+//					if (request.equals("Get_ChiefDeputyComplain_Content")) {
+						if (compFul.evelLevel > -1) {
+							findViewById(R.id.ll_evalinfo).setVisibility(View.VISIBLE);
+							((TextView) findViewById(R.id.tv_eval_evallevel)).setText(compFul.getEvelLevels());
+							((TextView) findViewById(R.id.tv_eval_evalremark)).setText(compFul.evelContent);
+						} else {
+							findViewById(R.id.ll_evalinfo).setVisibility(View.GONE);
+						}
+//					}
 				}
 			}
 		}, ChiefCompFulRes.class, params);

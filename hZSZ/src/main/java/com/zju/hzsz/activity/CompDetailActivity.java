@@ -34,6 +34,7 @@ public class CompDetailActivity extends BaseActivity {
 	private boolean readOnly = false;
 	private TextView tv_eval_btn;
 	private String request;
+	private int isRead = 0;
 
 	private boolean ifShowComment = false; //若有deputyId,则说明是从首页点击进入投诉
 
@@ -169,6 +170,13 @@ public class CompDetailActivity extends BaseActivity {
 
 					tv_eval_btn.setTag(comp);
 					tv_eval_btn.setOnClickListener(btnClk);
+
+
+					//已阅未阅
+					findViewById(R.id.ll_isread).setVisibility(View.VISIBLE);
+					((ImageView) findViewById(R.id.iv_status)).setImageResource(comp.isRead == 1 ? R.drawable.im_cp_handled : R.drawable.im_cp_unhandle);
+					((TextView) findViewById(R.id.tv_isread)).setTextColor(getResources().getColor(comp.isRead == 1 ? R.color.green : R.color.red));
+					((TextView) findViewById(R.id.tv_isread)).setText(comp.isRead == 1 ? R.string.sup_isread : R.string.sup_notread);
 
 				}
 			}

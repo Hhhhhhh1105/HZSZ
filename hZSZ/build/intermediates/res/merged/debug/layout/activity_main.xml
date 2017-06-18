@@ -30,7 +30,7 @@
         android:layout_height="@dimen/bottom_btn_h"
         android:layout_gravity="center_vertical"
         android:gravity="center_vertical"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
          <RadioButton
             android:id="@+id/rd_xinwen"
