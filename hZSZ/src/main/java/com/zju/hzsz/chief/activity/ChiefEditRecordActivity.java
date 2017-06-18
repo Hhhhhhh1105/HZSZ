@@ -87,6 +87,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 	private String latlist_temp;//当前巡河数据
 	private String lnglist_temp;
 
+	private int deputyId = 0;
 
 	private boolean hasImg = false;
 
@@ -135,8 +136,9 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 
 		riverRecord = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_RECORD), RiverRecord.class);
-
 		isReadOnly = getIntent().getBooleanExtra(Tags.TAG_ABOOLEAN, false);
+		//如果是从首页进入的，则其不为0；若是从个人中心进入的，则其为0. --> 人大
+		deputyId = getIntent().getIntExtra("deputyId", 0);
 
 		if (riverRecord == null) {//从新建中进入
 			setTitle("新建巡查记录");
@@ -219,6 +221,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 						o.data.recordId = riverRecord.recordId;
 						o.data.recordSerNum = riverRecord.recordSerNum;
 						o.data.recordDate = riverRecord.recordDate;
+						o.data.isRead = riverRecord.isRead;
 						riverRecord = o.data;
 
 						riverRecord.locRiver = null;
@@ -246,8 +249,19 @@ public class ChiefEditRecordActivity extends BaseActivity {
 						viewRender.renderView(findViewById(R.id.sv_main), riverRecord);
 //						if (!getUser().isNpc())
 						//点击具体条目之后，若巡河人的级别为人大，则用人大的视图；是河长，则用河长的视图
-						if (riverRecord.recordPersonAuthority > 20)
+						if (riverRecord.recordPersonAuthority > 20) {
 							refreshToNpcView();
+
+							//1.人大  2.查看的是自己的河的巡河记录
+							if (getUser().isNpc() && deputyId == 0) {
+								//显示代表巡河河长是否已阅
+								findViewById(R.id.ll_isread).setVisibility(View.VISIBLE);
+								((ImageView) findViewById(R.id.iv_status)).setImageResource(riverRecord.isRead == 1 ? R.drawable.im_cp_handled : R.drawable.im_cp_unhandle);
+								((TextView) findViewById(R.id.tv_isread)).setTextColor(getResources().getColor(riverRecord.isRead == 1 ? R.color.green : R.color.red));
+								((TextView) findViewById(R.id.tv_isread)).setText(riverRecord.isRead == 1 ? R.string.sup_isread : R.string.sup_notread);
+							}
+
+						}
 						else
 							refreshToView();
 

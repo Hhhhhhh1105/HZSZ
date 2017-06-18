@@ -109,6 +109,7 @@ public class NpcRiverFragment extends BaseFragment {
                         Intent intent = new Intent(getBaseActivity(), com.zju.hzsz.chief.activity.ChiefEditRecordActivity.class);
                         intent.putExtra(Tags.TAG_RECORD, StrUtils.Obj2Str(record));
                         intent.putExtra(Tags.TAG_ABOOLEAN, true);
+                        intent.putExtra("deputyId", deputyId);
                         getBaseActivity().startActivityForResult(intent, Tags.CODE_EDIT);
                     }
                 });

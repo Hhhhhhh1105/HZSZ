@@ -41,6 +41,8 @@ public class RiverRecord {
 	public River locRiver;
 	public String locRiverName;
 
+	public int isRead; //代表巡河河长是否已阅
+
 	public String getYMD2() {
 		return recordDate != null ? recordDate.getYMD2(BaseActivity.getCurActivity()) : "";
 	}

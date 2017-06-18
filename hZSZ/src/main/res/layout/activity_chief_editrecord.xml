@@ -125,15 +125,43 @@
                     android:textSize="@dimen/font_normal" />
 
                 <TextView
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/padding_medium"
-                    android:layout_weight="1"
                     android:tag="tt:{.recordSerNum}"
                     android:text="XC112222"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/green"
                     android:textSize="@dimen/font_normal" />
+
+                <LinearLayout
+                    android:id="@+id/ll_isread"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_status"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="2dp"
+                        android:src="@drawable/im_cp_handled" />
+
+                    <TextView
+                        android:id="@+id/tv_isread"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/sup_isread"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="3dp"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/font_normal" />
+
+                </LinearLayout>
+
             </LinearLayout>
 
             <TextView
