@@ -210,6 +210,10 @@
         <activity
             android:name=".activity.AboutActivity"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.QuestionActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.QuestionDetailActivity"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".activity.RegisterActivity"
             android:label="@string/register"

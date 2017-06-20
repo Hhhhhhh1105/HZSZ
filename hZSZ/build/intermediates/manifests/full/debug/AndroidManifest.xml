@@ -212,6 +212,12 @@
             android:name="com.zju.hzsz.activity.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.zju.hzsz.activity.QuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zju.hzsz.activity.QuestionDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.zju.hzsz.activity.RegisterActivity"
             android:label="@string/register"
             android:screenOrientation="portrait" />

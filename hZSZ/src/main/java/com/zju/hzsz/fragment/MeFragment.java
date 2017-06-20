@@ -15,6 +15,7 @@ import com.zju.hzsz.activity.AboutActivity;
 import com.zju.hzsz.activity.CompListActivity;
 import com.zju.hzsz.activity.LoginActivity;
 import com.zju.hzsz.activity.MyCollectActivity;
+import com.zju.hzsz.activity.QuestionActivity;
 import com.zju.hzsz.activity.RiverActivity;
 import com.zju.hzsz.activity.SettingActivity;
 import com.zju.hzsz.clz.RootViewWarp;
@@ -65,6 +66,7 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             rootView.findViewById(R.id.tv_collection).setOnClickListener(this);
             rootView.findViewById(R.id.tv_setting).setOnClickListener(this);
             rootView.findViewById(R.id.tv_about).setOnClickListener(this);
+            rootView.findViewById(R.id.tv_question).setOnClickListener(this); //常见问题
             rootView.findViewById(R.id.tv_logout).setOnClickListener(this);
             rootView.findViewById(R.id.iv_logo).setOnClickListener(this);
 
@@ -322,6 +324,10 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             }
             case R.id.tv_about: {
                 startActivity(new Intent(getBaseActivity(), AboutActivity.class));
+                break;
+            }
+            case R.id.tv_question: {
+                startActivity(new Intent(getBaseActivity(), QuestionActivity.class));
                 break;
             }
             case R.id.tv_setting: {

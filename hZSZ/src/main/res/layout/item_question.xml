@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    android:background="@drawable/btn_white_bg_gray">
+
+
+        <TextView
+            android:id="@+id/tv_question_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="李达康"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
+
+
+
+
+        <ImageView
+            android:layout_width="@dimen/quality_icon_w"
+            android:layout_height="@dimen/quality_icon_h"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/arrow_right"
+            android:visibility="visible" />
+
+
+</LinearLayout>
