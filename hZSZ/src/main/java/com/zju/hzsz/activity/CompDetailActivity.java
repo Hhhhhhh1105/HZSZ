@@ -327,8 +327,9 @@ public class CompDetailActivity extends BaseActivity {
 		super.onActivityResult(requestCode, resultCode, data);
 
 		if (requestCode == Tags.CODE_COMP && resultCode == RESULT_OK) {
-			// 重新加载
-			loadData();
+			// 退回到我的履职页面
+			setResult(RESULT_OK);
+			finish();
 		}
 	}
 }

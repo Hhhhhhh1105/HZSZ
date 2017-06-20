@@ -32,6 +32,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+import static android.app.Activity.RESULT_OK;
+
 /**
  * 人大代表=投诉举报列表
  * Created by Wangli on 2017/4/19.
@@ -102,7 +104,7 @@ public class NpcCompFragment extends BaseFragment {
                         intent.putExtra(Tags.TAG_COMP, StrUtils.Obj2Str(comp));
                         intent.putExtra(Tags.TAG_ABOOLEAN, true);
                         intent.putExtra("deputyId", deputyId);
-                        startActivity(intent);
+                        startActivityForResult(intent, Tags.CODE_COMP);
                     }
                 }
             });
@@ -168,4 +170,13 @@ public class NpcCompFragment extends BaseFragment {
         return j;
     }
 
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == Tags.CODE_COMP && resultCode == RESULT_OK) {
+            // 刷新数据
+            loadData(true);
+        }
+    }
 }
