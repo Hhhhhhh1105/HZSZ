@@ -9,7 +9,6 @@ package com.zju.hzsz.net;
 public class Constants {
 	public static final String SerUrl1 = "http://115.159.53.25:8080"; // test
 	public static final String SerUrl2 = "http://220.191.208.69:8080"; // release
-
 	public static final String SerUrl = "http://www.zhhz.gov.cn";
 
 	public static final String ApiUrl = SerUrl + "/ShuiHuanJingFabu/background/app.htm";
