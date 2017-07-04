@@ -53,6 +53,7 @@
     <string name="hint_com_name">投诉人姓名</string>
     <string name="hint_suggest_tel">联系电话</string>
     <string name="hint_suggest_subject">建议主题</string>
+    <string name="hint_suggest_category">请选择投诉类别</string>
     <string name="hint_com_subject">投诉主题</string>
     <string name="hint_suggest_content">内容描述(不超过140字)</string>
     <string name="hint_evaluate_remark">请输入留言</string>

@@ -960,6 +960,7 @@
     <string name="hint_phonenum">输入手机号码</string>
     <string name="hint_replayinfo">请输入处理结果</string>
     <string name="hint_searchriver">输入河道名称进行查询</string>
+    <string name="hint_suggest_category">请选择投诉类别</string>
     <string name="hint_suggest_content">内容描述(不超过140字)</string>
     <string name="hint_suggest_name">建议人姓名</string>
     <string name="hint_suggest_subject">建议主题</string>

@@ -157,6 +157,29 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_et_sug_category"
+                style="@style/form_singleline"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/form_singleline_h"
+                android:layout_marginBottom="@dimen/form_singleline_margin_v"
+                android:layout_marginTop="@dimen/form_singleline_margin_v"
+                android:orientation="horizontal"
+                android:padding="@dimen/form_contain_padding"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/et_suggest_category"
+                    style="@style/form_singleline_te"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/hint_suggest_category"
+                    android:drawableRight="@drawable/ic_pulldown"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:id="@+id/ll_et_sugcontent"
                 style="@style/form_singleline"
                 android:layout_width="fill_parent"

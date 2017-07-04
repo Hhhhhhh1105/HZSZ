@@ -26,6 +26,8 @@ import android.widget.TextView;
 import com.sin.android.sinlibs.base.Callable;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
+import com.zju.hzsz.model.Event;
+import com.zju.hzsz.model.EventRes;
 import com.zju.hzsz.model.River;
 import com.zju.hzsz.model.SugOrComRes;
 import com.zju.hzsz.net.Callback;
@@ -56,6 +58,9 @@ public class SugOrComtActivity extends BaseActivity {
 	private int chiefFeedBack = 0;
 	private int chiefWork = 0;
 
+	private Event[] events;
+	private int eventId;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -74,10 +79,18 @@ public class SugOrComtActivity extends BaseActivity {
 			// 投诉
 			((TextView) findViewById(R.id.tv_suggest_river)).setText(R.string.form_complaint_river);
 			((CheckBox) findViewById(R.id.ck_anonymity)).setText(R.string.form_complaint_anonymity);
-
 			((EditText) findViewById(R.id.et_suggest_name)).setHint(R.string.hint_com_name);
-
 			((EditText) findViewById(R.id.et_suggest_subject)).setHint(R.string.hint_com_subject);
+			//显示选择投诉类别
+			findViewById(R.id.ll_et_sug_category).setVisibility(View.VISIBLE);
+			getSugCategory();
+			findViewById(R.id.ll_et_sug_category).setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View view) {
+					selectSugCategory();
+				}
+			});
+
 		} else {
 			// 建议
 			findViewById(R.id.hsv_photos).setVisibility(View.GONE);
@@ -193,6 +206,48 @@ public class SugOrComtActivity extends BaseActivity {
 		intent.putExtra(Tags.TAG_CODE, Tags.CODE_SELECTRIVER);
 		intent.putExtra(Tags.TAG_TITLE, "选择投诉河道");
 		startActivityForResult(intent, Tags.CODE_SELECTRIVER);
+	}
+
+	//选择投诉类型
+	private void getSugCategory() {
+
+		getRequestContext().add("Get_Event_Type", new Callback<EventRes>() {
+			@Override
+			public void callback(EventRes o) {
+
+				if (o != null && o.isSuccess()) {
+					events = o.data;
+				}
+
+			}
+		}, EventRes.class, null);
+
+	}
+
+	private void selectSugCategory() {
+
+		final String[] names = new String[events.length];
+		for (int i = 0; i < names.length; i++) {
+			names[i] = events[i].eventTitle;
+		}
+
+		Dialog alertDialog = new AlertDialog.Builder(this).setTitle("请选择投诉类型").setItems(names, new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialogInterface, int i) {
+
+				((TextView) findViewById(R.id.et_suggest_category)).setText(names[i]);
+				((TextView) findViewById(R.id.et_suggest_category)).setTextColor(getResources().getColor(R.color.black));
+				eventId = events[i].eventId;
+
+			}
+		}).setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialogInterface, int i) {
+
+			}
+		}).create();
+		alertDialog.show();
+
 	}
 
 	private void readyToSugOrCom(final River river) {
@@ -472,7 +527,9 @@ public class SugOrComtActivity extends BaseActivity {
 		showOperating();
 		JSONObject p = null;
 		if (isCom) {
-			p = ParamUtils.freeParam(null, "riverId", rid, "compTheme", subject, "compContent", contentt, "compName", uname, "compTelephone", telno, "ifAnonymous", anonymity ? 1 : 0, "picBase64", picbase64 == null ? "" : picbase64);
+			p = ParamUtils.freeParam(null, "riverId", rid, "compTheme", subject, "compContent", contentt,
+					"compName", uname, "compTelephone", telno, "ifAnonymous", anonymity ? 1 : 0, "picBase64",
+					picbase64 == null ? "" : picbase64, "eventId", eventId);
 		} else {
 			p = ParamUtils.freeParam(null, "riverId", rid, "advTheme", subject, "advContent", contentt, "advName", uname, "advTelephone", telno, "ifAnonymous", anonymity ? 1 : 0);
 		}
