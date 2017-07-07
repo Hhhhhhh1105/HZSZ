@@ -1,8 +1,5 @@
 package com.zju.hzsz.fragment.river;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
@@ -28,6 +25,9 @@ import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.ResUtils;
 import com.zju.hzsz.utils.ValUtils;
 import com.zju.hzsz.utils.ViewUtils;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class RiverQualityItem extends BaseRiverPagerItem implements OnCheckedChangeListener {
 	public RiverQualityItem(River river, BaseActivity context) {
@@ -154,7 +154,8 @@ public class RiverQualityItem extends BaseRiverPagerItem implements OnCheckedCha
 							return index.getTime.getYM(context);
 						}
 					});
-					ViewUtils.setQuilityLineV(context, (LinearLayout) view.findViewById(R.id.inc_quality_line_v), "DO".equals(curIndex.indexNameEN), ValUtils.getYVals(curIndex.indexNameEN));
+					ViewUtils.setQuilityLineV(context, (LinearLayout) view.findViewById(R.id.inc_quality_line_v),
+							"DO".equals(curIndex.indexNameEN) || "Transp".equals(curIndex.indexNameEN), ValUtils.getYVals(curIndex.indexNameEN));
 					if (o.data.indexDatas != null) {
 						ViewUtils.initIndexTable(context, (LinearLayout) view.findViewById(R.id.ll_indexs), o.data.indexDatas);
 					}

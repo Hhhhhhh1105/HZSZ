@@ -13,6 +13,8 @@ public class ValUtils {
 			valMap.put("TP", new String[] { "1.0", "0.4", "0.3", "0.2", "0.1", "0.02", "0" });
 			valMap.put("NH3N", new String[] { "10.0", "2.0", "1.5", "1.0", "0.5", "0.15", "0" });
 			valMap.put("CODMn", new String[] { "20", "15", "10", "6", "4", "2", "0" });
+			valMap.put("ORP", new String[] {"0.0", "0.02", "0.1", "0.2", "0.3", "0.4", "1.0"});
+			valMap.put("Transp", new String[] {"999", "60", "40", "20", "1", "0.1", "0"});
 
 			valMap.put("NO", new String[] { "-", "-", "-", "-", "-", "-", "-" });
 		}

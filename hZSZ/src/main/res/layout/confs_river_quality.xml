@@ -149,7 +149,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/white"
                 android:gravity="center"
-                android:text="@string/eg_segment3"
+                android:text="暂无监测站点"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
                 android:textSize="@dimen/font_large" />
