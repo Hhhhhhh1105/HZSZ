@@ -122,6 +122,7 @@
     <string name="period_1month">30天</string>
     
     <string name="river_district_title">区级河长</string>
+    <string name="river_province_title">省级河长</string>
     <string name="river_city_title">市级河长</string>
     <string name="river_supervisePhone">统一监督电话</string>
 

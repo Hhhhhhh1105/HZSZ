@@ -311,6 +311,8 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 				int title_name = 3;
 				if (2 == river.riverLevel)
 					title_name = R.string.river_city_title;
+				else if (1 == river.riverLevel)
+					title_name = R.string.river_province_title;
 				else
 					title_name = R.string.river_district_title;
 
