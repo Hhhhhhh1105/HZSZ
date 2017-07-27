@@ -323,6 +323,10 @@
     <string name="level_river_2">市级河道</string>
     <string name="level_river_3">区级河道</string>
     <string name="level_river_4">镇街级河道</string>
+    <string name="level_lake_1">省级湖泊</string>
+    <string name="level_lake_2">市级湖泊</string>
+    <string name="level_lake_3">区级湖泊</string>
+    <string name="level_lake_4">镇街级湖泊</string>
     <string name="level_3s">重要区级</string>
     <string name="level_river_3s">重要区级河道</string>
 

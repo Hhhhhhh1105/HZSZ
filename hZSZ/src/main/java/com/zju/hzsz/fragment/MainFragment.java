@@ -51,6 +51,7 @@ import com.zju.hzsz.model.District;
 import com.zju.hzsz.model.IndexData;
 import com.zju.hzsz.model.IndexDataRes;
 import com.zju.hzsz.model.Industrialport;
+import com.zju.hzsz.model.Lake;
 import com.zju.hzsz.model.Npc;
 import com.zju.hzsz.model.River;
 import com.zju.hzsz.model.RiverListRes;
@@ -347,6 +348,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			((LinearLayout) rootView.findViewById(ll_outlets)).removeAllViews();
 			((LinearLayout) rootView.findViewById(ll_smallwater)).removeAllViews();
 			((LinearLayout) rootView.findViewById(ll_npc)).removeAllViews();
+			((LinearLayout) rootView.findViewById(R.id.ll_lake)).removeAllViews();
 
 			refreshData();
 
@@ -728,6 +730,51 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 		}
 	}
 
+	//更新湖泊水质信息
+	private void refreshLakeUI() {
+		LinearLayout ll_lakes = (LinearLayout) rootView.findViewById(R.id.ll_lake);
+		ll_lakes.removeAllViews();
+
+		//点击具体条目跳转函数
+		View.OnClickListener riverClick = new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				if (v.getTag() != null) {
+					Intent intent = new Intent(getBaseActivity(), RiverActivity.class);
+					intent.putExtra(Tags.TAG_RIVER, StrUtils.Obj2Str(v.getTag()));
+					startActivity(intent);
+				}
+			}
+		};
+
+		for (int i = 0; i < indexData.lakeSumJsons.length; i += 2) {
+			Lake lake_l = indexData.lakeSumJsons[i];
+			Lake lake_r = (i + 1) < indexData.lakeSumJsons.length ? indexData.lakeSumJsons[i + 1] : null;
+			//用的其实是断面的布局
+			View view = LinearLayout.inflate(getBaseActivity(), R.layout.item_mainpage_section, null);
+
+			((TextView) view.findViewById(R.id.tv_name_l)).setText(lake_l.lakeName);
+			((TextView) view.findViewById(R.id.tv_level_l)).setText(ResUtils.getLakeSLevel(lake_l.lakeLevel));
+			((ImageView) view.findViewById(R.id.iv_quality_l)).setImageResource(ResUtils.getQuiltyImg(lake_l.waterType));
+
+			view.findViewById(R.id.rl_section_left).setOnClickListener(riverClick);
+			view.findViewById(R.id.rl_section_left).setTag(lake_l);
+
+			if (lake_r != null) {
+				((TextView) view.findViewById(R.id.tv_name_r)).setText(lake_r.lakeName);
+				((TextView) view.findViewById(R.id.tv_level_r)).setText(ResUtils.getLakeSLevel(lake_r.lakeLevel));
+				((ImageView) view.findViewById(R.id.iv_quality_r)).setImageResource(ResUtils.getQuiltyImg(lake_r.waterType));
+
+				view.findViewById(R.id.rl_section_right).setOnClickListener(riverClick);
+				view.findViewById(R.id.rl_section_right).setTag(lake_r);
+			} else {
+				view.findViewById(R.id.rl_section_right).setVisibility(View.INVISIBLE);
+			}
+			ll_lakes.addView(view);
+		}
+	}
+
 	@Override
 	public void onRefresh() {
 		refreshData();
@@ -830,6 +877,7 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 					refreshRiverUI();
 					refreashOutletUI();
 					refreshSmallWaterUI();
+					refreshLakeUI();
 					//如果是人大代表，则显示人大代表监督模块
 					if (getBaseActivity().getUser().isNpc()){
 						rootView.findViewById(R.id.ll_npc).setVisibility(View.VISIBLE);

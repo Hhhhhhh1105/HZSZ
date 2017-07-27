@@ -82,6 +82,16 @@ public class ResUtils {
 			return R.string.utils_str_err;
 	}
 
+	public static final int LAKE_S_LEVELS[] = new int[] { R.string.level_lake_1, R.string.level_lake_2, R.string.level_lake_3, R.string.level_lake_4 };
+
+	public static int getLakeSLevel(int lv) {
+		--lv;
+		if (lv >= 0 && lv < LAKE_S_LEVELS.length)
+			return LAKE_S_LEVELS[lv];
+		else
+			return R.string.utils_str_err;
+	}
+
 	public static final String NPC_TITLE[] = new String[] { "乡镇代表", "区级代表", "市级代表" };
 
 	public static String getNpcTitle(int authority) {

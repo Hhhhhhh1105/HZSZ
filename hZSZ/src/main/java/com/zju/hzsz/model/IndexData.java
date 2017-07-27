@@ -8,4 +8,5 @@ public class IndexData {
 	public Industrialport[] industrialportlists;
 	public SmallWater[] smallWaterSums;
 	public Npc[] deputiesJsons; //人大代表
+	public Lake[] lakeSumJsons; //湖泊水质
 }
