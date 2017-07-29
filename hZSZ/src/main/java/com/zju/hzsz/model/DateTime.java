@@ -1,13 +1,13 @@
 package com.zju.hzsz.model;
 
-import java.util.Date;
-import java.util.Locale;
+import android.content.Context;
 
 import com.zju.hzsz.R;
 import com.zju.hzsz.utils.ResUtils;
 import com.zju.hzsz.utils.StrUtils;
 
-import android.content.Context;
+import java.util.Date;
+import java.util.Locale;
 
 /**
  * 时间
@@ -52,6 +52,10 @@ public class DateTime {
 
 	public String getYMDHM(Context context) {
 		return StrUtils.renderText(context, R.string.fmt_ymdhm, 1900 + year, month + 1, date, hours, minutes);
+	}
+
+	public String getYMDHMS(Context context) {
+		return StrUtils.renderText(context, R.string.fmt_ymdhms, 1900 + year, month + 1, date, hours, minutes, seconds);
 	}
 
 	public String getYMDHM() {

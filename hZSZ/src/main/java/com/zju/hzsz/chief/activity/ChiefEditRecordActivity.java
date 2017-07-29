@@ -91,6 +91,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 	private boolean hasImg = false;
 
+	private String startTime;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -146,6 +147,9 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			riverRecord.recordDate = DateTime.getNow(); //巡河时间
 			riverRecord.locRiverName = "选择河道";
 			viewRender.renderView(findViewById(R.id.sv_main), riverRecord);
+
+			//巡河开始时间
+			startTime = DateTime.getNow().getYMDHMS(this);
 
 			//退出巡河时的提醒
 			findViewById(R.id.iv_head_left).setOnClickListener(exitTrackRiver);
@@ -694,6 +698,10 @@ public class ChiefEditRecordActivity extends BaseActivity {
 						//添加河长权限和uuid
 						submitParam.put("authority", getUser().getAuthority());
 						submitParam.put("UUID", getUser().getUuid());
+
+
+						//巡河时间
+						submitParam.put("startTime", startTime);
 
 						if (location != null) {
 							submitParam.put("latitude", location.getLatitude());

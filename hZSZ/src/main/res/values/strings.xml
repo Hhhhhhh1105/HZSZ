@@ -293,6 +293,7 @@
     <string name="fmt_lastupdate" formatted="false">最后更新于 %s日 %s:%s</string>
     <string name="fmt_update_ymdhm" formatted="false">更新时间 %s年%02d月%02d日 %02d:%02d</string>
     <string name="fmt_ymdhm" formatted="false">%s-%02d-%02d %02d:%02d</string>
+    <string name="fmt_ymdhms" formatted="false">%s-%02d-%02d %02d:%02d:%02d</string>
     <string name="fmt_lastupdate_md" formatted="false">最后更新于 %s月%s日</string>
     <string name="fmt_riverinfo" formatted="false">电子公示牌-%s</string>
     <string name="fmt_lastupdate_ymd" formatted="false">最后更新于 %s.%02d.%02d</string>

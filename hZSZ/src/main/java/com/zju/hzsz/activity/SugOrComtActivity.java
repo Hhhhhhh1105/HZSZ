@@ -467,6 +467,11 @@ public class SugOrComtActivity extends BaseActivity {
 			return;
 		}
 
+		if (eventId == 0 ) {
+			showToast("请选择投诉类别");
+			return;
+		}
+
 		anonymity = ((CheckBox) findViewById(R.id.ck_anonymity)).isChecked();
 		//如果是人大，则不匿名
 		if (getUser().isNpc())

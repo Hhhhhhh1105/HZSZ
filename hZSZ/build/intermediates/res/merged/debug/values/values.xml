@@ -925,6 +925,7 @@
     <string formatted="false" name="fmt_ymd">%s.%02d.%02d</string>
     <string formatted="false" name="fmt_ymd2">%s-%02d-%02d</string>
     <string formatted="false" name="fmt_ymdhm">%s-%02d-%02d %02d:%02d</string>
+    <string formatted="false" name="fmt_ymdhms">%s-%02d-%02d %02d:%02d:%02d</string>
     <string name="follow">+收藏</string>
     <string name="forgotpwd">忘记密码</string>
     <string name="form_complaint_anonymity">匿名投诉</string>
