@@ -33,6 +33,7 @@ import com.umeng.socialize.weixin.media.CircleShareContent;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.Values;
+import com.zju.hzsz.activity.LakeListAcitivity;
 import com.zju.hzsz.activity.MainActivity;
 import com.zju.hzsz.activity.NpcMemberActivity;
 import com.zju.hzsz.activity.OutletActivity;
@@ -316,6 +317,14 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 				@Override
 				public void onClick(View view) {
 					Intent intent = new Intent(getBaseActivity(), NpcMyjobActivity.class);
+					startActivity(intent);
+				}
+			});
+			//“查看所有湖泊”跳转
+			rootView.findViewById(R.id.tv_sellake).setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View view) {
+					Intent intent = new Intent(getBaseActivity(), LakeListAcitivity.class);
 					startActivity(intent);
 				}
 			});

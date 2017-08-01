@@ -249,6 +249,9 @@
             android:name="com.zju.hzsz.activity.SmallWaterListActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.zju.hzsz.activity.LakeListAcitivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.zju.hzsz.activity.SearchRiverActivity"
             android:label="@string/searchriver"
             android:screenOrientation="portrait" />
