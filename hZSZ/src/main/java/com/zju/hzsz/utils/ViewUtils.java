@@ -119,6 +119,10 @@ public class ViewUtils {
 
 			warp.setText(R.id.tv_index_ch, "" + data.indexNameCH);
 			((TextView) warp.getViewById(R.id.tv_index_value)).setTextColor(context.getResources().getColor(ResUtils.getQuiltyColor(data.indexLevel)));
+			// 如果是透明度或氧化还原电位则设置颜色为浅灰
+			if ("ORP".equals(data.indexNameEN) || "Transp".equals(data.indexNameEN)) {
+				((TextView) warp.getViewById(R.id.tv_index_value)).setTextColor(context.getResources().getColor(R.color.lightgray));
+			}
 		} else {
 			view.setVisibility(View.INVISIBLE);
 		}

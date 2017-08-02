@@ -160,6 +160,11 @@ public class RiverQualityItem extends BaseRiverPagerItem implements OnCheckedCha
 						ViewUtils.initIndexTable(context, (LinearLayout) view.findViewById(R.id.ll_indexs), o.data.indexDatas);
 					}
 					((ImageView) view.findViewById(R.id.iv_quality)).setImageResource(ResUtils.getQuiltySmallImg(o.data.waterLevel));
+
+					//如果是透明度或氧化还原电位，则不显示分段条
+					if ("ORP".equals(curIndex.indexNameEN) || "Transp".equals(curIndex.indexNameEN)) {
+						view.findViewById(R.id.ll_quality_line_ycolors).setVisibility(View.INVISIBLE);
+					}
 				}
 				setRefreshing(false);
 			}
