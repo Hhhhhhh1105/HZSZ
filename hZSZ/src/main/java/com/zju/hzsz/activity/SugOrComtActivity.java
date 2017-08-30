@@ -467,7 +467,7 @@ public class SugOrComtActivity extends BaseActivity {
 			return;
 		}
 
-		if (eventId == 0 ) {
+		if (eventId == 0 && isCom) {
 			showToast("请选择投诉类别");
 			return;
 		}

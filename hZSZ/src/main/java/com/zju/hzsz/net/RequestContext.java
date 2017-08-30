@@ -126,7 +126,7 @@ public class RequestContext {
 		req.setTag(context.getClass().getName());
 		req.setCacheEntry(null);
 		//控制响应时间与retry条数
-		req.setRetryPolicy(new DefaultRetryPolicy(8000, 0, 1f));
+		req.setRetryPolicy(new DefaultRetryPolicy(30000, 0, 1f));
 		requestQueue.add(req);
 
 	}

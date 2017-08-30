@@ -4375,8 +4375,15 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f09008f;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
+
+        @android:style/Theme.DeviceDefault.Dialog.NoActionBar
+            android:style/Theme.DeviceDefault.Light.NoActionBarcan go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
          */
         public static final int AppBaseTheme=0x7f09000b;
+        /**  All customizations that are NOT specific to a particular API-level can go here. 
+         */
         public static final int AppTheme=0x7f090090;
         public static final int Base_AlertDialog_AppCompat=0x7f090091;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f090092;
