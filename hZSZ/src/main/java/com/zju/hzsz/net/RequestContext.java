@@ -73,6 +73,7 @@ public class RequestContext {
 					c.callback(null);
 				}
 				context.safeToast(R.string.error_network);
+//				context.safeToast("url:" + Constants.ApiUrl + "\n" +"method:" + method + "\n" + "parms:" + params);
 			}
 		}) {
 

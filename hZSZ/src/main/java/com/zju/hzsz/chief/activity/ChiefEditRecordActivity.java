@@ -92,6 +92,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 	private boolean hasImg = false;
 
 	private String startTime;
+	private int startTimeHour;
+	private int startTimeMin;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -150,6 +152,11 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 			//巡河开始时间
 			startTime = DateTime.getNow().getYMDHMS(this);
+//			System.out.println("startTime: " + startTime);
+			startTimeHour = DateTime.getNow().hours;
+			startTimeMin = DateTime.getNow().minutes;
+//			System.out.println("startTimeHour: " + startTimeHour);
+//			System.out.println("startTimeMin: " + startTimeMin);
 
 			//退出巡河时的提醒
 			findViewById(R.id.iv_head_left).setOnClickListener(exitTrackRiver);
@@ -702,6 +709,17 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 						//巡河时间
 						submitParam.put("startTime", startTime);
+
+						//看是否超过5min
+						int endTimeHour = DateTime.getNow().hours;
+						int endTimeMin = DateTime.getNow().minutes;
+//						System.out.println("endTimeHour: " + endTimeHour);
+//						System.out.println("endTimeMin: " + endTimeMin);
+						if (endTimeHour - startTimeHour == 0 && endTimeMin - startTimeMin < 5) {
+							showToast("您的巡河时间小于5min, 请继续巡河");
+							return;
+						}
+
 
 						if (location != null) {
 							submitParam.put("latitude", location.getLatitude());
