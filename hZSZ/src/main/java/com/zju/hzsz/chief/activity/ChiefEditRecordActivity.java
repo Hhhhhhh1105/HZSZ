@@ -95,6 +95,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 	private int startTimeHour;
 	private int startTimeMin;
 
+	private boolean isNew; //是否是新建巡河单
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -108,7 +110,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			latlist_temp = "" + location.getLatitude();
 			latlist_temp = "" + location.getLongitude();
 		}
-		handler.postDelayed(new MyRunable(), 10000); //每10s记录一次当前轨迹
+		handler.postDelayed(new MyRunable(), 1000); //每10s记录一次当前轨迹
 		initLocation();
 
 		findViewById(R.id.btn_selriver).setOnClickListener(this);//选择河道按钮
@@ -139,6 +141,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 
 		riverRecord = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_RECORD), RiverRecord.class);
+		isNew = (riverRecord == null);
 		isReadOnly = getIntent().getBooleanExtra(Tags.TAG_ABOOLEAN, false);
 		//如果是从首页进入的，则其不为0；若是从个人中心进入的，则其为0. --> 人大
 		deputyId = getIntent().getIntExtra("deputyId", 0);
@@ -699,8 +702,17 @@ public class ChiefEditRecordActivity extends BaseActivity {
 						submitParam.put("picPath", picPath);
 
 						//添加巡河轨迹经纬度信息
-						submitParam.put("latlist", latlist_temp);
-						submitParam.put("lnglist", lnglist_temp);
+						if (isNew) {
+							//新建巡河单时
+//							System.out.println("test" + "xinjian" + lnglist_temp);
+							submitParam.put("latlist", latlist_temp);
+							submitParam.put("lnglist", lnglist_temp);
+						} else {
+							//查看巡河单时
+//							System.out.println("test" + "chakan" + lngList);
+							submitParam.put("latlist", latList);
+							submitParam.put("lnglist", lngList);
+						}
 
 						//添加河长权限和uuid
 						submitParam.put("authority", getUser().getAuthority());
@@ -1162,7 +1174,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			}
 
 			if (points == null) {
-				handler.postDelayed(this, 10000);
+				handler.postDelayed(this, 1000);
 				return;
 			}
 
@@ -1188,11 +1200,15 @@ public class ChiefEditRecordActivity extends BaseActivity {
 					point = points.get(points.size() - 1);
 					Log.i("temp:", latlist_temp);
 				}
+				//巡河测试用
+				showToast(latlist_temp.substring(latlist_temp.length() > 20 ?
+						latlist_temp.length() - 20 : 0, latlist_temp.length()));
 			}
 
-			handler.postDelayed(this, 10000);
+			handler.postDelayed(this, 1000);
 		}
 	}
+
 
 	@Override
 	protected void onStop() {

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Sep 23 20:53:13 CST 2017
+#Sat Sep 30 09:32:16 CST 2017
 835.base=D\:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\res\\resources-debug.ap_
 100.set=ANDROID_RESOURCE
 57.file=D\:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\locSDK_6.13_085f8190fa20764a31206cc71bfb1ca3f7ff28a9\\classes.dex
