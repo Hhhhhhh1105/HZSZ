@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+        "outputFile": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 92
                 },
                 "from": {
-                    "file": "D:\\AndroidStudio\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "file": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

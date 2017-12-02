@@ -31,7 +31,17 @@ public class RiverRecord {
 	public String lnglist;//显示轨迹经度数组
 
 	public String picPath;	// 图片
-	
+
+	private boolean isCompleted;//是否是已完成的巡河记录
+
+	public boolean isCompleted() {
+		return isCompleted;
+	}
+
+	public void setCompleted(boolean completed) {
+		isCompleted = completed;
+	}
+
 	public int riverId; // 巡查的河道Id
 	public String recordPersonName;
 	public String recordRiverName;

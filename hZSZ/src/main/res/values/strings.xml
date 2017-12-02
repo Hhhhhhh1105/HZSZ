@@ -30,6 +30,7 @@
     <string name="call">拨打</string>
     <string name="tips">提示</string>
     <string name="unlimeited">不限</string>
+    <string name="city">市级</string>
     <string name="select_area">请选择区域</string>
 
     <!-- bottom -->

@@ -244,6 +244,12 @@ public class SearchRiverActivity extends BaseActivity implements OnCheckedChange
 					curDw = new DistrictWarper(ds);
 					dwItems.add(curDw);
 
+					District dCity = new District();
+					dCity.districtId = 100;
+					dCity.districtName = getString(R.string.city);
+					curDw = new DistrictWarper(dCity);
+					dwItems.add(curDw);
+
 					for (District d : o.data.districtLists) {
 						DistrictWarper dw = new DistrictWarper(d); //id + name
 						dwItems.add(dw);

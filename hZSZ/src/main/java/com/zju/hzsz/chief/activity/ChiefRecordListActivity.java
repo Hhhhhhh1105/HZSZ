@@ -6,11 +6,13 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.sin.android.sinlibs.adapter.SimpleListAdapter;
 import com.sin.android.sinlibs.adapter.SimpleViewInitor;
@@ -18,6 +20,7 @@ import com.sin.android.sinlibs.tagtemplate.ViewRender;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.model.BaseRes;
+import com.zju.hzsz.model.DateTime;
 import com.zju.hzsz.model.RiverRecord;
 import com.zju.hzsz.model.RiverRecordListRes;
 import com.zju.hzsz.net.Callback;
@@ -31,8 +34,10 @@ import com.zju.hzsz.view.ListViewWarp.WarpHandler;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
@@ -50,10 +55,21 @@ public class ChiefRecordListActivity extends BaseActivity implements WarpHandler
 		@Override
 		public void onClick(View btn) {
 			RiverRecord record = (RiverRecord) btn.getTag();
+//			if (record != null) {
+//				Intent intent = new Intent(ChiefRecordListActivity.this, com.zju.hzsz.chief.activity.ChiefEditRecordActivity.class);
+//				intent.putExtra(Tags.TAG_RECORD, StrUtils.Obj2Str(record));
+//				startActivityForResult(intent, Tags.CODE_EDIT);
+//			}
 			if (record != null) {
-				Intent intent = new Intent(ChiefRecordListActivity.this, com.zju.hzsz.chief.activity.ChiefEditRecordActivity.class);
-				intent.putExtra(Tags.TAG_RECORD, StrUtils.Obj2Str(record));
-				startActivityForResult(intent, Tags.CODE_EDIT);
+				if(record.isCompleted()){
+					Intent intent = new Intent(ChiefRecordListActivity.this, com.zju.hzsz.chief.activity.ChiefEditRecordActivity.class);
+					intent.putExtra(Tags.TAG_RECORD, StrUtils.Obj2Str(record));
+					startActivityForResult(intent, Tags.CODE_EDIT);
+				}else {
+					Intent intent = new Intent(ChiefRecordListActivity.this, com.zju.hzsz.chief.activity.ChiefEditRecordActivity.class);
+					startActivityForResult(intent, Tags.CODE_NEW);
+				}
+
 			}
 		}
 	};
@@ -96,7 +112,20 @@ public class ChiefRecordListActivity extends BaseActivity implements WarpHandler
 			}
 
 			RiverRecord record = (RiverRecord) data;
-			viewRender.renderView(convertView, record);
+			if(record.isCompleted()){
+				viewRender.renderView(convertView, record);
+			}else {
+				SimpleDateFormat formatter = new SimpleDateFormat ("yyyy-MM-dd");
+				Date curDate = new Date(System.currentTimeMillis());//获取当前时间
+				String str = formatter.format(curDate);
+				((TextView)convertView.findViewById(R.id.dateOfRecoedList)).setText(str);
+				((TextView)convertView.findViewById(R.id.dateOfRecoedList)).setTextColor(getResources().getColor(R.color.red));
+				((TextView)convertView.findViewById(R.id.riverOfRecoedList)).setText("未完成轨迹，点击继续");
+				((TextView)convertView.findViewById(R.id.riverOfRecoedList)).setTextColor(getResources().getColor(R.color.red));
+			}
+
+//			RiverRecord record = (RiverRecord) data;
+//			viewRender.renderView(convertView, record);
 			convertView.setTag(record);
 			convertView.findViewById(R.id.btn_edit).setTag(record);
 			convertView.findViewById(R.id.btn_delete).setTag(record);
@@ -214,7 +243,16 @@ public class ChiefRecordListActivity extends BaseActivity implements WarpHandler
 				if (o != null && o.isSuccess()) {
 					if (refresh)
 						records.clear();
+					if (getUser().getBaiduLatPoints() != null && !getUser().getBaiduLatPoints().equals("")){
+						RiverRecord unCompletedRiverRecord = new RiverRecord();
+						unCompletedRiverRecord.setCompleted(false);
+						unCompletedRiverRecord.latlist = getUser().getBaiduLatPoints();
+						unCompletedRiverRecord.lnglist = getUser().getBaiduLngPoints();
+						unCompletedRiverRecord.recordDate = DateTime.getNow();
+						records.add(unCompletedRiverRecord);
+					}
 					for (RiverRecord rr : o.data) {
+						rr.setCompleted(true);
 						records.add(rr);
 					}
 					adapter.notifyDataSetChanged();
