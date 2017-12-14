@@ -43,6 +43,7 @@ public class River {
 
 	public RiverUser districtRiverChief; /* 区级河长 */
 	public RiverUser districtComtactPeo; /* 区级河长联系人 */
+	public RiverUser vicecityRiverChief; /* 市级副河长 */
 
 	public TownRiverUser[] townRiverChiefs; /* 镇街河长 */
 	public TownRiverUser[] townRiverSheriffs; /* 镇街河长联系人 */

@@ -807,7 +807,9 @@
     <string name="chief_handled">已处理</string>
     <string name="chief_unhandle">未处理</string>
     <string name="chief_vieworder">查看处理单</string>
-    <string name="city">市级</string>
+    <string name="city">省市级</string>
+    <string name="city_river_chief_name">市级正河长</string>
+    <string name="cityriverchief_responsibility">职务</string>
     <string name="com_content">投诉内容</string>
     <string name="com_facebook_loading">Loading...</string>
     <string name="com_name">投诉人姓名</string>
@@ -1297,6 +1299,7 @@
     <string name="unhandle">未处理</string>
     <string name="unlimeited">不限</string>
     <string name="utils_str_err">ERROR</string>
+    <string name="vicecity_river_chief_name">市级副河长</string>
     <string name="vieworder">查看处理单</string>
     <string name="week_0">星期日</string>
     <string name="week_1">星期一</string>

@@ -30,7 +30,7 @@
     <string name="call">拨打</string>
     <string name="tips">提示</string>
     <string name="unlimeited">不限</string>
-    <string name="city">市级</string>
+    <string name="city">省市级</string>
     <string name="select_area">请选择区域</string>
 
     <!-- bottom -->
@@ -117,6 +117,9 @@
     <string name="river_length">河道长度</string>
     <string name="river_responsibility">河长职责</string>
     <string name="riverchief_responsibility">河长职务</string>
+    <string name="cityriverchief_responsibility">职务</string>
+    <string name="vicecity_river_chief_name">市级副河长</string>
+    <string name="city_river_chief_name">市级正河长</string>
     <string name="river_target">整治目标</string>
     <string name="river_contactinfo">河长联系方式</string>
     <string name="period_7days">7天</string>

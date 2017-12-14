@@ -15,6 +15,7 @@ import android.location.LocationManager;
 import android.media.ThumbnailUtils;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.os.Handler;
 import android.provider.MediaStore;
 import android.util.Base64;
@@ -97,6 +98,9 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 	private boolean isNew; //是否是新建巡河单
 
+	//倒计时
+	private TimeCount time;
+	private Button submit;//提交巡河
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -114,9 +118,9 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		initLocation();
 
 		findViewById(R.id.btn_selriver).setOnClickListener(this);//选择河道按钮
+		submit = (Button) findViewById(R.id.btn_submit);
 		findViewById(R.id.btn_submit).setOnClickListener(this);//保存按钮
 		findViewById(R.id.btn_cancel).setOnClickListener(this);//取消按钮
-
 
 		btn_track = (Button) findViewById(R.id.btn_track);//查看轨迹按钮-巡河界面
 		btn_track.setOnClickListener(new View.OnClickListener() {
@@ -148,6 +152,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 		if (riverRecord == null) {//从新建中进入
 			setTitle("新建巡查记录");
+
 			riverRecord = new RiverRecord();
 			riverRecord.recordDate = DateTime.getNow(); //巡河时间
 			riverRecord.locRiverName = "选择河道";
@@ -190,6 +195,11 @@ public class ChiefEditRecordActivity extends BaseActivity {
 				});
 				ab.setCancelable(false);
 				ab.create().show();
+			}else {
+				time = new TimeCount(300000, 1000);//构造CountDownTimer对象，倒计时
+				time.start();//开始计时
+				submit.setClickable(false);
+				submit.setBackgroundColor(getResources().getColor(R.color.half_black));
 			}
 
 			//检查是否开启了GPS,若未开启，则弹出窗口令其开启GPS
@@ -344,6 +354,24 @@ public class ChiefEditRecordActivity extends BaseActivity {
 
 	}
 
+	/* 定义一个倒计时的内部类 */
+	class TimeCount extends CountDownTimer {
+		public TimeCount(long millisInFuture, long countDownInterval) {
+			super(millisInFuture, countDownInterval);//参数依次为总时长,和计时的时间间隔
+		}
+		@Override
+		public void onFinish() {//计时完毕时触发
+			submit.setText("结束巡河");
+			submit.setClickable(true);
+			submit.setBackgroundColor(getResources().getColor(R.color.green));
+		}
+		@Override
+		public void onTick(long millisUntilFinished){//计时过程显示
+			submit.setClickable(false);
+			submit.setBackgroundColor(getResources().getColor(R.color.half_black));
+			submit.setText(millisUntilFinished /1000+"秒后可以结束");
+		}
+	}
 	private static final String[] CBOX_TITLES = new String[]{//
 			//
 			"河面有无成片漂浮废弃物、病死动物等", //
@@ -727,10 +755,10 @@ public class ChiefEditRecordActivity extends BaseActivity {
 						int endTimeMin = DateTime.getNow().minutes;
 //						System.out.println("endTimeHour: " + endTimeHour);
 //						System.out.println("endTimeMin: " + endTimeMin);
-						if (endTimeHour - startTimeHour == 0 && endTimeMin - startTimeMin < 5) {
-							showToast("您的巡河时间小于5min, 请继续巡河");
-							return;
-						}
+//						if (endTimeHour - startTimeHour == 0 && endTimeMin - startTimeMin < 5) {
+//							showToast("您的巡河时间小于5min, 请继续巡河");
+//							return;
+//						}
 
 
 						if (location != null) {
@@ -1200,9 +1228,9 @@ public class ChiefEditRecordActivity extends BaseActivity {
 					point = points.get(points.size() - 1);
 					Log.i("temp:", latlist_temp);
 				}
-				//巡河测试用
-				showToast(latlist_temp.substring(latlist_temp.length() > 20 ?
-						latlist_temp.length() - 20 : 0, latlist_temp.length()));
+//				//巡河测试用
+//				showToast(latlist_temp.substring(latlist_temp.length() > 20 ?
+//						latlist_temp.length() - 20 : 0, latlist_temp.length()));
 			}
 
 			handler.postDelayed(this, 1000);

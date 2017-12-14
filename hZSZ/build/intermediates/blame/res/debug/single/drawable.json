@@ -180,12 +180,12 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\drawable\\md_selector.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_head_tab_r_bg_s.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_head_tab_r_bg_s.xml"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_off.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_douban_off.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_head_tab_r_bg_s.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_head_tab_r_bg_s.xml"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_tabbtn_tab_r_bg_n.xml",
@@ -584,12 +584,12 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_checkbox_unchecked_mtrl.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_white.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\btn_green_white.xml"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_blue.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_blue.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_white.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\btn_green_white.xml"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",

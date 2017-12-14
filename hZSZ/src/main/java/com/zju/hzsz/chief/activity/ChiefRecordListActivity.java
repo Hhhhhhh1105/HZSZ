@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -114,13 +115,15 @@ public class ChiefRecordListActivity extends BaseActivity implements WarpHandler
 			RiverRecord record = (RiverRecord) data;
 			if(record.isCompleted()){
 				viewRender.renderView(convertView, record);
+				((TextView)convertView.findViewById(R.id.dateOfRecoedList)).setTextColor(getResources().getColor(R.color.black));
+				((TextView)convertView.findViewById(R.id.riverOfRecoedList)).setTextColor(getResources().getColor(R.color.black));
 			}else {
 				SimpleDateFormat formatter = new SimpleDateFormat ("yyyy-MM-dd");
 				Date curDate = new Date(System.currentTimeMillis());//获取当前时间
 				String str = formatter.format(curDate);
 				((TextView)convertView.findViewById(R.id.dateOfRecoedList)).setText(str);
 				((TextView)convertView.findViewById(R.id.dateOfRecoedList)).setTextColor(getResources().getColor(R.color.red));
-				((TextView)convertView.findViewById(R.id.riverOfRecoedList)).setText("未完成轨迹，点击继续");
+				((TextView)convertView.findViewById(R.id.riverOfRecoedList)).setText("未完成，点击继续");
 				((TextView)convertView.findViewById(R.id.riverOfRecoedList)).setTextColor(getResources().getColor(R.color.red));
 			}
 

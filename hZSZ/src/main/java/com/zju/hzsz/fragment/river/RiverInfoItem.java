@@ -310,7 +310,7 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 
 				int title_name = 3;
 				if (2 == river.riverLevel)
-					title_name = R.string.river_city_title;
+					title_name = R.string.city_river_chief_name;
 				else if (1 == river.riverLevel)
 					title_name = R.string.river_province_title;
 				else
@@ -319,20 +319,38 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 			/*	((TextView) (river_line.findViewById(R.id.tv_title_name))).setText(title_name);
 				river_line.findViewById(R.id.tv_river_name).setVisibility(View.GONE);
 				ll_contacts.addView(river_line);*/
-
-				//河长姓名+联系人
 				LinearLayout row = new LinearLayout(context);
-				row.setOrientation(LinearLayout.HORIZONTAL);
-				row.addView(initContItem(title_name, river.districtRiverChief.chiefName, river.districtRiverChief.contactWay, false));
-//				row.addView(initContItem(R.string.river_quhezhang_cont, river.districtComtactPeo.chiefName, river.districtComtactPeo.contactWay, false));
-				row.addView(initContItem(R.string.river_jingzhang, river.districtRiverSheriff != null ? river.districtRiverSheriff.chiefName : null, river.districtRiverSheriff != null ? river.districtRiverSheriff.contactWay : null, false));
-				ll_contacts.addView(row);
+				if(river.riverLevel == 2){//市级河道的电子公示牌单独设计，有正副河长
+					//河长姓名+联系人
+					row.setOrientation(LinearLayout.HORIZONTAL);
+					row.addView(initContItem(R.string.city_river_chief_name, river.districtRiverChief.chiefName, river.districtRiverChief.contactWay, false));
+					row.addView(initContItem(R.string.cityriverchief_responsibility, river.districtRiverChief.department, null, false));
+					ll_contacts.addView(row);
+					//副河长
+					row = new LinearLayout(context);
+					row.addView(initContItem(R.string.vicecity_river_chief_name, river.vicecityRiverChief.chiefName , river.districtRiverSheriff != null ? river.vicecityRiverChief.contactWay : null, false));
+					row.addView(initContItem(R.string.cityriverchief_responsibility, river.vicecityRiverChief.department, null, false));
+					ll_contacts.addView(row);
 
-				//河长职务+河道警长
-				row = new LinearLayout(context);
-				row.addView(initContItem(R.string.riverchief_responsibility, river.districtRiverChief.department, null, false));
+					//河长职务+河道警长
+					row = new LinearLayout(context);
+					row.addView(initContItem(R.string.river_jingzhang, river.districtRiverSheriff != null ? river.districtRiverSheriff.chiefName : null, river.districtRiverSheriff != null ? river.districtRiverSheriff.contactWay : null, false));
+					ll_contacts.addView(row);
+				}else {
+					//河长姓名+联系人
+//					LinearLayout row = new LinearLayout(context);
+					row.setOrientation(LinearLayout.HORIZONTAL);
+					row.addView(initContItem(title_name, river.districtRiverChief.chiefName, river.districtRiverChief.contactWay, false));
+//				row.addView(initContItem(R.string.river_quhezhang_cont, river.districtComtactPeo.chiefName, river.districtComtactPeo.contactWay, false));
+					row.addView(initContItem(R.string.river_jingzhang, river.districtRiverSheriff != null ? river.districtRiverSheriff.chiefName : null, river.districtRiverSheriff != null ? river.districtRiverSheriff.contactWay : null, false));
+					ll_contacts.addView(row);
+
+					//河长职务+河道警长
+					row = new LinearLayout(context);
+					row.addView(initContItem(R.string.riverchief_responsibility, river.districtRiverChief.department, null, false));
 //				row.addView(initContItem(R.string.river_jingzhang, river.districtRiverSheriff != null ? river.districtRiverSheriff.chiefName : null, river.districtRiverSheriff != null ? river.districtRiverSheriff.contactWay : null, false));
-				ll_contacts.addView(row);
+					ll_contacts.addView(row);
+				}
 
 				//联系部门+联系人
 				row = new LinearLayout(context);

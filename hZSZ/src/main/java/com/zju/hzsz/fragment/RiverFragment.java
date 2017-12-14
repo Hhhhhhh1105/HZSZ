@@ -1,16 +1,22 @@
 package com.zju.hzsz.fragment;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.PopupWindow;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.zju.hzsz.R;
 import com.zju.hzsz.activity.BaseActivity;
@@ -177,7 +183,8 @@ public class RiverFragment extends BaseFragment implements OnCheckedChangeListen
 			rootView.findViewById(R.id.iv_head_right).setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View arg0) {
-					startActivity(new Intent(getBaseActivity(), SearchRiverActivity.class));
+//					startActivity(new Intent(getBaseActivity(), SearchRiverActivity.class));
+//					showAreaPop();
 				}
 			});
 
@@ -305,5 +312,68 @@ public class RiverFragment extends BaseFragment implements OnCheckedChangeListen
 				adapter.notifyDataSetChanged();
 			}
 		}
+	}
+
+	private PopupWindow areaPop = null;
+	private View areaView = null;
+	private String[] selectRiverOrLaker = {"搜河道", "搜湖泊"};
+
+	private void showArea() {
+		//相对控件的位置（正左下方），无偏移
+		areaPop.showAsDropDown(getBaseActivity().findViewById(R.id.v_poptag));
+		rootView.findViewById(R.id.v_mask).setVisibility(View.VISIBLE);
+	}
+
+	private void dismissArea() {
+		areaPop.dismiss();
+		rootView.findViewById(R.id.v_mask).setVisibility(View.GONE);
+	}
+
+	//若点击右上方按键，则执行此函数
+	private void showAreaPop() {
+		if (areaPop == null) {
+			areaView = LinearLayout.inflate(getBaseActivity(), R.layout.inc_arealist, null);
+			LinearLayout ll_areas = (LinearLayout) areaView.findViewById(R.id.ll_areas);
+
+			//为popupwindow中的每个item绑定的监听器
+			View.OnClickListener clk = new View.OnClickListener() {
+				@Override
+				public void onClick(View arg0) {
+					dismissArea();
+					Toast.makeText(getActivity(),arg0.toString(),Toast.LENGTH_LONG).show();
+				}
+			};
+
+			//将各个区信息添加至线性布局中
+			for (String slectString : selectRiverOrLaker) {
+				View view = LinearLayout.inflate(getBaseActivity(), R.layout.item_ranking_area, null);
+				((TextView) view.findViewById(R.id.tv_name)).setText(slectString);
+				view.setOnClickListener(clk);
+				view.setTag(slectString);
+				ll_areas.addView(view);
+			}
+
+			ColorDrawable cd = new ColorDrawable(getBaseActivity().getResources().getColor(R.color.gray));
+			//areaView为要显示的View
+			areaPop = new PopupWindow(areaView, LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+			areaPop.setOutsideTouchable(true);
+			areaPop.setFocusable(false);
+			areaPop.update();
+			areaPop.setBackgroundDrawable(cd);
+			//设置此项则下面的捕获window外touch事件就无法触发
+			areaPop.setTouchInterceptor(new View.OnTouchListener() {
+
+				@SuppressLint("ClickableViewAccessibility")
+				@Override
+				public boolean onTouch(View arg0, MotionEvent arg1) {
+					if (arg1.getAction() == MotionEvent.ACTION_OUTSIDE) {
+						dismissArea();
+						return false;
+					} else
+						return false;
+				}
+			});
+		}
+		showArea();
 	}
 }

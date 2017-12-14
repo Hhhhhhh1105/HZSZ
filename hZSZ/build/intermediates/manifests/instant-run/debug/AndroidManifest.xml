@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.zju.hzsz"
     android:versionCode="17"
-    android:versionName="1.6.1" >
+    android:versionName="1.7.1" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -130,10 +130,14 @@
                 <action android:name="com.baidu.location.service_v2.2" />
             </intent-filter>
         </service>
-        <!-- 百度正式 -->
+        <!-- &lt;!&ndash; 百度正式 &ndash;&gt; -->
+        <!-- <meta-data -->
+        <!-- android:name="com.baidu.lbsapi.API_KEY" -->
+        <!-- android:value="oqGS9AXNptiVq1wpKTcviMC91AYxsm14" /> -->
+        <!-- 百度正式dh -->
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="oqGS9AXNptiVq1wpKTcviMC91AYxsm14" />
+            android:value="rKRf4qWFUaHYOuzq5XF3vD0GPtaDqdM4" />
 
         <!--
         百度测试 

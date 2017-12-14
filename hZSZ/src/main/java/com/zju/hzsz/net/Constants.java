@@ -13,7 +13,7 @@ public class Constants {
 	public static final String SerUrl4 = "http://www.yhwebsite.xyz";
 	public static final String SerUrl5 = "http://192.168.100.234:8080";
 
-	public static final String SerUrl = SerUrl3;
+	public static final String SerUrl = SerUrl1;
 
 	public static final String ApiUrl = SerUrl + "/ShuiHuanJingFabu/background/app.htm";
 //	public static final String ApiUrl = SerUrl1 + "/gzhd/background/app.htm";
