@@ -16,10 +16,10 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.zju.hzsz.R;
 import com.zju.hzsz.activity.BaseActivity;
+import com.zju.hzsz.activity.LakeListAcitivity;
 import com.zju.hzsz.activity.SearchRiverActivity;
 import com.zju.hzsz.adapter.PagerItem;
 import com.zju.hzsz.adapter.SimplePagerAdapter;
@@ -184,7 +184,7 @@ public class RiverFragment extends BaseFragment implements OnCheckedChangeListen
 				@Override
 				public void onClick(View arg0) {
 //					startActivity(new Intent(getBaseActivity(), SearchRiverActivity.class));
-//					showAreaPop();
+					showAreaPop();
 				}
 			});
 
@@ -340,7 +340,17 @@ public class RiverFragment extends BaseFragment implements OnCheckedChangeListen
 				@Override
 				public void onClick(View arg0) {
 					dismissArea();
-					Toast.makeText(getActivity(),arg0.toString(),Toast.LENGTH_LONG).show();
+					switch (arg0.getTag().toString()){
+						case "搜河道":
+//							Toast.makeText(getActivity(),arg0.getTag().toString(),Toast.LENGTH_LONG).show();
+							startActivity(new Intent(getBaseActivity(), SearchRiverActivity.class));
+							break;
+						case "搜湖泊":
+//							Toast.makeText(getActivity(),arg0.getTag().toString(),Toast.LENGTH_LONG).show();
+							startActivity(new Intent(getBaseActivity(), LakeListAcitivity.class));
+							break;
+						default: break;
+					}
 				}
 			};
 

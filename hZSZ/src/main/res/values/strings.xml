@@ -21,6 +21,7 @@
     <string name="list">列表</string>
     <string name="map">地图</string>
     <string name="searchriver">搜索河道</string>
+    <string name="searchlake">搜索湖泊</string>
     <string name="complaint">投诉</string>
     <string name="suggest">建议</string>
     <string name="isuggest">我要建议</string>
@@ -60,6 +61,7 @@
     <string name="hint_evaluate_remark">请输入留言</string>
     <string name="hint_replayinfo">请输入处理结果</string>
     <string name="hint_searchriver">输入河道名称进行查询</string>
+    <string name="hint_searchlake">输入湖泊名称进行查询</string>
 
     <!-- form -->
     <string name="form_reg_ireaded">我已经阅读并同意</string>
@@ -208,7 +210,7 @@
     <string name="river_select_segment">请选择河段</string>
     <!-- chinese, god -->
     <string name="river_dzgsp">基本信息</string>
-    <string name="river_yhyc">一河一策</string>
+    <string name="river_yhyc">一河(湖)一策</string>
     <string name="river_tsxx">投诉信息</string>
     <string name="river_xxgk">信息公开</string>
     <string name="river_hdsz">河道水质</string>

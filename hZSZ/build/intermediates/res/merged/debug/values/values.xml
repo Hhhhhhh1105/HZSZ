@@ -963,6 +963,7 @@
     <string name="hint_password">输入登录密码</string>
     <string name="hint_phonenum">输入手机号码</string>
     <string name="hint_replayinfo">请输入处理结果</string>
+    <string name="hint_searchlake">输入湖泊名称进行查询</string>
     <string name="hint_searchriver">输入河道名称进行查询</string>
     <string name="hint_suggest_category">请选择投诉类别</string>
     <string name="hint_suggest_content">内容描述(不超过140字)</string>
@@ -1088,6 +1089,7 @@
     <string name="rivername">河道名称</string>
     <string name="satisfaction_count">满意度</string>
     <string name="save">保存</string>
+    <string name="searchlake">搜索湖泊</string>
     <string name="searchriver">搜索河道</string>
     <string name="section_admin">行政断面</string>
     <string name="section_drinking">饮用水源地</string>

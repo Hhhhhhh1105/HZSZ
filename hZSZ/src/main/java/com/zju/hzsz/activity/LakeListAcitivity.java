@@ -11,6 +11,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -22,8 +23,10 @@ import com.zju.hzsz.model.Lake;
 import com.zju.hzsz.model.LakeListRes;
 import com.zju.hzsz.model.RiverQuickSearchRes;
 import com.zju.hzsz.net.Callback;
+import com.zju.hzsz.utils.ImgUtils;
 import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.ResUtils;
+import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
 
 import org.json.JSONObject;
@@ -80,9 +83,19 @@ public class LakeListAcitivity extends BaseActivity implements TextView.OnEditor
 
             Lake lake = (Lake) data;
 
-            ((TextView) convertView.findViewById(R.id.tv_lake_name)).setText(lake.lakeName);
+            ((TextView) convertView.findViewById(R.id.tv_lake_name)).setText(lake.lakeName);//湖泊信息
             ((TextView) convertView.findViewById(R.id.tv_lake_level))
                     .setText(ResUtils.getLakeSLevel(lake.lakeLevel));
+            String img = StrUtils.getImgUrl(lake.getLakePicPath());
+            ImgUtils.loadImage(LakeListAcitivity.this, ((ImageView) convertView.findViewById(R.id.iv_lake_picture)), img); //河流的图片
+
+            //当不指定区划时，显示河道所在区
+            if (curDw == null || curDw.district == null || curDw.district.districtId == 0) {
+                ((TextView) (convertView.findViewById(R.id.tv_distname))).setText(lake.getDistrictName());
+                (convertView.findViewById(R.id.tv_distname)).setVisibility(View.VISIBLE);
+            } else {
+                (convertView.findViewById(R.id.tv_distname)).setVisibility(View.GONE);
+            }
 
             convertView.setTag(lake);
             convertView.setOnClickListener(lakeClick);
