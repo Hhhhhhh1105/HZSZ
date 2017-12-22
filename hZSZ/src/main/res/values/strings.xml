@@ -31,7 +31,7 @@
     <string name="call">拨打</string>
     <string name="tips">提示</string>
     <string name="unlimeited">不限</string>
-    <string name="city">省市级</string>
+    <string name="city">市级</string>
     <string name="select_area">请选择区域</string>
 
     <!-- bottom -->
@@ -111,11 +111,30 @@
     <string name="river_info">河道水质信息</string>
     <string name="river_selriver">请选择区域</string>
 
+    <!-- lake -->
+    <string name="lake_capacity">湖泊库容：</string>
+    <string name="lake_size">湖泊面积：</string>
+    <string name="lake_depth">平均深度：</string>
+    <string name="lake_level">湖泊等级：</string>
+    <string name="lake_code">湖泊编号:</string>
+    <string name="lake_contactinfo">湖长联系方式</string>
+    <string name="lake_main_function">主要功能：</string>
+    <string name="lake_unknow">未知</string>
+    <string name="city_lake_chief_name">市级正湖长</string>
+    <string name="vicecity_lake_chief_name">市级副湖长</string>
+    <string name="city_lake_connectchief_name">市级湖长联系人</string>
+    <string name="district_lake_chief_name">区级湖长</string>
+    <string name="district_lake_connectchief_name">区级湖长联系人</string>
+    <string name="town_lake_chief_name">镇街湖长</string>
+    <string name="village_lake_chief_name">村级湖长</string>
+    <string name="lake_police_name">湖泊警长</string>
+    <string name="department">部门</string>
     <!-- river -->
-    <string name="river_start">河道起点</string>
-    <string name="river_end">河道终点</string>
-    <string name="river_level">河道等级</string>
-    <string name="river_owner">所属区县</string>
+    <string name="river_start">河道起点:</string>
+    <string name="river_end">河道终点:</string>
+    <string name="river_level">河道等级:</string>
+    <string name="river_owner">所属区县:</string>
+    <string name="no_owner">未知区域</string>
     <string name="river_length">河道长度</string>
     <string name="river_responsibility">河长职责</string>
     <string name="riverchief_responsibility">河长职务</string>
@@ -206,11 +225,12 @@
 
     <!-- river -->
     <string name="river_code">河道编号:</string>
+    <string name="no_code">暂无编号</string>
     <string name="no_searched_river">没有找到相关河道!</string>
     <string name="river_select_segment">请选择河段</string>
     <!-- chinese, god -->
     <string name="river_dzgsp">基本信息</string>
-    <string name="river_yhyc">一河(湖)一策</string>
+    <string name="river_yhyc">一河一策</string>
     <string name="river_tsxx">投诉信息</string>
     <string name="river_xxgk">信息公开</string>
     <string name="river_hdsz">河道水质</string>
@@ -279,6 +299,12 @@
     <string name="eg_river_numver">河道编号: 212312</string>
     <string name="eg_int_val">55</string>
     <string name="eg_int_1">1</string>
+    <string name="eg_int_0_9">0.9</string>
+    <string name="eg_int_0_7">0.7</string>
+    <string name="eg_int_0_5">0.5</string>
+    <string name="eg_int_0_4">0.4</string>
+    <string name="eg_int_0_2">0.2</string>
+    <string name="eg_int_0">0</string>
     <string name="eg_int_5">5</string>
     <string name="eg_int_pe20">20%</string>
     <string name="eg_lastupdate">最后更新 2015.05.07</string>
@@ -311,6 +337,9 @@
     <string name="fmt_make_call_query" formatted="false">确定拨打电话%s?</string>
     <string name="fmt_arearanking" formatted="false">%s河道投诉处理排行榜</string>
     <string name="fmt_legnth_km" formatted="false">%s公里</string>
+    <string name="fmt_size_km2" formatted="false">%s平方千米</string>
+    <string name="fmt_capacity_m3" formatted="false">%立方米</string>
+    <string name="fmt_depth_m" formatted="false">%米</string>
     <string name="fmt_river_segment_tip" formatted="false">该河道分为%d段</string>
     <string name="fmt_sug_submit_result" formatted="false">建议单号：%s</string>
     <string name="fmt_com_submit_result" formatted="false">投诉单号：%s</string>

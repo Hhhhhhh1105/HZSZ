@@ -35,7 +35,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="@string/eg_int_1"
+                android:text="@string/eg_int_0_9"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="@dimen/font_small" />
 
@@ -44,7 +44,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="@string/eg_int_1"
+                android:text="@string/eg_int_0_7"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="@dimen/font_small" />
 
@@ -53,7 +53,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="@string/eg_int_1"
+                android:text="@string/eg_int_0_5"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="@dimen/font_small" />
 
@@ -62,7 +62,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="@string/eg_int_1"
+                android:text="@string/eg_int_0_4"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="@dimen/font_small" />
 
@@ -71,7 +71,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="@string/eg_int_1"
+                android:text="@string/eg_int_0_2"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="@dimen/font_small" />
 
@@ -80,7 +80,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="@string/eg_int_1"
+                android:text="@string/eg_int_0"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="@dimen/font_small" />
         </LinearLayout>

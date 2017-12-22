@@ -238,6 +238,10 @@
             android:label="@string/river_info"
             android:screenOrientation="portrait"></activity>
         <activity
+            android:name=".activity.LakeActivity"
+            android:label="@string/lake_info"
+            android:screenOrientation="portrait"></activity>
+        <activity
             android:name=".activity.OutletActivity"
             android:label="@string/outlet"
             android:screenOrientation="portrait"></activity>
@@ -346,6 +350,9 @@
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
         <activity
             android:name=".activity.RiverPositionActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.LakePositionActivity"
             android:screenOrientation="portrait"></activity>
         <!-- 正式 -->
         <meta-data

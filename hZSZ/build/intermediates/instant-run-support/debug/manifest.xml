@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.zju.hzsz"
     android:versionCode="17"
-    android:versionName="1.7.1" >
+    android:versionName="1.7.2" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -243,6 +243,10 @@
             android:label="@string/river_info"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.zju.hzsz.activity.LakeActivity"
+            android:label="@string/lake_info"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.zju.hzsz.activity.OutletActivity"
             android:label="@string/outlet"
             android:screenOrientation="portrait" />
@@ -362,6 +366,9 @@
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
         <activity
             android:name="com.zju.hzsz.activity.RiverPositionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zju.hzsz.activity.LakePositionActivity"
             android:screenOrientation="portrait" />
         <!-- 正式 -->
         <meta-data

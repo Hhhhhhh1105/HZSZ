@@ -807,7 +807,9 @@
     <string name="chief_handled">已处理</string>
     <string name="chief_unhandle">未处理</string>
     <string name="chief_vieworder">查看处理单</string>
-    <string name="city">省市级</string>
+    <string name="city">市级</string>
+    <string name="city_lake_chief_name">市级正湖长</string>
+    <string name="city_lake_connectchief_name">市级湖长联系人</string>
     <string name="city_river_chief_name">市级正河长</string>
     <string name="cityriverchief_responsibility">职务</string>
     <string name="com_content">投诉内容</string>
@@ -853,6 +855,9 @@
     <string name="complaint">投诉</string>
     <string name="complaint_count">投诉量</string>
     <string name="complaintorder">投诉处理单</string>
+    <string name="department">部门</string>
+    <string name="district_lake_chief_name">区级湖长</string>
+    <string name="district_lake_connectchief_name">区级湖长联系人</string>
     <string name="doing_gettingauthcode">正在获取验证码…</string>
     <string name="doing_loading">正在加载数据…</string>
     <string name="doing_submitting">正在提交数据…</string>
@@ -866,6 +871,12 @@
     <string name="eg_easeriver">东河</string>
     <string name="eg_handleresult">找到臭水排放企业，并已督促其停止排放，有臭水排放问题，现已解决。</string>
     <string name="eg_handlestatus">待处理</string>
+    <string name="eg_int_0">0</string>
+    <string name="eg_int_0_2">0.2</string>
+    <string name="eg_int_0_4">0.4</string>
+    <string name="eg_int_0_5">0.5</string>
+    <string name="eg_int_0_7">0.7</string>
+    <string name="eg_int_0_9">0.9</string>
     <string name="eg_int_1">1</string>
     <string name="eg_int_5">5</string>
     <string name="eg_int_pe20">20%</string>
@@ -904,11 +915,13 @@
     <string name="evaluateinfo">评价情况</string>
     <string name="evaluatenow">马上评价</string>
     <string formatted="false" name="fmt_arearanking">%s河道投诉处理排行榜</string>
+    <string formatted="false" name="fmt_capacity_m3">%立方米</string>
     <string formatted="false" name="fmt_chief_unhandle_comp">%d个投诉未处理</string>
     <string formatted="false" name="fmt_chief_unhandle_sugs">%d个建议未处理</string>
     <string formatted="false" name="fmt_com_submit_result">投诉单号：%s</string>
     <string formatted="false" name="fmt_date_ym">%s.%02d</string>
     <string formatted="false" name="fmt_dateweek">%s月%s日 %s</string>
+    <string formatted="false" name="fmt_depth_m">%米</string>
     <string formatted="false" name="fmt_lastupdate">最后更新于 %s日 %s:%s</string>
     <string formatted="false" name="fmt_lastupdate_md">最后更新于 %s月%s日</string>
     <string formatted="false" name="fmt_lastupdate_ymd">最后更新于 %s.%02d.%02d</string>
@@ -920,6 +933,7 @@
     <string formatted="false" name="fmt_riverinfo">电子公示牌-%s</string>
     <string formatted="false" name="fmt_seconds_to_authcode">%d秒后重新获取</string>
     <string formatted="false" name="fmt_section_level">%s断面监测站</string>
+    <string formatted="false" name="fmt_size_km2">%s平方千米</string>
     <string formatted="false" name="fmt_submit_result">建议单号：T1213121</string>
     <string formatted="false" name="fmt_sug_submit_result">建议单号：%s</string>
     <string formatted="false" name="fmt_title_sectioninfo">%s详情</string>
@@ -974,7 +988,16 @@
     <string name="holdtext">占位</string>
     <string name="icomplaint">我要投诉</string>
     <string name="isuggest">我要建议</string>
+    <string name="lake_capacity">湖泊库容：</string>
+    <string name="lake_code">湖泊编号:</string>
+    <string name="lake_contactinfo">湖长联系方式</string>
+    <string name="lake_depth">平均深度：</string>
     <string name="lake_info">湖泊水质信息</string>
+    <string name="lake_level">湖泊等级：</string>
+    <string name="lake_main_function">主要功能：</string>
+    <string name="lake_police_name">湖泊警长</string>
+    <string name="lake_size">湖泊面积：</string>
+    <string name="lake_unknow">未知</string>
     <string name="lastmonth">上月</string>
     <string name="lastyear">上年</string>
     <string name="level_1">省级</string>
@@ -1013,6 +1036,8 @@
     <string name="news_detail">详情</string>
     <string name="news_news">新闻动态</string>
     <string name="news_notice">通知公告</string>
+    <string name="no_code">暂无编号</string>
+    <string name="no_owner">未知区域</string>
     <string name="no_searched_river">没有找到相关河道!</string>
     <string name="number">编号</string>
     <string name="outlet">阳光排放口信息</string>
@@ -1057,25 +1082,25 @@
     <string name="river_contpe">联系人</string>
     <string name="river_district_title">区级河长</string>
     <string name="river_dzgsp">基本信息</string>
-    <string name="river_end">河道终点</string>
+    <string name="river_end">河道终点:</string>
     <string name="river_fdhezhang">分段河长</string>
     <string name="river_hdfw">河道方位</string>
     <string name="river_hdsz">河道水质</string>
     <string name="river_info">河道水质信息</string>
     <string name="river_jingzhang">河道警长</string>
     <string name="river_length">河道长度</string>
-    <string name="river_level">河道等级</string>
+    <string name="river_level">河道等级:</string>
     <string name="river_npc">人大监督员</string>
     <string name="river_npc_name">代表姓名</string>
     <string name="river_npc_title">代表级别</string>
-    <string name="river_owner">所属区县</string>
+    <string name="river_owner">所属区县:</string>
     <string name="river_province_title">省级河长</string>
     <string name="river_quhezhang">河长姓名</string>
     <string name="river_quhezhang_cont">联系人</string>
     <string name="river_responsibility">河长职责</string>
     <string name="river_select_segment">请选择河段</string>
     <string name="river_selriver">请选择区域</string>
-    <string name="river_start">河道起点</string>
+    <string name="river_start">河道起点:</string>
     <string name="river_supervisePhone">统一监督电话</string>
     <string name="river_target">整治目标</string>
     <string name="river_tsxx">投诉信息</string>
@@ -1240,6 +1265,7 @@
     <string name="tip_submmit_success">提交成功！</string>
     <string name="tip_username_empty">用户名不能为空</string>
     <string name="tips">提示</string>
+    <string name="town_lake_chief_name">镇街湖长</string>
     <string name="umeng_example_home_btn_plus">社交分享</string>
     <string name="umeng_socialize_back" translatable="false">返回</string>
     <string name="umeng_socialize_cancel_btn_str">取消</string>
@@ -1301,8 +1327,10 @@
     <string name="unhandle">未处理</string>
     <string name="unlimeited">不限</string>
     <string name="utils_str_err">ERROR</string>
+    <string name="vicecity_lake_chief_name">市级副湖长</string>
     <string name="vicecity_river_chief_name">市级副河长</string>
     <string name="vieworder">查看处理单</string>
+    <string name="village_lake_chief_name">村级湖长</string>
     <string name="week_0">星期日</string>
     <string name="week_1">星期一</string>
     <string name="week_2">星期二</string>

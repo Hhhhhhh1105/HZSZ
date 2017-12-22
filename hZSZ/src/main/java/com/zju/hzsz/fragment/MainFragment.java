@@ -33,6 +33,7 @@ import com.umeng.socialize.weixin.media.CircleShareContent;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.Values;
+import com.zju.hzsz.activity.LakeActivity;
 import com.zju.hzsz.activity.LakeListAcitivity;
 import com.zju.hzsz.activity.MainActivity;
 import com.zju.hzsz.activity.NpcMemberActivity;
@@ -750,8 +751,8 @@ public class MainFragment extends BaseFragment implements OnRefreshListener {
 			@Override
 			public void onClick(View v) {
 				if (v.getTag() != null) {
-					Intent intent = new Intent(getBaseActivity(), RiverActivity.class);
-					intent.putExtra(Tags.TAG_RIVER, StrUtils.Obj2Str(v.getTag()));
+					Intent intent = new Intent(getBaseActivity(), LakeActivity.class);
+					intent.putExtra(Tags.TAG_LAKE, StrUtils.Obj2Str(v.getTag()));
 					startActivity(intent);
 				}
 			}

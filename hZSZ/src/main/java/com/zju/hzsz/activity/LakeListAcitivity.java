@@ -1,6 +1,7 @@
 package com.zju.hzsz.activity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
@@ -18,6 +19,7 @@ import android.widget.TextView;
 import com.sin.android.sinlibs.adapter.SimpleListAdapter;
 import com.sin.android.sinlibs.adapter.SimpleViewInitor;
 import com.zju.hzsz.R;
+import com.zju.hzsz.Tags;
 import com.zju.hzsz.model.District;
 import com.zju.hzsz.model.Lake;
 import com.zju.hzsz.model.LakeListRes;
@@ -69,7 +71,11 @@ public class LakeListAcitivity extends BaseActivity implements TextView.OnEditor
     View.OnClickListener lakeClick = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-
+            if (view.getTag() != null) {
+                Intent intent = new Intent(LakeListAcitivity.this, LakeActivity.class);
+                intent.putExtra(Tags.TAG_LAKE, StrUtils.Obj2Str(view.getTag()));
+                startActivity(intent);
+            }
         }
     };
 
@@ -147,6 +153,12 @@ public class LakeListAcitivity extends BaseActivity implements TextView.OnEditor
                     ds.districtId = 0;
                     ds.districtName = getString(R.string.unlimeited);
                     curDw = new DistrictWarper(ds);
+                    dwItems.add(curDw);
+
+                    District dCity = new District();
+                    dCity.districtId = 100;
+                    dCity.districtName = getString(R.string.city);
+                    curDw = new DistrictWarper(dCity);
                     dwItems.add(curDw);
 
                     for (District d : o.data.districtLists) {
