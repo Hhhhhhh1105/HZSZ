@@ -297,10 +297,16 @@
             android:name="com.zju.hzsz.chief.activity.ChiefRecordListActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.zju.hzsz.lakechief.activity.LakeChiefRecordListActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.zju.hzsz.chief.activity.ChiefDubanListActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.zju.hzsz.chief.activity.ChiefEditRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zju.hzsz.lakechief.activity.LakeChiefEditRecordActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.zju.hzsz.chief.activity.ChiefDubanDetailActivity"

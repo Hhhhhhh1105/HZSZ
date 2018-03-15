@@ -77,6 +77,7 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             rootView.findViewById(R.id.tv_chief_notepad).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_inspect).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_record).setOnClickListener(this);
+            rootView.findViewById(R.id.tv_lake_chief_record).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_suggestion).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_sign).setOnClickListener(this);
             rootView.findViewById(R.id.tv_chief_mail).setOnClickListener(this);
@@ -165,7 +166,8 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
         boolean isDistrictChief = logined && getBaseActivity().getUser().isDistrictChief();
         boolean isCityChief = logined && getBaseActivity().getUser().isCityChief();
         boolean isNpc = logined && getBaseActivity().getUser().isNpc();
-
+        //是否是湖长
+        boolean isLakeChief = getBaseActivity().getUser().isLogined() && getBaseActivity().getUser().isLakeChief();
         //管辖河道小bug - 1.4.30
         rootView.findViewById(R.id.rl_chief_rivermanage).setVisibility(View.GONE);
 
@@ -200,7 +202,12 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
                 v.setVisibility(View.VISIBLE);
             }
         }
-
+        //如果是湖长，显示巡湖功能
+        if(isLakeChief){
+            rootView.findViewById(R.id.rl_lake_chief_record).setVisibility(View.VISIBLE);
+        }else {
+            rootView.findViewById(R.id.rl_lake_chief_record).setVisibility(View.GONE);
+        }
         //如果是人大代表账号
         if (isNpc) {
             //更改页面名为“代表监督”
@@ -259,6 +266,11 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
             }
             case R.id.tv_chief_record: {
                 Intent intent = new Intent(getBaseActivity(), com.zju.hzsz.chief.activity.ChiefRecordListActivity.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.tv_lake_chief_record: {
+                Intent intent = new Intent(getBaseActivity(), com.zju.hzsz.lakechief.activity.LakeChiefRecordListActivity.class);
                 startActivity(intent);
                 break;
             }

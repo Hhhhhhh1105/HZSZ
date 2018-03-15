@@ -114,7 +114,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			latlist_temp = "" + location.getLatitude();
 			latlist_temp = "" + location.getLongitude();
 		}
-		handler.postDelayed(new MyRunable(), 1000); //每10s记录一次当前轨迹
+		//改为只有在新建时才记录轨迹
+//		handler.postDelayed(new MyRunable(), 1000); //每10s记录一次当前轨迹
 		initLocation();
 
 		findViewById(R.id.btn_selriver).setOnClickListener(this);//选择河道按钮
@@ -153,6 +154,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 		if (riverRecord == null) {//从新建中进入
 			setTitle("新建巡查记录");
 
+			handler.postDelayed(new MyRunable(), 1000); //每10s记录一次当前轨迹
+														//只有在新建时才记录轨迹
 			riverRecord = new RiverRecord();
 			riverRecord.recordDate = DateTime.getNow(); //巡河时间
 			riverRecord.locRiverName = "选择河道";

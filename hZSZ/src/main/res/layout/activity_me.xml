@@ -322,6 +322,40 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/rl_lake_chief_record"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/me_item_h"
+                android:layout_marginBottom="@dimen/page_item_margin_v"
+                android:layout_marginTop="@dimen/page_item_margin_v"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_lake_chief_record"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/me_item_h"
+                    android:layout_marginLeft="@dimen/me_item_tv_margin_left"
+                    android:layout_toRightOf="@+id/iv_lake_chief_record"
+                    android:background="@drawable/btn_white_gray"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/ic_arrow_rigth"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/me_item_tv_padding_left"
+                    android:paddingRight="@dimen/page_padding"
+                    android:text="@string/mylakechiefrecord"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray" />
+
+                <ImageView
+                    android:id="@+id/iv_lake_chief_record"
+                    android:layout_width="@dimen/me_item_icon_w"
+                    android:layout_height="@dimen/me_item_icon_h"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_lakechief_record" >
+                </ImageView>
+            </RelativeLayout>
+
+            <RelativeLayout
                 android:id="@+id/rl_chief_rivermanage"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/me_item_h"

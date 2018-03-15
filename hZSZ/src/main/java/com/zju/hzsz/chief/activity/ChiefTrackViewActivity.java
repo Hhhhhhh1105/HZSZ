@@ -43,7 +43,7 @@ public class ChiefTrackViewActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chief_trackview);
-        setTitle("查看巡河轨迹");
+        setTitle("轨迹");
         initHead(R.drawable.ic_head_back,0);
 
         //地图初始化

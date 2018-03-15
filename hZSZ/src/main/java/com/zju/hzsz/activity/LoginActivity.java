@@ -82,6 +82,8 @@ public class LoginActivity extends BaseActivity {
 					getUser().uuid = o.data.uuid;
 					getUser().authority = o.data.authority;
 					getUser().riverSum = o.data.riverSum;
+					getUser().lakeSum = o.data.lakeSum;
+					getUser().isLakeChief = o.data.isLakeChief;
 					getUser().ifOnJob = o.data.ifOnJob;
 					getUser().districtId = o.data.districtId;
 					getUser().realName = o.data.realName;

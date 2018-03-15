@@ -51,6 +51,9 @@ public class User {
 	// 河长
 	public int authority;
 	public River[] riverSum = new River[] {};
+	//湖长
+	public Lake[] lakeSum = new Lake[] {};
+	public String isLakeChief;//是否是湖长，字符串类型，1是湖长，其他都不是
 	public int ifOnJob = 0;
 
 	// 是否河长
@@ -191,5 +194,16 @@ public class User {
 
 	public void setNotifyable(boolean ab) {
 		notifyable = ab;
+	}
+	public boolean isLakeChief(){
+		if(isLakeChief!=null){
+			if (isLakeChief.equals("1")){
+				return true;
+			}else {
+				return false;
+			}
+		}else{
+			return false;
+		}
 	}
 }

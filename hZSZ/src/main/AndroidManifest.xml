@@ -292,10 +292,16 @@
             android:name=".chief.activity.ChiefRecordListActivity"
             android:screenOrientation="portrait"></activity>
         <activity
+            android:name=".lakechief.activity.LakeChiefRecordListActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
             android:name=".chief.activity.ChiefDubanListActivity"
             android:screenOrientation="portrait"></activity>
         <activity
             android:name=".chief.activity.ChiefEditRecordActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".lakechief.activity.LakeChiefEditRecordActivity"
             android:screenOrientation="portrait"></activity>
         <activity
             android:name=".chief.activity.ChiefDubanDetailActivity"

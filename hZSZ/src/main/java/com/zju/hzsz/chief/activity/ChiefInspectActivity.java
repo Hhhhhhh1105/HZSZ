@@ -76,7 +76,7 @@ public class ChiefInspectActivity extends BaseActivity{
         SDKInitializer.initialize(this.getApplication());
 
         setContentView(R.layout.activity_chief_inspect);
-        setTitle("巡河");
+        setTitle("轨迹");
         initHead(R.drawable.ic_head_back,0);
 
         handler.postDelayed(new MyRunable(),3000);

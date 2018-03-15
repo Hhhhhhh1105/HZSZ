@@ -69,7 +69,7 @@
                     android:paddingLeft="@dimen/padding_small"
                     android:paddingRight="@dimen/padding_small"
                     android:singleLine="true"
-                    android:tag="tt:{.locRiverName}"
+                    android:tag="tt:{.locLakeName}"
                     android:text="东河"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/btn_green_white"

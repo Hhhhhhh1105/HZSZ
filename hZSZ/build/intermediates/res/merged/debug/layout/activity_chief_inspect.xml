@@ -45,7 +45,8 @@
             android:background="#37c674"
             android:textColor="@color/white"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="结束巡河"/>
+            android:text="结束巡河"
+            android:visibility="gone"/>
 
 
     </LinearLayout>

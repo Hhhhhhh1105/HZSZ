@@ -40,6 +40,7 @@ public class MeActivity extends BaseActivity {
 		findViewById(R.id.tv_chief_duban).setOnClickListener(this);
 		findViewById(R.id.tv_chief_inspect).setOnClickListener(this);
 		findViewById(R.id.tv_chief_record).setOnClickListener(this);
+		findViewById(R.id.tv_lake_chief_record).setOnClickListener(this);
 		findViewById(R.id.tv_chief_suggestion).setOnClickListener(this);
 		findViewById(R.id.tv_chief_sign).setOnClickListener(this);
 		findViewById(R.id.tv_chief_mail).setOnClickListener(this);
@@ -95,6 +96,9 @@ public class MeActivity extends BaseActivity {
 	private void refreshView() {
 		boolean logined = getUser().isLogined();
 		boolean ischief = getUser().isLogined() && getUser().isChief();
+		//是否是湖长
+		boolean isLakeChief = getUser().isLogined() && getUser().isLakeChief();
+
 		for (int id : showWhenLogined) {
 			View v = findViewById(id);
 			if (v != null)
@@ -110,6 +114,12 @@ public class MeActivity extends BaseActivity {
 //			findViewById(R.id.rl_complaint).setVisibility(View.GONE);
 //			findViewById(R.id.rl_suggestion).setVisibility(View.GONE);
 //		}
+		//如果是湖长，显示巡湖功能
+		if(isLakeChief){
+			findViewById(R.id.rl_lake_chief_record).setVisibility(View.VISIBLE);
+		}else {
+			findViewById(R.id.rl_lake_chief_record).setVisibility(View.GONE);
+		}
 
 		((TextView) findViewById(R.id.tv_name)).setText(getUser().getDisplayName());
 		((TextView) findViewById(R.id.tv_info)).setText(getUser().getDisplayRiver());
@@ -146,6 +156,11 @@ public class MeActivity extends BaseActivity {
 			Intent intent = new Intent(this, com.zju.hzsz.chief.activity.ChiefRecordListActivity.class);
 			startActivity(intent);
 			break;
+		}
+		case R.id.tv_lake_chief_record: {
+				Intent intent = new Intent(this, com.zju.hzsz.lakechief.activity.LakeChiefRecordListActivity.class);
+				startActivity(intent);
+				break;
 		}
 		case R.id.tv_chief_duban: {
 			Intent intent = new Intent(this, com.zju.hzsz.chief.activity.ChiefDubanListActivity.class);
