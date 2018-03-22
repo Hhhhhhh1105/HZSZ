@@ -43,6 +43,7 @@ import com.sin.android.sinlibs.utils.InjectUtils;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.Values;
+import com.zju.hzsz.activity.EventReportActivity;
 import com.zju.hzsz.activity.PhotoViewActivity;
 import com.zju.hzsz.model.BaseRes;
 import com.zju.hzsz.model.DateTime;
@@ -118,6 +119,24 @@ public class ChiefEditRecordActivity extends BaseActivity {
 //		handler.postDelayed(new MyRunable(), 1000); //每10s记录一次当前轨迹
 		initLocation();
 
+		//登录人员身份判断
+		boolean logined = getUser().isLogined();
+		boolean ischief = getUser().isLogined() && getUser().isChief();
+		//判断是否是村级河长 8
+		boolean isVillageChief = getUser().isLogined() && getUser().isVillageChief();
+		//判断是否是市级或区级河长 区级9 市级10
+		boolean isDistrictChief = logined && getUser().isDistrictChief();
+		boolean isCityChief = logined && getUser().isCityChief();
+		boolean isNpc = logined && getUser().isNpc();
+		//是否是湖长
+		boolean isLakeChief = getUser().isLogined() && getUser().isLakeChief();
+
+		if(ischief||isVillageChief||isDistrictChief||isCityChief){
+			findViewById(R.id.action_event_report).setVisibility(View.VISIBLE);
+		}else {
+			findViewById(R.id.action_event_report).setVisibility(View.GONE);
+		}
+
 		findViewById(R.id.btn_selriver).setOnClickListener(this);//选择河道按钮
 		submit = (Button) findViewById(R.id.btn_submit);
 		findViewById(R.id.btn_submit).setOnClickListener(this);//保存按钮
@@ -144,6 +163,14 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			}
 		});
 
+		//巡河过程中事件上报
+		findViewById(R.id.action_event_report).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Intent intent = new Intent(ChiefEditRecordActivity.this, EventReportActivity.class);
+				startActivity(intent);
+			}
+		});
 
 		riverRecord = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_RECORD), RiverRecord.class);
 		isNew = (riverRecord == null);

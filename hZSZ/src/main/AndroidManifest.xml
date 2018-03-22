@@ -178,6 +178,9 @@
             android:name=".activity.EvalCompActivity"
             android:screenOrientation="portrait"></activity>
         <activity
+            android:name=".activity.EventReportActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
             android:name=".activity.ForgotPasswordActivity"
             android:screenOrientation="portrait"></activity>
         <activity

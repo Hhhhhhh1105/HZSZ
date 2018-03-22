@@ -5,50 +5,46 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="19909827891208"
+    timestamp="19126002368296"
     token="-4290610345632890823"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="7182" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="39" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
-
-    <artifact
-        location="D:\Androidproject\HZ\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-        type="DEX" />
+        duration="0" />
 
     <build
-        timestamp="17897403934780"
+        timestamp="18456266552812"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Androidproject\HZ\HZSZ\hZSZ\build\outputs\apk\hZSZ-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="18975076770179"
+        timestamp="18829162832794"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\Androidproject\HZ\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            location="D:\Androidproject\HZ\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="19091133000537"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Androidproject\HZ\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="19909827891208"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\Androidproject\HZ\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
-    </build>
+        timestamp="19126002368296"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

@@ -26,6 +26,7 @@
     <string name="suggest">建议</string>
     <string name="isuggest">我要建议</string>
     <string name="icomplaint">我要投诉</string>
+    <string name="ieventreport">事件上报</string>
     <string name="cancel">取消</string>
     <string name="back">返回</string>
     <string name="call">拨打</string>
@@ -52,12 +53,15 @@
     <string name="hint_authcode">输入验证码</string>
     <string name="hint_username">输入账号(手机号)</string>
     <string name="hint_suggest_name">建议人姓名</string>
+    <string name="hint_event_report_name">上报人姓名</string>
     <string name="hint_com_name">投诉人姓名</string>
     <string name="hint_suggest_tel">联系电话</string>
     <string name="hint_suggest_subject">建议主题</string>
     <string name="hint_suggest_category">请选择投诉类别</string>
+    <string name="hint_event_category">请选择事件类别</string>
     <string name="hint_com_subject">投诉主题</string>
     <string name="hint_suggest_content">内容描述(不超过140字)</string>
+    <string name="hint_event_report__content">备注(不超过140字)</string>
     <string name="hint_evaluate_remark">请输入留言</string>
     <string name="hint_replayinfo">请输入处理结果</string>
     <string name="hint_searchriver">输入河道名称进行查询</string>
@@ -69,6 +73,7 @@
     <string name="form_login_forgot">忘记密码?</string>
     <string name="form_suggest_river">建议河道</string>
     <string name="form_complaint_river">投诉河道</string>
+    <string name="form_event_report_river">事件河道</string>
     <string name="form_suggest_anonymity">匿名建议</string>
     <string name="form_complaint_anonymity">匿名投诉</string>
     <string name="suggestioninfo">建议情况</string>
@@ -344,6 +349,7 @@
     <string name="fmt_river_segment_tip" formatted="false">该河道分为%d段</string>
     <string name="fmt_sug_submit_result" formatted="false">建议单号：%s</string>
     <string name="fmt_com_submit_result" formatted="false">投诉单号：%s</string>
+    <string name="fmt_event_report" formatted="false">上报单号：%s</string>
     <string name="fmt_version" formatted="false">版本: %s</string>
     <string name="fmt_newversion" formatted="false">已经有新版本%s</string>
     <string name="fmt_river_numver" formatted="false">河道编号: %s</string>

@@ -922,6 +922,7 @@
     <string formatted="false" name="fmt_date_ym">%s.%02d</string>
     <string formatted="false" name="fmt_dateweek">%s月%s日 %s</string>
     <string formatted="false" name="fmt_depth_m">%米</string>
+    <string formatted="false" name="fmt_event_report">上报单号：%s</string>
     <string formatted="false" name="fmt_lastupdate">最后更新于 %s日 %s:%s</string>
     <string formatted="false" name="fmt_lastupdate_md">最后更新于 %s月%s日</string>
     <string formatted="false" name="fmt_lastupdate_ymd">最后更新于 %s.%02d.%02d</string>
@@ -947,6 +948,7 @@
     <string name="forgotpwd">忘记密码</string>
     <string name="form_complaint_anonymity">匿名投诉</string>
     <string name="form_complaint_river">投诉河道</string>
+    <string name="form_event_report_river">事件河道</string>
     <string name="form_login_forgot">忘记密码?</string>
     <string name="form_reg_agreement">《用户注册协议》</string>
     <string name="form_reg_ireaded">我已经阅读并同意</string>
@@ -972,6 +974,9 @@
     <string name="hint_com_subject">投诉主题</string>
     <string name="hint_curpassword">输入当前密码</string>
     <string name="hint_evaluate_remark">请输入留言</string>
+    <string name="hint_event_category">请选择事件类别</string>
+    <string name="hint_event_report__content">备注(不超过140字)</string>
+    <string name="hint_event_report_name">上报人姓名</string>
     <string name="hint_newpassword">输入新密码</string>
     <string name="hint_newrepassword">再次输入新密码</string>
     <string name="hint_password">输入登录密码</string>
@@ -987,6 +992,7 @@
     <string name="hint_username">输入账号(手机号)</string>
     <string name="holdtext">占位</string>
     <string name="icomplaint">我要投诉</string>
+    <string name="ieventreport">事件上报</string>
     <string name="isuggest">我要建议</string>
     <string name="lake_capacity">湖泊库容：</string>
     <string name="lake_code">湖泊编号:</string>
