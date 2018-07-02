@@ -2,6 +2,7 @@
 <resources>
 
     <color name="head_title_color">#FFFFFF</color>
+    <color name="transparent_background">#CCFFFFFF</color>
     <color name="bg_gray">#F4F4F4</color>
     <color name="text_gray">#444</color>
     <color name="text_high">#FFF</color>

@@ -305,7 +305,7 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 			ll_npcs.removeAllViews();
 
 			//市级河长或区级河长
-			if (river.riverLevel <= 3) {
+			if (river.riverLevel <= 3){
 				View river_line = LinearLayout.inflate(context, R.layout.item_river_contact_line, null);
 
 				int title_name = 3;
@@ -336,6 +336,13 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 					row = new LinearLayout(context);
 					row.addView(initContItem(R.string.river_jingzhang, river.districtRiverSheriff != null ? river.districtRiverSheriff.chiefName : null, river.districtRiverSheriff != null ? river.districtRiverSheriff.contactWay : null, false));
 					ll_contacts.addView(row);
+
+					//联系部门+联系人
+					row = new LinearLayout(context);
+					row.addView(initContItem(R.string.river_contdep, river.comtactDepartment.department, null, false));
+//					row.addView(initContItem(R.string.river_contpe, river.comtactDepartment.river_contact_user, river.comtactDepartment.department_phone, false));
+					row.addView(initContItem(R.string.river_quhezhang_cont, river.districtComtactPeo.chiefName, river.districtComtactPeo.contactWay, false));
+					ll_contacts.addView(row);
 				}else {
 					//河长姓名+联系人
 //					LinearLayout row = new LinearLayout(context);
@@ -348,17 +355,15 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 					//河长职务+河道警长
 					row = new LinearLayout(context);
 					row.addView(initContItem(R.string.riverchief_responsibility, river.districtRiverChief.department, null, false));
+					ll_contacts.addView(row);
 //				row.addView(initContItem(R.string.river_jingzhang, river.districtRiverSheriff != null ? river.districtRiverSheriff.chiefName : null, river.districtRiverSheriff != null ? river.districtRiverSheriff.contactWay : null, false));
+
+					//联系部门+联系人
+					row = new LinearLayout(context);
+					row.addView(initContItem(R.string.river_contdep, river.comtactDepartment.department, null, false));
+					row.addView(initContItem(R.string.river_contpe, river.comtactDepartment.river_contact_user, river.comtactDepartment.department_phone, false));
 					ll_contacts.addView(row);
 				}
-
-				//联系部门+联系人
-				row = new LinearLayout(context);
-				row.addView(initContItem(R.string.river_contdep, river.comtactDepartment.department, null, false));
-				row.addView(initContItem(R.string.river_contpe, river.comtactDepartment.river_contact_user, river.comtactDepartment.department_phone, false));
-				ll_contacts.addView(row);
-
-
 
 				//市级河道或区级河道有下级河道
 				if (river.lowLevelRivers.length > 0) {

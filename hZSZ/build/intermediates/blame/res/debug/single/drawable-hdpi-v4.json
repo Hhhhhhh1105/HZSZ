@@ -52,12 +52,12 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_edit.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_edit.xml"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_edit.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_edit.xml"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_phone.xml",
@@ -124,12 +124,12 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_start.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_share.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_share.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\md_nav_back.png",

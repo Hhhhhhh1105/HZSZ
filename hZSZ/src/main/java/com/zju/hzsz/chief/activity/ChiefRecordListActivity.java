@@ -41,6 +41,8 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class ChiefRecordListActivity extends BaseActivity implements WarpHandler {
 
@@ -283,7 +285,10 @@ public class ChiefRecordListActivity extends BaseActivity implements WarpHandler
 	@Override
 	protected void onRestart() {
 		super.onRestart();
+		//刷新两次，避免出现假的未完成轨迹
 		loadRecords(true);
+		loadRecords(true);
+
 	}
 
 	@Override

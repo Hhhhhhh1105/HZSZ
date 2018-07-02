@@ -45,8 +45,6 @@ import static com.zju.hzsz.net.Constants.DefaultPageSize;
 
 public class LakeListAcitivity extends BaseActivity implements TextView.OnEditorActionListener, CompoundButton.OnCheckedChangeListener{
 
-
-
     class DistrictWarper {
         public District district;
         public boolean checked;

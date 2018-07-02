@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="120dp"
+    android:layout_height="80dp"
+    android:background="@color/transparent_background"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_pub" />
+
+        <TextView
+            android:text="河道公示牌"
+            android:gravity="center"
+            android:textSize="@dimen/font_normal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_station" />
+
+        <TextView
+            android:text="水质监测站"
+            android:gravity="center"
+            android:textSize="@dimen/font_normal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

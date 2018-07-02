@@ -79,7 +79,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/littlelightgray"
             android:textSize="@dimen/font_normal"
-            android:id="@+id/textView" />
+            android:id="@+id/textViewDepth" />
 
         <TextView
             android:id="@+id/tv_lake_depth"

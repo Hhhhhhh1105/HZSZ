@@ -37,6 +37,7 @@ public class RiverPositionActivity extends BaseActivity {
 	private LatLng start;
 	private LatLng end;
 	private LatLng me;
+	private int numOfPub;//公示牌数量
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +48,7 @@ public class RiverPositionActivity extends BaseActivity {
 		river = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_RIVER), River.class);
 
 		me = new LatLng(getLatitude(), getLongitude());
+		numOfPub = 0;//公示牌数量初始化为0
 
 		if (river != null) {
 			setTitle(river.riverName);
@@ -78,18 +80,29 @@ public class RiverPositionActivity extends BaseActivity {
 							points.add(start);
 						}
 						if (rp.baidu_pub1_lat != 0.0) {
+							numOfPub++;
 							LatLng pub1 = new LatLng(rp.baidu_pub1_lat, rp.baidu_pub1_lng);
 							points.add(pub1);
 						}
 
 						if (rp.baidu_pub2_lat != 0.0) {
+							numOfPub++;
 							LatLng pub2 = new LatLng(rp.baidu_pub2_lat, rp.baidu_pub2_lng);
 							points.add(pub2);
 						}
 
 						if (rp.baidu_pub3_lat != 0.0) {
+							numOfPub++;
 							LatLng pub3 = new LatLng(rp.baidu_pub3_lat, rp.baidu_pub3_lng);
 							points.add(pub3);
+						}
+						if (rp.baidu_riverstation1_lat!=0.0){
+							LatLng station1 = new LatLng(rp.baidu_riverstation1_lat, rp.baidu_riverstation1_lng);
+							points.add(station1);
+						}
+						if (rp.baidu_riverstation2_lat!=0.0){
+							LatLng station2 = new LatLng(rp.baidu_riverstation2_lat, rp.baidu_riverstation2_lng);
+							points.add(station2);
 						}
 						if (rp.baidu_end_lat != 0.0) {
 							end = new LatLng(rp.baidu_end_lat, rp.baidu_end_lng);
@@ -119,6 +132,7 @@ public class RiverPositionActivity extends BaseActivity {
 		BitmapDescriptor bmp_to = BitmapDescriptorFactory.fromResource(R.drawable.track_end);
 		BitmapDescriptor bmp_me = BitmapDescriptorFactory.fromResource(R.drawable.ic_location_me);
 		BitmapDescriptor bmp_pub = BitmapDescriptorFactory.fromResource(R.drawable.ic_pub);
+		BitmapDescriptor station = BitmapDescriptorFactory.fromResource(R.drawable.ic_station);
 		MarkerOptions optionMe = new MarkerOptions().position(me).icon(bmp_me);
 		baiduMap.addOverlay(optionMe);
 
@@ -131,6 +145,17 @@ public class RiverPositionActivity extends BaseActivity {
 
 			if (points.size() > 2) {
 
+				for (int  i = 1; i < points.size() - 1; i ++) {
+					if(i<=numOfPub){
+						MarkerOptions optionPub = new MarkerOptions().position(points.get(i)).icon(bmp_pub);
+						baiduMap.addOverlay(optionPub);
+					}else {
+						MarkerOptions optionPub = new MarkerOptions().position(points.get(i)).icon(station);
+						baiduMap.addOverlay(optionPub);
+					}
+
+				}
+
 				//对各个公示牌按其与起点的距离进行排序
 				Collections.sort(points, new Comparator<LatLng>() {
 					@Override
@@ -138,11 +163,6 @@ public class RiverPositionActivity extends BaseActivity {
 						return new Double(getDistance(latLng1)).compareTo(new Double(getDistance(latLng2)));
 					}
 				});
-
-				for (int  i = 1; i < points.size() - 1; i ++) {
-					MarkerOptions optionPub = new MarkerOptions().position(points.get(i)).icon(bmp_pub);
-					baiduMap.addOverlay(optionPub);
-				}
 			}
 
 			float lat = (float) ((start.latitude + end.latitude) / 2);

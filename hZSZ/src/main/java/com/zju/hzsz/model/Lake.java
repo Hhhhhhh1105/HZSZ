@@ -48,6 +48,8 @@ public class Lake {
 
     public Station[] stations;
 
+    public int lakeOrReservoir;//1 表示湖泊；2表示水库；
+
     public void setWaterType(int waterType) {
         this.waterType = waterType;
     }

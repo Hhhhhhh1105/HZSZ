@@ -237,11 +237,15 @@ public class LakeInfoItem extends BaseLakePagerItem {
             warp.setText(R.id.tv_lake_level, ResUtils.getRiverSLittleLevel(lake.lakeLevel));
             warp.setText(R.id.tv_lake_size, lake.lakeSize+" km^2");
             warp.setText(R.id.tv_lake_depth, lake.deep+" m");
-            warp.setText(R.id.tv_lake_capacity, lake.capacity+" m^3");
+            warp.setText(R.id.tv_lake_capacity, lake.capacity+" 万m^3");
 //            warp.setText(R.id.tv_lake_size, StrUtils.renderText(context, R.string.fmt_size_km2, StrUtils.floatS2Str(lake.lakeSize)));
 //            warp.setText(R.id.tv_lake_depth, StrUtils.renderText(context, R.string.fmt_depth_m, StrUtils.floatS2Str("2.50")));
 //            warp.setText(R.id.tv_lake_capacity, StrUtils.renderText(context, R.string.fmt_capacity_m3, StrUtils.floatS2Str(lake.capacity)));
 
+            if(lake.lakeOrReservoir == 2){
+                warp.getViewById(R.id.textViewDepth).setVisibility(View.GONE);
+                warp.getViewById(R.id.tv_lake_depth).setVisibility(View.GONE);
+            }
 
             //去掉“投诉”和“公示”两个按钮
             warp.getViewById(R.id.iv_complaint).setVisibility(View.INVISIBLE);
@@ -293,7 +297,8 @@ public class LakeInfoItem extends BaseLakePagerItem {
                 for (LakeChief lakeChief:lake.cityLakeChiefJsons){
                     row = new LinearLayout(context);
                     row.setOrientation(LinearLayout.HORIZONTAL);
-                    row.addView(initContItem(R.string.city_lake_chief_name, lakeChief.getChiefName() , lakeChief.getContactWay() != null ? lakeChief.getContactWay() : null, false));
+//                    row.addView(initContItem(R.string.city_lake_chief_name, lakeChief.getChiefName() , lakeChief.getContactWay() != null ? lakeChief.getContactWay() : null, false));
+                    row.addView(initContItem(R.string.city_lake_chief_name, lakeChief.getChiefName() , null, false));
                     row.addView(initContItem(R.string.cityriverchief_responsibility, lakeChief.getDepartment(), null, false));
                     ll_contacts.addView(row);
                 }
@@ -302,7 +307,8 @@ public class LakeInfoItem extends BaseLakePagerItem {
                 for (LakeChief lakeChief:lake.cityViceLakeChiefJsons){
                     row = new LinearLayout(context);
                     row.setOrientation(LinearLayout.HORIZONTAL);
-                    row.addView(initContItem(R.string.vicecity_lake_chief_name, lakeChief.getChiefName() , lakeChief.getContactWay() != null ? lakeChief.getContactWay() : null, false));
+//                    row.addView(initContItem(R.string.vicecity_lake_chief_name, lakeChief.getChiefName() , lakeChief.getContactWay() != null ? lakeChief.getContactWay() : null, false));
+                    row.addView(initContItem(R.string.vicecity_lake_chief_name, lakeChief.getChiefName() , null, false));
                     row.addView(initContItem(R.string.cityriverchief_responsibility, lakeChief.getDepartment(), null, false));
                     ll_contacts.addView(row);
                 }
@@ -321,7 +327,8 @@ public class LakeInfoItem extends BaseLakePagerItem {
                 for (LakeChief lakeChief:lake.districtLakeChiefJsons){
                     row = new LinearLayout(context);
                     row.setOrientation(LinearLayout.HORIZONTAL);
-                    row.addView(initContItem(R.string.district_lake_chief_name, lakeChief.getChiefName() , lakeChief.getContactWay() != null ? lakeChief.getContactWay() : null, false));
+//                    row.addView(initContItem(R.string.district_lake_chief_name, lakeChief.getChiefName() , lakeChief.getContactWay() != null ? lakeChief.getContactWay() : null, false));
+                    row.addView(initContItem(R.string.district_lake_chief_name, lakeChief.getChiefName() , null, false));
                     row.addView(initContItem(R.string.cityriverchief_responsibility, lakeChief.getDepartment(), null, false));
                     ll_contacts.addView(row);
                 }
@@ -353,18 +360,21 @@ public class LakeInfoItem extends BaseLakePagerItem {
                     ll_contacts.addView(row);
                 }
             }
-            if(lake.lakePoliceMan!=null){//湖泊警长
-                row = new LinearLayout(context);
-                row.setOrientation(LinearLayout.HORIZONTAL);
-                row.addView(initContItem(R.string.lake_police_name, lake.lakePoliceMan.getChiefName() , lake.lakePoliceMan.getContactWay() != null ? lake.lakePoliceMan.getContactWay() : null, false));
-                row.addView(initContItem(R.string.department, lake.lakePoliceMan.getDepartment(), null, false));
-                ll_contacts.addView(row);
-            }
-            //联系部门+联系人
-            row = new LinearLayout(context);
-            row.addView(initContItem(R.string.river_contdep, lake.department, null, false));
-            row.addView(initContItem(R.string.river_contpe, lake.lakeContactUser, lake.departmentPhone, false));
-            ll_contacts.addView(row);
+//            if(lake.lakePoliceMan!=null){//湖泊警长
+//                row = new LinearLayout(context);
+//                row.setOrientation(LinearLayout.HORIZONTAL);
+//                row.addView(initContItem(R.string.lake_police_name, lake.lakePoliceMan.getChiefName() , lake.lakePoliceMan.getContactWay() != null ? lake.lakePoliceMan.getContactWay() : null, false));
+//                row.addView(initContItem(R.string.department, lake.lakePoliceMan.getDepartment(), null, false));
+//                ll_contacts.addView(row);
+//            }
+            //湖泊不显示联系部门和联系人
+//            if(lake.lakeOrReservoir ==1 || lake.lakeLevel != 4){
+//                //联系部门+联系人
+//                row = new LinearLayout(context);
+//                row.addView(initContItem(R.string.river_contdep, lake.department, null, false));
+//                row.addView(initContItem(R.string.river_contpe, lake.lakeContactUser, lake.departmentPhone, false));
+//                ll_contacts.addView(row);
+//            }
 
 //            //增加统一监督电话
 //            View supervision_phone = LinearLayout.inflate(context, R.layout.item_river_contact_line, null);

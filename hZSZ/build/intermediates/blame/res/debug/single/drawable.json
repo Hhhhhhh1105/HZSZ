@@ -252,6 +252,10 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_station.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_station.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
@@ -294,6 +298,10 @@
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_on.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_location_on.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_smaller.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_smaller.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_refersh.png",
@@ -600,6 +608,10 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_me.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_me.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_tabbtn_m_bg.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_m_bg.xml"
     },
@@ -746,6 +758,10 @@
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_bg_gray.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\btn_white_bg_gray.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_bigger.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_bigger.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt.xml",

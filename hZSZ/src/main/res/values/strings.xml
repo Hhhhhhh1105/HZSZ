@@ -199,13 +199,16 @@
     <string name="news_detail">详情</string>
 
     <!-- quality -->
-    <string name="quality_info1">主要适用于源头水、国家自然保护区；</string>
-    <string name="quality_info2">主要适用于集中式生活饮用水地表水源地一级保护区、珍稀水生生物栖息地、鱼虾类产场、仔稚幼鱼的索饵场等；</string>
-    <string name="quality_info3">主要适用于集中式生活饮用水地表水源地二级保护区、鱼虾类越冬场、洄游通道、水产养殖区等渔业水域及游泳区；</string>
-    <string name="quality_info4">主要适用于一般工业用水区及人体非直接接触的娱乐用水区；</string>
-    <string name="quality_info5">主要适用于农业用水区及一般景观要求水域；</string>
-    <string name="quality_info6">污染程度已超过V类的水。</string>
-    <string name="quality_infotip">对应地表水上述六类水域功能，将地表水环境质量标准基本项目标准值分为六类，不同功能类别分别执行相应类别的标准值。水域功能类别高的标准值严于水域功能类别低的标准值。同一水域兼有多类使用功能的，执行最高功能类别对应的标准值。实现水域功能与达功能类别标准为同一含义。\n注：水质分类方案依据国家地表水环境质量标准(GB 3838&#8211;2002）</string>
+    <string name="quality_info1">主要适用于源头水、国家自然保护区</string>
+    <string name="quality_info2">主要适用于集中式生活饮用水地表水源地一级保护区、珍稀水生生物栖息地、鱼虾类产场、仔稚幼鱼的索饵场等</string>
+    <string name="quality_info3">主要适用于集中式生活饮用水地表水源地二级保护区、鱼虾类越冬场、洄游通道、水产养殖区等渔业水域及游泳区</string>
+    <string name="quality_info4">主要适用于一般工业用水区及人体非直接接触的娱乐用水区</string>
+    <string name="quality_info5">主要适用于农业用水区及一般景观要求水域</string>
+    <string name="quality_info6">污染程度已超过V类的水。\n（区别于省剿劣标准）</string>
+    <string name="quality_infotip">对应地表水上述六类水域功能，将地表水环境质量标准基本项目标准值分为六类，
+        不同功能类别分别执行相应类别的标准值。水域功能类别高的标准值严于水域功能类别低的标准值。
+        同一水域兼有多类使用功能的，执行最高功能类别对应的标准值。实现水域功能与达功能类别标准
+        为同一含义。\n注：水质分类方案依据国家地表水环境质量标准(GB 3838&#8211;2002）</string>
     <string name="quality_1">I</string>
     <string name="quality_2">II</string>
     <string name="quality_3">III</string>

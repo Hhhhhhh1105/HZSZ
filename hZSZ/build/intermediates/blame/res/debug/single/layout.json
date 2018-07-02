@@ -24,6 +24,10 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_chief_npcsug.xml"
     },
     {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tianditu_riverposition.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\layout\\activity_tianditu_riverposition.xml"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_view.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\layout\\umeng_socialize_at_view.xml"
     },
@@ -380,6 +384,10 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\layout\\fragment_ranking2_item.xml"
     },
     {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_map_legend2.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_map_legend2.xml"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\inc_tabhead.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\layout\\inc_tabhead.xml"
     },
@@ -586,6 +594,10 @@
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\item_map_legend.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\layout\\item_map_legend.xml"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",

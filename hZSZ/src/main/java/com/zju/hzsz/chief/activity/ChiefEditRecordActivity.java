@@ -64,6 +64,8 @@ import java.io.FileNotFoundException;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class ChiefEditRecordActivity extends BaseActivity {
 	//巡检情况处的布局
@@ -193,8 +195,6 @@ public class ChiefEditRecordActivity extends BaseActivity {
 //			System.out.println("startTime: " + startTime);
 			startTimeHour = DateTime.getNow().hours;
 			startTimeMin = DateTime.getNow().minutes;
-//			System.out.println("startTimeHour: " + startTimeHour);
-//			System.out.println("startTimeMin: " + startTimeMin);
 
 			//退出巡河时的提醒
 			findViewById(R.id.iv_head_left).setOnClickListener(exitTrackRiver);
@@ -221,6 +221,10 @@ public class ChiefEditRecordActivity extends BaseActivity {
 					@Override
 					public void onClick(DialogInterface arg0, int arg1) {
 						arg0.dismiss();
+						time = new TimeCount(300000, 1000);//构造CountDownTimer对象，倒计时
+						time.start();//开始计时
+						submit.setClickable(false);
+						submit.setBackgroundColor(getResources().getColor(R.color.half_black));
 					}
 				});
 				ab.setCancelable(false);
@@ -473,6 +477,7 @@ public class ChiefEditRecordActivity extends BaseActivity {
 					lnglist_temp = "";
 
 					finish();
+
 				}
 			});
 			ab.setNegativeButton("取消", new DialogInterface.OnClickListener() {
@@ -665,6 +670,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 	public void onClick(View v) {
 		switch (v.getId()) {
 			case R.id.btn_cancel:
+				latlist_temp = "";
+				lnglist_temp = "";
 				finish();
 				break;
 			case R.id.btn_selriver: {
