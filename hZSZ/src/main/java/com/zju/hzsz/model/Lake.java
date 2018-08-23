@@ -25,6 +25,7 @@ public class Lake {
     public String department;//联系部门
     public String lakeContactUser;//联系人
     public String departmentPhone;//联系电话
+    public LowLevelLake[] lowLevelLakes; //下属湖泊
 
     public LakeChief lakePoliceMan;
     public LakeChief[] cityLakeChiefJsons;

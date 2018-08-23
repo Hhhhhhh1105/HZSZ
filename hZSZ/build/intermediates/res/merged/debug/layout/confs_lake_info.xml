@@ -65,7 +65,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/tv_low_level_river"
+                android:id="@+id/tv_low_level_lake"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_medium"
@@ -73,18 +73,18 @@
                 android:paddingLeft="@dimen/padding_large"
                 android:paddingRight="@dimen/padding_large"
                 android:paddingTop="@dimen/padding_medium"
-                android:text="下级河道"
+                android:text="下级湖泊"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/green"
                 android:textSize="@dimen/font_large"
-                android:visibility="gone"/>
+                android:visibility="visible"/>
 
             <LinearLayout
-                android:id="@+id/ll_rivers"
+                android:id="@+id/ll_lakes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:visibility="gone">
+                android:visibility="visible">
             </LinearLayout>
 
             <TextView

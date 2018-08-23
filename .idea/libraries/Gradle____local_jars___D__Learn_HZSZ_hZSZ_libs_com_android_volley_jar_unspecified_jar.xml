@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_jars__:D.\Learn\HZSZ\hZSZ\libs\com.android.volley.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/hZSZ/libs/com.android.volley.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

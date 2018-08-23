@@ -4,6 +4,242 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bg_sign.xml"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_photo_camera.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_camera.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bottom_shouye.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_shouye.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fab_bg_mini.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.getbase\\floatingactionbutton\\1.10.1\\res\\drawable-hdpi-v4\\fab_bg_mini.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_addphoto.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_addphoto.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_search.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_search.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\npc_logo.jpg",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\npc_logo.jpg"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_phone.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_phone.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_refresh.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_refresh.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_edit.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_edit.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bottom_hedao.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_hedao.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_love.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_love.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bg_sign.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bg_sign.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_right.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_back.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_back.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_share.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_share.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_photo_start.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_start.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_phone.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_phone.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_desc.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_desc.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bottom_duanmian.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_duanmian.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bottom_hedao.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_hedao.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_plus.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_plus.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_right.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_loved.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_loved.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_order.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_order.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bottom_paihang.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_paihang.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_loved.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_loved.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_close.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_close.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bottom_duanmian.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_duanmian.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bottom_xinwen.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_xinwen.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
@@ -20,24 +256,20 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_xinwen.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fab_bg_mini.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.getbase\\floatingactionbutton\\1.10.1\\res\\drawable-hdpi-v4\\fab_bg_mini.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fab_bg_mini.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.getbase\\floatingactionbutton\\1.10.1\\res\\drawable-hdpi-v4\\fab_bg_mini.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_addphoto.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_addphoto.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\npc_logo.jpg",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\npc_logo.jpg"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
@@ -48,32 +280,28 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_love.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_edit.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_edit.xml"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_phone.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_phone.xml"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_photo_stream.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_stream.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_close.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_close.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_share.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_share.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
@@ -84,16 +312,28 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_search.xml"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_btn_sign.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_btn_sign.xml"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_user.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_user.xml"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_btn_sign.xml",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_btn_sign.xml"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_left.xml",
@@ -104,32 +344,36 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_paihang.xml"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bottom_comp.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_comp.xml"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_right.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_right.xml"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_back.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_back.xml"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_photo_start.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_start.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_share.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_share.xml"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fab_bg_normal.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.getbase\\floatingactionbutton\\1.10.1\\res\\drawable-hdpi-v4\\fab_bg_normal.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\md_nav_back.png",
@@ -140,24 +384,44 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_refresh.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_refresh.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_order.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_order.xml"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_photo_stream.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_stream.xml"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_left.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_left.xml"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_desc.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_desc.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_photo_camera.xml",
@@ -168,20 +432,16 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_plus.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bottom_hedao.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_hedao.xml"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fab_bg_normal.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.getbase\\floatingactionbutton\\1.10.1\\res\\drawable-hdpi-v4\\fab_bg_normal.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\npc_logo.jpg",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\npc_logo.jpg"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
@@ -196,16 +456,12 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bottom_mycenter.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_mycenter.xml"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
@@ -216,20 +472,20 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_btn_sign.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_btn_sign.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_loved.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_loved.xml"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_close.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_close.xml"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bottom_duanmian.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_duanmian.xml"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_back.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_back.xml"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
@@ -244,8 +500,8 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_shouye.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bottom_mycenter.xml",
@@ -258,5 +514,9 @@
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_head_user.xml",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_user.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\md_nav_back.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\drawable-hdpi-v4\\md_nav_back.png"
     }
 ]

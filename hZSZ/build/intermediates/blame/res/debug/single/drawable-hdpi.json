@@ -4,20 +4,12 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_duban.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_xinwen_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_xinwen_s.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_plus_n.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_plus_n.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_left_n.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_left_n.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_shouye_n.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_shouye_n.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_search_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_search_s.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_edit_n.png",
@@ -28,16 +20,32 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_quality_5.png"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_quality_4.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_quality_4.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_error.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_error.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_user_s.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_user_s.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_follow.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_follow.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_user_s.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_user_s.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_user_notify.png",
@@ -48,12 +56,664 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_suggestion.png"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_paihang_n.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_paihang_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_follow.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_follow.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_oauth_check_on.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_stream_s.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_stream_s.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_npc_myriver.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_npc_myriver.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wave_up.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\wave_up.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_welcome.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_welcome.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_position_undo.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_position_undo.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_share_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_share_n.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_quality_3.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_quality_3.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_quality_2.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_quality_2.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_ope_complaint.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_ope_complaint.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_icon_expand.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_icon_expand.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_share_s.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_share_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_back_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_back_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_about.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_about.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_5.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_5.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_btn_sign_d.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_btn_sign_d.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chief_mail.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_mail.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_failed.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_failed.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_npc_comp.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_npc_comp.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_1.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_1.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_start_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_start_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_ic_googleplayservices.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_share_pic.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_share_pic.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_love_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_love_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_btn_sign_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_btn_sign_n.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_refresh_n.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_refresh_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_position.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_position.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_refresh_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_refresh_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chief_rivermanage.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_rivermanage.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_right_n.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_right_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chief_record.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_record.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_phone_n.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_phone_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_order_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_order_s.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_hedao_s.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_hedao_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_trash.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_trash.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_npc_name.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_npc_name.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_left_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_left_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher_large.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_launcher_large.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_3.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_3.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_order_s.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_order_s.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_key.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_key.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_cp_handled.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_cp_handled.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_uncheck.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_uncheck.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\eg_sectionpic.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\eg_sectionpic.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_shouye_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_shouye_s.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_start_s.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_start_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_suggestion.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_suggestion.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_checked.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_checked.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_riverbox.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_riverbox.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chief_duban.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_duban.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_4.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_4.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_plus_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_plus_n.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_2.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_2.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_bg.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\head_bg.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_edit_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_edit_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_text_left_white.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_text_left_white.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_paihang_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_paihang_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_submit_ok.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_submit_ok.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chief_sign.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_sign.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_nav_bar_bg_pad.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_nav_bar_bg_pad.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_shouye_s.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_shouye_s.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_3.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_3.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_3.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_3.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_share_video.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_share_video.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_search_s.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_search_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_rigth.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_rigth.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_text_left_white.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_text_left_white.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_collection.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_collection.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_right_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_right_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_error.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_error.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_search_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_search_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_loved_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_loved_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_desc_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_desc_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_love_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_love_s.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_4.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_4.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_right_arrow.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_right_arrow.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_error.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_error.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_mycenter_n.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_mycenter_n.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_love_n.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_love_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_lakechief_record.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_lakechief_record.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_loading.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_loading.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_loved_s.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_loved_s.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_right_s.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_right_s.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_shouye_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_shouye_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_error.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_error.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_4.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_4.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_npc_track.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_npc_track.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wave_down.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\wave_down.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher_large.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_launcher_large.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_btn_sign_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_btn_sign_s.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_2.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_2.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_npc_sug.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_npc_sug.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_full_open_on_phone.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_phone.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_phone.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_loading.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_loading.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_mycenter_s.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_mycenter_s.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_5.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_5.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_oauth_check_off.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_start_n.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_start_n.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_position_done.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_position_done.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_share_n.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_share_n.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_npc_sug.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_npc_sug.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_hedao_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_hedao_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wave_up.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\wave_up.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_sug.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_sug.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_mycenter_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_mycenter_n.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_back_n.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_back_n.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_quality_4.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_quality_4.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_unfollow.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_unfollow.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_share_pic.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_share_pic.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_edit_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_edit_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_oauth_check_on.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_right_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_right_n.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_quality_6.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_quality_6.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_share_music.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_share_music.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_refresh_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_refresh_n.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_plus_n.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_plus_n.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_user_notify.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_user_notify.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chief_suggestion.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_suggestion.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_desc_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_desc_n.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_left_n.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_left_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_welcome.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\bg_welcome.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_shouye_n.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_shouye_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_position_done.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_position_done.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_ope_suggestion.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_ope_suggestion.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_eye.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_eye.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_icon_order.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_icon_order.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_paihang_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_paihang_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_text_left.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_text_left.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_follow.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_follow.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_plus_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_plus_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_light_disabled.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_lock.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_lock.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_quality_5.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_quality_5.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_close_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_close_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_welcome_bottom.png",
@@ -68,8 +728,12 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_paihang_n.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_paihang_n.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_camera_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_camera_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_light_focused.9.png",
@@ -80,28 +744,16 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_oauth_check_on.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_oauth_check_on.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_stream_s.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_stream_s.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_refresh_s.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_refresh_s.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_npc_myriver.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_npc_myriver.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_user_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_user_n.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wave_up.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\wave_up.9.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_welcome.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_welcome.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_loved_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_loved_n.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chief_mail.png",
@@ -128,60 +780,60 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_rivermanage.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_quality_3.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_quality_3.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_xinwen_s.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_xinwen_s.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_close_s.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_close_s.png"
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_order_n.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_order_n.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_close_s.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_close_s.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_share_s.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_share_s.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_6.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_6.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wave_both.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\wave_both.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_btn_sign_d.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_btn_sign_d.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_hedao_n.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_hedao_n.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_failed.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_failed.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_quality_2.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_quality_2.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_1.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_1.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_4.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_4.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_quality_1.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_quality_1.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_stream_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_stream_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_hedao_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_hedao_s.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chief_record.png",
@@ -192,16 +844,16 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_5.png"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_riverbox.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_riverbox.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_search_n.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_search_n.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_refresh_n.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_refresh_n.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_npc_name.png",
@@ -216,60 +868,80 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_right_n.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_right_n.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_full_open_on_phone.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_checked.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_checked.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_me_bg.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_me_bg.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_phone_n.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_phone_n.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_cp_handled.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_cp_handled.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_user.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_user.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_hedao_s.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_hedao_s.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_cp_unhandle.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_cp_unhandle.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_comp_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_comp_s.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_duanmian_n.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_duanmian_n.png"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_mycenter_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_mycenter_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_npc_myriver.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_npc_myriver.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_npc_track.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_npc_track.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_order_s.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_order_s.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_user_n.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_user_n.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_6.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_6.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_complaint.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_complaint.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_welcome.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\bg_welcome.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_me_bg.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_me_bg.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_cp_handled.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_cp_handled.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_back_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_back_s.png"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_welcome.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\bg_welcome.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_light_normal.9.png",
@@ -284,6 +956,10 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_xinwen_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_xinwen_n.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_icon_expand.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_icon_expand.png"
     },
@@ -292,12 +968,12 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_start_s.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_start_s.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_dark_focused.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_share_video.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_share_video.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_btn_sign_n.png",
@@ -312,52 +988,68 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\eg_sectionpic.png"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_failed.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_failed.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_light_disabled.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_checked.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_checked.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_riverbox.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_riverbox.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_lock.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_lock.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_uncheck.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_uncheck.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_4.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_4.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_setting.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_setting.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_desc_n.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_desc_n.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_2.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_2.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_suggestion.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_suggestion.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_bg.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\head_bg.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_user.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_user.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_close_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_close_s.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_btn_sign_s.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_btn_sign_s.png"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_2.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_2.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_camera_s.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_camera_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_share_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_share_s.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
@@ -368,40 +1060,40 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_position_undo.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_nav_bar_bg_pad.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_nav_bar_bg_pad.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_1.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_1.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_collection.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_collection.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_submit_ok.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_submit_ok.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chief_sign.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_sign.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_plus_s.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_plus_s.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_shouye_s.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_shouye_s.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_user_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_user_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_left_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_left_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_2.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_2.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chief_complaint.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_complaint.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_3.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_3.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_left_s.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_left_s.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_3.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_3.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_oauth_check_off.png",
@@ -420,6 +1112,10 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_eye.png"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_light_bar_bg_pad.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_light_bar_bg_pad.9.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_text_left.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_text_left.png"
     },
@@ -428,52 +1124,64 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_xinwen_n.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_share_video.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_share_video.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_close_n.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_close_n.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_search_s.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_search_s.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_duanmian_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_duanmian_n.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_rigth.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_rigth.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_welcome_bottom.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_welcome_bottom.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_text_left_white.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_text_left_white.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_btn_sign_d.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_btn_sign_d.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_key.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_key.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_collection.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_collection.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wave_down.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\wave_down.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_camera_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_camera_n.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_5.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_5.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_error.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_error.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chief_complaint.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_complaint.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_phone.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_phone.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_4.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_4.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_phone_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_phone_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_edit_s.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_edit_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_3.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_3.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_duanmian_s.png",
@@ -484,8 +1192,8 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_1.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_mycenter_n.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_mycenter_n.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\head_bg.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\head_bg.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_ope_suggestion.png",
@@ -496,8 +1204,12 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_paihang_s.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_love_n.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_love_n.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chief_sign.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_chief_sign.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_unfollow.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_unfollow.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_light_focused.9.png",
@@ -508,20 +1220,20 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_phone_s.png"
     },
     {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wave_both.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\wave_both.9.png"
+    },
+    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_dark_normal.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_loved_s.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_loved_s.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_right_s.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_right_s.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_complaint.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_complaint.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_trash.png",
@@ -536,36 +1248,24 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wave_down.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\wave_down.9.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_lakechief_record.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_lakechief_record.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher_large.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_launcher_large.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_start_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_start_s.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_6.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_6.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_light_bar_bg_pad.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_light_bar_bg_pad.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_2.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_2.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_full_open_on_phone.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
+        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_6.png",
@@ -576,32 +1276,24 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_cp_unhandle.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_phone.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_phone.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_loading.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_loading.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_icon_order.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_icon_order.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_sug.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_sug.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_mycenter_s.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_mycenter_s.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_phone_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_phone_s.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_start_n.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_start_n.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_welcome.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_welcome.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_light_normal.9.png",
@@ -612,60 +1304,40 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_position_done.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_position_done.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_rigth.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_arrow_rigth.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_camera_n.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_camera_n.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_share_n.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_share_n.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_npc_sug.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_npc_sug.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_sug.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_sug.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_desc_s.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_desc_s.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
-    },
-    {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_dark_disabled.9.png",
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_back_n.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_back_n.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\im_quality_small_1.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\im_quality_small_1.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_quality_4.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_quality_4.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo_stream_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_stream_s.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_unfollow.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_unfollow.png"
-    },
-    {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_share_pic.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_share_pic.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_comp_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_comp_n.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_right_arrow.png",
@@ -680,8 +1352,24 @@
         "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_photo_stream_n.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_focused.9.png"
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_duanmian_s.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_bottom_duanmian_s.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mk_quality_3.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\mk_quality_3.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_head_order_n.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\ic_head_order_n.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_socialize_nav_bar_bg_pad.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-hdpi\\umeng_socialize_nav_bar_bg_pad.9.png"
     },
     {
         "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_bottom_comp_s.png",

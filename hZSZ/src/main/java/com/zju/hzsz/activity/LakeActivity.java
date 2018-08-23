@@ -34,7 +34,7 @@ public class LakeActivity extends BaseActivity implements ViewPager.OnPageChange
     // private int[] rdids = new int[] { R.id.rb_river_dzgsp,
     // R.id.rb_river_hdsz, R.id.rb_river_yhyc, R.id.rb_river_hdfw };
     //rdids：电子公示牌-基本信息，河道水质，一河一策，信息公开；
-    private int[] rdids = new int[] { R.id.rb_river_dzgsp, R.id.rb_river_hdsz, R.id.rb_river_yhyc};
+    private int[] rdids = new int[] { R.id.rb_river_dzgsp, R.id.rb_river_hdsz, R.id.rb_river_yhyc,R.id.rb_river_tsxx};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

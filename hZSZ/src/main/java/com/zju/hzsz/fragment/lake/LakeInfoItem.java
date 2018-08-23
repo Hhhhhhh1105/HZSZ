@@ -5,6 +5,7 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -14,12 +15,15 @@ import android.widget.Toast;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.activity.BaseActivity;
+import com.zju.hzsz.activity.LakeActivity;
 import com.zju.hzsz.activity.LakePositionActivity;
 import com.zju.hzsz.activity.SugOrComtActivity;
 import com.zju.hzsz.clz.ViewWarp;
 import com.zju.hzsz.model.Lake;
 import com.zju.hzsz.model.LakeChief;
 import com.zju.hzsz.model.LakeDataRes;
+import com.zju.hzsz.model.LowLevelLake;
+
 import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.utils.DipPxUtils;
 import com.zju.hzsz.utils.ImgUtils;
@@ -36,6 +40,7 @@ import org.json.JSONObject;
 
 public class LakeInfoItem extends BaseLakePagerItem {
     private BaseActivity.BooleanCallback careCkb = null;
+    private static final String TAG = "hhhhhh";
 
     public LakeInfoItem(Lake lake, BaseActivity context, BaseActivity.BooleanCallback careCkb) {
         super(lake, context);
@@ -107,18 +112,18 @@ public class LakeInfoItem extends BaseLakePagerItem {
 //            }
 //        }
 //    };
-//没有下级湖泊
-//    private View.OnClickListener lowLeverRiverClick = new View.OnClickListener() {
-//
-//        @Override
-//        public void onClick(View v) {
-//            if (v.getTag() != null) {
-//                Intent intent = new Intent(context, RiverActivity.class);
-//                intent.putExtra(Tags.TAG_RIVER, StrUtils.Obj2Str(v.getTag()));
-//                context.startActivity(intent);
-//            }
-//        }
-//    };
+//下级湖泊
+    private View.OnClickListener lowLeverLakeClick = new View.OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+            if (v.getTag() != null) {
+                Intent intent = new Intent(context, LakeActivity.class);
+                intent.putExtra(Tags.TAG_LAKE, StrUtils.Obj2Str(v.getTag()));
+                context.startActivity(intent);
+            }
+        }
+    };
 
     /**
      * 点击投诉或建议之后，弹出窗口
@@ -284,8 +289,8 @@ public class LakeInfoItem extends BaseLakePagerItem {
             ll_contacts.removeAllViews();
 
 //            //下级河道部分
-//            final LinearLayout ll_rivers = (LinearLayout) warp.getViewById(R.id.ll_rivers);
-//            ll_rivers.removeAllViews();
+            final LinearLayout ll_lakes = (LinearLayout) warp.getViewById(R.id.ll_lakes);
+            ll_lakes.removeAllViews();
 //
 //            //人大监督员部分
 //            final LinearLayout ll_npcs = (LinearLayout) warp.getViewById(R.id.ll_npcs);
@@ -388,6 +393,48 @@ public class LakeInfoItem extends BaseLakePagerItem {
             row.setOrientation(LinearLayout.HORIZONTAL);
             row.addView(initContItem(R.string.river_supervisePhone, lake.unifiedTelephone, null, false));
             ll_contacts.addView(row);
+            //下级湖泊
+            if (lake.lowLevelLakes.length > 0) {
+                for (int i = 0; i < lake.lowLevelLakes.length; i += 2) {
+                    LowLevelLake lowLevelLake_l = lake.lowLevelLakes[i];
+                    LowLevelLake lowLevelLake_r = (i + 1) < lake.lowLevelLakes.length ? lake.lowLevelLakes[i + 1] : null;
+
+
+                    View view = LinearLayout.inflate(context, R.layout.item_mainpage_section, null);
+                    ((TextView) view.findViewById(R.id.tv_name_l)).setText(lowLevelLake_l.lakeName);
+                    Log.d(TAG, "refreshView: "+lowLevelLake_l.lakeName);
+                    ((TextView) view.findViewById(R.id.tv_level_l)).setText(ResUtils.getRiverSLittleLevel(lowLevelLake_l.lakeLevel));
+                    ((ImageView) view.findViewById(R.id.iv_quality_l)).setImageResource(R.drawable.arrow_right);
+
+                    view.findViewById(R.id.rl_section_left).setOnClickListener(lowLeverLakeClick);
+                    view.findViewById(R.id.rl_section_left).setTag(lowLevelLake_l);
+
+                    if (lowLevelLake_r != null) {
+
+                        ((TextView) view.findViewById(R.id.tv_name_r)).setText(lowLevelLake_r.lakeName);
+                        Log.d(TAG, "refreshView: "+lowLevelLake_r.lakeName);
+                        ((TextView) view.findViewById(R.id.tv_level_r)).setText(ResUtils.getRiverSLittleLevel(lowLevelLake_r.lakeLevel));
+                        ((ImageView) view.findViewById(R.id.iv_quality_r)).setImageResource(R.drawable.arrow_right);
+
+                        view.findViewById(R.id.rl_section_right).setOnClickListener(lowLeverLakeClick);
+                        view.findViewById(R.id.rl_section_right).setTag(lowLevelLake_r);
+
+                    } else {
+                        view.findViewById(R.id.rl_section_right).setVisibility(View.INVISIBLE);
+                    }
+
+                    ll_lakes.addView(view);
+
+                }
+            } else {
+                //若无下级湖泊则不显示下级湖泊
+                warp.getViewById(R.id.tv_low_level_lake).setVisibility(View.GONE);
+                //显示不分级的镇街河长及联系方式
+//                row = new LinearLayout(context);
+//                row.addView(initContItem(R.string.river_zhenhezhang, river.townRiverChiefs[0].chiefName, river.townRiverChiefs[0].contactWay, false));
+//                row.addView(initContItem(R.string.river_jingzhang, null, null, true));
+//                ll_contacts.addView(row);
+            }
 
 //            //镇街级河道
 //            if(river.riverLevel == 4) {
