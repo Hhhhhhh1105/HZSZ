@@ -13,6 +13,7 @@ import com.zju.hzsz.adapter.PagerItem;
 import com.zju.hzsz.adapter.SimplePagerAdapter;
 import com.zju.hzsz.fragment.lake.BaseLakePagerItem;
 import com.zju.hzsz.fragment.lake.LakeInfoItem;
+import com.zju.hzsz.fragment.lake.LakeInfoPubItem;
 import com.zju.hzsz.fragment.lake.LakePolicyItem;
 import com.zju.hzsz.fragment.lake.LakeQualityItem;
 import com.zju.hzsz.model.Lake;
@@ -46,7 +47,7 @@ public class LakeActivity extends BaseActivity implements ViewPager.OnPageChange
 
         ((TextView)findViewById(R.id.rb_river_hdsz)).setText("湖泊水质");
         ((TextView)findViewById(R.id.rb_river_yhyc)).setText("一湖一策");
-        findViewById(R.id.rb_river_tsxx).setVisibility(View.GONE);
+//        findViewById(R.id.rb_river_tsxx).setVisibility(View.GONE);
 
         lake = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_LAKE), Lake.class);
         if (lake != null) {
@@ -55,7 +56,8 @@ public class LakeActivity extends BaseActivity implements ViewPager.OnPageChange
             pagerItems.add(new LakeInfoItem(lake, this, null));
             pagerItems.add(new LakeQualityItem(lake, this));
             pagerItems.add(new LakePolicyItem(lake, this));
-//            pagerItems.add(new LakeInfoPubItem(river, this));
+            //信息公开
+            pagerItems.add(new LakeInfoPubItem(lake, this));
 
             ((ViewPager) findViewById(R.id.vp_river_tab)).setOnPageChangeListener(this);
             adapter = new SimplePagerAdapter(pagerItems);
