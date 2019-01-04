@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mv_position"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#37c674"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="开始巡河"
+            android:visibility="gone"/>
+
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#37c674"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="结束巡河"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+</LinearLayout>

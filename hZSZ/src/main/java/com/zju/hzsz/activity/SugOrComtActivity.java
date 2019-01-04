@@ -225,28 +225,42 @@ public class SugOrComtActivity extends BaseActivity {
 	}
 
 	private void selectSugCategory() {
+		if(events != null){
+			final String[] names = new String[events.length];
+			for (int i = 0; i < names.length; i++) {
+				names[i] = events[i].eventTitle;
+			}
 
-		final String[] names = new String[events.length];
-		for (int i = 0; i < names.length; i++) {
-			names[i] = events[i].eventTitle;
+			Dialog alertDialog = new AlertDialog.Builder(this).setTitle("请选择投诉类型").setItems(names, new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialogInterface, int i) {
+
+					((TextView) findViewById(R.id.et_suggest_category)).setText(names[i]);
+					((TextView) findViewById(R.id.et_suggest_category)).setTextColor(getResources().getColor(R.color.black));
+					eventId = events[i].eventId;
+
+				}
+			}).setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialogInterface, int i) {
+
+				}
+			}).create();
+			alertDialog.show();
+		}else{
+			Dialog alertDialog = new AlertDialog.Builder(this).setTitle("请选择投诉类型").setItems(null, new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialogInterface, int i) {
+
+				}
+			}).setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialogInterface, int i) {
+
+				}
+			}).create();
+			alertDialog.show();
 		}
-
-		Dialog alertDialog = new AlertDialog.Builder(this).setTitle("请选择投诉类型").setItems(names, new DialogInterface.OnClickListener() {
-			@Override
-			public void onClick(DialogInterface dialogInterface, int i) {
-
-				((TextView) findViewById(R.id.et_suggest_category)).setText(names[i]);
-				((TextView) findViewById(R.id.et_suggest_category)).setTextColor(getResources().getColor(R.color.black));
-				eventId = events[i].eventId;
-
-			}
-		}).setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
-			@Override
-			public void onClick(DialogInterface dialogInterface, int i) {
-
-			}
-		}).create();
-		alertDialog.show();
 
 	}
 

@@ -47,7 +47,7 @@ public class Tags {
 	public static final int CODE_LATLNG = 1012;
 	public static final int CODE_ALBUM = 1013;
 
-
+	public static final int CODE_SELECTLAKE = 1014;
 	public static final int ID_NOTIFICATION = 1000;
 
 

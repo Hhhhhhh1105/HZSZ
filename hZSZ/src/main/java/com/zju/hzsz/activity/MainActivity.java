@@ -3,6 +3,7 @@ package com.zju.hzsz.activity;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.util.Log;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
@@ -32,7 +33,10 @@ import com.zju.hzsz.fragment.PublicityFragment;
 import com.zju.hzsz.fragment.RiverFragment;
 import com.zju.hzsz.fragment.SectionFragment;
 import com.zju.hzsz.fragment.TabRankingFragment;
+import com.zju.hzsz.model.LoginRes;
+import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.receiver.PushReceiver;
+import com.zju.hzsz.utils.ParamUtils;
 
 public class MainActivity extends BaseActivity implements OnCheckedChangeListener {
 
@@ -43,6 +47,7 @@ public class MainActivity extends BaseActivity implements OnCheckedChangeListene
 	private BaseFragment rankingFragment = null;
 	private BaseFragment publicityFragment = null; //投诉公示
 	private BaseFragment meFragment = null; //个人中心
+	private static final String TAG = "hhhh";
 
 
 	@Override
@@ -67,10 +72,11 @@ public class MainActivity extends BaseActivity implements OnCheckedChangeListene
 		newsFragment = new NewsFragment();
 		mainFragment = new MainFragment();
 		riverFragment = new RiverFragment();
+		meFragment = new MeFragment();
 		// rankingFragment = new RankingFragment();
 		rankingFragment = new TabRankingFragment();
 		publicityFragment = new PublicityFragment();
-		meFragment = new MeFragment();
+
 
 		replaceFragment(mainFragment);
 
@@ -94,6 +100,30 @@ public class MainActivity extends BaseActivity implements OnCheckedChangeListene
 			replaceFragment(riverFragment);
 			break;
 		case R.id.rd_panhang:
+			Log.d(TAG, "onCheckedChanged: "+"111111111");
+			Log.d(TAG, "onCheckedChanged: "+getUser().isLogined());
+//			if(getUser().isLogined()){
+//				Log.d(TAG, "11: "+getUser().isLogined());
+//				String username=getUser().userName;
+//				String password=getUser().pwdmd5;
+//				Log.d(TAG, "isLogin: Usrnam"+username);
+//				Log.d(TAG, "paswod"+password);
+//				loginForRefresh(username,password);
+//				SystemClock.sleep(500);
+//				meFragment = new MeFragment();
+////				SystemClock.sleep(1000);
+//				replaceFragment(meFragment);
+//
+//
+//
+//			}
+//			else {
+//				meFragment = new MeFragment();
+//				replaceFragment(meFragment);
+//			}
+
+
+
 			replaceFragment(meFragment);
 			break;
 		case R.id.rd_publicity:
@@ -107,6 +137,7 @@ public class MainActivity extends BaseActivity implements OnCheckedChangeListene
 	BaseFragment curFragment = null;
 
 	private void replaceFragment(BaseFragment newFragment) {
+
 		FragmentTransaction transaction = getFragmentManager().beginTransaction();
 		if (curFragment != null)
 			curFragment.whenVisibilityChanged(false);
@@ -222,6 +253,34 @@ public class MainActivity extends BaseActivity implements OnCheckedChangeListene
 		mController.setShareMedia(qZoneShareContent);
 
 		mController.openShare(this, false);
+	}
+	private void loginForRefresh(String username,String password){
+		Log.d(TAG, "do1");
+		Log.d(TAG, "logfunc: ");
+		showOperating();
+		getUser().uuid = null;
+
+		getRequestContext().add("action_user_load", new Callback<LoginRes>() {
+			@Override
+			public void callback(LoginRes o) {
+				hideOperating();
+				if (o != null && o.isSuccess()) {
+
+					getUser().uuid = o.data.uuid;
+					getUser().authority = o.data.authority;
+					getUser().riverSum = o.data.riverSum;
+					getUser().lakeSum = o.data.lakeSum;
+					getUser().isLakeChief = o.data.isLakeChief;
+					getUser().ifOnJob = o.data.ifOnJob;
+					getUser().districtId = o.data.districtId;
+					getUser().realName = o.data.realName;
+					saveLocalData();
+
+
+
+				}
+			}
+		}, LoginRes.class, ParamUtils.freeParam(null, "userName", username, "password", password, "cid", getLocalService() != null ? getLocalService().getCid() : ""));
 	}
 
 	// public void startCheckNotify() {

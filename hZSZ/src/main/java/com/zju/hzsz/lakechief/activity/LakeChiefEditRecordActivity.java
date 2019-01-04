@@ -44,6 +44,7 @@ import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.Values;
 import com.zju.hzsz.activity.BaseActivity;
+import com.zju.hzsz.activity.EventReportActivity;
 import com.zju.hzsz.activity.PhotoViewActivity;
 import com.zju.hzsz.chief.activity.ChiefInspectActivity;
 import com.zju.hzsz.chief.activity.ChiefTrackViewActivity;
@@ -125,6 +126,8 @@ public class LakeChiefEditRecordActivity extends BaseActivity {
         //改为只有在新建时才记录轨迹
 //        handler.postDelayed(new LakeChiefEditRecordActivity.MyRunable(), 1000); //每10s记录一次当前轨迹
         initLocation();
+        //事件上报
+        findViewById(R.id.action_event_report).setVisibility(View.VISIBLE);
 
 //        findViewById(R.id.btn_selriver).setTag("tt:{.locLakeName}");
         findViewById(R.id.btn_selriver).setOnClickListener(this);//选择湖泊按钮
@@ -152,6 +155,19 @@ public class LakeChiefEditRecordActivity extends BaseActivity {
                 intent.putExtra("latList", latList);
                 intent.putExtra("lngList", lngList);
                 startActivity(intent);
+            }
+        });
+        //巡湖泊过程中事件上报
+        findViewById(R.id.action_event_report).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LakeChiefEditRecordActivity.this, EventReportActivity.class);
+                intent.putExtra(Tags.TAG_LAKE,StrUtils.Obj2Str(riverRecord.locLake));
+                intent.putExtra("fromLakeRecord",true);
+                if (riverRecord.locLake!=null){
+                    startActivity(intent);}else {
+                    showToast("请先选择湖泊");
+                }
             }
         });
 

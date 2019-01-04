@@ -48,6 +48,7 @@
             android:paddingRight="@dimen/padding_medium"
             android:paddingTop="@dimen/padding_small"
             android:text="巡河记录"
+
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="@color/btn_black_white"
             android:textSize="@dimen/font_normal" />

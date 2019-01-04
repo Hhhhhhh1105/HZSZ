@@ -1,0 +1,543 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/iv_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/img_large_h"
+                        android:background="@drawable/slogan"
+                        android:contentDescription="@null"
+                        android:scaleType="fitXY" />
+
+                    <ImageButton
+                        android:id="@+id/ib_photocomp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="@dimen/page_padding"
+                        android:layout_marginTop="@dimen/page_padding"
+                        android:background="@null"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_photo_camera"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_wbanner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/iv_banner"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/iv_wbanner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@null"
+                            android:minHeight="@dimen/wbanner_h"
+                            android:scaleType="fitXY"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:id="@+id/ll_qualityexplain"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:gravity="right"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/padding_large"
+                            android:paddingLeft="@dimen/page_padding"
+                            android:paddingRight="@dimen/page_padding"
+                            android:paddingTop="@dimen/padding_large"
+                            android:visibility="visible" >
+
+                            <include
+                                android:layout_width="fill_parent"
+                                android:layout_height="@dimen/head_h"
+                                layout="@layout/inc_quality_line"
+                                android:background="@color/white" />
+
+                            <TextView
+                                android:id="@+id/tv_qualityexplain"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@drawable/im_quality_text_left"
+                                android:gravity="right"
+                                android:text="@string/qualityexplain"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/btn_green_white"
+                                android:textSize="@dimen/font_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_onekey_comp"
+                        android:layout_width="@dimen/onekey_comp_w"
+                        android:layout_height="@dimen/onekey_comp_h"
+                        android:layout_alignLeft="@id/iv_banner"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/onekey_comp_bottom"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_onekey_comp"
+                        android:visibility="gone" />
+
+                    <!--人大代表监督 start-->
+
+                    <LinearLayout
+                        android:id="@+id/ll_npc_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_wbanner"
+                        android:padding="@dimen/page_padding"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="人大代表监督"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="@dimen/font_normal" />
+
+                        <TextView
+                            android:id="@+id/tv_selnpc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_board_btn_bg"
+                            android:clickable="true"
+                            android:paddingBottom="@dimen/padding_small"
+                            android:paddingLeft="@dimen/padding_large"
+                            android:paddingRight="@dimen/padding_large"
+                            android:paddingTop="@dimen/padding_small"
+                            android:text="开展监督履职"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/btn_green_white"
+                            android:textSize="@dimen/font_normal"
+                            android:visibility="visible"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_npc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ll_npc_text"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:background="@color/gray"
+                        android:orientation="vertical"
+                        android:padding="0dp"
+                        android:visibility="visible">
+
+                        <include
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            layout="@layout/item_mainpage_section" />
+
+                        <include
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            layout="@layout/item_mainpage_section" />
+                    </LinearLayout>
+
+                    <!--人大代表监督 end-->
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/page_padding" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/river_info"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:id="@+id/tv_selriver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_board_btn_bg"
+                        android:clickable="true"
+                        android:paddingBottom="@dimen/padding_small"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:paddingRight="@dimen/padding_large"
+                        android:paddingTop="@dimen/padding_small"
+                        android:text="查看所有河道"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/btn_green_white"
+                        android:textSize="@dimen/font_normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightgreen"
+                    android:padding="@dimen/page_padding"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="@string/rive_name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/river_level"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/section_quality"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/font_normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lightgreen"
+                    android:baselineAligned="false"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/page_padding"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:text="河道名称"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="河道等级"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/page_padding"
+                        android:layout_weight="0.5"
+                        android:gravity="right"
+                        android:text="水质"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/font_normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_rivers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/gray"
+                    android:orientation="vertical"
+                    android:padding="0dp" >
+
+                    <include
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_river" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/line2w"
+                    android:background="@color/gray"
+                    android:visibility="gone" />
+
+                <!--湖泊水质信息 start-->
+
+                <LinearLayout
+                    android:id="@+id/ll_lake_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_wbanner"
+                    android:padding="@dimen/page_padding"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="湖泊水质信息"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:id="@+id/tv_sellake"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_board_btn_bg"
+                        android:clickable="true"
+                        android:paddingBottom="@dimen/padding_small"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:paddingRight="@dimen/padding_large"
+                        android:paddingTop="@dimen/padding_small"
+                        android:text="查看所有湖泊"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/btn_green_white"
+                        android:textSize="@dimen/font_normal"
+                        android:visibility="visible"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_lake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ll_npc_text"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/gray"
+                    android:orientation="vertical"
+                    android:padding="0dp"
+                    android:visibility="visible">
+
+                    <include
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_section" />
+
+                    <include
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_section" />
+                </LinearLayout>
+
+                <!--湖泊水质信息 end-->
+                <!--断面水质信息 start-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_banner"
+                    android:padding="@dimen/page_padding" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/section_info"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:id="@+id/tv_selsection"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_board_btn_bg"
+                        android:clickable="true"
+                        android:paddingBottom="@dimen/padding_small"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:paddingRight="@dimen/padding_large"
+                        android:paddingTop="@dimen/padding_small"
+                        android:text="查看所有断面"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/btn_green_white"
+                        android:textSize="@dimen/font_normal" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/page_padding"
+                    android:text="@string/section_info"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/font_normal"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_sections"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/gray"
+                    android:orientation="vertical"
+                    android:padding="0dp" >
+
+                    <include
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_section" />
+
+                    <include
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_section" />
+                </LinearLayout>
+            </LinearLayout>
+                <!--断面水质信息 end-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/page_padding" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/outlet"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:id="@+id/tv_seloutlet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_board_btn_bg"
+                        android:clickable="true"
+                        android:paddingBottom="@dimen/padding_small"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:paddingRight="@dimen/padding_large"
+                        android:paddingTop="@dimen/padding_small"
+                        android:text="查看所有排放口"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/btn_green_white"
+                        android:textSize="@dimen/font_normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_outlets"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/gray"
+                    android:orientation="vertical"
+                    android:padding="0dp" >
+
+                    <include
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_section" />
+
+                    <include
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_section" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/page_padding"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/smallwater_info"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="@dimen/font_normal" />
+
+                    <TextView
+                        android:id="@+id/tv_selsmallwater"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_board_btn_bg"
+                        android:clickable="true"
+                        android:paddingBottom="@dimen/padding_small"
+                        android:paddingLeft="@dimen/padding_large"
+                        android:paddingRight="@dimen/padding_large"
+                        android:paddingTop="@dimen/padding_small"
+                        android:text="查看所有小微水体"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/btn_green_white"
+                        android:textSize="@dimen/font_normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_smallwater"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@color/gray"
+                    android:orientation="vertical"
+                    android:padding="0dp"
+                    android:visibility="visible">
+
+                    <include
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_section" />
+
+                    <include
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        layout="@layout/item_mainpage_section" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

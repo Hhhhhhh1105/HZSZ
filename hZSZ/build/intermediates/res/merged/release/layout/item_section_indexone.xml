@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_weight="1"
+    android:background="@color/white"
+    android:padding="@dimen/page_padding" >
+
+    <TextView
+        android:id="@+id/tv_index_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:text="@string/eg_int_val"
+        android:textColor="@color/quality_1"
+        android:textSize="@dimen/font_large" />
+
+    <TextView
+        android:id="@+id/tv_index_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:singleLine="true"
+        android:text="@string/param_ph"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/font_small" />
+
+    <TextView
+        android:id="@+id/tv_index_ch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_index_en"
+        android:singleLine="true"
+        android:text="@string/param_ph_ch"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/littlelightgray"
+        android:textSize="@dimen/font_tiny" />
+
+</RelativeLayout>

@@ -1,5 +1,6 @@
 package com.zju.hzsz.chief.activity;
 
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -28,6 +29,7 @@ import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.net.Constants;
 import com.zju.hzsz.utils.DipPxUtils;
 import com.zju.hzsz.utils.ParamUtils;
+import com.zju.hzsz.utils.PatrolRecordUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
 import com.zju.hzsz.view.ListViewWarp.WarpHandler;
@@ -197,8 +199,24 @@ public class ChiefRecordListActivity extends BaseActivity implements WarpHandler
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.btn_new: {
-			Intent intent = new Intent(this, com.zju.hzsz.chief.activity.ChiefEditRecordActivity.class);
-			startActivityForResult(intent, Tags.CODE_NEW);
+			if (!PatrolRecordUtils.isOPen(getApplicationContext())) {
+				//弹窗
+				AlertDialog.Builder ab = new AlertDialog.Builder(ChiefRecordListActivity.this);
+				ab.setTitle("开启GPS定位");
+				ab.setMessage("为了正常记录你的巡河位置信息，需要你开启GPS定位功能");
+				ab.setPositiveButton("开启", new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface arg0, int arg1) {
+						startActivity(new Intent("android.settings.LOCATION_SOURCE_SETTINGS"));
+					}
+				});
+
+				ab.setCancelable(false);
+				ab.create().show();
+			}else{
+				Intent intent = new Intent(this, com.zju.hzsz.chief.activity.ChiefEditRecordActivity.class);
+				startActivityForResult(intent, Tags.CODE_NEW);
+			}
 			break;
 		}
 		case R.id.tv_seldate: {

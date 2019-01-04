@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+    <ScrollView
+        android:id="@+id/sv_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/page_padding" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/form_singleline_margin_v"
+                android:layout_marginTop="@dimen/form_singleline_margin_v"
+                android:background="@null"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_suggest_river"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/form_suggest_river"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/lightgray" />
+
+                <TextView
+                    android:id="@+id/tv_rivername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_medium"
+                    android:text="请选择"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/btn_green_white" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/form_singleline"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/form_singleline_h"
+                android:layout_marginBottom="@dimen/form_singleline_margin_v"
+                android:layout_marginTop="@dimen/form_singleline_margin_v"
+                android:orientation="horizontal"
+                android:padding="@dimen/form_contain_padding" >
+
+                <EditText
+                    android:id="@+id/et_suggest_name"
+                    style="@style/form_singleline_te"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/hint_suggest_name"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/form_singleline"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/form_singleline_h"
+                android:layout_marginBottom="@dimen/form_singleline_margin_v"
+                android:layout_marginTop="@dimen/form_singleline_margin_v"
+                android:orientation="horizontal"
+                android:padding="@dimen/form_contain_padding" >
+
+                <EditText
+                    android:id="@+id/et_phonenum"
+                    style="@style/form_singleline_te"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:hint="@string/hint_suggest_tel"
+                    android:inputType="phone"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <include
+                android:id="@+id/inc_npc_sug"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                layout="@layout/inc_line_npcsug"
+                android:visibility="gone" />
+
+            <LinearLayout
+                style="@style/form_singleline"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/form_singleline_h"
+                android:layout_marginBottom="@dimen/form_singleline_margin_v"
+                android:layout_marginTop="@dimen/form_singleline_margin_v"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="@dimen/form_singleline_img_w"
+                    android:layout_height="@dimen/form_singleline_img_h"
+                    android:contentDescription="@null"
+                    android:scaleType="center"
+                    android:src="@drawable/im_key"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/et_authcode"
+                    style="@style/form_singleline_te"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/form_singleline_padding"
+                    android:layout_weight="1"
+                    android:hint="@string/hint_authcode"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/btn_getauthcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/form_singleline_btn_h"
+                    android:background="@drawable/form_btn3_bg"
+                    android:clickable="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:paddingLeft="@dimen/form_singleline_padding"
+                    android:paddingRight="@dimen/form_singleline_padding"
+                    android:text="@string/getauthcode"
+                    android:textColor="@color/btn_form_gray"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_et_sugsubject"
+                style="@style/form_singleline"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/form_singleline_h"
+                android:layout_marginBottom="@dimen/form_singleline_margin_v"
+                android:layout_marginTop="@dimen/form_singleline_margin_v"
+                android:orientation="horizontal"
+                android:padding="@dimen/form_contain_padding" >
+
+                <EditText
+                    android:id="@+id/et_suggest_subject"
+                    style="@style/form_singleline_te"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/hint_suggest_subject"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_et_sug_category"
+                style="@style/form_singleline"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/form_singleline_h"
+                android:layout_marginBottom="@dimen/form_singleline_margin_v"
+                android:layout_marginTop="@dimen/form_singleline_margin_v"
+                android:orientation="horizontal"
+                android:padding="@dimen/form_contain_padding"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/et_suggest_category"
+                    style="@style/form_singleline_te"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/hint_suggest_category"
+                    android:drawableRight="@drawable/ic_pulldown"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_et_sugcontent"
+                style="@style/form_singleline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/form_singleline_margin_v"
+                android:layout_marginTop="@dimen/form_singleline_margin_v"
+                android:orientation="horizontal"
+                android:padding="@dimen/form_contain_padding" >
+
+                <EditText
+                    android:id="@+id/et_suggest_contentt"
+                    style="@style/form_singleline_te"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/form_5line_h"
+                    android:layout_weight="1"
+                    android:gravity="top|left"
+                    android:hint="@string/hint_suggest_content"
+                    android:singleLine="false" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/hsv_photos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white" >
+
+                <LinearLayout
+                    android:id="@+id/ll_photos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_medium" >
+
+                    <ImageButton
+                        android:id="@+id/ib_photo"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@null"
+                        android:contentDescription="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_addphoto" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/ll_anonymity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/form_singleline_margin_v"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/ck_anonymity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/form_suggest_anonymity"
+                    android:textColor="@color/text_gray" />
+
+                <TextView
+                    android:id="@+id/tv_anonymity_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_medium"
+                    android:text="@string/tip_anonymity_checked"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_gps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/form_singleline_margin_v"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/ck_gps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="使用定位"
+                    android:textColor="@color/text_gray" />
+
+                <TextView
+                    android:id="@+id/tv_gps_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_medium"
+                    android:text="(温馨提示:您的位置信息将提交到服务器，用于投诉地图显示)"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_small" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/form_button_h"
+                android:layout_marginTop="@dimen/form_singleline_margin_v"
+                android:background="@drawable/form_btn1_bg"
+                android:text="@string/submit"
+                android:textColor="@color/btn_white_green" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_submit_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/page_padding"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/iv_submit_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/page_padding"
+            android:contentDescription="@null"
+            android:src="@drawable/im_submit_ok" />
+
+        <TextView
+            android:id="@+id/tv_submit_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_large"
+            android:text="@string/fmt_submit_result"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray" />
+    </LinearLayout>
+
+</LinearLayout>

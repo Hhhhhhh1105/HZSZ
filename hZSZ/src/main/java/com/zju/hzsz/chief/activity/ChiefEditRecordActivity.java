@@ -170,7 +170,11 @@ public class ChiefEditRecordActivity extends BaseActivity {
 			@Override
 			public void onClick(View view) {
 				Intent intent = new Intent(ChiefEditRecordActivity.this, EventReportActivity.class);
-				startActivity(intent);
+				intent.putExtra(Tags.TAG_RIVER,StrUtils.Obj2Str(riverRecord.locRiver));
+				if (riverRecord.locRiver!=null){
+				startActivity(intent);}else {
+                    showToast("请先选择河道");
+                }
 			}
 		});
 
@@ -236,27 +240,6 @@ public class ChiefEditRecordActivity extends BaseActivity {
 				submit.setBackgroundColor(getResources().getColor(R.color.half_black));
 			}
 
-			//检查是否开启了GPS,若未开启，则弹出窗口令其开启GPS
-			if (!isOPen(getApplicationContext())) {
-				//弹窗
-				AlertDialog.Builder ab = new AlertDialog.Builder(ChiefEditRecordActivity.this);
-				ab.setTitle("开启GPS定位");
-				ab.setMessage("为了正常记录你的巡河位置信息，需要你开启GPS定位功能");
-				ab.setPositiveButton("开启", new DialogInterface.OnClickListener() {
-					@Override
-					public void onClick(DialogInterface arg0, int arg1) {
-						startActivity(new Intent("android.settings.LOCATION_SOURCE_SETTINGS"));
-					}
-				});
-				ab.setNegativeButton("取消", new DialogInterface.OnClickListener() {
-					@Override
-					public void onClick(DialogInterface arg0, int arg1) {
-						arg0.dismiss();
-					}
-				});
-				ab.setCancelable(false);
-				ab.create().show();
-			}
 		} else {//从具体巡河条目中进入
 			setTitle("编辑巡查记录");
 
@@ -802,6 +785,8 @@ public class ChiefEditRecordActivity extends BaseActivity {
 							submitParam.put("latitude", location.getLatitude());
 							submitParam.put("longtitude", location.getLongitude());
 						}
+
+
 					} catch (JSONException e) {
 						e.printStackTrace();
 					}

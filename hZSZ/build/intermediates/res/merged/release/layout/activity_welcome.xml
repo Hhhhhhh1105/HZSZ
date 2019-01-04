@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    tools:context=".activity.WelcomeActivity" >
+
+    <ImageView
+        android:id="@+id/iv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:contentDescription="@null"
+        android:src="@drawable/bg_welcome" />
+
+    <ImageView
+        android:id="@+id/iv_welcome_bottom"
+        android:padding="@dimen/page_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:visibility="gone"
+        android:src="@drawable/im_welcome_bottom" />
+
+</LinearLayout>

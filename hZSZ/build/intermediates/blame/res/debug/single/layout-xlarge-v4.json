@@ -1,10 +1,14 @@
 [
     {
+        "merged": "D:\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_chief_recordlist.xml",
+        "source": "D:\\HZSZ\\hZSZ\\src\\main\\res\\layout-xlarge\\activity_chief_recordlist.xml"
+    },
+    {
         "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_chief_recordlist.xml",
         "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\layout-xlarge\\activity_chief_recordlist.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_chief_recordlist.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\layout-xlarge\\activity_chief_recordlist.xml"
+        "merged": "D:\\Androidproject\\HZ\\new\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_chief_recordlist.xml",
+        "source": "D:\\Androidproject\\HZ\\new\\HZSZ\\hZSZ\\src\\main\\res\\layout-xlarge\\activity_chief_recordlist.xml"
     }
 ]

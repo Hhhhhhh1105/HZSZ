@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_white_gray"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/padding_large"
+    android:paddingLeft="@dimen/padding_large"
+    android:paddingRight="@dimen/padding_small"
+    android:paddingTop="@dimen/padding_large" >
+
+    <TextView
+        android:id="@+id/tv_user_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="50dp"
+        android:text="@string/river_quhezhang"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/littlelightgray"
+        android:textSize="@dimen/font_small" />
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_small"
+        android:layout_weight="1"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/eg_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/font_small" />
+
+    <ImageView
+        android:id="@+id/iv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_phone" />
+
+</LinearLayout>

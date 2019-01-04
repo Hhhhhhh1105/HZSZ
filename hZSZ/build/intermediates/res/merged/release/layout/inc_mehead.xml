@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/me_bg_h"
+        android:id="@+id/rl_logo"
+        android:background="@drawable/im_me_bg" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/me_bg_h"
+            android:id="@+id/npc_logo"
+            android:src="@drawable/npc_logo"
+            android:visibility="invisible"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/me_logo_w"
+            android:layout_height="@dimen/me_logo_h"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/me_logo_margin_v"
+            android:layout_marginTop="@dimen/me_logo_margin_v"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:src="@drawable/eg_me_logo" />
+
+        <ImageView
+            android:id="@+id/shape_radius"
+            android:layout_width="@dimen/me_logo_w"
+            android:layout_height="@dimen/me_logo_h"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/me_logo_margin_v"
+            android:layout_marginTop="@dimen/me_logo_margin_v"
+            android:background="@drawable/shape_padding_radius"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_logo"
+            android:layout_centerHorizontal="true"
+            android:text="@string/holdtext"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_centerHorizontal="true"
+            android:text="@string/holdtext"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:paddingBottom="@dimen/padding_medium"
+            android:textColor="@color/white" />
+    </RelativeLayout>

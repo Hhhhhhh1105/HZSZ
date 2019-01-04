@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/page_padding" >
+
+        <LinearLayout
+            style="@style/form_singleline"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/form_singleline_h"
+            android:layout_marginBottom="@dimen/form_singleline_margin_v"
+            android:layout_marginTop="@dimen/form_singleline_margin_v"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/form_singleline_img_w"
+                android:layout_height="@dimen/form_singleline_img_h"
+                android:contentDescription="@null"
+                android:scaleType="center"
+                android:src="@drawable/im_phone" />
+
+            <EditText
+                android:id="@+id/et_phonenum"
+                style="@style/form_singleline_te"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/form_singleline_padding"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="@string/hint_phonenum"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/form_singleline"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/form_singleline_h"
+            android:layout_marginBottom="@dimen/form_singleline_margin_v"
+            android:layout_marginTop="@dimen/form_singleline_margin_v"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/form_singleline_img_w"
+                android:layout_height="@dimen/form_singleline_img_h"
+                android:contentDescription="@null"
+                android:scaleType="center"
+                android:src="@drawable/im_lock" />
+
+            <EditText
+                android:id="@+id/et_password"
+                style="@style/form_singleline_te"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/form_singleline_padding"
+                android:layout_weight="1"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+            <ImageView
+                android:id="@+id/iv_showpwd"
+                android:layout_width="@dimen/form_singleline_img_2w"
+                android:layout_height="@dimen/form_singleline_img_h"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/im_eye" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/form_singleline"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/form_singleline_h"
+            android:layout_marginBottom="@dimen/form_singleline_margin_v"
+            android:layout_marginTop="@dimen/form_singleline_margin_v"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/form_singleline_img_w"
+                android:layout_height="@dimen/form_singleline_img_h"
+                android:contentDescription="@null"
+                android:scaleType="center"
+                android:src="@drawable/im_key" />
+
+            <EditText
+                android:id="@+id/et_authcode"
+                style="@style/form_singleline_te"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/form_singleline_padding"
+                android:layout_weight="1"
+                android:hint="@string/hint_authcode"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/btn_getauthcode"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/form_singleline_btn_h"
+                android:background="@drawable/form_btn3_bg"
+                android:clickable="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingLeft="@dimen/form_singleline_padding"
+                android:paddingRight="@dimen/form_singleline_padding"
+                android:text="@string/getauthcode"
+                android:textColor="@color/btn_form_gray"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/form_singleline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:visibility="gone" >
+
+            <CheckBox
+                android:id="@+id/ck_agree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/form_reg_ireaded"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="@string/form_reg_agreement"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/btn_green_white" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/form_button_h"
+            android:layout_marginTop="@dimen/form_button_margintop"
+            android:background="@drawable/form_btn1_bg"
+            android:text="@string/register"
+            android:textColor="@color/btn_white_green" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/form_button_h"
+            android:layout_marginTop="@dimen/form_button_margintop"
+            android:background="@drawable/form_btn2_bg"
+            android:text="@string/login"
+            android:textColor="@color/btn_green_white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

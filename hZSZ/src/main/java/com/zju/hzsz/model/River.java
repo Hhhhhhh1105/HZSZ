@@ -19,7 +19,10 @@ public class River {
 	public int riverSort;
 	public int riverLevel;
 
+
+
 	public String picPath;
+	public String totalRiverWaterLevel;
 
 	public DateTime uploadTime;
 

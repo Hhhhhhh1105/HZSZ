@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_gray"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:padding="0dp" >
+
+    <RelativeLayout
+        android:id="@+id/rl_npc_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_white_gray"
+        android:padding="@dimen/page_padding" >
+
+        <TextView
+            android:id="@+id/tv_name_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:maxEms="8"
+            android:text="陈岩石"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/font_small" />
+
+        <TextView
+            android:id="@+id/tv_title_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_name_l"
+            android:layout_marginLeft="10dp"
+            android:layout_alignBottom="@id/tv_name_l"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:maxEms="8"
+            android:text="区级代表"
+            android:textColor="@color/green"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/font_tiny" />
+
+        <TextView
+            android:id="@+id/tv_river_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_name_l"
+            android:text="于1天前巡过京杭大运河"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_tiny" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_npc_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_white_gray"
+        android:padding="@dimen/page_padding" >
+
+
+        <TextView
+            android:id="@+id/tv_name_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:maxEms="8"
+            android:text="李达康"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/font_small" />
+
+        <TextView
+            android:id="@+id/tv_title_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_name_r"
+            android:layout_marginLeft="10dp"
+            android:layout_alignBottom="@id/tv_name_r"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:maxEms="8"
+            android:text="市级代表"
+            android:textColor="@color/green"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/font_tiny" />
+
+        <TextView
+            android:id="@+id/tv_river_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_name_r"
+            android:text="于1天前巡过京杭大运河"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_tiny" />
+    </RelativeLayout>
+
+</LinearLayout>

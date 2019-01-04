@@ -3,7 +3,7 @@ package com.zju.hzsz;
 import com.zju.hzsz.model.District;
 
 public class Values {
-	final public static String Ver = "1.8.5";
+	final public static String Ver = "1.8.7";
 //	final public static String Ver = "1.3.2";
 	final public static boolean DEBUG = false;
 	final public static boolean RELEASE = false;

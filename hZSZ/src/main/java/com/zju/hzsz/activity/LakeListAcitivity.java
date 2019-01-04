@@ -22,10 +22,12 @@ import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.model.District;
 import com.zju.hzsz.model.Lake;
+import com.zju.hzsz.model.LakeDataRes;
 import com.zju.hzsz.model.LakeListRes;
 import com.zju.hzsz.model.RiverQuickSearchRes;
 import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.utils.ImgUtils;
+import com.zju.hzsz.utils.ObjUtils;
 import com.zju.hzsz.utils.ParamUtils;
 import com.zju.hzsz.utils.ResUtils;
 import com.zju.hzsz.utils.StrUtils;
@@ -65,6 +67,7 @@ public class LakeListAcitivity extends BaseActivity implements TextView.OnEditor
 
     private List<Lake> lakes = new ArrayList<Lake>();
 
+    private boolean isSelectLake = false;
     //点击单个item，跳转函数
     View.OnClickListener lakeClick = new View.OnClickListener() {
         @Override
@@ -76,7 +79,28 @@ public class LakeListAcitivity extends BaseActivity implements TextView.OnEditor
             }
         }
     };
+    View.OnClickListener backLake = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            final Lake lake = (Lake)view.getTag();
+            showOperating("加载湖泊数据...");
+            getRequestContext().add("Get_OneLake_Data", new Callback<LakeDataRes>() {
 
+                @Override
+                public void callback(LakeDataRes o) {
+                    hideOperating();
+                    if (o != null && o.isSuccess()) {
+                        ObjUtils.mergeObj(lake, o.data);
+                        Intent intent = new Intent();
+                        intent.putExtra(Tags.TAG_LAKE, StrUtils.Obj2Str(lake));
+                        setResult(RESULT_OK, intent);
+                        finish();
+                    }
+                }
+            }, LakeDataRes.class, ParamUtils.freeParam(null, "lakeId", lake.lakeId));
+
+        }
+    };
     private SimpleViewInitor lakeInitor = new SimpleViewInitor() {
         @Override
         public View initView(Context context, int position, View convertView, ViewGroup parent, Object data) {
@@ -102,7 +126,7 @@ public class LakeListAcitivity extends BaseActivity implements TextView.OnEditor
             }
 
             convertView.setTag(lake);
-            convertView.setOnClickListener(lakeClick);
+            convertView.setOnClickListener(isSelectLake? backLake:lakeClick);
 
             return convertView;
         }
@@ -118,6 +142,10 @@ public class LakeListAcitivity extends BaseActivity implements TextView.OnEditor
 
         ((EditText) findViewById(R.id.et_keyword)).setOnEditorActionListener(this);
 
+        if (getIntent().getIntExtra(Tags.TAG_CODE, 0) == Tags.CODE_SELECTLAKE) {
+            setTitle(getIntent().getStringExtra(Tags.TAG_TITLE));
+            isSelectLake = true;
+        }
         //区划的适配器
         dwAdapter = new SimpleListAdapter(this, dwItems, new SimpleViewInitor() {
 
@@ -153,11 +181,13 @@ public class LakeListAcitivity extends BaseActivity implements TextView.OnEditor
                     curDw = new DistrictWarper(ds);
                     dwItems.add(curDw);
 
-                    District dCity = new District();
-                    dCity.districtId = 100;
-                    dCity.districtName = getString(R.string.city);
-                    curDw = new DistrictWarper(dCity);
-                    dwItems.add(curDw);
+                    if(!isSelectLake){
+                        District dCity = new District();
+                        dCity.districtId = 100;
+                        dCity.districtName = getString(R.string.city);
+                        curDw = new DistrictWarper(dCity);
+                        dwItems.add(curDw);
+                    }
 
                     for (District d : o.data.districtLists) {
                         DistrictWarper dw = new DistrictWarper(d); //id + name
@@ -175,6 +205,14 @@ public class LakeListAcitivity extends BaseActivity implements TextView.OnEditor
                 }
             }
         }, RiverQuickSearchRes.class, ParamUtils.freeParam(null));
+
+        findViewById(R.id.iv_search).setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                loadLakes(true);
+            }
+        });
 
         adapter = new SimpleListAdapter(this, lakes, lakeInitor);
         listViewWarp = new ListViewWarp(this, adapter, new ListViewWarp.WarpHandler() {
@@ -227,8 +265,13 @@ public class LakeListAcitivity extends BaseActivity implements TextView.OnEditor
                         lakes.clear();
                     }
                     for (Lake lk : o.data.lakeList) {
-                        if (lk.lakeLevel < 6)
-                            lakes.add(lk);
+                        if (isSelectLake){
+                            if (lk.lakeLevel == 4)
+                                lakes.add(lk);
+                        }else {
+                            if (lk.lakeLevel <6 )
+                                lakes.add(lk);
+                        }
                     }
 
                     adapter.notifyDataSetChanged();

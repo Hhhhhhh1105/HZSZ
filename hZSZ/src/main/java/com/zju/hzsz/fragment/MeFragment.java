@@ -3,6 +3,7 @@ package com.zju.hzsz.fragment;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,15 +13,19 @@ import android.widget.TextView;
 import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.activity.AboutActivity;
+import com.zju.hzsz.activity.BaseActivity;
 import com.zju.hzsz.activity.CompListActivity;
 import com.zju.hzsz.activity.LoginActivity;
 import com.zju.hzsz.activity.MyCollectActivity;
 import com.zju.hzsz.activity.QuestionActivity;
 import com.zju.hzsz.activity.RiverActivity;
 import com.zju.hzsz.activity.SettingActivity;
+import com.zju.hzsz.chief.activity.PatrolEventListActivity;
 import com.zju.hzsz.clz.RootViewWarp;
 import com.zju.hzsz.model.BaseRes;
 import com.zju.hzsz.model.CheckNotifyRes;
+import com.zju.hzsz.model.LoginRes;
+import com.zju.hzsz.model.PatrolEvent;
 import com.zju.hzsz.model.River;
 import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.npc.activity.NpcLegalListActivity;
@@ -44,7 +49,7 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
     private int[] showWhenLogined = { R.id.tv_logout, R.id.rl_setting, R.id.rl_complaint, R.id.rl_suggestion };
     //村级河长登陆时
     private int[] showWhenChiefLogined = { R.id.rl_chief_mail, R.id.rl_chief_complaint, R.id.rl_chief_duban,
-            R.id.rl_chief_notepad, R.id.rl_chief_record, R.id.rl_chief_suggestion, R.id.rl_chief_npcsug };
+            R.id.rl_chief_notepad, R.id.rl_chief_record, R.id.rl_chief_suggestion, R.id.rl_chief_npcsug};
     private int[] showWhenDisChiefLogined = { R.id.rl_chief_rivermanage, R.id.rl_chief_record, R.id.rl_chief_notepad };
 //    private int[] showWhenChiefLogined = { R.id.rl_chief_sign, R.id.rl_chief_mail, R.id.rl_chief_complaint, R.id.rl_chief_duban, R.id.rl_chief_record, R.id.rl_chief_suggestion };
     private int[] showWhenNpcLogined = { R.id.rl_npc_name, R.id.rl_npc_myriver, R.id.rl_npc_myjob, R.id.rl_npc_comment, R.id.rl_npc_legal };
@@ -62,6 +67,7 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
 
 
             rootView.findViewById(R.id.tv_complaint).setOnClickListener(this);
+            rootView.findViewById(R.id.tv_dealEvent).setOnClickListener(this);
             rootView.findViewById(R.id.tv_suggestion).setOnClickListener(this);
             rootView.findViewById(R.id.tv_collection).setOnClickListener(this);
             rootView.findViewById(R.id.tv_setting).setOnClickListener(this);
@@ -208,6 +214,13 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
         }else {
             rootView.findViewById(R.id.rl_lake_chief_record).setVisibility(View.GONE);
         }
+        //各级河长或湖长可以问题上报、问题处理
+        if (ischief||isCityChief||isVillageChief||isDistrictChief||isLakeChief){
+            rootView.findViewById(R.id.rl_dealEvent).setVisibility(View.VISIBLE);
+
+        }else {
+            rootView.findViewById(R.id.rl_dealEvent).setVisibility(View.GONE);
+        }
         //如果是人大代表账号
         if (isNpc) {
             //更改页面名为“代表监督”
@@ -232,6 +245,7 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
 //			rootView.findViewById()(R.id.rl_complaint).setVisibility(View.GONE);
 //			rootView.findViewById()(R.id.rl_suggestion).setVisibility(View.GONE);
 //		}
+
 
         ((TextView) rootView.findViewById(R.id.tv_name)).setText(getBaseActivity().getUser().getDisplayName());
         ((TextView) rootView.findViewById(R.id.tv_info)).setText(getBaseActivity().getUser().getDisplayRiver());
@@ -324,6 +338,11 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
                 startActivity(new Intent(getBaseActivity(), CompListActivity.class));
                 break;
             }
+            case R.id.tv_dealEvent:{
+                Log.d("ss","ssss");
+                startActivity(new Intent(getBaseActivity(), PatrolEventListActivity.class));
+                break;
+            }
             case R.id.tv_suggestion: {
                 Intent intent = new Intent(getBaseActivity(), CompListActivity.class);
                 intent.putExtra(Tags.TAG_ABOOLEAN, false);
@@ -408,11 +427,53 @@ public class MeFragment extends BaseFragment implements View.OnClickListener{
     }
 
     @Override
+    public void onHiddenChanged(boolean hidden) {
+        super.onHiddenChanged(hidden);
+        if (hidden){
+            //Fragment隐藏时调用
+        }else {
+            //Fragment显示时调用
+            String username=getBaseActivity().getUser().userName;
+            String password=getBaseActivity().getUser().pwdmd5;
+            if (getBaseActivity().getUser().isLogined()){
+                loginForRefresh(username,password);
+            }
+        }
+
+    }
+
+    @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == RESULT_OK && getBaseActivity().getUser().isLogined() && getBaseActivity().getUser().isNpc()) {
             changeNpcLogo();
         } else {
             super.onActivityResult(requestCode, resultCode, data);
         }
+    }
+    private void loginForRefresh(String username,String password){
+
+        showOperating();
+        getBaseActivity().getUser().uuid = null;
+        getRequestContext().add("action_user_load", new Callback<LoginRes>() {
+            @Override
+            public void callback(LoginRes o) {
+                hideOperating();
+                if (o != null && o.isSuccess()) {
+
+                    getBaseActivity().getUser().uuid = o.data.uuid;
+                    getBaseActivity().getUser().authority = o.data.authority;
+                    getBaseActivity().getUser().riverSum = o.data.riverSum;
+                    getBaseActivity().getUser().lakeSum = o.data.lakeSum;
+                    getBaseActivity().getUser().isLakeChief = o.data.isLakeChief;
+                    getBaseActivity().getUser().ifOnJob = o.data.ifOnJob;
+                    getBaseActivity().getUser().districtId = o.data.districtId;
+                    getBaseActivity().getUser().realName = o.data.realName;
+
+
+
+
+                }
+            }
+        }, LoginRes.class, ParamUtils.freeParam(null, "userName", username, "password", password, "cid", getBaseActivity().getLocalService() != null ? getBaseActivity().getLocalService().getCid() : ""));
     }
 }

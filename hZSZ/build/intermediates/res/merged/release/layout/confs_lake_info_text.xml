@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="@dimen/padding_large" >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_large" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lake_code"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_lake_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:layout_weight="1"
+            android:text="@string/no_code"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/river_owner"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_lake_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:text="@string/no_owner"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_large" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lake_capacity"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_lake_capacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:layout_weight="1"
+            android:text="@string/lake_unknow"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lake_depth"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal"
+            android:id="@+id/textViewDepth" />
+
+        <TextView
+            android:id="@+id/tv_lake_depth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:text="@string/lake_unknow"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_large" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lake_size"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_lake_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:layout_weight="1"
+            android:text="@string/lake_unknow"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lake_level"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_lake_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:text="@string/lake_unknow"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_large" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lake_main_function"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_lake_main_function"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:layout_weight="1"
+            android:singleLine="false"
+            android:text="@string/lake_unknow"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+    </TableRow>
+
+</TableLayout>

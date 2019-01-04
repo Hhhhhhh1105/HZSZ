@@ -61,7 +61,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="@dimen/padding_medium"
-                android:paddingTop="@dimen/padding_medium" >
+                android:paddingTop="@dimen/padding_medium"
+                android:id="@+id/tv_dealTel">
 
                 <TextView
                     android:layout_width="wrap_content"

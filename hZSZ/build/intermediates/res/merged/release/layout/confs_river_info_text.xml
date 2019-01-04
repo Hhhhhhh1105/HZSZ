@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="@dimen/padding_large" >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_large" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/river_code"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_river_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:layout_weight="1"
+            android:text="@string/eg_river_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/river_owner"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_river_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:text="@string/eg_river_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_large" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/river_start"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_river_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:layout_weight="1"
+            android:text="@string/eg_river_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/river_level"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_river_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:text="@string/eg_lever_name2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_large" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/river_end"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_river_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:layout_weight="1"
+            android:text="@string/eg_river_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/river_length"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_river_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            
+            android:text="@string/eg_int_val"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_large" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/river_responsibility"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_responsibility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:layout_weight="1"
+            android:singleLine="false"
+            android:text="@string/eg_handleresult"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_large" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/river_target"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/littlelightgray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_river_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:layout_weight="1"
+            android:singleLine="false"
+            android:text="@string/river_start"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+    </TableRow>
+
+</TableLayout>

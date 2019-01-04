@@ -1,0 +1,814 @@
+[
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_title_right_bt_selected.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt_selected.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_l_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_l_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\btn_white_gray.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\btn_white_gray.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_bottom_gray_dashline.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_bottom_gray_dashline.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\logo.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_wxcircle_gray.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_wxcircle_gray.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\ic_smallwater_2.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_smallwater_2.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\track_end.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\track_end.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\arrow_right.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\arrow_right.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\form_btn3_bg.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\form_btn3_bg.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_sina_off.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_sina_off.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_cut_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ic_menu_cut_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selector_dark.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\drawable\\md_btn_selector_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\fab_label_background.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\fab_label_background.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_r_bg_n.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_r_bg_n.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_title_back_bt_selected.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt_selected.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_shape_solid_grey.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_shape_solid_grey.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_head_tab_l_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_head_tab_l_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_head_tab_r_bg_s.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_head_tab_r_bg_s.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\form_btn2_bg.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\form_btn2_bg.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_nav_bar_bg.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_nav_bar_bg.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_board_btn_bg_n.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_board_btn_bg_n.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_google.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_google.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_action_back.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_action_back.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_oauth_check_on.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_refersh.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_refersh.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_action_back_selected.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_action_back_selected.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_head_tab_r_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_head_tab_r_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\btn_green_white.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\btn_green_white.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_board_btn_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_board_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_button_grey.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_grey.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\md_item_selected_dark.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\drawable\\md_item_selected_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_o_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_o_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\eg_img.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\eg_img.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\ic_position.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_position.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_board_btn_bg_s.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_board_btn_bg_s.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_location_off.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_location_off.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\ic_station.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_station.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_tx_on.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_tx_on.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_at_normal.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_at_normal.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_checkbox_unchecked_mtrl.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_tab_r_bg_n.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_tab_r_bg_n.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\eg_me_logo.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\eg_me_logo.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_button_grey_blue.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_search_icon.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_search_icon.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_at_button.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_at_button.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_button_login_normal.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_login_normal.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_x_button.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_x_button.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_renren_on.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_renren_on.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selected.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\drawable\\md_btn_selected.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_renren_off.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_renren_off.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_qq_off.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_qq_off.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_head_tab_r_bg_n.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_head_tab_r_bg_n.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\bottom_bg_i.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\bottom_bg_i.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_button_red_blue.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_red_blue.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_searchbox.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_searchbox.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\mk_position_undo1.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\mk_position_undo1.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_copy_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ic_menu_copy_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_qq_on.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_qq_on.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_box_btn_bg_n.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_box_btn_bg_n.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_title_back_bt.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_head_tab_l_bg_n.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_head_tab_l_bg_n.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_wechat.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_at_selected.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_at_selected.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_o_bg_n.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_o_bg_n.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\form_btn1_bg_s.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\form_btn1_bg_s.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\md_selector_dark.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\drawable\\md_selector_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\ic_smaller.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_smaller.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_oauth_check_off.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_light_bar_bg.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_light_bar_bg.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\track_start.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\track_start.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_button_login.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_login.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_button_login_pressed.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_login_pressed.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_selectall_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ic_menu_selectall_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_follow_off.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_follow_off.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_qzone_on.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_qzone_on.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_follow_on.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_follow_on.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\im_empty.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\im_empty.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_button_blue.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_blue.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\ic_pulldown.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_pulldown.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_twitter.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_twitter.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_sidebar_normal.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_sidebar_normal.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_checkbox_checked_mtrl.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_title_tab_left_pressed.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_tab_left_pressed.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selector.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\drawable\\md_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\ic_question.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_question.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\ic_smallwater.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_smallwater.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_bind_bg.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_bind_bg.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_box_btn_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_box_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_title_right_bt.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\ic_pub.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_pub.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_douban_off.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_douban_off.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_window_shadow_pad.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_window_shadow_pad.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_location_on.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_location_on.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_title_tab_button_right.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_tab_button_right.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_head_tab_l_bg_s.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_head_tab_l_bg_s.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\md_item_selected.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\drawable\\md_item_selected.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\bottom_btn_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\bottom_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\md_btn_selected_dark.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\drawable\\md_btn_selected_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_o_bg_s.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_o_bg_s.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_padding_radius.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_padding_radius.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_title_tab_right_pressed.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\btn_white_bg_gray.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\btn_white_bg_gray.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_location_ic.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_location_ic.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\ic_dropdown.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_dropdown.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\slogan.jpg",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\slogan.jpg"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_follow_check.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_follow_check.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_default_avatar.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_default_avatar.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\form_btn1_bg_n.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\form_btn1_bg_n.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\sel_district.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\sel_district.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_wxcircle.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\form_btn1_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\form_btn1_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_gray_board_btn_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_gray_board_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\lake_posotion.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\lake_posotion.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_qzone_off.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_qzone_off.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_tx_off.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_tx_off.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_button_white.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_white.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_box_btn_bg_s.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_box_btn_bg_s.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\bg_welcome.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\bg_welcome.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_m_bg_s.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_m_bg_s.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_sidebar_selected.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_sidebar_selected.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\utils_img_err.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\utils_img_err.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_oauth_check.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_oauth_check.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\md_selector.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\drawable\\md_selector.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_off_mtrl.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_button_white_blue.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_white_blue.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_fetch_image.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_fetch_image.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\cb_green_gray.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\cb_green_gray.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\mk_position_done1.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\mk_position_done1.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\btn_bg_gray_white.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\btn_bg_gray_white.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_share_transparent_corner.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_share_transparent_corner.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_sidebar_selector.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_sidebar_selector.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_head_tab_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_head_tab_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_share_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ic_menu_share_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_m_bg_n.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_m_bg_n.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_title_tab_left_normal.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_tab_left_normal.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_title_right_bt_normal.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt_normal.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\ic_location_me.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_location_me.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_button_red.9.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_button_red.9.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_title_back_bt_normal.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt_normal.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_share_to_button.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_share_to_button.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_r_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_r_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_sina_on.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_sina_on.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_title_tab_button_left.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_tab_button_left.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_on_mtrl.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_gray_dashline.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_gray_dashline.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_l_bg_n.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_l_bg_n.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_r_bg_s.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_r_bg_s.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\md_transparent.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\drawable\\md_transparent.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\btn_gray_white.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\btn_gray_white.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_m_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_m_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_tabbtn_l_bg_s.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_tabbtn_l_bg_s.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_action_back_normal.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_action_back_normal.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_shape_solid_black.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_shape_solid_black.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_paste_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ic_menu_paste_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_wechat_gray.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_wechat_gray.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\ic_bigger.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_bigger.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\ic_me.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\ic_me.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_douban_on.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_douban_on.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_title_tab_right_normal.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_title_tab_right_normal.png"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\btn_white_green.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\btn_white_green.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_shareboard_item_background.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_shareboard_item_background.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\shape_black_board_btn_bg.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\shape_black_board_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\release\\drawable\\umeng_socialize_facebook.png",
+        "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable\\umeng_socialize_facebook.png"
+    }
+]

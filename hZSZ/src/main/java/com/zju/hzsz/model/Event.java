@@ -9,5 +9,7 @@ public class Event {
 
     public int eventId;
     public String eventTitle;
+    public String title;
+    public int type;
 
 }

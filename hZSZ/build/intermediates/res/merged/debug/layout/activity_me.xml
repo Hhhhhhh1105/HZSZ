@@ -388,6 +388,53 @@
                     android:src="@drawable/ic_chief_rivermanage" >
                 </ImageView>
             </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_dealEvent"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/me_item_h"
+                android:layout_marginBottom="@dimen/page_item_margin_v"
+                android:layout_marginTop="@dimen/page_item_margin_v" >
+
+                <TextView
+                    android:id="@+id/tv_dealEvent"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/me_item_h"
+                    android:layout_marginLeft="@dimen/me_item_tv_margin_left"
+                    android:layout_toRightOf="@+id/iv_dealEvent"
+                    android:background="@drawable/btn_white_gray"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/ic_arrow_rigth"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/me_item_tv_padding_left"
+                    android:paddingRight="@dimen/page_padding"
+                    android:text="问题处理"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray" />
+
+                <TextView
+                    android:id="@+id/tv_dealEvent_unhandleEvent_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="@dimen/me_item_h"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/padding_medium"
+                    android:text="@string/eg_chief_unhandle_comp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:visibility="gone" >
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/iv_dealEvent"
+                    android:layout_width="@dimen/me_item_icon_w"
+                    android:layout_height="@dimen/me_item_icon_h"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_chief_complaint" >
+                </ImageView>
+            </RelativeLayout>
+
 
             <RelativeLayout
                 android:id="@+id/rl_chief_duban"

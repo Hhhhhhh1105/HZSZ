@@ -4,7 +4,11 @@
         "source": "D:\\Learn\\HZSZ\\hZSZ\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_launcher.png",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+        "merged": "D:\\Androidproject\\HZ\\new\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_launcher.png",
+        "source": "D:\\Androidproject\\HZ\\new\\HZSZ\\hZSZ\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_launcher.png",
+        "source": "D:\\HZSZ\\hZSZ\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
     }
 ]

@@ -59,8 +59,9 @@
                     android:layout_alignBottom="@+id/tv_level"
                     android:layout_alignParentRight="true"
                     android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="0dp"
                     android:gravity="center_horizontal"
-                    android:orientation="horizontal" >
+                    android:orientation="horizontal">
 
                     <RadioButton
                         android:layout_width="wrap_content"

@@ -5,33 +5,54 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="1374443331565"
-    token="-4290610345632890823"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="3585296378613809"
+    token="8674009074535075521"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1175" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="46" />
     <task
         name="verifier"
-        duration="0" />
+        duration="8" />
 
     <artifact
-        location="D:\Androidproject\HZ\HZSZ\hZSZ\build\outputs\apk\hZSZ-debug.apk"
-        type="MAIN" />
+        location="D:\Androidproject\HZ\new\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="287142343693259"
+        timestamp="3551479190876135"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\Androidproject\HZ\HZSZ\hZSZ\build\outputs\apk\hZSZ-debug.apk"
+            location="D:\Androidproject\HZ\new\HZSZ\hZSZ\build\outputs\apk\hZSZ-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="3552501326510986"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Androidproject\HZ\new\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="3585021815421637"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Androidproject\HZ\new\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="3585296378613809"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Androidproject\HZ\new\HZSZ\hZSZ\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

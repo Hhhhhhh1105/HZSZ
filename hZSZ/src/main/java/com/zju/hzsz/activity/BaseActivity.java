@@ -384,7 +384,7 @@ public class BaseActivity extends com.sin.android.sinlibs.activities.BaseActivit
 		bindService(new Intent(this, LocalService.class), serviceConnection, Context.BIND_AUTO_CREATE);
 	}
 
-	public LocalService getLocalService() {
+	public LocalService  getLocalService() {
 		return localBinder != null ? localBinder.getService() : null;
 	}
 

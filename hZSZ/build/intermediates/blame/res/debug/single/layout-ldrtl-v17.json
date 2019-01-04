@@ -8,11 +8,19 @@
         "source": "D:\\Learn\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout-ldrtl-v17\\md_listitem_multichoice.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_multichoice.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout-ldrtl-v17\\md_listitem_multichoice.xml"
+        "merged": "D:\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_multichoice.xml",
+        "source": "D:\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout-ldrtl-v17\\md_listitem_multichoice.xml"
     },
     {
-        "merged": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_singlechoice.xml",
-        "source": "D:\\Androidproject\\HZ\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout-ldrtl-v17\\md_listitem_singlechoice.xml"
+        "merged": "D:\\Androidproject\\HZ\\new\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_multichoice.xml",
+        "source": "D:\\Androidproject\\HZ\\new\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout-ldrtl-v17\\md_listitem_multichoice.xml"
+    },
+    {
+        "merged": "D:\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_singlechoice.xml",
+        "source": "D:\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout-ldrtl-v17\\md_listitem_singlechoice.xml"
+    },
+    {
+        "merged": "D:\\Androidproject\\HZ\\new\\HZSZ\\hZSZ\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_singlechoice.xml",
+        "source": "D:\\Androidproject\\HZ\\new\\HZSZ\\hZSZ\\build\\intermediates\\exploded-aar\\com.github.afollestad.material-dialogs\\core\\0.8.5.1\\res\\layout-ldrtl-v17\\md_listitem_singlechoice.xml"
     }
 ]

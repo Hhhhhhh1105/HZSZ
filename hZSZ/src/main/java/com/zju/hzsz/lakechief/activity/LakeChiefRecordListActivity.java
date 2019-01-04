@@ -1,5 +1,6 @@
 package com.zju.hzsz.lakechief.activity;
 
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -25,6 +26,7 @@ import com.zju.hzsz.net.Callback;
 import com.zju.hzsz.net.Constants;
 import com.zju.hzsz.utils.DipPxUtils;
 import com.zju.hzsz.utils.ParamUtils;
+import com.zju.hzsz.utils.PatrolRecordUtils;
 import com.zju.hzsz.utils.StrUtils;
 import com.zju.hzsz.view.ListViewWarp;
 
@@ -195,8 +197,26 @@ public class LakeChiefRecordListActivity extends BaseActivity implements ListVie
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_new: {
-                Intent intent = new Intent(this, com.zju.hzsz.lakechief.activity.LakeChiefEditRecordActivity.class);
-                startActivityForResult(intent, Tags.CODE_NEW);
+
+                //检查是否开启了GPS,若未开启，则弹出窗口令其开启GPS
+                if (!PatrolRecordUtils.isOPen(getApplicationContext())) {
+                    //弹窗
+                    AlertDialog.Builder ab = new AlertDialog.Builder(LakeChiefRecordListActivity.this);
+                    ab.setTitle("开启GPS定位");
+                    ab.setMessage("为了正常记录你的巡湖位置信息，需要你开启GPS定位功能");
+                    ab.setPositiveButton("开启", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface arg0, int arg1) {
+                            startActivity(new Intent("android.settings.LOCATION_SOURCE_SETTINGS"));
+                        }
+                    });
+
+                    ab.setCancelable(false);
+                    ab.create().show();
+                }else{
+                    Intent intent = new Intent(this, com.zju.hzsz.lakechief.activity.LakeChiefEditRecordActivity.class);
+                    startActivityForResult(intent, Tags.CODE_NEW);
+                }
                 break;
             }
             case R.id.tv_seldate: {

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:orientation="horizontal">
+
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/btn_track"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_npc_track"
+                    app:cb_color="#00B0F0" />
+
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/btn_comp"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_npc_comp"
+                    app:cb_color="#FF4444" />
+
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/btn_sug"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_npc_sug"
+                    app:cb_color="#FFBB33" />
+
+
+
+            </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/rg_headtab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_medium"
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingRight="@dimen/padding_large"
+        android:paddingTop="@dimen/padding_medium"
+        android:visibility="visible" >
+
+        <RadioButton
+            android:id="@+id/rb_head_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:background="@drawable/shape_tabbtn_l_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_small"
+            android:text="巡河记录"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/btn_black_white"
+            android:textSize="@dimen/font_normal" />
+
+        <RadioButton
+            android:id="@+id/rb_head_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_tabbtn_m_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_small"
+            android:text="投诉举报"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/btn_black_white"
+            android:textSize="@dimen/font_normal" />
+
+        <RadioButton
+            android:id="@+id/rb_head_medium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_tabbtn_r_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_small"
+            android:text="监督河长"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/btn_black_white"
+            android:textSize="@dimen/font_normal" />
+
+
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/fl_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+</LinearLayout>

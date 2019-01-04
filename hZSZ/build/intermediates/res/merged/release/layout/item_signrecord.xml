@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_large"
+    android:paddingTop="@dimen/padding_large" >
+
+    <CheckBox
+        android:id="@+id/cb_sign"
+        android:layout_width="@dimen/item_signrecord_w"
+        android:layout_height="@dimen/item_signrecord_h"
+        android:background="@drawable/ic_bg_sign"
+        android:button="@null"
+        android:checked="true"
+        android:gravity="center"
+        android:text="30"
+        android:clickable="false"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/text_gray_green" />
+
+</LinearLayout>

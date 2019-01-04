@@ -53,6 +53,7 @@ public class RiverQualityItem extends BaseRiverPagerItem implements OnCheckedCha
 	}
 
 	private void refrehDeepView() {
+
 		((TextView) view.findViewById(R.id.tv_level)).setText(ResUtils.getRiverSLevel(river.riverLevel));
 
 		RadioGroup rg_segments = (RadioGroup) view.findViewById(R.id.rg_segments);
@@ -127,6 +128,7 @@ public class RiverQualityItem extends BaseRiverPagerItem implements OnCheckedCha
 			public void callback(RiverDataRes o) {
 				if (o != null && o.isSuccess()) {
 					ObjUtils.mergeObj(river, o.data);
+
 					refrehDeepView();
 				}
 				setRefreshing(false);
@@ -146,6 +148,7 @@ public class RiverQualityItem extends BaseRiverPagerItem implements OnCheckedCha
 			@Override
 			public void callback(RiverQualityDataRes o) {
 				if (o != null && o.isSuccess()) {
+
 					ViewUtils.loadIndexChart(context, (LineChart) view.findViewById(R.id.lc_chart), o.data.indexValues, new ViewUtils.NameGetter() {
 
 						@Override
@@ -154,12 +157,20 @@ public class RiverQualityItem extends BaseRiverPagerItem implements OnCheckedCha
 							return index.getTime.getYM(context);
 						}
 					});
+
+
 					ViewUtils.setQuilityLineV(context, (LinearLayout) view.findViewById(R.id.inc_quality_line_v),
 							"DO".equals(curIndex.indexNameEN) || "Transp".equals(curIndex.indexNameEN), ValUtils.getYVals(curIndex.indexNameEN));
+
 					if (o.data.indexDatas != null) {
 						ViewUtils.initIndexTable(context, (LinearLayout) view.findViewById(R.id.ll_indexs), o.data.indexDatas);
 					}
+					if (river.riverLevel!=2){
 					((ImageView) view.findViewById(R.id.iv_quality)).setImageResource(ResUtils.getQuiltySmallImg(o.data.waterLevel));
+					}else {
+						((ImageView) view.findViewById(R.id.iv_quality)).setImageResource(ResUtils.getQuiltySmallImg(Integer.parseInt(river.totalRiverWaterLevel)));
+					}
+
 
 					//如果是透明度或氧化还原电位，则不显示分段条
 					if ("ORP".equals(curIndex.indexNameEN) || "Transp".equals(curIndex.indexNameEN)) {

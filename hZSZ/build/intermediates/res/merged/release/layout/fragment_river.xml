@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <View
+                android:id="@+id/v_poptag"
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="-1dp" />
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/inc_river_tabs" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_rivers"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/white" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/v_mask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/mask"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

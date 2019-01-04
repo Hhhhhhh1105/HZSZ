@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/padding_large"
+    android:paddingLeft="@dimen/padding_medium"
+    android:paddingTop="@dimen/padding_large" >
+
+    <TextView
+        android:id="@+id/tv_index"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:text="@string/eg_int_1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/font_normal" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:gravity="center"
+        android:text="@string/eg_river_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/font_normal" />
+
+    <TextView
+        android:id="@+id/tv_complaint_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/eg_int_5"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/font_normal" />
+
+    <TextView
+        android:id="@+id/tv_satisfaction_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/eg_int_pe20"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/font_normal" />
+
+    <TextView
+        android:id="@+id/tv_unhandle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/eg_int_5"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/ligthred"
+        android:textSize="@dimen/font_normal" />
+
+</LinearLayout>

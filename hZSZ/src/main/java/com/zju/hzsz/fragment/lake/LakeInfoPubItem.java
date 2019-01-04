@@ -59,8 +59,14 @@ public class LakeInfoPubItem extends BaseLakePagerItem {
 	public View getView() {
 		if (view == null) {
 			view = LinearLayout.inflate(context, R.layout.fragment_river_infopub, null);
+
 			RadioButton rb=view.findViewById(R.id.rb_river_infopub_xhjl);
 			rb.setText("巡湖记录");
+			if (lake.lakeLevel==2){
+				view.findViewById(R.id.rb_river_infopub_xhjl).setVisibility(View.GONE);
+			}else {
+				view.findViewById(R.id.rb_river_infopub_xhjl).setVisibility(View.VISIBLE );
+			}
 			((RadioGroup) view.findViewById(R.id.rg_river_pubinfo_showwith)).setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 				@Override
 				public void onCheckedChanged(RadioGroup arg0, int rid) {

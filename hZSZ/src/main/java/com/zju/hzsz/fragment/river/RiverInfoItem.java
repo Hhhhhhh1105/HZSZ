@@ -327,15 +327,19 @@ public class RiverInfoItem extends BaseRiverPagerItem {
 					row.addView(initContItem(R.string.cityriverchief_responsibility, river.districtRiverChief.department, null, false));
 					ll_contacts.addView(row);
 					//副河长
-					row = new LinearLayout(context);
-					row.addView(initContItem(R.string.vicecity_river_chief_name, river.vicecityRiverChief.chiefName , river.districtRiverSheriff != null ? river.vicecityRiverChief.contactWay : null, false));
-					row.addView(initContItem(R.string.cityriverchief_responsibility, river.vicecityRiverChief.department, null, false));
-					ll_contacts.addView(row);
 
-					//河长职务+河道警长
-					row = new LinearLayout(context);
-					row.addView(initContItem(R.string.river_jingzhang, river.districtRiverSheriff != null ? river.districtRiverSheriff.chiefName : null, river.districtRiverSheriff != null ? river.districtRiverSheriff.contactWay : null, false));
-					ll_contacts.addView(row);
+                        row = new LinearLayout(context);
+                        row.addView(initContItem(R.string.vicecity_river_chief_name, river.vicecityRiverChief != null ? river.vicecityRiverChief.chiefName : null, river.vicecityRiverChief != null ? river.vicecityRiverChief.contactWay : null, false));
+                        row.addView(initContItem(R.string.cityriverchief_responsibility, river.vicecityRiverChief != null?river.vicecityRiverChief.department:null, null, false));
+                        ll_contacts.addView(row);
+
+
+
+						//河长职务+河道警长
+						row = new LinearLayout(context);
+						row.addView(initContItem(R.string.river_jingzhang, river.districtRiverSheriff != null ? river.districtRiverSheriff.chiefName : null, river.districtRiverSheriff != null ? river.districtRiverSheriff.contactWay : null, false));
+						ll_contacts.addView(row);
+
 
 					//联系部门+联系人
 					row = new LinearLayout(context);

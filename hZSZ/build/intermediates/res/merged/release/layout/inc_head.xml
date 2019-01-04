@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/head_h"
+    android:background="@drawable/head_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/head_padding_b"
+    android:paddingLeft="@dimen/head_padding_l"
+    android:paddingRight="@dimen/head_padding_r"
+    android:paddingTop="@dimen/head_padding_t" >
+
+    <ImageView
+        android:id="@+id/iv_head_left"
+        style="@style/head_icon"
+        android:layout_width="@dimen/head_icon_w"
+        android:layout_height="@dimen/head_icon_h"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/ic_head_plus" />
+
+    <TextView
+        android:id="@+id/tv_head_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/head_title_color"
+        android:textSize="@dimen/head_title_size" />
+
+    <ImageView
+        android:id="@+id/iv_head_right"
+        style="@style/head_icon"
+        android:layout_width="@dimen/head_icon_w"
+        android:layout_height="@dimen/head_icon_h"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/ic_head_share" />
+
+</LinearLayout>

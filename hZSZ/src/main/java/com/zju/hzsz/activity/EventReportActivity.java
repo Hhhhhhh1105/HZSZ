@@ -28,6 +28,8 @@ import com.zju.hzsz.R;
 import com.zju.hzsz.Tags;
 import com.zju.hzsz.model.Event;
 import com.zju.hzsz.model.EventRes;
+import com.zju.hzsz.model.Lake;
+import com.zju.hzsz.model.LakeList;
 import com.zju.hzsz.model.River;
 import com.zju.hzsz.model.SugOrComRes;
 import com.zju.hzsz.net.Callback;
@@ -42,17 +44,17 @@ import java.io.FileNotFoundException;
 
 /**
  * Created by ZJTLM4600l on 2018/3/15.
- * DH
  * 巡河过程中事件上报
  */
 
 public class EventReportActivity extends BaseActivity {
     River river = null;   //投诉河段
+    Lake lake = null;   //投诉湖泊
     int segment_ix = -1;   //分段信息
-//    private boolean isCom = false;   //投诉还是建议
     private Location location = null;
 
     private River r;
+    private Lake l;
 
     private LinearLayout ll_cboxes = null;
     private boolean isReadOnly = false;
@@ -64,6 +66,9 @@ public class EventReportActivity extends BaseActivity {
 
     private Event[] events;
     private int eventId;
+    private static final String TAG = "hhhh";
+
+    private boolean fromLakeRecord;//是河的事件上报(来自于巡河)还是湖的事件上报（来自于巡湖） false：河；true：湖
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,9 +80,9 @@ public class EventReportActivity extends BaseActivity {
 
         initHead(R.drawable.ic_head_close, 0);
 
-        r = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_RIVER), River.class);
+        fromLakeRecord = getIntent().getBooleanExtra("fromLakeRecord", false);
         int ix = getIntent().getIntExtra(Tags.TAG_INDEX, -1);
-//        isCom = getIntent().getBooleanExtra(Tags.TAG_ABOOLEAN, false);
+        Log.d(TAG, "ix: "+ix);
 
         //显示选择投诉类别
         getSugCategory();
@@ -101,17 +106,6 @@ public class EventReportActivity extends BaseActivity {
 
         //标题设置
         setTitle(R.string.ieventreport);
-
-        //如果是人大代表，并且这条河是自己的河时,并且是监督状态时
-        if (r != null) {
-
-            if (getUser().isNpc() && r.riverId == getUser().getMyRiverId()) {
-                refreshToNpcView();
-                btnInit();
-            }
-
-        }
-
 
         findViewById(R.id.btn_submit).setOnClickListener(new View.OnClickListener() {
 
@@ -170,22 +164,42 @@ public class EventReportActivity extends BaseActivity {
             ((EditText) findViewById(R.id.et_phonenum)).setText(getUser().userName);
         }
 
-        if (r != null) {
-            if (r.isPiecewise() && ix < 0) {
-                readyToSugOrCom(r);
-            } else {
-                setWithRiver(r, ix);
-            }
-        } else {
-            selectRiver();
-        }
-
         findViewById(R.id.tv_rivername).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                selectRiver();
+                if(fromLakeRecord){
+                    selectLake();
+                }else{
+                    selectRiver();
+                }
             }
         });
+
+        //关于巡河事件上报和巡湖事件上报的适配
+        if(fromLakeRecord){
+            l = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_LAKE), Lake.class);
+            if (l != null) {
+                setWithLake(l);
+            } else {
+                selectLake();
+            }
+
+        }else{
+            r = StrUtils.Str2Obj(getIntent().getStringExtra(Tags.TAG_RIVER), River.class);
+            Log.d(TAG, "river: "+r);
+
+            if (r != null) {
+                if (r.isPiecewise() && ix < 0) {
+                    readyToSugOrCom(r);
+                } else {
+                    setWithRiver(r, ix);
+                }
+            } else {
+                selectRiver();
+            }
+
+
+        }
     }
 
     private void selectRiver() {
@@ -194,6 +208,12 @@ public class EventReportActivity extends BaseActivity {
         intent.putExtra(Tags.TAG_TITLE, "选择事件河道");
         startActivityForResult(intent, Tags.CODE_SELECTRIVER);
     }
+    private void selectLake() {
+        Intent intent = new Intent(this, LakeListAcitivity.class);
+        intent.putExtra(Tags.TAG_CODE, Tags.CODE_SELECTLAKE);
+        intent.putExtra(Tags.TAG_TITLE, "选择事件湖泊");
+        startActivityForResult(intent, Tags.CODE_SELECTLAKE);
+    }
 
     //选择投诉类型
     private void getSugCategory() {
@@ -201,60 +221,56 @@ public class EventReportActivity extends BaseActivity {
         getRequestContext().add("Get_Event_Type", new Callback<EventRes>() {
             @Override
             public void callback(EventRes o) {
-
                 if (o != null && o.isSuccess()) {
                     events = o.data;
                 }
-
             }
         }, EventRes.class, null);
 
     }
 
     private void selectSugCategory() {
+        if(events != null){
+            final String[] names = new String[events.length];
+            for (int i = 0; i < names.length; i++) {
+                names[i] = events[i].eventTitle;
+            }
 
-        final String[] names = new String[events.length];
-        for (int i = 0; i < names.length; i++) {
-            names[i] = events[i].eventTitle;
+            Dialog alertDialog = new AlertDialog.Builder(this).setTitle("请选择事件类型").setItems(names, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+
+                    ((TextView) findViewById(R.id.et_suggest_category)).setText(names[i]);
+                    ((TextView) findViewById(R.id.et_suggest_category)).setTextColor(getResources().getColor(R.color.black));
+                    eventId = events[i].eventId;
+
+                }
+            }).setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+
+                }
+            }).create();
+            alertDialog.show();
+        }else{
+            Dialog alertDialog = new AlertDialog.Builder(this).setTitle("请选择投诉类型").setItems(null, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+
+                }
+            }).setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+
+                }
+            }).create();
+            alertDialog.show();
         }
-
-        Dialog alertDialog = new AlertDialog.Builder(this).setTitle("请选择事件类型").setItems(names, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-
-                ((TextView) findViewById(R.id.et_suggest_category)).setText(names[i]);
-                ((TextView) findViewById(R.id.et_suggest_category)).setTextColor(getResources().getColor(R.color.black));
-                eventId = events[i].eventId;
-
-            }
-        }).setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-
-            }
-        }).create();
-        alertDialog.show();
 
     }
 
     private void readyToSugOrCom(final River river) {
         if (river.isPiecewise()) {
-//            String[] names = new String[river.townRiverChiefs.length];
-//            for (int i = 0; i < names.length; ++i) {
-//                names[i] = river.townRiverChiefs[i].townRiverName;
-//            }
-//            Dialog alertDialog = new AlertDialog.Builder(this).setTitle(R.string.river_select_segment).setItems(names, new DialogInterface.OnClickListener() {
-//                @Override
-//                public void onClick(DialogInterface dialog, int which) {
-//                    setWithRiver(river, which);
-//                }
-//            }).setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
-//                @Override
-//                public void onClick(DialogInterface dialog, int which) {
-//
-//                }
-//            }).setCancelable(false).create();
-//            alertDialog.show();
 
             String[] names = new String[river.lowLevelRivers.length];
             for (int i = 0; i < names.length; ++i) {
@@ -386,12 +402,6 @@ public class EventReportActivity extends BaseActivity {
             segment_ix = ix;
 
             if (river != null) {
-//                if (segment_ix == -1) {
-//                    ((TextView) findViewById(R.id.tv_rivername)).setText(river.riverName);
-//                } else {
-//                    ((TextView) findViewById(R.id.tv_rivername)).setText(river.townRiverChiefs[segment_ix].townRiverName);
-//                }
-
                 if (segment_ix == -1) {
                     ((TextView) findViewById(R.id.tv_rivername)).setText(river.riverName);
                 } else {
@@ -399,6 +409,18 @@ public class EventReportActivity extends BaseActivity {
                 }
             } else {
                 showToast("没有传入河道参数");
+                finish();
+            }
+        }
+    }
+    private void setWithLake(Lake l) {
+        if (l != null) {
+            lake = l;
+
+            if (lake != null) {
+                ((TextView) findViewById(R.id.tv_rivername)).setText(lake.lakeName);
+            } else {
+                showToast("没有传入湖泊参数");
                 finish();
             }
         }
@@ -412,20 +434,19 @@ public class EventReportActivity extends BaseActivity {
     private String telno = null;
     private boolean anonymity = false;
     private int rid = 0;
+    private long lid = 0;
     private String picbase64 = null;
 
     private void submmit() {
         uname = ((EditText) findViewById(R.id.et_suggest_name)).getText().toString().trim();
         //注意了，如果是人大，没有这两个编辑框。
 //        subject = subject == null ? ((EditText) findViewById(R.id.et_suggest_subject)).getText().toString().trim(): subject;
-        if (getUser().isNpc() && r.riverId == getUser().getMyRiverId()) {
-            contentt = ((EditText) findViewById(R.id.et_npc_otherquestion)).getText().toString().trim();
-        } else
-            contentt = ((EditText) findViewById(R.id.et_suggest_contentt)).getText().toString().trim();
+//        if (getUser().isNpc() && r.riverId == getUser().getMyRiverId()) {
+//            contentt = ((EditText) findViewById(R.id.et_npc_otherquestion)).getText().toString().trim();
+//        } else
+        contentt = ((EditText) findViewById(R.id.et_suggest_contentt)).getText().toString().trim();
 
         telno = ((EditText) findViewById(R.id.et_phonenum)).getText().toString().trim();
-        // code = ((EditText)
-        // findViewById(R.id.et_authcode)).getText().toString().trim();
 
         if (uname.length() == 0) {
             showToast("姓名不能为空!");
@@ -433,57 +454,25 @@ public class EventReportActivity extends BaseActivity {
             return;
         }
 
-        // if (telno.length() == 0) {
-        // showToast("联系电话不能为空!");
-        // ((EditText) findViewById(R.id.et_phonenum)).requestFocus();
-        // return;
-        // }
-        // if (telno.length() != 11) {
-        // showToast("联系电话格式不对，仅允许添手机号码!");
-        // ((EditText) findViewById(R.id.et_phonenum)).requestFocus();
-        // return;
-        // }
-        // if (code.length() == 0) {
-        // showToast("验证码不能为空!");
-        // ((EditText) findViewById(R.id.et_authcode)).requestFocus();
-        // return;
-        // }
-
-        if (river == null) {
-            showToast("请选择要投诉的河道");
-            return;
-        }
-
-//        if (subject.length() == 0) {
-//            showToast("主题不能为空!");
-//            ((EditText) findViewById(R.id.et_suggest_subject)).requestFocus();
-//            return;
-//        }
-
-//        if (contentt.length() == 0) {
-//            if (getUser().isNpc() && !isCom) {
-//                showToast("其他建议不能为空!");
-//                ((EditText) findViewById(R.id.et_npc_otherquestion)).requestFocus();
-//            } else{
-//                showToast("内容描述不能为空!");
-//                ((EditText) findViewById(R.id.et_suggest_contentt)).requestFocus();
-//            }
-//            return;
-//        }
-
         if (eventId == 0) {
             showToast("请选择事件类别");
             return;
         }
+        if(fromLakeRecord){
+            if (lake == null) {
+                showToast("请选择要上报的湖泊");
+                return;
+            }
+            lid = lake.lakeId;
+        }else{
+            if (river == null) {
+                showToast("请选择要上报的河道");
+                return;
+            }
+            rid = segment_ix < 0 ? river.riverId : (river.lowLevelRivers[segment_ix].riverId);
+        }
 
         anonymity = ((CheckBox) findViewById(R.id.ck_anonymity)).isChecked();
-        //如果是人大，则不匿名
-        if (getUser().isNpc())
-            anonymity = false;
-
-//        rid = segment_ix < 0 ? river.riverId : (river.townRiverChiefs[segment_ix].townRiverId);
-
-        rid = segment_ix < 0 ? river.riverId : (river.lowLevelRivers[segment_ix].riverId);
         LinearLayout ll_photos = (LinearLayout) findViewById(R.id.ll_photos);
         if (ll_photos.getChildCount() > 1) {
             // 有图片
@@ -522,28 +511,13 @@ public class EventReportActivity extends BaseActivity {
         } else {
             submitData();
         }
-
-        // submitData();
-
-        // startAuthCode();
     }
-
-    // @Override
-    // protected void whenAuthSuccess() {
-    // submitData();
-    // }
 
     private void submitData() {
         showOperating();
         JSONObject p = null;
-        p = ParamUtils.freeParam(null, "riverId", rid, "content", contentt, "picBase64",picbase64 == null ? "" : picbase64, "eventId", eventId);
-//        if (isCom) {
-//            p = ParamUtils.freeParam(null, "riverId", rid, "compTheme", subject, "compContent", contentt,
-//                    "compName", uname, "compTelephone", telno, "ifAnonymous", anonymity ? 1 : 0, "picBase64",
-//                    picbase64 == null ? "" : picbase64, "eventId", eventId);
-//        } else {
-//            p = ParamUtils.freeParam(null, "riverId", rid, "advTheme", subject, "advContent", contentt, "advName", uname, "advTelephone", telno, "ifAnonymous", anonymity ? 1 : 0);
-//        }
+        String requestName = "";
+        p = ParamUtils.freeParam(null, "content", contentt, "picBase64",picbase64 == null ? "" : picbase64, "eventId", eventId);
 
         //人大代表的相关参数
         try{
@@ -555,8 +529,6 @@ public class EventReportActivity extends BaseActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        // if(((CheckBox) findViewById(R.id.ck_gps)).isChecked())
         if (location != null && ((CheckBox) findViewById(R.id.ck_gps)).isChecked()) {
             try {
                 p.put("latitude", location.getLatitude());
@@ -566,7 +538,23 @@ public class EventReportActivity extends BaseActivity {
             }
         }
 
-        getRequestContext().add("event_action_add", new Callback<SugOrComRes>() {
+        if(fromLakeRecord){
+            try{
+                p.put("lakeId", lid);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            requestName = "event_action_add_lake";
+        }else {
+            try{
+                p.put("riverId", rid);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            requestName = "event_action_add";
+
+        }
+        getRequestContext().add(requestName, new Callback<SugOrComRes>() {
             @Override
             public void callback(SugOrComRes o) {
                 if (o != null && o.isSuccess()) {
@@ -576,47 +564,6 @@ public class EventReportActivity extends BaseActivity {
                 }
             }
         }, SugOrComRes.class, p);
-//        if (isCom) {
-//            getRequestContext().add("rivercomplaints_action_add", new Callback<SugOrComRes>() {
-//                @Override
-//                public void callback(SugOrComRes o) {
-//                    if (o != null && o.isSuccess()) {
-//                        doResult(o);
-//                    } else {
-//                        hideOperating();
-//                    }
-//                }
-//            }, SugOrComRes.class, p);
-//        } else {
-//            //如果是人大监督自己的河道
-//            if (getUser().isNpc() && r.riverId == getUser().getMyRiverId() && !isCom) {
-//
-//                getRequestContext().add("Add_DeputySupervise_Action", new Callback<SugOrComRes>() {
-//                    @Override
-//                    public void callback(SugOrComRes o) {
-//                        if (o != null && o.isSuccess()) {
-//                            doResult(o);
-//                        } else {
-//                            hideOperating();
-//                        }
-//                    }
-//                }, SugOrComRes.class, p);
-//
-//            } else {
-//
-//                getRequestContext().add("riveradvise_action_add", new Callback<SugOrComRes>() {
-//                    @Override
-//                    public void callback(SugOrComRes o) {
-//                        if (o != null && o.isSuccess()) {
-//                            doResult(o);
-//                        } else {
-//                            hideOperating();
-//                        }
-//                    }
-//                }, SugOrComRes.class, p);
-//
-//            }
-//        }
     }
 
     private void doResult(SugOrComRes o) {
@@ -666,6 +613,11 @@ public class EventReportActivity extends BaseActivity {
             River r = StrUtils.Str2Obj(data.getStringExtra(Tags.TAG_RIVER), River.class);
             if (r != null) {
                 readyToSugOrCom(r);
+            }
+        }else if (requestCode == Tags.CODE_SELECTLAKE && resultCode == RESULT_OK) {
+            Lake l = StrUtils.Str2Obj(data.getStringExtra(Tags.TAG_LAKE), Lake.class);
+            if (l != null) {
+                setWithLake(l);
             }
         }
     }

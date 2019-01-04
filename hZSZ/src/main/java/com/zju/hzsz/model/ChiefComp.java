@@ -18,6 +18,10 @@ public class ChiefComp {
 
 	public String complaintsPicPath;
 
+
+
+
+
 	// public int dubanStatus;
 	public int dealStatus;
 

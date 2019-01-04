@@ -2,6 +2,7 @@ package com.zju.hzsz.fragment.river;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -34,6 +35,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class RiverInfoPubItem extends BaseRiverPagerItem {
+	private static final String TAG = "RiverInfoPubItem";
 	public RiverInfoPubItem(River river, BaseActivity context) {
 		super(river, context);
 		Locale.setDefault(Locale.CHINA);
@@ -54,6 +56,11 @@ public class RiverInfoPubItem extends BaseRiverPagerItem {
 	public View getView() {
 		if (view == null) {
 			view = LinearLayout.inflate(context, R.layout.fragment_river_infopub, null);
+			if (river.riverLevel==2){
+				view.findViewById(R.id.rb_river_infopub_xhjl).setVisibility(View.GONE);
+			}else {
+				view.findViewById(R.id.rb_river_infopub_xhjl).setVisibility(View.VISIBLE );
+			}
 			((RadioGroup) view.findViewById(R.id.rg_river_pubinfo_showwith)).setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 				@Override
 				public void onCheckedChanged(RadioGroup arg0, int rid) {
@@ -170,6 +177,7 @@ public class RiverInfoPubItem extends BaseRiverPagerItem {
 		if (refresh) {
 			list.clear();
 			adapter.notifyDataSetInvalidated();
+			Log.d(TAG, "loadData: "+river.riverLevel);
 		}
 
 		listViewWarp.setNoMoreText(isComp ? "暂无投诉" : "暂无记录");
@@ -197,6 +205,8 @@ public class RiverInfoPubItem extends BaseRiverPagerItem {
 				}
 			}, CompPublicitysRes.class, ParamUtils.freeParam(null, "riverId", river.riverId));
 		} else {
+
+
 			((BaseActivity) context).getRequestContext().add("Get_RiverRecord_List", new Callback<RiverRecordListRes>() {
 				@Override
 				public void callback(RiverRecordListRes o) {

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightgreen"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_medium"
+        android:paddingLeft="@dimen/page_padding"
+        android:paddingRight="@dimen/page_padding"
+        android:paddingTop="@dimen/padding_medium" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择监督月份"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/font_normal" />
+
+        <TextView
+            android:id="@+id/tv_seldate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_medium"
+            android:layout_weight="1"
+            android:text="2017年3月"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/green"
+            android:textSize="@dimen/font_normal" />
+    </LinearLayout>
+
+
+</LinearLayout>

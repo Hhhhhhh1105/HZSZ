@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <!--
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/head_h"
+        layout="@layout/inc_head" />
+    -->
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linew"
+        android:background="@color/gray" />
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_btn_h"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+         <RadioButton
+            android:id="@+id/rd_xinwen"
+            style="@style/bottom_iconbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bottom_btn_h"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_bottom_xinwen"
+            android:text="@string/bottom_xinwen" />
+
+        <RadioButton
+            android:id="@+id/rd_hedao"
+            style="@style/bottom_iconbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bottom_btn_h"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_bottom_hedao"
+            android:text="@string/bottom_hedao" />
+
+        <RadioButton
+            android:id="@+id/rd_shouye"
+            style="@style/bottom_iconbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bottom_btn_h"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/ic_bottom_shouye"
+            android:text="@string/bottom_shoye" />
+
+        <RadioButton
+            android:id="@+id/rd_duanmian"
+            style="@style/bottom_iconbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bottom_btn_h"
+            android:layout_weight="1"
+            android:button="@null"
+            android:visibility="gone"
+            android:drawableTop="@drawable/ic_bottom_duanmian"
+            android:text="@string/bottom_duanmian" />
+        <RadioButton
+            android:id="@+id/rd_publicity"
+            style="@style/bottom_iconbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bottom_btn_h"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_bottom_comp"
+            android:text="@string/bottom_gongshi" />
+        <RadioButton
+            android:id="@+id/rd_panhang"
+            style="@style/bottom_iconbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bottom_btn_h"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_bottom_mycenter"
+            android:text="@string/bottom_mycenter" />
+    </RadioGroup>
+
+</LinearLayout>

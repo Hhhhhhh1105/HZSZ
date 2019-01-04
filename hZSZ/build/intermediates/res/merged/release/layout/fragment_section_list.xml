@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/rg_section_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_medium"
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingRight="@dimen/padding_large"
+        android:paddingTop="@dimen/padding_medium"
+        android:visibility="gone" >
+
+        <RadioButton
+            android:id="@+id/rb_section_main"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_tabbtn_l_bg"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="@dimen/padding_small"
+            android:text="@string/section_main"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/btn_black_white" />
+
+        <RadioButton
+            android:id="@+id/rb_section_important"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_tabbtn_m_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_small"
+            android:text="@string/section_important"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/btn_black_white" />
+
+        <RadioButton
+            android:id="@+id/rb_section_drinking"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_tabbtn_m_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_small"
+            android:text="@string/section_drinking"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/btn_black_white" />
+
+        <RadioButton
+            android:id="@+id/rb_section_admin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_tabbtn_r_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/padding_small"
+            android:text="@string/section_admin"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/btn_black_white" />
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_sections"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@color/bg_gray" />
+
+</LinearLayout>

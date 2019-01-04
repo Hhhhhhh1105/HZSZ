@@ -13,9 +13,9 @@ public class Constants {
 	public static final String SerUrl4 = "http://www.yhwebsite.xyz";
 	public static final String SerUrl5 = "http://192.168.100.234:8080";
 
-	public static final String SerUrl = SerUrl2;
+	public static final String SerUrl = SerUrl3;
 
-	public static final String ApiUrl = SerUrl + "/ShuiHuanJingFabu/background/app.htm";
+	public static final String ApiUrl = SerUrl+ "/ShuiHuanJingFabu/background/app.htm";
 //	public static final String ApiUrl = SerUrl1 + "/gzhd/background/app.htm";
 	public static final String AppKey = "10000";
 	public static final String AppSecret = "de85ac6fa475a0391d8c2e4e7413760";

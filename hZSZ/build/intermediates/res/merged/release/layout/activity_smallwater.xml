@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:layout_height="42dp"
+        android:layout_width="match_parent"
+        layout="@layout/inc_head"></include>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_large" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="起点"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:id="@+id/tv_smallwater_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:text="华家弄东"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_large" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="长度/面积"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:id="@+id/tv_smallwater_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:text="50米/平方米"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_large" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="存在问题"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:id="@+id/tv_smallwater_problem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:text="无"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_large"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="整改完成时间"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:textSize="@dimen/font_normal" />
+
+                <TextView
+                    android:id="@+id/tv_smallwater_comptime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:layout_weight="1"
+                    android:text="无"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="@dimen/font_normal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="整改建议措施"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:textSize="@dimen/font_normal"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_smallwater_suggestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="钱塘江流域"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="16sp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="联系人"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/littlelightgray"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_smallwater_linkman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="张三"
+                    android:layout_marginLeft="@dimen/padding_large"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/text_gray"
+                    android:textSize="16sp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_smallwater_phone"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_phone"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
